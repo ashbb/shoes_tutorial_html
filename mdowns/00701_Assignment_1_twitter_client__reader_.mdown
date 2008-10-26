@@ -1,0 +1,21 @@
+Assignment
+----------
+
+Assignment 1 twitter client (reader)
+------------------------------------
+
+The following spec is an example. <br>
+Let's imagine freely and write your own twitter listener.  <br>
+
+Example spec: <br>
+1. Access your twitter homepage: http://twitter.com/home
+2. Get the friends timeline: /statuses/friends_timeline.xml
+3. Display the latest 10 twitters.
+4. User interface image is:
+
+
+**stwitter_listener_snapshot.png**
+
+![twitter_listener_snapshot.png](http://github.com/ashbb/shoes_tutorial_html/tree/master%2Fimages%2Ftwitter_listener_snapshot.png?raw=true)
+
+Have fun!

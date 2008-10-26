@@ -1,0 +1,98 @@
+loading widgets from other files?
+---------------------------------
+
+The sample39.rb has a require method to load the custom widget class stored in the other file <br>(sample39_creature.rb). <br>
+
+loading widgets from other files? <br>
+<http://www.mail-archive.com/shoes@code.whytheluckystiff.net/msg01971.html> <br>
+
+The Main App and Its Requires <br>
+<http://help.shoooes.net/Rules.html> <br>
+
+	# sample39.rb
+	
+	require 'sample39_creature'
+	
+	Shoes.app :title => 'go next', :width => 300, :height => 300 do
+	  background moccasin, :margin=> 20, :curve => 20
+	  c = creature('../images/loogink.png', 50, 100)
+	  
+	  routes = [[100, 50], [150, 50], [200, 100], [200, 150], [150, 200], [100, 200], [50, 150],
+	            [50, 100], [150, 50], [100, 200], [50, 100]]
+	  i = -1
+	  para link('go next'){
+	    begin
+	      x, y = routes[(i+=1) % 10]
+	      @msg.text = "#{c.position.inspect}-->[#{x},#{y}]"
+	      c.glide [x, y], :line => true
+	    end unless c.playing?
+	  }
+	
+	  @msg = para ''
+	end
+
+**sample39.png**
+
+![sample39.png](http://github.com/ashbb/shoes_tutorial_html/tree/master%2Fimages%2Fsample39.png?raw=true)
+
+	# sample39_creature.rb
+	class Shoes::Creature < Shoes::Widget
+	  def initialize path, x, y
+	    @path = path
+	    @img = image path
+	    @img.move x, y
+	  end
+	  
+	  def glide args, opt = {:line => false}
+	    args << @img.left << @img.top
+	    x1, y1, x0, y0 = args.collect{|e| e.to_f}
+	    
+	    a = animate(48) do |i|
+	      @playing = true
+	      case
+	        when x0 < x1
+	          x = x0 + i
+	          y = y0 + (y1 - y0) / (x1 - x0) * i  if y0 < y1
+	          y = y0  if y0 == y1
+	          y = y0 - (y0 - y1) / (x1 - x0) * i  if y0 > y1
+	          max = x1 - x0
+	        when x0 == x1
+	          x = x0
+	          y = y0 + i  if y0 < y1
+	          y = y0 - i  if y0 > y1
+	          y = y0  if y0 == y1
+	          max = (y1 - y0).abs
+	        when x0 > x1
+	          x = x0 - i
+	          y = y0 + (y1 - y0) / (x0 - x1) * i  if y0 < y1
+	          y = y0  if y0 == y1
+	          y = y0 - (y0 - y1) / (x0 - x1) * i  if y0 > y1
+	          max = x0 - x1
+	        else
+	      end
+	        
+	      @l.remove if @l
+	      strokewidth 6
+	      @l = line(x0 + 15, y0 + 15, x.to_i + 15, y.to_i + 15, :stroke => thistle)  if opt[:line]
+	      #@img.move x.to_i, y.to_i
+	      @img.remove
+	      @img = image @path, :left => x.to_i, :top => y.to_i
+	      
+	      if i == max
+	        a.stop
+	        @playing = false
+	        line(x0 + 15, y0 + 15, x.to_i + 15, y.to_i + 15, :stroke => peru)  if opt[:line]
+	        @img.remove
+	        @img = image @path, :left => x.to_i, :top => y.to_i
+	      end
+	    end
+	  end
+	    
+	  def position
+	    [@img.left, @img.top]
+	  end
+	    
+	  def playing?
+	    @playing
+	  end
+	end

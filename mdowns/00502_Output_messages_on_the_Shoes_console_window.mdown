@@ -1,0 +1,17 @@
+Output messages on the Shoes console window
+-------------------------------------------
+
+We can put the message on the Shoes console window.
+
+	# sample15.rb
+	Shoes.app :width => 150, :height => 40 do
+	  para 'Hello world!'
+	  Shoes.p 'This is a test message.'
+	  debug 'Running Shoes on ' + RUBY_PLATFORM
+	  error 'This is an error message.'
+	  info 'Shoes release name is ' + Shoes::RELEASE_NAME
+	end
+
+**sample15.png**
+
+![sample15.png](http://github.com/ashbb/shoes_tutorial_html/tree/master%2Fimages%2Fsample15.png?raw=true)

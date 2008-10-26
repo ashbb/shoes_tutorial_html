@@ -1,0 +1,37 @@
+arc and cap
+-----------
+
+New arc and cap methods are released in the 970th build. See the following article: 
+
+<http://newwws.shoooes.net/2008/09/10/arcs.html> <br>
+
+And _why shows us a wonderful combination of the animate method.
+
+
+	# sample35.rb
+	Shoes.app :width => 200, :height => 100, :title => 'Arc' do
+	  fill green.to_s..yellow.to_s, :angle => 45
+	  stroke red.to_s..blue.to_s, :angle => 90
+	  strokewidth 10
+	  cap :round
+	  
+	  a = animate 12 do |i|
+	    @c.remove if @c
+	    r = i * (PI * 0.01)
+	    @c = arc 100, 50, 180, 60, 0, i * (PI * 0.01)
+	    a.stop if r >= TWO_PI
+	  end
+	end
+
+**sample35.png**
+
+![sample35.png](http://github.com/ashbb/shoes_tutorial_html/tree/master%2Fimages%2Fsample35.png?raw=true)
+
+Started....
+
+**sample35-1.png**
+
+![sample35-1.png](http://github.com/ashbb/shoes_tutorial_html/tree/master%2Fimages%2Fsample35-1.png?raw=true)
+
+Almost finished....
+

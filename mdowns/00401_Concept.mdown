@@ -1,0 +1,8 @@
+Birds-eye view (Survey basic features)
+--------------------------------------
+
+Concept
+-------
+
+Shoes is a tiny graphics toolkit. It's simple and was born to be easy! So, Shoes doesn't have many elements (like tabbed controls, toolbars, horizontal scrollbars.) But can be simulated with images.
+**There are ten essential methods to get going with Shoes.**

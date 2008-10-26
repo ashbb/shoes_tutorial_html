@@ -1,0 +1,144 @@
+Trivia
+------
+
+list_box needs to set :height explicitly
+----------------------------------------
+
+	# sample91.rb
+	Shoes.app :width => 300, :height => 60 do
+	  button('OK'){@msg.text = @e.text}
+	  @e = list_box :items => ['blue', 'red', 'yellow'], :height => 30
+	  @msg = para ''
+	end  
+
+**sample91.png**
+
+![sample91.png](http://github.com/ashbb/shoes_tutorial_html/tree/master%2Fimages%2Fsample91.png?raw=true)
+
+Try to comment out :height => 30 and run. <br>
+The list_box doesn't show the items. <br>
+But this strange behavior occurs only on Windows. On Mac OS X, it doesn't. <br>
+
+This OS X information was provided by George Thompson. <br>
+
+
+wonder the mouse event behavior
+--------------------------------
+
+	# sample92.rb
+	Shoes.app :width => 150, :height => 100 do
+	  @msg = para ''
+	  nostroke
+	 
+	  @img = image :width => 20, :height => 20, :left => 30, :top => 30 do
+	    oval :radius => 10, :fill => red
+	  end
+	  @img.hover{ @msg.replace 'hello' }
+	  @img.leave{ @msg.replace '' }
+	 
+	  @o = oval :left => 60, :top => 60, :radius => 10, :fill => blue
+	  @o.hover{ @msg.replace 'hi' }
+	  @o.leave{ @msg.replace '' }
+	end
+
+**sample92.png**
+
+![sample92.png](http://github.com/ashbb/shoes_tutorial_html/tree/master%2Fimages%2Fsample92.png?raw=true)
+
+The image (red) oval works the mouse hovering feature but the blue doesn't. <br>
+This behavior is a bug. But it is fixed in the latest Shoes-0.r970. <br>
+
+
+Shoes Fest
+----------
+
+[http://shoes.yapok.org/](http://shoes.yapok.org/)
+
+
+Shoes was born July 31st, 2007. 
+-------------------------------
+
+Yes, July 31st is the birthday and now one year old.
+
+
+Shoes wiki
+----------
+
+New Shoes wiki was launched at Sep 12th, 2008. <br>
+  <http://github.com/why/shoes/wikis> <br>
+Old one was retired. Now linked to the Shoes Official Homepage. <br>
+  <http://code.whytheluckystiff.net/shoes/> <br>
+  <http://shoooes.net/> <br>
+
+
+Built-in sample apps
+--------------------
+
+See the following directory (in the case of Windows XP and Shoes-0.r970) <br>
+There are many sample code. Let's hack! <br>
+
+C:\Program Files\Common Files\Shoes\0.r970\samples <br>
+
+
+Building Shoes
+--------------
+
+If you have to build Shoes by yourself, this information might be useful. <br>
+<http://github.com/why/shoes/wikis/buildingshoes>
+
+
+The Rules Of Shoes and UTF-8 Everywhere
+---------------------------------------
+
+Shoes scope makes us a bit confusing... <br>
+Shoes supports UTF-8 everywhere. Can't wait to get the next build. <br>
+<http://newwws.shoooes.net/2008/09/22/the-rules-of-shoes.html>
+
+
+A very decent intro to shoes for beginners
+------------------------------------------
+ <http://ruby.about.com/od/shoes/Shoes.htm>
+
+
+Lovely creatures
+----------------
+
+Lovely creatures in this tutorial created by Anita Kuno. <br>
+Each creature has his/her own name. <br>
+  purple is loogink <br>
+  green is  Cy <br>
+  brown is Yar <br>
+  blue is kamome <br>
+  white is shaha <br>
+
+	# sample93.rb
+	Shoes.app :width => 400, :height => 75, :title => 'Lovely Creaturs' do
+	  background "#D0A".."#F90", :angle => 90
+	  x = 0
+	  creatures = %w(loogink yar cy kamome shaha).collect{|c| image "../images/#{c}.png", :left => x += 60}
+	                    
+	  messages =<<-EOS
+	Thx for reading. :)
+	See you!
+	Enjoy Ruby and Shoes!
+	EOS
+	  messages = messages.to_a
+	
+	  msg = subtitle '', :top => 30, :stroke => white
+	  animate(3) do
+	    creatures.each{|c| c.move c.left, rand(15)}
+	  end
+	  
+	  creatures.each do |c|
+	    c.hover{msg.text = strong messages[rand(messages.length)]}
+	    c.leave{msg.text = ''}
+	  end
+	end
+
+**sample93.png**
+
+![sample93.png](http://github.com/ashbb/shoes_tutorial_html/tree/master%2Fimages%2Fsample93.png?raw=true)
+
+Let's enjoy Ruby and Shoes with the Lovely Creaturs!
+
+FIN.

@@ -1,0 +1,37 @@
+Drawing directly on to images
+-----------------------------
+
+We can draw some elements on to the images. <br>
+In the below sample app, Cy (green creature) has a star! <br>
+
+
+	# sample25.rb
+	Shoes.app :width => 250, :height => 76 do
+	  background lightsalmon
+	  icon = image :width => 74, :height => 74 do
+	    oval :width => 70, :height => 70, :fill => lightskyblue,
+	          :stroke => red, :left => 2, :top => 2
+	  end
+	  icon.image '../images/cy.png', :left => 10, :top => 8
+	  icon.star 35, 45, 5, 8, 3, :fill => hotpink, :stroke => nil
+	  msg = para '', :stroke => white
+	  
+	  icon.hover do
+	    @a = animate do
+	      button, left, top = self.mouse
+	      msg.replace strong icon[left, top]
+	    end
+	  end
+	  icon.leave do
+	    @a.stop
+	    msg.replace ''
+	  end
+	end
+
+**sample25.png**
+
+![sample25.png](http://github.com/ashbb/shoes_tutorial_html/tree/master%2Fimages%2Fsample25.png?raw=true)
+
+In the case of Shoes-0.r970, you need doing the mouse leaving once. After that it works well. <br>
+In the case of Shoes-0.r1057, no need to do that.
+

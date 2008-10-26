@@ -1,0 +1,13 @@
+Hot Topics in the Shoes ML and Shoooes.net
+------------------------------------------
+
+Picked up some topics here which were discussed in the Shoes ML nowadays.
+
+External Fonts
+--------------
+
+_why added support to Shoes for loading .ttf and .otf files (and others, depending on your platform.) <br>
+Can't wait next build. <br>
+
+ + external font files <br>
+[http://www.mail-archive.com/shoes@code.whytheluckystiff.net/msg02092.html](http://www.mail-archive.com/shoes@code.whytheluckystiff.net/msg02092.html)

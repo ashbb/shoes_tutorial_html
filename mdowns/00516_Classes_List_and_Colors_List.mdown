@@ -1,0 +1,26 @@
+Classes List and Colors List
+----------------------------
+
+We can see the colors list in the built-in manual. <br>
+But we will also be able to see them by the following sample code. <br>
+
+	# sample30.rb
+	Shoes.app :width => 642, :height => 700, :resizable => false do
+	  COLORS.keys.map{|sym|sym.to_s}.sort.each do |color|
+	    flow :width => 160, :height => 20 do
+	      c = send(color)
+	      fill c
+	      rect 0, 0, 160, 20
+	      inscription color, :stroke => c.dark? ? white : black
+	    end
+	  end
+	end
+
+**sample30.png**
+
+![sample30.png](http://github.com/ashbb/shoes_tutorial_html/tree/master%2Fimages%2Fsample30.png?raw=true)
+
+
+_why is thinking about some more method related colors. <br>
+e.g.  invert, dark?, light?, black?, white?, opaque?, transparent? <br>
+We might be able to get them in the near future. <br>

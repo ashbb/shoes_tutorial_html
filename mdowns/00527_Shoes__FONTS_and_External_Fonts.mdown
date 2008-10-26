@@ -1,0 +1,30 @@
+Shoes::FONTS and External Fonts
+-------------------------------
+
+*Shoes::FONTS* is a complete list of the fonts you can use. <br>
+Loading from external fonts, such as TrueType and OTF files. <br>
+
+
+References are <br>
+New Today: External Fonts <br>
+  [http://newwws.shoooes.net/2008/10/06/new-external-fonts.html](http://newwws.shoooes.net/2008/10/06/new-external-fonts.html) <br>
+
+Shoes Manual: font <br>
+  [http://help.shoooes.net/Built-in.html#font](http://help.shoooes.net/Built-in.html#font) <br>
+
+	# sample43.rb
+	font "phonetica.ttf"
+	
+	Shoes.app :width => 350, :height => 500 do
+	  background peachpuff
+	  font = 'Phonetica'
+	  slot = stack{para 'abcdefg ABCDEFG : ' + font, :font => font}
+	  font = list_box :items => (Shoes::FONTS << "Phonetica"), :height => 30
+	  button 'change' do
+	    slot.append{para 'abcdefg ABCDEFG : ' + font.text, :font => font.text}
+	  end
+	end
+
+**sample43.png**
+
+![sample43.png](http://github.com/ashbb/shoes_tutorial_html/tree/master%2Fimages%2Fsample43.png?raw=true)

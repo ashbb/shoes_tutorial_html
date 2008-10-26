@@ -1,0 +1,23 @@
+Shoes.setup
+-----------
+
+If your Shoes app requires some libraries, this might be useful. See the following information.
+
+Clearing Up The Whole Shoes And RubyGems Deal <br>
+<http://hackety.org/2008/05/08/clearingUpTheWholeShoesAndRubyGemsDeal.html> <br>
+
+
+	# sample27.rb
+	Shoes.setup do
+	  gem 'something'
+	end
+	
+	Shoes.app do
+	  para require 'something'
+	end
+
+**sample27.png**
+
+![sample27.png](http://github.com/ashbb/shoes_tutorial_html/tree/master%2Fimages%2Fsample27.png?raw=true)
+
+But now, with Shoes-0.r1057, this feature doesn't work well...

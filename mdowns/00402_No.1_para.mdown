@@ -1,0 +1,45 @@
+No.1 para
+---------
+
+banner			: Charactor size 48 pixels <br>
+title			: 34 <br>
+subtitle		: 26 <br>
+tagline			: 18 <br>
+caption			: 14 <br>
+para (paragraph)	: 12 <br>
+inscription		: 10 <br>
+
+	# sample1.rb
+	Shoes.app :width => 230, :height => 80 do
+	  para 'Testing, test, test. ',
+	    'Breadsticks. ',
+	    'Breadsticks. ',
+	    'Breadsticks. ',
+	    'Very good.'
+	end
+
+**sample1.png**
+
+![sample1.png](http://github.com/ashbb/shoes_tutorial_html/tree/master%2Fimages%2Fsample1.png?raw=true)
+
+
+strong			: bold <br>
+em (emphasized)		: italics <br>
+code			: monospeced font <br>
+ins (inserted)		: single underline <br>
+sub (subscript)		: lowering the text by 10 pixels, x-small font <br>
+
+	# sample2.rb
+	Shoes.app :width => 240, :height => 95 do
+	  para 'Testing, test, test. ',
+	    strong('Breadsticks. '),
+	    em('Breadsticks. '),
+	    code('Breadsticks. '),
+	    strong(ins('EVEN BETTER.')),
+	    sub('fine!')
+	end
+
+**sample2.png**
+
+![sample2.png](http://github.com/ashbb/shoes_tutorial_html/tree/master%2Fimages%2Fsample2.png?raw=true)
+

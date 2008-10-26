@@ -1,0 +1,15 @@
+No.5 image
+----------
+
+An image is a picture in PNG, JPEG or GIF format. 
+We can use the directory path and URL.
+
+	# sample6.rb
+	Shoes.app :width => 680, :height => 460 do
+	  image '../images/loogink.png'
+	  image "http://hacketyhack.net/images/design/Hacky-Mouse-Hand.png"
+	end
+
+**sample6.png**
+
+![sample6.png](http://github.com/ashbb/shoes_tutorial_html/tree/master%2Fimages%2Fsample6.png?raw=true)

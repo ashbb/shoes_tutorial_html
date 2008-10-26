@@ -1,0 +1,38 @@
+Scope: A tip of using the YAML file
+-----------------------------------
+
+	# sample19.rb
+	require 'yaml'
+	
+	Shoes.app :width => 200, :height => 100 do
+	  Gang = Struct.new :name, :country
+	  gangs = YAML.load_file(Dir.pwd + '/gangs.yml')
+	  gangs.each{|g| para g.name, g.country, "\n"}
+	end
+
+**sample19.png**
+
+![sample19.png](http://github.com/ashbb/shoes_tutorial_html/tree/master%2Fimages%2Fsample19.png?raw=true)
+
+The top-level namespace in any Shoes app is Shoes. <br>
+So, in the sample19.rb <br>
+
+ Gang = Struct.new :name, :country <br>
+
+It really make a Shoes::Gang struct, not a Gang struct.  <br>
+So, change that line to this and it (sample19-1.rb) works well.  <br>
+
+ ::Gang = Struct.new :name, :country <br>
+
+	# sample19-1.rb
+	require 'yaml'
+	
+	Shoes.app :width => 200, :height => 100 do
+	  ::Gang = Struct.new :name, :country
+	  gangs = YAML.load_file(Dir.pwd + '/gangs.yml')
+	  gangs.each{|g| para g.name, g.country, "\n"}
+	end
+
+**sample19-1.png**
+
+![sample19-1.png](http://github.com/ashbb/shoes_tutorial_html/tree/master%2Fimages%2Fsample19-1.png?raw=true)

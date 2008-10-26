@@ -1,0 +1,45 @@
+No.10 clear
+-----------
+
+The clear method wipes the slot. 
+It also takes an optional block that will be used to replace the contents of the slot.
+
+	# sample12.rb
+	Shoes.app :title => 'RC', :width => 100, :height => 80 do
+	  def random_creatures
+	    background rgb rand(256), rand(256), rand(256)
+	    name = %w[loogink cy yar kamome shaha][rand 5]
+	    image '../images/' + name + '.png', :left => 30, :top => 10
+	  end
+	  
+	  random_creatures
+	  
+	  every(5){clear{random_creatures}}
+	end
+	
+
+**sample12.png**
+
+![sample12.png](http://github.com/ashbb/shoes_tutorial_html/tree/master%2Fimages%2Fsample12.png?raw=true)
+
+The append and remove methods are also useful.
+
+	# sample13.rb
+	Shoes.app :width => 450, :height => 250 do
+	  stack :margin => 10, :width => 200 do
+	    subtitle 'Shoes ToDoList'
+	    para 'Add a list.'
+	    @add = edit_line
+	    button 'Save' do
+	      @notes.append do
+	        para @add.text, ' ', link('delete'){|e| e.parent.remove}
+	      end
+	      @add.text = ''
+	    end
+	  end
+	  @notes = stack :margin => 10, :width => -200
+	end
+
+**sample13.png**
+
+![sample13.png](http://github.com/ashbb/shoes_tutorial_html/tree/master%2Fimages%2Fsample13.png?raw=true)

@@ -1,0 +1,70 @@
+optional arguments
+------------------
+
+When we create an oval shape, like <br>
+    oval :left => 50, :top => 50, :width => 30 <br>
+The :left and :top positions are the top-left corner of the oval. <br>
+
+But we create an star shape, like <br>
+    star :left => 50, :top => 50, :points => 5, :outer => 15, :inner => 10 <br>
+The :left and :top positions are the center of the star.  <br>
+A bit strange behavior... <br>
+
+This information was provided by Sergio Silva.
+
+	# sample40.rb
+	Shoes.app :width => 330, :height => 150 do
+	  nofill
+	  strokewidth 2
+	  oval 50, 50, 50, :stroke => blue
+	  rect 150, 50, 50, 50, :stroke => green
+	  star 250, 50, 5, 30, 20, :stroke => black
+	  oval 50, 50, 1, :stroke => red, :fill => red
+	  oval 150, 50, 1, :stroke => red, :fill => red
+	  oval 250, 50, 1, :stroke => red, :fill => red
+	 end
+
+**sample40.png**
+
+![sample40.png](http://github.com/ashbb/shoes_tutorial_html/tree/master%2Fimages%2Fsample40.png?raw=true)
+
+We can use the :center option to specify the coordinates. But it works well only in the case of the oval and rect methods except the star method. If we add undefined option, like :oops, as one of the arguments, no error will occur and nothing will happen, just ignored.
+
+Although I don't know this behavior is a spec or a bug...
+
+	# sample40-1.rb
+	Shoes.app  do
+	  stack :width => 0.3 do
+	    nofill
+	    strokewidth 2
+	    oval 50, 50, 1, :stroke => red, :fill => red
+	    @o = oval 50, 50, 50, :stroke => blue, :center => false, :oops => true
+	    @p1 = para '', :top => 150
+	  end
+	  
+	  stack :width => 0.3 do
+	    nofill
+	    strokewidth 2
+	    oval 50, 50, 1, :stroke => red, :fill => red
+	    @r = rect 50, 50, 50, 50, :stroke => green, :center => true, :oops => true
+	    @p2 = para '', :top => 150
+	  end
+	  
+	  stack :width => 0.4 do
+	    nofill
+	    strokewidth 2
+	    oval 50, 50, 1, :stroke => red, :fill => red
+	    @s = star 50, 50, 5, 30, 20, :stroke => black, :center => false, :oops => true
+	    @p3 = para '', :top => 150
+	  end
+	  
+	  @p1.text = @o.style.map{|e| e.join(': ')}.sort.join("\n")
+	  @p2.text = @r.style.map{|e| e.join(': ')}.sort.join("\n")
+	  @p3.text = @s.style.map{|e| e.join(': ')}.sort.join("\n")
+	end
+
+**sample40-1.png**
+
+![sample40-1.png](http://github.com/ashbb/shoes_tutorial_html/tree/master%2Fimages%2Fsample40-1.png?raw=true)
+
+In the above sample40-1, the oval and rect methods accepted :center option, but the star method ignored it as same as the undefined option :oops.

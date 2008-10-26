@@ -1,0 +1,34 @@
+No.8 background
+---------------
+
+Backgrounds and borders are both just patterns. 
+They are actual elements, not styles. 
+A pattern is made with a color, a gradient or an image. 
+
+	# sample9.rb
+	Shoes.app :width => 200, :height => 140 do
+	  background '#FF9900'
+	  background rgb(192, 128, 0), :left => 40
+	  background gray(0.6), :left => 80
+	  background red, :left => 120
+	  background '#FAD'..'#ADD', :left => 160
+	  border '../images/loogink.png', :strokewidth => 15
+	end
+
+**sample9.png**
+
+![sample9.png](http://github.com/ashbb/shoes_tutorial_html/tree/master%2Fimages%2Fsample9.png?raw=true)
+
+In NKS(Nobody Knows Shoes), just give the background a radius. <br>
+Background blue, :radius => 12 <br>
+But it is obsolete. Now we can use :curve instead of :radius. And can also use :angle for gradient. <br>
+
+	# sample10.rb
+	Shoes.app :width => 200, :height => 70 do
+	  background "#D0A"..darkorange.to_s, :angle => 45, :curve => 30
+	end
+
+**sample10.png**
+
+![sample10.png](http://github.com/ashbb/shoes_tutorial_html/tree/master%2Fimages%2Fsample10.png?raw=true)
+

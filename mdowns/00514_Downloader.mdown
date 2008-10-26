@@ -1,0 +1,30 @@
+Downloader
+----------
+
+The methods download and progress are so cool. <br>
+Although percent and length methods don't work well now, transferred and fraction work well. <br>
+
+	# sample28.rb
+	Shoes.app :width => 450, :height => 100 do
+	  stack :margin => 10 do
+	    url = 'http://shoooes.net/dist/shoes-0.r1057.exe'
+	    status = para "Downloading #{url}"
+	    p = progress :width => 1.0
+	  
+	    download url,
+	      :save => Dir.pwd + '/' + File.basename(url),
+	      :start => proc{|dl| status.text = 'Connecting...'},
+	      :progress => proc{|dl| 
+	        status.text = "Transferred #{dl.transferred} of #{dl.length} bytes (#{dl.percent}%)"
+	        p.fraction = dl.percent * 0.01},
+	      :finish => proc{|dl| status.text = 'Download finished'},
+	      :error => proc{|dl, err| status.text = "Error: #{err}" }
+	  end
+	end
+
+**sample28.png**
+
+![sample28.png](http://github.com/ashbb/shoes_tutorial_html/tree/master%2Fimages%2Fsample28.png?raw=true)
+
+More information about downloader. See the built-in manual. <br>
+Shoes includes the Hpricot library for parsing HTML. <br>

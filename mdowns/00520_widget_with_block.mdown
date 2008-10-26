@@ -1,0 +1,31 @@
+widget with block
+-----------------
+
+It's good using the widget object with block in the case of getting the keypress or the mouse event smoothly.
+
+	# sample36.rb
+	class Shoes::Creature < Shoes::Widget
+	 def initialize
+	   msg = para '', :stroke => white
+	   c = image '../images/yar.png'
+	   yield c, msg
+	 end
+	end
+	
+	Shoes.app :width => 140, :height => 70 do
+	 flow :left => 10, :top => 10 do
+	   background blue.to_s..green.to_s, :width => 100, :height => 30
+	   creature  do |c, msg|
+	     c.click do
+	       msg.text = 'Uhhhh...'
+	       a = animate(20){|i| c.rotate(-15); a.stop if i > 22}
+	     end
+	     c.hover{msg.text = 'hello'}
+	     c.leave{msg.text = ''}
+	   end
+	 end
+	end
+
+**sample36.png**
+
+![sample36.png](http://github.com/ashbb/shoes_tutorial_html/tree/master%2Fimages%2Fsample36.png?raw=true)

@@ -1,0 +1,77 @@
+Shoes Tutorial Note
+===================
+**- For the Shoes App Rookie Creators -**
+
+October 26th, 2008 by ashbb (Satoshi Asakawa)
+
+Table of contents
+-----------------
+00100. Introduction
+00200. Download Shoes
+00300. First step
+00400.#Birds-eye view (Survey basic features)
+00401. Concept
+00402. No.1 para
+00403. No.2&3 stack and flow
+00404. No.4 button
+00405. No.5 image
+00406. No.6 edit_line
+00407. No.7 link
+00408. No.8 background
+00409. No.9 Shoes.url
+00410. No.10 clear
+00500.#Tips for creating our original Shoes apps
+00501. Open Shoes built-in manual and Shoes console window
+00502. Output messages on the Shoes console window
+00503. shoes --help
+00504. App object and coding style
+00505. Built-in Constants and methods
+00506. Scope: A tip of using the YAML file
+00507. keypress, mouse and clipboard
+00508. the Widget class
+00509. shape
+00510. mask
+00511. Drawing directly on to images
+00512. Style
+00513. Shoes.setup
+00514. Downloader
+00515. Assign Shoes URL dynamically
+00516. Classes List and Colors List
+00517. start, stop and restart
+00518. Combination of image objects show/hide and mouse hover/leave
+00519. arc and cap
+00520. widget with block
+00521. text message slide-in
+00522. #! shoes
+00523. loading widgets from other files?
+00524. optional arguments
+00525. slot with scrollbar
+00526. The :state style
+00527. Shoes::FONTS and External Fonts
+00600.#Hot Topics in the Shoes ML and Shoooes.net
+00601. External Fonts
+00602. Locking edit_box
+00603. Styling Master List
+00700.#Assignment
+00701. Assignment 1 twitter client (reader)
+00702. Assignment 2 footracer
+00800. Relevant web sites (Links)
+00900. Appendix
+01000. Trivia
+
+Change log:
+-----------
+Oct 26th, 2008: Modified sample 8, changed the path of image.
+Oct 24th, 2008: Revised tools and modified .mdown files for the easy eBook maker.<br>
+Oct 23th, 2008: Added a new sample 43. 
+
+To do list:
+-----------
+Under consideration, now. :)
+
+Let's enjoy Ruby and Shoes programming!!
+----------------------------------------
+:-D
+
+ashbb
+

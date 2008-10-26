@@ -1,0 +1,7 @@
+Styling Master List
+-------------------
+
+It's the last big missing piece of the built-in manual. <br>
+
+The Styles Master List <br>
+[http://help.shoooes.net/Styles.html](http://help.shoooes.net/Styles.html)

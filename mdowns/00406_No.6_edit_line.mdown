@@ -1,0 +1,35 @@
+No.6 edit_line
+--------------
+
+
+Edit boxes are wide, rectangular boxes for entering text. 
+Edit lines are a slender, little box for entering text.
+
+	# sample7.rb
+	Shoes.app :width => 250, :height => 300 do
+	  stack do
+	    @msg = para 'Hello'
+	    @el = edit_line "We love Ruby."
+	    button('ok'){ @msg.text = @el.text}
+	    @eb = edit_box "We love Shoes."
+	    button('ok'){ @msg.text = @eb.text}
+	  end
+	end
+
+**sample7.png**
+
+![sample7.png](http://github.com/ashbb/shoes_tutorial_html/tree/master%2Fimages%2Fsample7.png?raw=true)
+
+We can use :secret in the edit_line area.
+
+	# sample7-1.rb
+	Shoes.app :width => 235, :height => 80 do
+	  para 'password: '
+	  @el = edit_line :width => 100, :secret => true
+	  button('ok'){@input.replace em(@el.text)}
+	  @input = para ''
+	end
+
+**sample7-1.png**
+
+![sample7-1.png](http://github.com/ashbb/shoes_tutorial_html/tree/master%2Fimages%2Fsample7-1.png?raw=true)

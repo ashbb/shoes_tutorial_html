@@ -1,0 +1,19 @@
+Assignment 2 footracer
+----------------------
+
+The following spec is an example. <br>
+Let's imagine freely and write your own Foot Race Game.  <br>
+
+Example spec: <br>
+1. Racers run toward the goal. When the first racer meets the goal line, the game stops and then shows the winner.
+2. When multiple racers meet the goal line at a time, they are all winners.
+3. User inputs racers' names.
+4. Until user selects quit the game, user can play the game repeatedly.
+5. User interface image is:
+
+
+**sfootracer_screenshot.png**
+
+![footracer_screenshot.jpg](http://github.com/ashbb/shoes_tutorial_html/tree/master%2Fimages%2Ffootracer_screenshot.jpg?raw=true)
+
+Have fun!

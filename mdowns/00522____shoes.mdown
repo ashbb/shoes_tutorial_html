@@ -1,0 +1,25 @@
+#! shoes
+--------
+
+The sample38.rb has #! shoes on its first line. Shell will see the program file has a #! line and pass it to Shoes.
+
+	#! shoes
+	# sample38.rb
+	
+	Shoes.app :width => 150, :height => 50 do
+	  para strong('Hello World!'), :stroke => red
+	end
+
+**sample38.png**
+
+![sample38.png](http://github.com/ashbb/shoes_tutorial_html/tree/master%2Fimages%2Fsample38.png?raw=true)
+
+Write code with SciTE and push F5, then kick up Shoes!
+
+
+And next.
+The sample38-1.rb is a Ruby program, not Shoes app. But it'll launch the Shoes app.
+
+	# sample38-1.rb
+	
+	%x(ruby sample38.rb)

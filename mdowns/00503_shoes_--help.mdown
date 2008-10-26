@@ -1,0 +1,66 @@
+shoes --help
+------------
+
+Type the following on your pc console (terminal window). <br>
+
+shoes -h <br>
+or <br>
+shoes --help <br>
+
+**shoes_help.png**
+
+![shoes_help.png](http://github.com/ashbb/shoes_tutorial_html/tree/master%2Fimages%2Fshoes_help.png?raw=true)
+
+
+**shoes_version.png**
+
+![shoes_version.png](http://github.com/ashbb/shoes_tutorial_html/tree/master%2Fimages%2Fshoes_version.png?raw=true)
+
+
+**shoes\_download\_test.png**
+
+![shoes\_download\_test.png](http://github.com/ashbb/shoes_tutorial_html/tree/master%2Fimages%2Fshoes_download_test.png?raw=true)
+
+
+**shoes_gem.png**
+
+![shoes_gem.png](http://github.com/ashbb/shoes_tutorial_html/tree/master%2Fimages%2Fshoes_gem.png?raw=true)
+
+shoes -g install hpricot <br>
+Oops, an error will be happen. Perhaps now under construction... <br>
+
+
+**shoes_shy.png**
+
+![shoes_shy.png](http://github.com/ashbb/shoes_tutorial_html/tree/master%2Fimages%2Fshoes_shy.png?raw=true)
+
+Open the app window, but it doesn't work well. Now under construction... <br>
+
+
+**shoes_shy-1.png**
+
+![shoes_shy-1.png](http://github.com/ashbb/shoes_tutorial_html/tree/master%2Fimages%2Fshoes_shy-1.png?raw=true)
+
+In the case of Shoes-0.r1057,the above message appears <br>
+Because this feature is included in 'shoes --package'. <br>
+
+
+
+**shoes_package.png**
+
+![shoes_package.png](http://github.com/ashbb/shoes_tutorial_html/tree/master%2Fimages%2Fshoes_package.png?raw=true)
+
+Open the app window, but it doesn't work well. Now under construction... <br>
+
+**shoes_manual-html.png**
+
+![shoes_manual-html.png](http://github.com/ashbb/shoes_tutorial_html/tree/master%2Fimages%2Fshoes_manual-html.png?raw=true)
+
+C:\>cd C:\Program Files\Common Files\Shoes\0.r1057 <br>
+C:\Program Files\Common Files\Shoes\0.r1057>shoes --manual-html C:\rubyprograms\shoes\0.r1057_manual <br>
+
+It works well! Html files were created in my pc. Cool! <br>
+
+**shoes_manual-html2.png**
+
+![shoes_manual-html2.png](http://github.com/ashbb/shoes_tutorial_html/tree/master%2Fimages%2Fshoes_manual-html2.png?raw=true)

@@ -1,0 +1,63 @@
+keypress, mouse and clipboard
+-----------------------------
+
+We can get mouse events. 
+We can get a string from the system clipboard and also store a string into the clipboard.
+
+	# sample20.rb
+	Shoes.app :title => 'Sorter', :width => 180, :height => 80 do
+	  background gradient powderblue, royalblue
+	  msg = para '', :size => 8
+	  
+	  yar = image('../images/yar.png', :left => 60, :top => 18).click do
+	    self.clipboard = self.clipboard.sort unless self.clipboard.nil?
+	    yar.transform :center
+	    a = animate(24) do |i|
+	      yar.rotate -15
+	      a.stop if i > 22
+	    end
+	  end
+	  yar.hover{msg.text = strong('Click Yar. She sorts clipboard text!')}
+	  yar.leave{msg.text = ''}
+	end
+
+**sample20.png**
+
+![sample20.png](http://github.com/ashbb/shoes_tutorial_html/tree/master%2Fimages%2Fsample20.png?raw=true)
+
+An example of the output. <br>
+
+before: <br>
+Creatures name list is: <br>
+looginkff <br>
+cy <br>
+kamome <br>
+yar <br>
+shaha <br>
+
+Copy the above list into the system clipboard. <br>
+Click Yar and she will rotate (*1). <br>
+Then paste the clipboard text into the place you want. <br>
+
+
+*1: With Shoes-0.r925, Yar rotates well expected. But with Shoes-0.r970, Yar rotates when mouse moves out of the Shoes window. This behavior is a bug. It will be fixed in the next Shoes release.
+
+after: <br>
+Creatures name list is: <br>
+cy <br>
+kamome <br>
+loogink <br>
+shaha <br>
+yar <br>
+
+We can get keypress. <br>
+
+	# sample21.rb
+	Shoes.app :width => 250, :height => 40 do
+	  @info = para 'NO KEY is PRESSED.'
+	  keypress{|key| @info.text = "#{key.inspect} was PRESSED."}
+	end
+
+**sample21.png**
+
+![sample21.png](http://github.com/ashbb/shoes_tutorial_html/tree/master%2Fimages%2Fsample21.png?raw=true)

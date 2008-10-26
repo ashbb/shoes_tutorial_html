@@ -1,0 +1,21 @@
+No.4 button
+-----------
+
+button("Press Me") <br>
+which creates a new button and <br>
+button("Press Me"){ alert("clicked")} <br>
+how the block fires when clicked and <br>
+button("Press Me", :left => 50, :top => 20) <br>
+will place the button at coordinates (50, 20). <br>
+That's it.
+
+	# sample5.rb
+	Shoes.app :width => 200, :height => 50 do
+	  button("Press Me", :left => 50, :top => 20) do
+	    alert("clicked")
+	  end
+	end
+
+**sample5.png**
+
+![sample5.png](http://github.com/ashbb/shoes_tutorial_html/tree/master%2Fimages%2Fsample5.png?raw=true)

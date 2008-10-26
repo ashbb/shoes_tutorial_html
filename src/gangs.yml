@@ -1,0 +1,7 @@
+--- 
+- !ruby/struct:Gang 
+  name: Satoshi Asakawa
+  country: " Japan"
+- !ruby/struct:Gang 
+  name: Tom Jonson
+  country: " Italy"

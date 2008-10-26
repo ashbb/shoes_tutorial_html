@@ -1,0 +1,151 @@
+Combination of image objects show/hide and mouse hover/leave
+------------------------------------------------------------
+
+We've already learned many useful methods like show/hide and hover/leave. <br>
+This tiny sample shows us a wonderful combination. <br>
+
+	# sample32.rb
+	Shoes.app :width => 350, :height => 250, :title => 'Menus' do
+	  def menu items
+	    flow do
+	      items.each_with_index do |e, i|
+	        nostroke
+	        nofill
+	        b = image(:width => 100, :height => 21){rect(0, 0, 100, 21)}
+	        f = image(:width => 100, :height => 21){rect(0, 0, 100, 21, :fill => yellow,:curve => 8)}.hide
+	        b.move 0, i*23
+	        f.move 0, i*23
+	        para i, '. ', e, "\n"
+	        b.hover{f.show; @msg.text = strong(e)}
+	        b.leave{f.hide; @msg.text = ''}
+	      end
+	    end
+	  end
+	  
+	  para 'Selected: '
+	  @msg = para '', :stroke => green
+	  
+	  flow :left => 50, :top => 50 do
+	    para strong "What?\n"
+	    menu %w(apple tomato orange)
+	  end
+	  
+	  flow :left => 200, :top => 50 do
+	    para strong "Who?\n"
+	    menu %w(Satoshi Krzysztof Victor Leticia Mareike)
+	  end
+	end
+
+**sample32.png**
+
+![sample32.png](http://github.com/ashbb/shoes_tutorial_html/tree/master%2Fimages%2Fsample32.png?raw=true)
+
+This one is another sample code. It shows the MENUs using many buttons.
+
+	# sample33.rb
+	Shoes.app :title => 'Button MENU', :height => 250 do
+	  def menu title, items, n
+	    button title, :align => 'center', :width => 100 do
+	      if @toggle[n]
+	        items.each{|e| @f[n].append{button(e, :align => 'center', :width => 100){@msg.text = strong(e)}}}
+	      else
+	        @f[n].clear
+	        @msg.text = ''
+	      end
+	      @toggle[n] = !@toggle[n]
+	    end
+	  end
+	  
+	  para 'Selected: '
+	  @msg = para '', :stroke => green
+	  
+	  @toggle = true, true
+	  @f = []
+	  
+	  flow :left => 30, :top => 50, :width => 100 do
+	    menu 'Who?', %w(Satoshi Vic Mareike Krzysztop Leticia), 0
+	  end
+	  @f << flow(:left => 30, :top => 90, :width => 100)
+	  
+	  flow :left => 150, :top => 50, :width => 100 do
+	    menu 'What?', %w(apple banana orange), 1
+	  end
+	  @f << flow(:left => 270, :top => 50, :width => 400)
+	end
+
+**sample33.png**
+
+![sample33.png](http://github.com/ashbb/shoes_tutorial_html/tree/master%2Fimages%2Fsample33.png?raw=true)
+
+And this one is a combination of sample32 and 33.
+
+	# sample34.rb
+	Shoes.app :title => 'Image MENU', :height => 250 do
+	  background lightskyblue.to_s..lightsalmon.to_s, :angle => 30
+	  
+	  def menu title, items, n
+	    nostroke
+	    nofill
+	    tb = image(:left => 0, :top => 0, :width => 100, :height => 21){rect(0, 0, 100, 21)}
+	    para strong title
+	    @f ||= []
+	    @f << flow do
+	      items.each_with_index do |e, i|
+	        nostroke
+	        nofill
+	        b = image(:width => 100, :height => 21){rect(0, 0, 100, 21)}
+	        f = image(:width => 100, :height => 21){rect(0, 0, 100, 21, :fill => khaki,:curve => 8)}.hide
+	        yield b, f, i, e
+	        b.hover{f.show}
+	        b.leave{f.hide}
+	        b.click{@msg[n].text = strong(e)}
+	      end
+	    end.hide
+	    
+	    tb.click{@f[n].toggle; @msg[n].text = ''}
+	  end
+	  
+	  @msg = []
+	  para 'Selected Who?: '
+	  @msg << para('', :stroke => forestgreen)
+	  para 'Selected What?: ', :left => 300
+	  @msg << para('', :stroke => tomato)
+	  
+	  flow :left => 30, :top => 50, :width => 100 do
+	    menu 'Who?', %w(Satoshi Vic Mareike Krzysztop Leticia), 0 do |b, f, i, e|
+	      b.move 0, i*23
+	      f.move 0, i*23
+	      para i, '. ', e, "\n"
+	    end
+	  end
+	
+	  flow :left => 150, :top => 50, :width => 400 do
+	    menu 'What?', %w(apple banana orange), 1 do |b, f, i, e|
+	      b.move((i+1)*102 , -32)
+	      f.move((i+1)*102 , -32)
+	      para "#{i}. #{e}", :left => 150 + (i+1)*102, :top => 50
+	    end
+	  end
+	end
+
+**sample34.png**
+
+![sample34.png](http://github.com/ashbb/shoes_tutorial_html/tree/master%2Fimages%2Fsample34.png?raw=true)
+
+If you want to hide the items when mouse clicks on it, do the following revising and try to run.
+
+Line No.20 <br>
+b.click{@msg[n].text = strong(e)} ----> b.click{@msg[n].text = strong(e); @f[n].toggle}
+
+Line No.24 <br>
+tb.click{@f[n].toggle; @msg[n].text = ''} ----> tb.click{@f[n].toggle}
+
+
+The edited code is sample34-1.rb and the screenshot is sample34-1.png.
+
+This MENUs-like user interface original idea was provided by Krzysztop Wicher.
+
+**sample34-1.png**
+
+![sample34-1.png](http://github.com/ashbb/shoes_tutorial_html/tree/master%2Fimages%2Fsample34-1.png?raw=true)
+

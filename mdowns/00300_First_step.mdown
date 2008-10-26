@@ -1,0 +1,6 @@
+First step
+----------
+
+There is [a tutorial written by _why](http://shoooes.net/tutorial/).
+
+Now, copy and paste the whole 16 sample programs and run one by one. No need to understand the code meaning. Just run and look at the app window. This tutorial has screenshots, but be sure to run all 16 samples. Not later. Do it now, before going to the next, please. This is the most important step, I believe.

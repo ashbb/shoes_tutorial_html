@@ -1,0 +1,61 @@
+No.2&3 stack and flow
+---------------------
+
+At first, read the following web page:
+[http://github.com/why/shoes/wikis/stacksandflows](http://github.com/why/shoes/wikis/stacksandflows)
+
+But use (run) the following sample code instead of the one on the above web page. Because the method Shoes#text is obsolete and need to correct the path of image file.
+
+	# sample3.rb
+	Shoes.app do
+	  stack do
+	    image "http://hackety.org/images/hackety-org-header.png"
+	  end
+	  stack :width => 200 do
+	    para "column 1"
+	  end
+	  stack :width => -200 do
+	    para "column 2"
+	  end
+	end
+
+**sample3.png**
+
+![sample3.png](http://github.com/ashbb/shoes_tutorial_html/tree/master%2Fimages%2Fsample3.png?raw=true)
+
+More complex sample code is:
+
+	# sample4.rb
+	Shoes.app :width => 250, :height => 150 do
+	  background gray
+	  flow :width => "90%" do
+	    background brown
+	    
+	    flow :width => "70%" do
+	      background purple
+	      stack do
+	        background green
+	        para "stack 0"
+	      end
+	      stack :width => "30%" do
+	        background red
+	        para "stack 1"
+	      end
+	      stack :width => "-30%" do
+	        background blue
+	        para "stack 2"
+	      end
+	    end
+	    
+	    stack :width => "20%" do
+	      background yellow
+	      para "stack 3"
+	    end
+	  end
+	end
+	      
+
+**sample4.png**
+
+![sample4.png](http://github.com/ashbb/shoes_tutorial_html/tree/master%2Fimages%2Fsample4.png?raw=true)
+

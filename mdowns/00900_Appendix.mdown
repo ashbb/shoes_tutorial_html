@@ -1,0 +1,44 @@
+Appendix
+--------
+
+Advanced article
+----------------
+Threaded XMLHttpRequest In Shoes <br>
+<http://hackety.org/2008/08/15/threadedDownloadsInShoes.html> <br>
+
+Stamping EXEs And DMGs <br>
+<http://hackety.org/2008/06/19/stampingExesAndDmgs.html> <br>
+
+Martin DeMello's Gooey Challenge <br>
+<http://hackety.org/2008/06/12/martinDemellosGooeyChallenge.html> <br>
+
+The Image Block At The Bottom Of Shoes <br>
+<http://hackety.org/2008/05/22/theImageBlockAtTheBottomOfShoes.html> <br>
+
+
+Shoes mailing list in English
+-----------------------------
+To join the mailing list:
+
+  Send a message to shoes AT code.whytheluckystiff.net <br>
+  Cc: why AT whytheluckystiff.net <br>
+
+
+The archives are available at: 
+
+  <http://www.mail-archive.com/shoes@code.whytheluckystiff.net/> <br>
+or <br>
+  <http://news.gmane.org/gmane.comp.lib.shoes> <br>
+
+
+Shoes mailing list in Spanish
+-----------------------------
+<http://groups.google.com/group/zapatos>
+
+
+Shoes IRC channel
+-----------------
+\#shoes   on irc.freenode.net 
+
+
+
