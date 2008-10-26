@@ -2,7 +2,7 @@ Shoes Tutorial Note
 ===================
 **- For the Shoes App Rookie Creators -**
 
-October 26th, 2008 by ashbb (Satoshi Asakawa)
+October 27th, 2008 by ashbb (Satoshi Asakawa)
 
 Table of contents
 -----------------
@@ -48,6 +48,7 @@ Table of contents
 	- [slot with scrollbar](http://github.com/ashbb/shoes_tutorial_html/tree/master/mdowns/00525_slot_with_scrollbar.mdown)
 	- [The :state style](http://github.com/ashbb/shoes_tutorial_html/tree/master/mdowns/00526_The__state_style.mdown)
 	- [Shoes::FONTS and External Fonts](http://github.com/ashbb/shoes_tutorial_html/tree/master/mdowns/00527_Shoes__FONTS_and_External_Fonts.mdown)
+	- [Shoes Tutorial Note Launcher](http://github.com/ashbb/shoes_tutorial_html/tree/master/mdowns/00528_Shoes_Tutorial_Note_Launcher.mdown)
 6. Hot Topics in the Shoes ML and Shoooes.net
 	- [External Fonts](http://github.com/ashbb/shoes_tutorial_html/tree/master/mdowns/00601_External_Fonts.mdown)
 	- [Locking edit_box](http://github.com/ashbb/shoes_tutorial_html/tree/master/mdowns/00602_Locking_edit_box.mdown)
@@ -61,6 +62,7 @@ Table of contents
 
 Change log:
 -----------
+Oct 27th, 2008: Added a new sample 44.
 Oct 26th, 2008: Modified sample 8, changed the path of image.
 Oct 24th, 2008: Revised tools and modified .mdown files for the easy eBook maker.<br>
 Oct 23th, 2008: Added a new sample 43. 
