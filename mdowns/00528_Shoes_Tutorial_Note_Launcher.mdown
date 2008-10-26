@@ -3,9 +3,11 @@ Shoes Tutorial Note Launcher
 
 Markdown + BlueCloth + Shoes = **AWESOME!**
 
-[Markdown](http://daringfireball.net/projects/markdown/)
+Markdown <br>
+<http://daringfireball.net/projects/markdown/>
 
-[BlueCloth](http://www.deveiate.org/projects/BlueCloth)
+BlueCloth <br>
+<http://www.deveiate.org/projects/BlueCloth>
 
 	# sample44.rb
 	Shoes.setup do
