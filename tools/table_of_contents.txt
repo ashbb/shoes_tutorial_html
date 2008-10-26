@@ -62,10 +62,10 @@ Table of contents
 
 Change log:
 -----------
-Oct 27th, 2008: Added a new sample 44.
-Oct 26th, 2008: Modified sample 8, changed the path of image.
-Oct 24th, 2008: Revised tools and modified .mdown files for the easy eBook maker.<br>
-Oct 23th, 2008: Added a new sample 43. 
+Oct 27th, 2008: Added a new sample 44. <br>
+Oct 26th, 2008: Modified sample 8, changed the path of image. <br>
+Oct 24th, 2008: Revised tools and modified .mdown files for the easy eBook maker. <br>
+Oct 23th, 2008: Added a new sample 43. <br>
 
 To do list:
 -----------
