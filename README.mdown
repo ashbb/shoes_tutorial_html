@@ -2,7 +2,7 @@ Shoes Tutorial Note
 ===================
 **- For the Shoes App Rookie Creators -**
 
-October 27th, 2008 by ashbb (Satoshi Asakawa)
+October 28th, 2008 by ashbb (Satoshi Asakawa)
 
 Table of contents
 -----------------
@@ -62,6 +62,7 @@ Table of contents
 
 Change log:
 -----------
+Oct 28th, 2008: Modified the page of 'Shoes.setup' <br>
 Oct 27th, 2008: Added a new sample 44. <br>
 Oct 26th, 2008: Modified sample 8, changed the path of image. <br>
 Oct 24th, 2008: Revised tools and modified .mdown files for the easy eBook maker. <br>

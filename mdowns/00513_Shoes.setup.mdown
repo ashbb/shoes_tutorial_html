@@ -20,4 +20,6 @@ Clearing Up The Whole Shoes And RubyGems Deal <br>
 
 ![sample27.png](http://github.com/ashbb/shoes_tutorial_html/tree/master%2Fimages%2Fsample27.png?raw=true)
 
-But now, with Shoes-0.r1057, this feature doesn't work well...
+<strike>But now, with Shoes-0.r1057, this feature doesn't work well...</strike>
+
+Sorry, **Shoes.setup** works well!!
