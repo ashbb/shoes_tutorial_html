@@ -3,7 +3,7 @@ UTF-8
 
 Shoes expects all strings to be in UTF-8 format.
 
-UTF-8 Everywhere
+UTF-8 Everywhere <br>
 <http://help.shoooes.net/Rules.html>
 
 	# sample45.rb
