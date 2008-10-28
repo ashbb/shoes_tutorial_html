@@ -2,7 +2,7 @@ Shoes Tutorial Note
 ===================
 **- For the Shoes App Rookie Creators -**
 
-October 28th, 2008 by ashbb (Satoshi Asakawa)
+October 29th, 2008 by ashbb (Satoshi Asakawa)
 
 Table of contents
 -----------------
@@ -49,6 +49,7 @@ Table of contents
 00526. The :state style
 00527. Shoes::FONTS and External Fonts
 00528. Shoes Tutorial Note Launcher
+00529. UTF-8
 00600.#Hot Topics in the Shoes ML and Shoooes.net
 00601. External Fonts
 00602. Locking edit_box
@@ -62,6 +63,7 @@ Table of contents
 
 Change log:
 -----------
+Oct 29th, 2008: Added a new sample 45. <br>
 Oct 28th, 2008: Modified the page of 'Shoes.setup' <br>
 Oct 27th, 2008: Added a new sample 44. <br>
 Oct 26th, 2008: Modified sample 8, changed the path of image. <br>
