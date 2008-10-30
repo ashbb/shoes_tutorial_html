@@ -2,7 +2,7 @@ Shoes Tutorial Note
 ===================
 **- For the Shoes App Rookie Creators -**
 
-October 29th, 2008 by ashbb (Satoshi Asakawa)
+October 30th, 2008 by ashbb (Satoshi Asakawa)
 
 Table of contents
 -----------------
@@ -54,6 +54,7 @@ Table of contents
 00601. External Fonts
 00602. Locking edit_box
 00603. Styling Master List
+00604. Trying to ease the RubyGems pain
 00700.#Assignment
 00701. Assignment 1 twitter client (reader)
 00702. Assignment 2 footracer
@@ -63,6 +64,7 @@ Table of contents
 
 Change log:
 -----------
+Oct 30th, 2008: Added a hot topic. <br>
 Oct 29th, 2008: Added a new sample 45. <br>
 Oct 28th, 2008: Modified the page of 'Shoes.setup' <br>
 Oct 27th, 2008: Added a new sample 44. <br>

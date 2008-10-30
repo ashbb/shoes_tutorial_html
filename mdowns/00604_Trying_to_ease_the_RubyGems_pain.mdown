@@ -1,0 +1,18 @@
+Trying to ease the RubyGems pain
+--------------------------------
+
+_why announced trying to ease the RubyGems pain.
+
+The issues are like:
+
+ + RubyGems doesn't have a GUI.
+ + Shoes users shouldn't be expected to use the commandline.
+   (So, no `gem install twitter`.)
+ + Shoes users shouldn't need admin rights to use a lib.
+ + Shoes needs to include SQLite3, for the image cache.
+ + And I like having Hpricot and JSON.
+
+
+
+The hpricot, sqlite3, json gems <br>
+<http://www.mail-archive.com/shoes@code.whytheluckystiff.net/msg02295.html>

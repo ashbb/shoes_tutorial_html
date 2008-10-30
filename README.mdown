@@ -2,7 +2,7 @@ Shoes Tutorial Note
 ===================
 **- For the Shoes App Rookie Creators -**
 
-October 29th, 2008 by ashbb (Satoshi Asakawa)
+October 30th, 2008 by ashbb (Satoshi Asakawa)
 
 Table of contents
 -----------------
@@ -54,6 +54,7 @@ Table of contents
 	- [External Fonts](http://github.com/ashbb/shoes_tutorial_html/tree/master/mdowns/00601_External_Fonts.mdown)
 	- [Locking edit_box](http://github.com/ashbb/shoes_tutorial_html/tree/master/mdowns/00602_Locking_edit_box.mdown)
 	- [Styling Master List](http://github.com/ashbb/shoes_tutorial_html/tree/master/mdowns/00603_Styling_Master_List.mdown)
+	- [Trying to ease the RubyGems pain](http://github.com/ashbb/shoes_tutorial_html/tree/master/mdowns/00604_Trying_to_ease_the_RubyGems_pain.mdown)
 7. Assignment
 	- [Assignment 1 twitter client (reader)](http://github.com/ashbb/shoes_tutorial_html/tree/master/mdowns/00701_Assignment_1_twitter_client__reader_.mdown)
 	- [Assignment 2 footracer](http://github.com/ashbb/shoes_tutorial_html/tree/master/mdowns/00702_Assignment_2_footracer.mdown)
@@ -63,6 +64,7 @@ Table of contents
 
 Change log:
 -----------
+Oct 30th, 2008: Added a hot topic. <br>
 Oct 29th, 2008: Added a new sample 45. <br>
 Oct 28th, 2008: Modified the page of 'Shoes.setup' <br>
 Oct 27th, 2008: Added a new sample 44. <br>
