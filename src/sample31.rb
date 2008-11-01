@@ -12,7 +12,7 @@ Shoes.app :width => 150, :height => 70 do
   @i = 0
   @slot = flow{number_on_disk}
   
-  button('chang') do
+  button('change') do
     @slot.clear
     @color = %w(green red blue yellow)[rand(4)]
     @i = 0

@@ -17,7 +17,7 @@ We can start something with initial condition, then stop and restart the same th
 	  @i = 0
 	  @slot = flow{number_on_disk}
 	  
-	  button('chang') do
+	  button('change') do
 	    @slot.clear
 	    @color = %w(green red blue yellow)[rand(4)]
 	    @i = 0
