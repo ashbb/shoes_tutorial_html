@@ -1,4 +1,4 @@
-No.1 para
+No. 1: para
 ---------
 
 banner			: Charactor size 48 pixels <br>
@@ -25,9 +25,9 @@ inscription		: 10 <br>
 
 strong			: bold <br>
 em (emphasized)		: italics <br>
-code			: monospeced font <br>
+code			: monospace font <br>
 ins (inserted)		: single underline <br>
-sub (subscript)		: lowering the text by 10 pixels, x-small font <br>
+sub (subscript)		: lower the text by 10 pixels, x-small font <br>
 
 	# sample2.rb
 	Shoes.app :width => 240, :height => 95 do

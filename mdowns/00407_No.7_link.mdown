@@ -1,7 +1,7 @@
-No.7 link
+No. 7: link
 ---------
 
-Hyperlinks. We have three way to write the links.
+Hyperlinks. We have three ways to write the links.
 
 	# sample8.rb
 	Shoes.app :width => 250, :height => 60 do

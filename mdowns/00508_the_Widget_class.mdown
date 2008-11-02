@@ -1,8 +1,8 @@
 the Widget class
 ----------------
 
-A custom Shoes widget is setup by inheriting from the Widget class.
-And Shoes then creates a method using the lowercased name of the class which is used in your app.
+A custom Shoes widget is set up by inheriting from the Widget class.
+Shoes then creates a method using the lowercased name of the class which is used in your app.
 
 	# sample22.rb
 	class Shoes::Answer < Shoes::Widget

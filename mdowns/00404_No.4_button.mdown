@@ -1,10 +1,10 @@
-No.4 button
+No. 4: button
 -----------
 
 button("Press Me") <br>
 which creates a new button and <br>
 button("Press Me"){ alert("clicked")} <br>
-how the block fires when clicked and <br>
+the button fires the block when clicked and <br>
 button("Press Me", :left => 50, :top => 20) <br>
 will place the button at coordinates (50, 20). <br>
 That's it.

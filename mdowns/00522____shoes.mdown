@@ -1,7 +1,7 @@
 #! shoes
 --------
 
-The sample38.rb has #! shoes on its first line. Shell will see the program file has a #! line and pass it to Shoes.
+Sample38.rb has #! shoes on its first line. The shell will see that the program file has a #! line and pass it to Shoes.
 
 	#! shoes
 	# sample38.rb
@@ -18,7 +18,7 @@ Write code with SciTE and push F5, then kick up Shoes!
 
 
 And next.
-The sample38-1.rb is a Ruby program, not Shoes app. But it'll launch the Shoes app.
+Sample38-1.rb is a Ruby program, not Shoes app, but it'll launch the Shoes app.
 
 	# sample38-1.rb
 	

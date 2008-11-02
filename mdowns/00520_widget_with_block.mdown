@@ -1,7 +1,7 @@
 widget with block
 -----------------
 
-It's good using the widget object with block in the case of getting the keypress or the mouse event smoothly.
+You can use the widget object with a block to respond to keypress or mouse events smoothly.
 
 	# sample36.rb
 	class Shoes::Creature < Shoes::Widget

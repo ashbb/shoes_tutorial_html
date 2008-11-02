@@ -1,7 +1,7 @@
 The :state style
 ----------------
 
-The :state style is for disabling or locking certain controls, if you do not want them to be edited. 
+The :state style is for disabling or locking certain controls if you do not want them to be edited. 
 
 	# sample42.rb
 	Shoes.app :width => 400, :height => 410 do

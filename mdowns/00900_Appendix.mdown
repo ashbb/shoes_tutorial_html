@@ -1,7 +1,7 @@
 Appendix
 --------
 
-Advanced article
+Advanced articles
 ----------------
 Threaded XMLHttpRequest In Shoes <br>
 <http://hackety.org/2008/08/15/threadedDownloadsInShoes.html> <br>

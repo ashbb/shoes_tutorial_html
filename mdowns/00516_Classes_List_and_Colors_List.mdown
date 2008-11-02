@@ -2,7 +2,7 @@ Classes List and Colors List
 ----------------------------
 
 We can see the colors list in the built-in manual. <br>
-But we will also be able to see them by the following sample code. <br>
+We can also see them with the following sample code. <br>
 
 	# sample30.rb
 	Shoes.app :width => 642, :height => 700, :resizable => false do

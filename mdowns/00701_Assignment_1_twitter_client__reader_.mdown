@@ -1,7 +1,7 @@
-Assignment
+Exercises
 ----------
 
-Assignment 1 twitter client (reader)
+Exercise 1 twitter client (reader)
 ------------------------------------
 
 The following spec is an example. <br>
@@ -16,6 +16,6 @@ Example spec: <br>
 
 **stwitter_listener_snapshot.png**
 
-![twitter_listener_snapshot.png](http://github.com/ashbb/shoes_tutorial_html/tree/master%2Fimages%2Ftwitter_listener_snapshot.png?raw=true)
+![twitter_listener_snapshot.png](http://github.com/ashbb/shoes\_tutorial\_html/tree/master%2Fimages%2Ftwitter_listener_snapshot.png?raw=true)
 
 Have fun!

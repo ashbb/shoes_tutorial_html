@@ -1,4 +1,4 @@
-Tips for creating our original Shoes apps
+Tips for creating original Shoes apps
 -----------------------------------------
 
 Open Shoes built-in manual and Shoes console window

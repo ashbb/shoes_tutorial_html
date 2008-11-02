@@ -17,12 +17,12 @@ list_box needs to set :height explicitly
 
 Try to comment out :height => 30 and run. <br>
 The list_box doesn't show the items. <br>
-But this strange behavior occurs only on Windows. On Mac OS X, it doesn't. <br>
+This strange behavior occurs only on Windows. On Mac OS X, it doesn't. <br>
 
 This OS X information was provided by George Thompson. <br>
 
 
-wonder the mouse event behavior
+strange mouse event behavior
 --------------------------------
 
 	# sample92.rb
@@ -46,7 +46,7 @@ wonder the mouse event behavior
 ![sample92.png](http://github.com/ashbb/shoes_tutorial_html/tree/master%2Fimages%2Fsample92.png?raw=true)
 
 The image (red) oval works the mouse hovering feature but the blue doesn't. <br>
-This behavior is a bug. But it is fixed in the latest Shoes-0.r970. <br>
+This behavior is a bug. But it is fixed in the latest Shoes-0.r970 and later. <br>
 
 
 Shoes Fest
@@ -58,15 +58,15 @@ Shoes Fest
 Shoes was born July 31st, 2007. 
 -------------------------------
 
-Yes, July 31st is the birthday and now one year old.
+Yes, July 31st is Shoes' birthday and it is now one year old.
 
 
 Shoes wiki
 ----------
 
-New Shoes wiki was launched at Sep 12th, 2008. <br>
+A new Shoes wiki was launched on Sep 12th, 2008. <br>
   <http://github.com/why/shoes/wikis> <br>
-Old one was retired. Now linked to the Shoes Official Homepage. <br>
+The old one was retired. Now linked to the Shoes Official Homepage. <br>
   <http://code.whytheluckystiff.net/shoes/> <br>
   <http://shoooes.net/> <br>
 
@@ -74,10 +74,10 @@ Old one was retired. Now linked to the Shoes Official Homepage. <br>
 Built-in sample apps
 --------------------
 
-See the following directory (in the case of Windows XP and Shoes-0.r970) <br>
+See the following directory (in Windows XP with Shoes-0.r1057) <br>
 There are many sample code. Let's hack! <br>
 
-C:\Program Files\Common Files\Shoes\0.r970\samples <br>
+C:\Program Files\Common Files\Shoes\0.r1057\samples <br>
 
 
 Building Shoes
@@ -90,7 +90,7 @@ If you have to build Shoes by yourself, this information might be useful. <br>
 The Rules Of Shoes and UTF-8 Everywhere
 ---------------------------------------
 
-Shoes scope makes us a bit confusing... <br>
+Shoes scope can be a bit confusing... <br>
 Shoes supports UTF-8 everywhere. Can't wait to get the next build. <br>
 <http://newwws.shoooes.net/2008/09/22/the-rules-of-shoes.html>
 
@@ -103,7 +103,7 @@ A very decent intro to shoes for beginners
 Lovely creatures
 ----------------
 
-Lovely creatures in this tutorial created by Anita Kuno. <br>
+Lovely creatures in this tutorial were created by Anita Kuno. <br>
 Each creature has his/her own name. <br>
   purple is loogink <br>
   green is  Cy <br>
@@ -139,6 +139,6 @@ Each creature has his/her own name. <br>
 
 ![sample93.png](http://github.com/ashbb/shoes_tutorial_html/tree/master%2Fimages%2Fsample93.png?raw=true)
 
-Let's enjoy Ruby and Shoes with the Lovely Creaturs!
+Let's enjoy Ruby and Shoes with the Lovely Creatures!
 
 FIN.

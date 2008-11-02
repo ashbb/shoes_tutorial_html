@@ -1,7 +1,7 @@
 Output messages on the Shoes console window
 -------------------------------------------
 
-We can put the message on the Shoes console window.
+We can send messages to the Shoes console window.
 
 	# sample15.rb
 	Shoes.app :width => 150, :height => 40 do

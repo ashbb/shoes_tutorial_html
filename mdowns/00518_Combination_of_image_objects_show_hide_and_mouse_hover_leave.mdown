@@ -40,7 +40,7 @@ This tiny sample shows us a wonderful combination. <br>
 
 ![sample32.png](http://github.com/ashbb/shoes_tutorial_html/tree/master%2Fimages%2Fsample32.png?raw=true)
 
-This one is another sample code. It shows the MENUs using many buttons.
+Here is another sample. It shows menus using many buttons.
 
 	# sample33.rb
 	Shoes.app :title => 'Button MENU', :height => 250 do
@@ -132,18 +132,18 @@ And this one is a combination of sample32 and 33.
 
 ![sample34.png](http://github.com/ashbb/shoes_tutorial_html/tree/master%2Fimages%2Fsample34.png?raw=true)
 
-If you want to hide the items when mouse clicks on it, do the following revising and try to run.
+If you want to hide an item when the mouse clicks on it, make the following revisions.
 
-Line No.20 <br>
+Line No. 20 <br>
 b.click{@msg[n].text = strong(e)} ----> b.click{@msg[n].text = strong(e); @f[n].toggle}
 
-Line No.24 <br>
+Line No. 24 <br>
 tb.click{@f[n].toggle; @msg[n].text = ''} ----> tb.click{@f[n].toggle}
 
 
 The edited code is sample34-1.rb and the screenshot is sample34-1.png.
 
-This MENUs-like user interface original idea was provided by Krzysztop Wicher.
+The original idea for this menu-like user interface was provided by Krzysztop Wicher.
 
 **sample34-1.png**
 

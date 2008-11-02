@@ -1,9 +1,9 @@
-Assign Shoes URL dynamically
+Assign Shoes URLs dynamically
 ----------------------------
 
-We can use regular expressions to assign Shoes URL dynamically. <br>
+We can use regular expressions to assign Shoes URLs dynamically. <br>
 Shoes passes the match data to the method as the argument.  <br>
-Show the following sample code revised the above sample11.rb. <br>
+The following sample code revises the above sample11.rb. <br>
 
 	# sample29.rb
 	class PhotoFrame < Shoes

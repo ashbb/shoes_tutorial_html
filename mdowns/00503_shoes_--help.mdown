@@ -27,7 +27,7 @@ shoes --help <br>
 ![shoes_gem.png](http://github.com/ashbb/shoes_tutorial_html/tree/master%2Fimages%2Fshoes_gem.png?raw=true)
 
 shoes -g install hpricot <br>
-Oops, an error will be happen. Perhaps now under construction... <br>
+Oops, you will get an error. Perhaps it is now under construction... <br>
 
 
 **shoes_shy.png**
@@ -41,8 +41,8 @@ Open the app window, but it doesn't work well. Now under construction... <br>
 
 ![shoes_shy-1.png](http://github.com/ashbb/shoes_tutorial_html/tree/master%2Fimages%2Fshoes_shy-1.png?raw=true)
 
-In the case of Shoes-0.r1057,the above message appears <br>
-Because this feature is included in 'shoes --package'. <br>
+With Shoes-0.r1057,the above message appears <br>
+because this feature is included in 'shoes --package'. <br>
 
 
 

@@ -1,9 +1,9 @@
-No.9 Shoes.url
+No. 9: Shoes.url
 --------------
 
 A Shoes App object is a single window running code at a Shoes URL. 
 When you switch Shoes URLs, a new App object is created. 
-From the user view point, just seems like a page of the web. 
+From the user viewpoint, it just behaves like a page on the web. 
 
 	# sample11.rb
 	class PhotoFrame < Shoes

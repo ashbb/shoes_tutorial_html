@@ -1,4 +1,4 @@
-No.8 background
+No. 8: background
 ---------------
 
 Backgrounds and borders are both just patterns. 
@@ -19,7 +19,7 @@ A pattern is made with a color, a gradient or an image.
 
 ![sample9.png](http://github.com/ashbb/shoes_tutorial_html/tree/master%2Fimages%2Fsample9.png?raw=true)
 
-In NKS(Nobody Knows Shoes), just give the background a radius. <br>
+In NKS(Nobody Knows Shoes), you just give the background a radius. <br>
 Background blue, :radius => 12 <br>
 But it is obsolete. Now we can use :curve instead of :radius. And can also use :angle for gradient. <br>
 

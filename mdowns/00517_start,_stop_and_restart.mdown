@@ -1,7 +1,7 @@
 start, stop and restart
 -----------------------
 
-We can start something with initial condition, then stop and restart the same thing with other condition.
+We can start something with initial conditions, then stop and restart the same thing with other conditions.
 
 	#sample31.rb
 	Shoes.app :width => 150, :height => 70 do

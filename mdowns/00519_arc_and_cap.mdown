@@ -1,11 +1,11 @@
 arc and cap
 -----------
 
-New arc and cap methods are released in the 970th build. See the following article: 
+New arc and cap methods were released in the 970th build. See the following article: 
 
 <http://newwws.shoooes.net/2008/09/10/arcs.html> <br>
 
-And _why shows us a wonderful combination of the animate method.
+And _why shows us a wonderful combination with the animate method.
 
 
 	# sample35.rb

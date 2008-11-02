@@ -1,7 +1,7 @@
 Locking edit_box
 ----------------
 
-If Shoes makes the edit_box read-only, we can select (copy) text data from that. <br>
+If Shoes makes the edit_box read-only, we can select (copy) text data from it. <br>
 
 Locking edit boxes <br>
 <http://www.mail-archive.com/shoes@code.whytheluckystiff.net/msg02120.html>

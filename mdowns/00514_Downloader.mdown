@@ -26,5 +26,5 @@ Although percent and length methods don't work well now, transferred and fractio
 
 ![sample28.png](http://github.com/ashbb/shoes_tutorial_html/tree/master%2Fimages%2Fsample28.png?raw=true)
 
-More information about downloader. See the built-in manual. <br>
+For more information about downloader, see the built-in manual. <br>
 Shoes includes the Hpricot library for parsing HTML. <br>

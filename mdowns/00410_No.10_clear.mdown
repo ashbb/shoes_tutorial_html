@@ -1,4 +1,4 @@
-No.10 clear
+No. 10: clear
 -----------
 
 The clear method wipes the slot. 

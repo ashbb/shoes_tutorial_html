@@ -1,8 +1,8 @@
 shape
 -----
 
-We can make the arbitrary shape what ever we want. 
-Beginning at coordinates (left, top).
+We can make arbitrary shapes, 
+beginning at coordinates (left, top).
 
 	# sample23.rb
 	Shoes.app :width => 140, :height => 120 do
@@ -27,5 +27,5 @@ The above screenshot is with Shoes-0.r905. <br>
 
 ![sample23-1.png](http://github.com/ashbb/shoes_tutorial_html/tree/master%2Fimages%2Fsample23-1.png?raw=true)
 
-With Shoes-0.r970, it works well. Although be a little bit different from the above pic... <br>
-In the case of Shoes-0.r1057, it works as same as Shoes-0.r970. <br>
+With Shoes-0.r970, it works well. Although it is a little bit different than the above pic... <br>
+Shoes-0.r1057 works like Shoes-0.r970. <br>

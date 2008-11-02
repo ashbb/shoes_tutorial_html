@@ -1,0 +1,11 @@
+Acknowledgment
+--------------
+Under consideration... :)
+
+*memo*
+
+- Peter corrected the shoes\_course\_text file.
+- Michele corrected the ReadMeFirst file.
+- Jerry corrected the whole Shoes Tutorial Note markdown files.
+- Krzysztof, George and Sergio gave some good ideas.
+  They were very useful to create sample codes.

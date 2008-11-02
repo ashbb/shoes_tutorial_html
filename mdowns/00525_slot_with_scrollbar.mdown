@@ -1,7 +1,7 @@
 slot with scrollbar
 -------------------
 
-The :scroll option establishes the slot as a scrolling slot. 
+The :scroll option establishes a slot as a scrolling slot. 
 
 	# sample41.rb
 	Shoes.app :width => 240, :height => 161, :resizable => false do

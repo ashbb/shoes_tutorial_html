@@ -1,4 +1,4 @@
-Assignment 2 footracer
+Exercise 2 footracer
 ----------------------
 
 The following spec is an example. <br>

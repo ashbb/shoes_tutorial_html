@@ -3,7 +3,7 @@ Style
 
 We can change the style of the element with the style method. Calling the style method with no arguments returns a hash of the styles presently applied to the element.
 
-More information is : 6.3 Styling Master List
+More information can be found in section 6.3, Styling Master List
 
 	# sample26.rb
 	Shoes.app :width => 400, :height => 250 do

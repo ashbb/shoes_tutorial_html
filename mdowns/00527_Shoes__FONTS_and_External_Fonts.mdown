@@ -1,7 +1,7 @@
 Shoes::FONTS and External Fonts
 -------------------------------
 
-*Shoes::FONTS* is a complete list of the fonts you can use. <br>
+**Shoes::FONTS** is a complete list of the fonts you can use. <br>
 Loading from external fonts, such as TrueType and OTF files. <br>
 
 

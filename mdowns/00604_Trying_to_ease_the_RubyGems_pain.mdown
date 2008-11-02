@@ -1,9 +1,9 @@
 Trying to ease the RubyGems pain
 --------------------------------
 
-_why announced trying to ease the RubyGems pain.
+_why announced that he is trying to ease the RubyGems pain.
 
-The issues are like:
+Some issues are:
 
  + RubyGems doesn't have a GUI.
  + Shoes users shouldn't be expected to use the commandline.

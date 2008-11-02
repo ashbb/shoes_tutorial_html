@@ -2,7 +2,7 @@ Shoes Tutorial Note
 ===================
 **- For the Shoes App Rookie Creators -**
 
-Nov. 1st, 2008 by ashbb (Satoshi Asakawa)
+Nov. 2nd, 2008 by ashbb (Satoshi Asakawa)
 
 Table of contents
 -----------------
@@ -60,10 +60,12 @@ Table of contents
 	- [Assignment 2 footracer](http://github.com/ashbb/shoes_tutorial_html/tree/master/mdowns/00702_Assignment_2_footracer.mdown)
 8. [Relevant web sites (Links)](http://github.com/ashbb/shoes_tutorial_html/tree/master/mdowns/00800_Relevant_web_sites__Links_.mdown)
 9. [Appendix](http://github.com/ashbb/shoes_tutorial_html/tree/master/mdowns/00900_Appendix.mdown)
-10. [Trivia](http://github.com/ashbb/shoes_tutorial_html/tree/master/mdowns/01000_Trivia.mdown)
+10. [Acknowledgment](http://github.com/ashbb/shoes_tutorial_html/tree/master/mdowns/01000_Acknowledgment.mdown)
+11. [Trivia](http://github.com/ashbb/shoes_tutorial_html/tree/master/mdowns/01100_Trivia.mdown)
 
 Change log:
 -----------
+Nov 02st, 2008: Totally corrected English. Add the acknowledgment. <br>
 Nov 01st, 2008: Corrected typo of sample 31 <br>
 Oct 30th, 2008: Added a hot topic. <br>
 Oct 29th, 2008: Added a new sample 45. <br>

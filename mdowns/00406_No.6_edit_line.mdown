@@ -1,9 +1,9 @@
-No.6 edit_line
+No. 6: edit_line
 --------------
 
 
 Edit boxes are wide, rectangular boxes for entering text. 
-Edit lines are a slender, little box for entering text.
+Edit lines are a slender, little box for entering one line of text.
 
 	# sample7.rb
 	Shoes.app :width => 250, :height => 300 do

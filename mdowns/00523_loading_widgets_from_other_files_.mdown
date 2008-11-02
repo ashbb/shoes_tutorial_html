@@ -1,7 +1,7 @@
 loading widgets from other files?
 ---------------------------------
 
-The sample39.rb has a require method to load the custom widget class stored in the other file <br>(sample39_creature.rb). <br>
+Sample39.rb has a require method to load the custom widget class stored in the other file <br>(sample39_creature.rb). <br>
 
 loading widgets from other files? <br>
 <http://www.mail-archive.com/shoes@code.whytheluckystiff.net/msg01971.html> <br>
