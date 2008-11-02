@@ -1,0 +1,40 @@
+Open a new app window
+---------------------
+
+We can use **window** method to open a new app window.
+
+	# sample46.rb
+	Shoes.app :title => 'parent', :width => 300, :height => 200 do
+	  def open_new_window
+	    window  :title => 'child', :width => 200, :height => 200 do
+	      button('parent'){owner.hello green}
+	      button('child'){owner.hello green, self}
+	    end
+	  end
+	  
+	  def hello color, win = nil
+	    win ||= self
+	    @n ||= 0
+	    @n += 1
+	    win.para strong("#{win}--#{@n}\n"), :stroke => color
+	  end
+	  
+	  button('parent'){hello red}
+	  button('child'){hello red, @w}
+	  para link('open a new window'){@w = open_new_window}
+	end
+
+**sample46.png**
+
+![sample46.png](http://github.com/ashbb/shoes_tutorial_html/tree/master%2Fimages%2Fsample46.png?raw=true)
+
+This screenshot shows the following.
++ open parent window.
++ in parent window, click parent button, output is --1
++ in parent window, click child button, output is --2
++ click 'open a new window' link, open a child window.
++ in child window, click parent button, output is --3
++ in child window, click child button, output is --4
++ in parent window, click parent button, output is --5
++ in parent window, click child button, output is --6
+

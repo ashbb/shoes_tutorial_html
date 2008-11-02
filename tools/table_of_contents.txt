@@ -50,6 +50,7 @@ Table of contents
 00527. Shoes::FONTS and External Fonts
 00528. Shoes Tutorial Note Launcher
 00529. UTF-8
+00530. Open a new app window
 00600.#Hot Topics in the Shoes ML and Shoooes.net
 00601. External Fonts
 00602. Locking edit_box
@@ -65,7 +66,7 @@ Table of contents
 
 Change log:
 -----------
-Nov 02st, 2008: Totally corrected English. Add the acknowledgment. <br>
+Nov 02st, 2008: Totally corrected English. Added acknowledgments, sample 46. Modified built-in constants <br>
 Nov 01st, 2008: Corrected typo of sample 31 <br>
 Oct 30th, 2008: Added a hot topic. <br>
 Oct 29th, 2008: Added a new sample 45. <br>
