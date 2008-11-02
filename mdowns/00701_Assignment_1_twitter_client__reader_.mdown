@@ -14,8 +14,8 @@ Example spec: <br>
 4. User interface image is:
 
 
-**stwitter_listener_snapshot.png**
+**stwitter\_listener\_snapshot.png**
 
-![twitter_listener_snapshot.png](http://github.com/ashbb/shoes\_tutorial\_html/tree/master%2Fimages%2Ftwitter_listener_snapshot.png?raw=true)
+![twitter\_listener\_snapshot.png](http://github.com/ashbb/shoes_tutorial_html/tree/master%2Fimages%2Ftwitter_listener_snapshot.png?raw=true)
 
 Have fun!
