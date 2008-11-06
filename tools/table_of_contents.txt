@@ -2,7 +2,7 @@ Shoes Tutorial Note
 ===================
 **- For the Shoes App Rookie Creators -**
 
-Nov. 2nd, 2008 by ashbb (Satoshi Asakawa)
+Nov. 7th, 2008 by ashbb (Satoshi Asakawa)
 
 Table of contents
 -----------------
@@ -66,6 +66,7 @@ Table of contents
 
 Change log:
 -----------
+Nov 07th, 2008: Added a new sample 47. <br>
 Nov 02st, 2008: Totally corrected English. Added acknowledgments, sample 46. Modified built-in constants <br>
 Nov 01st, 2008: Corrected typo of sample 31 <br>
 Oct 30th, 2008: Added a hot topic. <br>

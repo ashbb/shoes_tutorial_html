@@ -1,7 +1,7 @@
 App object and coding style
 ---------------------------
 
-A Shoes App object is a single window running code at a Shoes URL. When you switch Shoes URLs, a new App object is created. The App itself is a flow. There are three Shoes App object coding styles:
+A Shoes App object is a single window running code at a Shoes URL. When you switch Shoes URLs, a new App object is created. The App itself is a flow. There are four Shoes App object coding styles:
 
 	# sample16.rb
 	Shoes.app :width => 150, :height => 40 do
@@ -42,3 +42,13 @@ is the same as the above sample16.png.
 
  # sample18.png
 is the same as the above sample16.png.
+
+
+	# sample47.rb
+	blk = proc{para 'Hello world!', :align => 'center'}
+	
+	Shoes.app :width => 150, :height => 40, &blk
+
+ # sample47.png
+is the same as the above sample16.png.
+
