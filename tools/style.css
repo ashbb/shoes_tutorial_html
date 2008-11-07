@@ -1,0 +1,30 @@
+<script type="text/javascript" src="static/code_highlighter.js"></script>
+<script type="text/javascript" src="static/code_highlighter_ruby.js"></script>
+<style type="text/css">
+pre {
+	border: 1px solid black;
+	border-color: #BBB #DDD #DDD #BBB;
+	margin : 2em;
+	padding : 1em;
+	line-height: 1.2;
+	background: #EEE;
+	overflow: auto;
+}
+code {
+	font-size: 1.0em;
+	font-family: Lucida Console;
+}
+.ruby .comment {
+	color : green;
+}
+.ruby .string {
+	color : teal;
+}
+.ruby .keywords {
+	color : brown;
+}
+.ruby .brackets {
+	color : navy;
+}
+</style>
+
