@@ -2,7 +2,7 @@ Shoes Tutorial Note
 ===================
 **- For the Shoes App Rookie Creators -**
 
-Nov. 8th, 2008 by ashbb (Satoshi Asakawa)
+Nov. 13th, 2008 by ashbb (Satoshi Asakawa)
 
 Table of contents
 -----------------
@@ -66,6 +66,7 @@ Table of contents
 
 Change log:
 -----------
+Nov 13th, 2008: Added a new sample 48 into chapter 00530. <br>
 Nov 08th, 2008: Added Code Highlighter for html files. <br>
 Nov 07th, 2008: Added a new sample 47. <br>
 Nov 02st, 2008: Totally corrected English. Added acknowledgments, sample 46. Modified built-in constants <br>
@@ -81,6 +82,7 @@ Oct 23th, 2008: Added a new sample 43. <br>
 To do list:
 -----------
 Under consideration, now. :)
+- Code Highlighter replaces the character **&** to **&;**. Umm... not so good. :(
 
 Let's enjoy Ruby and Shoes programming!!
 ----------------------------------------
