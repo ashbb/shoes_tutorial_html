@@ -13,7 +13,7 @@ Dir.glob("../mdowns/*.mdown").each do |mfile|
   hfile = '../html/' + mfile.split('/').last.sub('.mdown', '.html')
   open(hfile, 'w') do |f|
     lines.each do |line|
-      line.gsub!('.mdown', '.html')
+      line.gsub!('.mdown', '.html') unless line[0].chr == "\t"
       if line[0, 2] == '!['
         fname = /^\!\[(.*)\]/.match(line).to_a[1]
         line = "![#{fname}](../images/#{fname})"

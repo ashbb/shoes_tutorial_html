@@ -96,6 +96,12 @@ We can use **Shoes.app** method to open a new app window.
 	
 	Shoes.app :title => "World Trip", :width => 200, :height => 100, &@blk
 
+
+__Note:__ <br>
+Code Highlighter has a bug. It may replace __&@__ to __&;@__ in the code falsely. :( <br>
+So, please use sample48.rb under src directory instead of above code. <br>
+
+
 **sample48.png**
 
 ![sample48.png](http://github.com/ashbb/shoes_tutorial_html/tree/master%2Fimages%2Fsample48.png?raw=true)
