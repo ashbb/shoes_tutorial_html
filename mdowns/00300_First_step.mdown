@@ -4,3 +4,45 @@ First step
 There is [a tutorial written by _why](http://shoooes.net/tutorial/).
 
 Now, copy and paste the whole 16 sample programs and run one by one. No need to understand the code meaning. Just run and look at the app window. This tutorial has screenshots, but be sure to run all 16 samples. Not later. Do it now, before going to the next, please. This is the most important step, I believe.
+
+
+A Tip: Quick Launcher
+---------------------
+Create .bashrc file and add this alias:
+
+	alias shoes='/Applications/Shoes.app/Contents/MacOS/shoes'
+	# your path might be different....
+
+Now you can type in a terminal window:
+
+	shoes sample1.rb
+
+Now you can quickly launch a shoes app without going through the open file dialog.
+
+*This tip is provided by George Thompson - Saturday, 15 November 2008, POIRPWSC101-1I*
+
+
+A Tip: Quick Launcher
+---------------------
+[The command to work with TextMate](http://samuraicoder.net/shoes.mov)
+
+*This tip is provided by Takaaki Kato - Saturday, 15 November 2008, POIRPWSC101-1I*
+
+
+A Tip: Quick Launcher
+---------------------
+The windows link in a "Tool Bar".
+
+**shoes_launcher.jpg**
+
+![shoes_launcher.jpg](http://github.com/ashbb/shoes_tutorial_html/tree/master%2Fimages%2Fshoes_launcher.jpg?raw=true)
+
+*This tip is provided by Victor Goff -- Saturday, 15 November 2008, POIRPWSC101-1I*
+
+
+A Tip: to Ubuntu 8.10 users
+---------------------------
+The documentation is no longer correct. It was for Ubuntu 8.04.
+For Ubuntu 8.10, the required libraries are libvlc-dev and libvlccore-dev instead of libvlc0-dev.
+
+*This tip is provided by Jose Carlos Monteiro - Saturday, 15 November 2008, POIRPWSC101-1I*

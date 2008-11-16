@@ -22,5 +22,7 @@ Dir.glob("../mdowns/*.mdown").each do |mfile|
     end
   end
   b = BlueCloth.new IO.read(hfile)
+  b.gsub!('(http://github.com/ashbb/shoes_tutorial_html/tree/master/mdowns/', '(../html/')
+  b.gsub!('.mdown)', '.html)')
   open(hfile, 'w'){|f| f.puts style_css, b.to_html.gsub(/<code>/, '<code class="ruby">')}
 end
