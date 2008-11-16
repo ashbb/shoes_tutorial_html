@@ -1,11 +1,4 @@
-Shoes Tutorial Note
-===================
-**- For the Shoes App Rookie Creators -**
-
-Nov. 16th, 2008 by ashbb (Satoshi Asakawa)
-
-Table of contents
------------------
+[Top page](http://github.com/ashbb/shoes_tutorial_html/tree/master/mdowns/inner_index.mdown)
 1. [Introduction](http://github.com/ashbb/shoes_tutorial_html/tree/master/mdowns/00100_Introduction.mdown)
 2. [Download Shoes](http://github.com/ashbb/shoes_tutorial_html/tree/master/mdowns/00200_Download_Shoes.mdown)
 3. [First step](http://github.com/ashbb/shoes_tutorial_html/tree/master/mdowns/00300_First_step.mdown)
@@ -63,34 +56,4 @@ Table of contents
 9. [Appendix](http://github.com/ashbb/shoes_tutorial_html/tree/master/mdowns/00900_Appendix.mdown)
 10. [Acknowledgment](http://github.com/ashbb/shoes_tutorial_html/tree/master/mdowns/01000_Acknowledgment.mdown)
 11. [Trivia](http://github.com/ashbb/shoes_tutorial_html/tree/master/mdowns/01100_Trivia.mdown)
-
-Change log:
------------
-Nov 16th, 2008: Merge a 'browser' feature (side list of contents) provided by George. <br>
-Nov 15th, 2008: Added four tips into chapter 00300. Improved mkmdown.rb and mkhtml.rb to treat .jpg files and to treat page-links. Added more explanation into chapter 00504 <br>
-Nov 14th, 2008: Fixed a bug in mkhtml.rb. Added a note into chapter 00528 and 00530 about BlueCloth's and Code Highlighter's bug. <br>
-Nov 13th, 2008: Added a new sample 48 into chapter 00530. <br>
-Nov 08th, 2008: Added Code Highlighter for html files. <br>
-Nov 07th, 2008: Added a new sample 47. <br>
-Nov 02st, 2008: Totally corrected English. Added acknowledgments, sample 46. Modified built-in constants <br>
-Nov 01st, 2008: Corrected typo of sample 31 <br>
-Oct 30th, 2008: Added a hot topic. <br>
-Oct 29th, 2008: Added a new sample 45. <br>
-Oct 28th, 2008: Modified the page of 'Shoes.setup' <br>
-Oct 27th, 2008: Added a new sample 44. <br>
-Oct 26th, 2008: Modified sample 8, changed the path of image. <br>
-Oct 24th, 2008: Revised tools and modified .mdown files for the easy eBook maker. <br>
-Oct 23th, 2008: Added a new sample 43. <br>
-
-To do list:
------------
-+ Add some new exercises which were created in the Ruby and Shoes programming course.
-+ Add sample program names in the table of contents.
-+ Improve the browser feature to resizable.
-
-Let's enjoy Ruby and Shoes programming!!
-----------------------------------------
-:-D
-
-ashbb
 

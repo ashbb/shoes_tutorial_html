@@ -1,13 +1,31 @@
 # mkhtml.rb
 require 'BlueCloth'
-
+ 
+#load style
+ 
+head = IO.read('./head.erb')
+ 
+#build intro page
+ 
 b = BlueCloth.new IO.read('../README.mdown')
 b.gsub!('(http://github.com/ashbb/shoes_tutorial_html/tree/master/mdowns/', '(../html/')
 b.gsub!('.mdown)', '.html)')
-open('../html/index.html', 'w'){|f| f.puts b.to_html}
-
-style_css = IO.read('./style.css')
-
+ 
+#introduce very simple template
+template = "<html><head>#{head}</head><body><div id='content'>#{b.to_html}<div></body></html>"
+open('../html/inner_index.html', 'w'){|f| f.puts template}
+ 
+#build index links
+b = BlueCloth.new IO.read('../inner_links.mdown')
+b.gsub!('(http://github.com/ashbb/shoes_tutorial_html/tree/master/mdowns/', '(../html/')
+b.gsub!('.mdown)', '.html)')
+ 
+#introduce very simple template
+template = "<html><head>#{head}</head><body><div id='nav'>#{b.to_html}</div></body></html>"
+open('../html/inner_links.html', 'w'){|f| f.puts template}
+ 
+# process directory of marked down files
+ 
 Dir.glob("../mdowns/*.mdown").each do |mfile|
   lines = IO.readlines mfile
   hfile = '../html/' + mfile.split('/').last.sub('.mdown', '.html')
@@ -24,5 +42,6 @@ Dir.glob("../mdowns/*.mdown").each do |mfile|
   b = BlueCloth.new IO.read(hfile)
   b.gsub!('(http://github.com/ashbb/shoes_tutorial_html/tree/master/mdowns/', '(../html/')
   b.gsub!('.mdown)', '.html)')
-  open(hfile, 'w'){|f| f.puts style_css, b.to_html.gsub(/<code>/, '<code class="ruby">')}
+  template = "<html><head>#{head}</head><body><div id='content'>#{b.to_html.gsub(/<code>/, '<code class="ruby">')}<div></body></html>"
+  open(hfile, 'w'){|f| f.puts template}
 end

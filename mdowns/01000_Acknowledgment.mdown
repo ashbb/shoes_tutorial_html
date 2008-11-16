@@ -9,3 +9,6 @@ Under consideration... :)
 - Jerry corrected the whole Shoes Tutorial Note markdown files.
 - Krzysztof, George and Sergio gave some good ideas.
   They were very useful to create sample codes.
+- George made good style sheets for html files and edited the tool, mkhtml.rb.
+- Takaaki, Jose, Vic showed good tips.
+

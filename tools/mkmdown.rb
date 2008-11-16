@@ -20,6 +20,19 @@ open('../README.mdown', 'w') do |f|
   end
 end unless File.exist? '../README.mdown'
 
+open('../inner_links.mdown', 'w') do |f|
+  flag = false
+  IO.read('../README.mdown').each do |line|
+    case line.chomp
+      when /^1. \[Introduction\]/
+        flag = true
+        f.puts "[Top page](http://github.com/ashbb/shoes_tutorial_html/tree/master/mdowns/inner_index.mdown)\n"
+      when 'Change log:' then break
+      else
+    end
+    f.puts line  if flag
+  end
+end
 
 # Import source code ../src/***.rb and create links to ../images/***.png (or.jpg)
 def read_src name
