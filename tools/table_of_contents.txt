@@ -2,7 +2,7 @@ Shoes Tutorial Note
 ===================
 **- For the Shoes App Rookie Creators -**
 
-Nov. 16th, 2008 by ashbb (Satoshi Asakawa)
+Nov. 17th, 2008 by ashbb (Satoshi Asakawa)
 
 Table of contents
 -----------------
@@ -66,6 +66,7 @@ Table of contents
 
 Change log:
 -----------
+Nov 17th, 2008: Added a new tool, mkbightml.rb, which make one big html file included whole contents of Shoes Tutorial Note. Now, just a trial revision. <br>
 Nov 16th, 2008: Merge a 'browser' feature (side list of contents) provided by George. <br>
 Nov 15th, 2008: Added four tips into chapter 00300. Improved mkmdown.rb and mkhtml.rb to treat .jpg files and to treat page-links. Added more explanation into chapter 00504 <br>
 Nov 14th, 2008: Fixed a bug in mkhtml.rb. Added a note into chapter 00528 and 00530 about BlueCloth's and Code Highlighter's bug. <br>
@@ -87,6 +88,7 @@ To do list:
 + Add some new exercises which were created in the Ruby and Shoes programming course.
 + Add sample program names in the table of contents.
 + Improve the browser feature to resizable.
++ Improve mkbightml.rb for creating PDF.
 
 Let's enjoy Ruby and Shoes programming!!
 ----------------------------------------
