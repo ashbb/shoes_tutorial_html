@@ -29,3 +29,10 @@ You can use the widget object with a block to respond to keypress or mouse event
 **sample36.png**
 
 ![sample36.png](http://github.com/ashbb/shoes_tutorial_html/tree/master%2Fimages%2Fsample36.png?raw=true)
+
+Click Yar and she will rotate (*1).
+
+*1: With Shoes-0.r925, Yar rotates well as expected. But with Shoes-0.r970, Yar rotates when the mouse moves out of the Shoes window. This behavior is a bug. It has been fixed in Shoes-0.r1057.
+
+
+
