@@ -3,4 +3,4 @@ Download Shoes
 
 Download Shoes from [this web site](http://shoooes.net/downloads/) and pick [the installer](http://help.shoooes.net/Introducing.html).
 
-We use the latest revision, **Shoes-0.r1057**, in this tutorial.
+We use the latest revision: **Shoes-0.r1091** or previous revision: **Shoes-0.r1057** in this tutorial.
