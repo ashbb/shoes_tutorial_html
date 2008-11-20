@@ -33,3 +33,33 @@ Shoes then creates a method using the lowercased name of the class which is used
 **sample22.png**
 
 ![sample22.png](http://github.com/ashbb/shoes_tutorial_html/tree/master%2Fimages%2Fsample22.png?raw=true)
+
+
+One more example
+----------------
+We can use __:left__ and __:top__ without definition in the custom class attributes.
+Because inherited from Shoes::Widget.
+
+	# sample49.rb
+	class Shoes::Widgy < Shoes::Widget
+	  def initialize opts = {}
+	    size = opts[:size] || 50
+	    fill opts[:color] || yellow
+	    rect 0, 0, size, size
+	  end
+	end
+	
+	Shoes.app :width => 300, :height => 300 do
+	  w1 = widgy :left => 50, :top => 50, :color => red
+	  w2 = widgy :left => 50, :top => 50, :color => blue, :size => 100
+	  w2.move 100, 100
+	  w3 = widgy
+	  w3.left = 200
+	  w3.top = 200
+	end
+
+**sample49.png**
+
+![sample49.png](http://github.com/ashbb/shoes_tutorial_html/tree/master%2Fimages%2Fsample49.png?raw=true)
+
+*Original idea is provided by Emanue Carnevale, in the Shoes ML.*

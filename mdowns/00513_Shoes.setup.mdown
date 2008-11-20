@@ -20,4 +20,24 @@ Clearing Up The Whole Shoes And RubyGems Deal <br>
 
 ![sample27.png](http://github.com/ashbb/shoes_tutorial_html/tree/master%2Fimages%2Fsample27.png?raw=true)
 
-But now, with Shoes-0.r1057, this feature doesn't work well... <== **Sorry, Shoes.setup works well!!**
+
+
+One more example
+----------------
+	# sample50.rb
+	Shoes.setup do
+	  gem 'sys-uname'
+	end
+	
+	require 'sys/uname'
+	include Sys
+	
+	Shoes.app :width => 300, :height => 50, :resizable => false do
+	    @platform = para Uname.sysname
+	end
+
+**sample50.png**
+
+![sample50.png](http://github.com/ashbb/shoes_tutorial_html/tree/master%2Fimages%2Fsample50.png?raw=true)
+
+*Original snippet was written by Massimiliano in the personal mail discussion.*

@@ -2,7 +2,7 @@ Shoes Tutorial Note
 ===================
 **- For the Shoes App Rookie Creators -**
 
-Nov. 18th, 2008 by ashbb (Satoshi Asakawa)
+Nov. 20th, 2008 by ashbb (Satoshi Asakawa)
 
 Table of contents
 -----------------
@@ -66,6 +66,7 @@ Table of contents
 
 Change log:
 -----------
+Nov 20th, 2008: Aded sample 49 into chapter 00508 and sample 50 into chapter 00513. <br>
 Nov 18th, 2008: Excuted all samples with Shoes-0.r1091 and updated some .png files and edited some .mdown files. <br>
 Nov 17th, 2008: Added a new tool, mkbightml.rb, which make one big html file included whole contents of Shoes Tutorial Note. Now, just a trial revision. <br>
 Nov 16th, 2008: Merge a 'browser' feature (side list of contents) provided by George. <br>
