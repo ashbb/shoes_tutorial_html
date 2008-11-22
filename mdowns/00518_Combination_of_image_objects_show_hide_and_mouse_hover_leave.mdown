@@ -143,7 +143,7 @@ tb.click{@f[n].toggle; @msg[n].text = ''} ----> tb.click{@f[n].toggle}
 
 The edited code is sample34-1.rb and the screenshot is sample34-1.png.
 
-The original idea for this menu-like user interface was provided by Krzysztop Wicher.
+*The original idea for this menu-like user interface was provided by Krzysztop Wicher.*
 
 **sample34-1.png**
 
