@@ -41,4 +41,8 @@ Shoes IRC channel
 \#shoes   on irc.freenode.net 
 
 
+the Shoes adventurer's list
+---------------------------
+<http://code.whytheluckystiff.net/list/shoes/>
+
 
