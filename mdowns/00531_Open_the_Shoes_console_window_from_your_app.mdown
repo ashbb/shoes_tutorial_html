@@ -1,0 +1,29 @@
+Open the Shoes console window from your app
+-------------------------------------------
+A little snippet to open the Shoes console window from your app.
+
+	# sample51.rb
+	require File.join(DIR, 'lib/shoes/log')
+	
+	Shoes.app :width => 200, :height => 200 do
+	  window{extend Shoes::LogWindow; setup}
+	
+	  # write your app code below
+	  background orange..green
+	  para strong 'This is a test program..', :stroke => white
+	  
+	  info DIR
+	  button 'debug', :bottom => 0, :left => 0 do
+	    debug 'hello'
+	  end
+	end
+
+**sample51.png**
+
+![sample51.png](http://github.com/ashbb/shoes_tutorial_html/tree/master%2Fimages%2Fsample51.png?raw=true)
+
+This screenshot shows the following.
++ click the button 'debug' twice on your app window
+
+
+

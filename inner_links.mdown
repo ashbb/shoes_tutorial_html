@@ -44,6 +44,7 @@
 	- [Shoes Tutorial Note Launcher](http://github.com/ashbb/shoes_tutorial_html/tree/master/mdowns/00528_Shoes_Tutorial_Note_Launcher.mdown)
 	- [UTF-8](http://github.com/ashbb/shoes_tutorial_html/tree/master/mdowns/00529_UTF-8.mdown)
 	- [Open a new app window](http://github.com/ashbb/shoes_tutorial_html/tree/master/mdowns/00530_Open_a_new_app_window.mdown)
+	- [Open the Shoes console window from your app](http://github.com/ashbb/shoes_tutorial_html/tree/master/mdowns/00531_Open_the_Shoes_console_window_from_your_app.mdown)
 6. Hot Topics in the Shoes ML and Shoooes.net
 	- [External Fonts](http://github.com/ashbb/shoes_tutorial_html/tree/master/mdowns/00601_External_Fonts.mdown)
 	- [Locking edit_box](http://github.com/ashbb/shoes_tutorial_html/tree/master/mdowns/00602_Locking_edit_box.mdown)
