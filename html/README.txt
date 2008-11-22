@@ -1,10 +1,15 @@
 This subdirectory is used to store .html files created by the tool: mkhtml.rb
 
-Run the following command line on the console (terminal) window.
+Run the following command lines on the console (terminal) window.
 
   C:\> ruby mkhtml.rb
 
 Then it'll create .html files here.
+
+  C:\> ruby mkbightml.rb
+
+Then it'll create ShoesTutorialNote.html file here. It includes whole contents in one big html file. This big html file is useful for transforming to PDF.
+
 
 You can read whole Shoes Tutorial Note offline.
 And you can run whole sample apps with Shoes, too. :-D
