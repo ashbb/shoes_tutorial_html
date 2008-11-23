@@ -2,7 +2,7 @@ Shoes Tutorial Note
 ===================
 **- For the Shoes App Rookie Creators -**
 
-Nov. 22th, 2008 by ashbb (Satoshi Asakawa)
+Nov. 23th, 2008 by ashbb (Satoshi Asakawa)
 
 Table of contents
 -----------------
@@ -67,6 +67,7 @@ Table of contents
 
 Change log:
 -----------
+Nov 23th, 2008: Improved mkmdown.rb to add sample program names in the table of contents. Added a new tool, mkpdf.rb. <br>
 Nov 22th, 2008: Added a new chapter 00531. Added a link to the Shoes adventurer's list into chapter 00900.<br>
 Nov 20th, 2008: Added sample 49 into chapter 00508 and sample 50 into chapter 00513. <br>
 Nov 18th, 2008: Excuted all samples with Shoes-0.r1091 and updated some .png files and edited some .mdown files. <br>
@@ -90,9 +91,9 @@ Oct 23th, 2008: Added a new sample 43. <br>
 To do list:
 -----------
 + Add some new exercises which were created in the Ruby and Shoes programming course.
-+ Add sample program names in the table of contents.
++ Improve mkpdf.rb to form more beautifully.
 + Improve the browser feature to resizable.
-+ Improve mkbightml.rb for creating PDF.
++ Improve mkbightml.rb for creating PDF file.
 
 Let's enjoy Ruby and Shoes programming!!
 ----------------------------------------

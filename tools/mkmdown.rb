@@ -7,7 +7,7 @@ def mk_link i, num, name
   fname = num + '_' + name.gsub(/[\&\#\!\(\)\\\/\:\*\?\"\<\>\| ]/, '_') + '.mdown'
   open('../mdowns/' + fname, 'w'){|f| f.puts name, '-' * name.length} unless File.exist?('../mdowns/' + fname)
   line = num[3..4] == '00' ? i.to_s + '. ' : "\t- "
-  line << "[#{name}](#{PATH + fname})"
+  line << "[#{num + ' ' + name}](#{PATH + fname})"
 end
 
 open('../README.mdown', 'w') do |f|
@@ -24,7 +24,7 @@ open('../inner_links.mdown', 'w') do |f|
   flag = false
   IO.read('../README.mdown').each do |line|
     case line.chomp
-      when /^1. \[Introduction\]/
+      when /^1. \[00100 Introduction\]/
         flag = true
         f.puts "[Top page](http://github.com/ashbb/shoes_tutorial_html/tree/master/mdowns/inner_index.mdown)\n"
       when 'Change log:' then break
@@ -58,6 +58,29 @@ Dir.glob("../mdowns/*.mdown").each do |file|
     end
   end
 end
+
+code_list ={}
+Dir.glob("../mdowns/*.mdown").each do |file|
+  lines = IO.readlines(file)
+  lines.each do |line|
+    key = file[10..-1]
+    line.sub(/^\t#(.*\.rb)/){code_list[key] ? code_list[key] << $1.strip : code_list[key] = [$1.strip]}
+  end
+end
+
+#inner_links = IO.readlines('../inner_links.mdown')
+inner_links = IO.readlines('../README.mdown')
+
+open('../README.mdown', 'w') do |f|
+  inner_links.collect do |line|
+    line.sub(/mdowns\/(.*.mdown)\)$/) do
+      key = $1
+      line = line.sub(/\]\(/, " (#{code_list[key].join(', ')})](") if code_list[key]
+    end
+    f.puts line
+  end
+end
+
 
 
 
