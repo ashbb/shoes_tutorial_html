@@ -5,7 +5,7 @@ _why gave us his one thousandth commit of Shoes on 24th Sep. Here is a new sampl
 
 **simple-slide.png**
 
-![simple-slide.png](http://github.com/ashbb/shoes_tutorial_html/tree/master%2Fimages%2Fsimple-slide.png?raw=true)
+![simple-slide.png](http://www.rin-shun.com/rubylearning/shoes/shoes_tutorial_html/images/simple-slide.png) <!-- patch -->
 
 Next sample code, sample37.rb, which works almost similar behavior of the text message slide-in by using mask and animate methods.
 
@@ -42,4 +42,4 @@ This is the screenshot.
 
 **sample37.png**
 
-![sample37.png](http://github.com/ashbb/shoes_tutorial_html/tree/master%2Fimages%2Fsample37.png?raw=true)
+![sample37.png](http://www.rin-shun.com/rubylearning/shoes/shoes_tutorial_html/images/sample37.png) <!-- patch -->

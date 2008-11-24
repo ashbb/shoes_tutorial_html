@@ -25,13 +25,13 @@ And _why shows us a wonderful combination with the animate method.
 
 **sample35.png**
 
-![sample35.png](http://github.com/ashbb/shoes_tutorial_html/tree/master%2Fimages%2Fsample35.png?raw=true)
+![sample35.png](http://www.rin-shun.com/rubylearning/shoes/shoes_tutorial_html/images/sample35.png) <!-- patch -->
 
 Started....
 
 **sample35-1.png**
 
-![sample35-1.png](http://github.com/ashbb/shoes_tutorial_html/tree/master%2Fimages%2Fsample35-1.png?raw=true)
+![sample35-1.png](http://www.rin-shun.com/rubylearning/shoes/shoes_tutorial_html/images/sample35-1.png) <!-- patch -->
 
 Almost finished....
 

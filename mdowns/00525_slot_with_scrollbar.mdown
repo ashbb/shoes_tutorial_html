@@ -17,4 +17,4 @@ The :scroll option establishes a slot as a scrolling slot.
 
 **sample41.png**
 
-![sample41.png](http://github.com/ashbb/shoes_tutorial_html/tree/master%2Fimages%2Fsample41.png?raw=true)
+![sample41.png](http://www.rin-shun.com/rubylearning/shoes/shoes_tutorial_html/images/sample41.png) <!-- patch -->

@@ -14,6 +14,6 @@ Example spec: <br>
 
 **sfootracer_screenshot.png**
 
-![footracer_screenshot.jpg](http://github.com/ashbb/shoes_tutorial_html/tree/master%2Fimages%2Ffootracer_screenshot.jpg?raw=true)
+![footracer_screenshot.jpg](http://www.rin-shun.com/rubylearning/shoes/shoes_tutorial_html/images/footracer_screenshot.jpg) <!-- patch -->
 
 Have fun!

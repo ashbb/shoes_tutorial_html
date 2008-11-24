@@ -28,7 +28,7 @@ You can use the widget object with a block to respond to keypress or mouse event
 
 **sample36.png**
 
-![sample36.png](http://github.com/ashbb/shoes_tutorial_html/tree/master%2Fimages%2Fsample36.png?raw=true)
+![sample36.png](http://www.rin-shun.com/rubylearning/shoes/shoes_tutorial_html/images/sample36.png) <!-- patch -->
 
 Click Yar and she will rotate (*1).
 

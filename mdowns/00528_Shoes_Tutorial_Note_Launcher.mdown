@@ -46,4 +46,4 @@ So, please use sample44.rb under src directory instead of above code. <br>
 
 **sample44.png**
 
-![sample44.png](http://github.com/ashbb/shoes_tutorial_html/tree/master%2Fimages%2Fsample44.png?raw=true)
+![sample44.png](http://www.rin-shun.com/rubylearning/shoes/shoes_tutorial_html/images/sample44.png) <!-- patch -->

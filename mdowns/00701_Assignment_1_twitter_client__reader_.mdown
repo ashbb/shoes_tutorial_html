@@ -16,6 +16,6 @@ Example spec: <br>
 
 **twitter\_listener\_snapshot.png**
 
-![twitter\_listener\_snapshot.png](http://github.com/ashbb/shoes_tutorial_html/tree/master%2Fimages%2Ftwitter_listener_snapshot.png?raw=true)
+![twitter\_listener\_snapshot.png](http://www.rin-shun.com/rubylearning/shoes/shoes_tutorial_html/images/twitter_listener_snapshot.png) <!-- patch -->
 
 Have fun!

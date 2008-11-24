@@ -27,4 +27,4 @@ Cut Holes In Shoes And Get A Mask <br>
 
 **sample24.png**
 
-![sample24.png](http://github.com/ashbb/shoes_tutorial_html/tree/master%2Fimages%2Fsample24.png?raw=true)
+![sample24.png](http://www.rin-shun.com/rubylearning/shoes/shoes_tutorial_html/images/sample24.png) <!-- patch -->

@@ -32,7 +32,7 @@ Shoes then creates a method using the lowercased name of the class which is used
 
 **sample22.png**
 
-![sample22.png](http://github.com/ashbb/shoes_tutorial_html/tree/master%2Fimages%2Fsample22.png?raw=true)
+![sample22.png](http://www.rin-shun.com/rubylearning/shoes/shoes_tutorial_html/images/sample22.png) <!-- patch -->
 
 
 One more example
@@ -60,6 +60,6 @@ Because inherited from Shoes::Widget.
 
 **sample49.png**
 
-![sample49.png](http://github.com/ashbb/shoes_tutorial_html/tree/master%2Fimages%2Fsample49.png?raw=true)
+![sample49.png](http://www.rin-shun.com/rubylearning/shoes/shoes_tutorial_html/images/sample49.png) <!-- patch -->
 
 *Original idea is provided by Emanue Carnevale, in the Shoes ML.*

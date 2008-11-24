@@ -12,7 +12,7 @@ Sample38.rb has #! shoes on its first line. The shell will see that the program 
 
 **sample38.png**
 
-![sample38.png](http://github.com/ashbb/shoes_tutorial_html/tree/master%2Fimages%2Fsample38.png?raw=true)
+![sample38.png](http://www.rin-shun.com/rubylearning/shoes/shoes_tutorial_html/images/sample38.png) <!-- patch -->
 
 Write code with SciTE and push F5, then kick up Shoes!
 

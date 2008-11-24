@@ -26,7 +26,7 @@ This information was provided by Sergio Silva.
 
 **sample40.png**
 
-![sample40.png](http://github.com/ashbb/shoes_tutorial_html/tree/master%2Fimages%2Fsample40.png?raw=true)
+![sample40.png](http://www.rin-shun.com/rubylearning/shoes/shoes_tutorial_html/images/sample40.png) <!-- patch -->
 
 We can use the :center option to specify the coordinates. But it works well only in the case of the oval and rect, not the star method. If we add an undefined option like :oops as one of the arguments, no error will occur and nothing will happen, it will just be ignored.
 
@@ -65,6 +65,6 @@ I don't know if this behavior is a spec or a bug...
 
 **sample40-1.png**
 
-![sample40-1.png](http://github.com/ashbb/shoes_tutorial_html/tree/master%2Fimages%2Fsample40-1.png?raw=true)
+![sample40-1.png](http://www.rin-shun.com/rubylearning/shoes/shoes_tutorial_html/images/sample40-1.png) <!-- patch -->
 
 In the above sample40-1, the oval and rect methods accepted the :center option, but the star method ignored it as it ignored the undefined option :oops.

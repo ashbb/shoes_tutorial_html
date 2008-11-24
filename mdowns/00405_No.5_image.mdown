@@ -12,4 +12,4 @@ We can use the directory path or URL.
 
 **sample6.png**
 
-![sample6.png](http://github.com/ashbb/shoes_tutorial_html/tree/master%2Fimages%2Fsample6.png?raw=true)
+![sample6.png](http://www.rin-shun.com/rubylearning/shoes/shoes_tutorial_html/images/sample6.png) <!-- patch -->

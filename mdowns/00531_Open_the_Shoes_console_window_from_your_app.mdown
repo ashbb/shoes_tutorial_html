@@ -20,7 +20,7 @@ A little snippet to open the Shoes console window from your app.
 
 **sample51.png**
 
-![sample51.png](http://github.com/ashbb/shoes_tutorial_html/tree/master%2Fimages%2Fsample51.png?raw=true)
+![sample51.png](http://www.rin-shun.com/rubylearning/shoes/shoes_tutorial_html/images/sample51.png) <!-- patch -->
 
 This screenshot shows the following.
 + click the button 'debug' twice on your app window

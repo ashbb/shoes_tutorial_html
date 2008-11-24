@@ -21,7 +21,7 @@ But use (run) the following sample code instead of the one on the above web page
 
 **sample3.png**
 
-![sample3.png](http://github.com/ashbb/shoes_tutorial_html/tree/master%2Fimages%2Fsample3.png?raw=true)
+![sample3.png](http://www.rin-shun.com/rubylearning/shoes/shoes_tutorial_html/images/sample3.png) <!-- patch -->
 
 More complex sample code:
 
@@ -57,5 +57,5 @@ More complex sample code:
 
 **sample4.png**
 
-![sample4.png](http://github.com/ashbb/shoes_tutorial_html/tree/master%2Fimages%2Fsample4.png?raw=true)
+![sample4.png](http://www.rin-shun.com/rubylearning/shoes/shoes_tutorial_html/images/sample4.png) <!-- patch -->
 

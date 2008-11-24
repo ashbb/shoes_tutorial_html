@@ -27,4 +27,4 @@ Shoes Manual: font <br>
 
 **sample43.png**
 
-![sample43.png](http://github.com/ashbb/shoes_tutorial_html/tree/master%2Fimages%2Fsample43.png?raw=true)
+![sample43.png](http://www.rin-shun.com/rubylearning/shoes/shoes_tutorial_html/images/sample43.png) <!-- patch -->

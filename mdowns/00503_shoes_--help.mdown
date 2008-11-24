@@ -9,22 +9,22 @@ shoes --help <br>
 
 **shoes_help.png**
 
-![shoes_help.png](http://github.com/ashbb/shoes_tutorial_html/tree/master%2Fimages%2Fshoes_help.png?raw=true)
+![shoes_help.png](http://www.rin-shun.com/rubylearning/shoes/shoes_tutorial_html/images/shoes_help.png) <!-- patch -->
 
 
 **shoes_version.png**
 
-![shoes_version.png](http://github.com/ashbb/shoes_tutorial_html/tree/master%2Fimages%2Fshoes_version.png?raw=true)
+![shoes_version.png](http://www.rin-shun.com/rubylearning/shoes/shoes_tutorial_html/images/shoes_version.png) <!-- patch -->
 
 
 **shoes\_download\_test.png**
 
-![shoes\_download\_test.png](http://github.com/ashbb/shoes_tutorial_html/tree/master%2Fimages%2Fshoes_download_test.png?raw=true)
+![shoes\_download\_test.png](http://www.rin-shun.com/rubylearning/shoes/shoes_tutorial_html/images/shoes_download_test.png) <!-- patch -->
 
 
 **shoes_gem.png**
 
-![shoes_gem.png](http://github.com/ashbb/shoes_tutorial_html/tree/master%2Fimages%2Fshoes_gem.png?raw=true)
+![shoes_gem.png](http://www.rin-shun.com/rubylearning/shoes/shoes_tutorial_html/images/shoes_gem.png) <!-- patch -->
 
 shoes -g install hpricot <br>
 shoes -g install mechanize <br>
@@ -32,12 +32,12 @@ With Shoes-0.r1091, it works well! <br>
 
 **shoes_gem-1.png**
 
-![shoes_gem-1.png](http://github.com/ashbb/shoes_tutorial_html/tree/master%2Fimages%2Fshoes_gem-1.png?raw=true)
+![shoes_gem-1.png](http://www.rin-shun.com/rubylearning/shoes/shoes_tutorial_html/images/shoes_gem-1.png) <!-- patch -->
 
 
 **shoes_shy-1.png**
 
-![shoes_shy-1.png](http://github.com/ashbb/shoes_tutorial_html/tree/master%2Fimages%2Fshoes_shy-1.png?raw=true)
+![shoes_shy-1.png](http://www.rin-shun.com/rubylearning/shoes/shoes_tutorial_html/images/shoes_shy-1.png) <!-- patch -->
 
 After Shoes-0.r1057,the above message appears. <br>
 Because this feature is included in 'shoes --package'. <br>
@@ -45,7 +45,7 @@ Because this feature is included in 'shoes --package'. <br>
 
 **shoes_package.png**
 
-![shoes_package.png](http://github.com/ashbb/shoes_tutorial_html/tree/master%2Fimages%2Fshoes_package.png?raw=true)
+![shoes_package.png](http://www.rin-shun.com/rubylearning/shoes/shoes_tutorial_html/images/shoes_package.png) <!-- patch -->
 
 File select: sample1.rb <br>
 It works well. sample1.exe is created. And it can be executed well.<br>
@@ -57,7 +57,7 @@ Now still under construction...
 
 **shoes_manual-html.png**
 
-![shoes_manual-html.png](http://github.com/ashbb/shoes_tutorial_html/tree/master%2Fimages%2Fshoes_manual-html.png?raw=true)
+![shoes_manual-html.png](http://www.rin-shun.com/rubylearning/shoes/shoes_tutorial_html/images/shoes_manual-html.png) <!-- patch -->
 
 C:\>cd C:\Program Files\Common Files\Shoes\0.r1091 <br>
 C:\Program Files\Common Files\Shoes\0.r1091>shoes --manual-html C:\rubyprograms\shoes\0.r1091_manual <br>
@@ -67,4 +67,4 @@ It works well! Html files were created in my pc. Cool! <br>
 
 **shoes_manual-html2.png**
 
-![shoes_manual-html2.png](http://github.com/ashbb/shoes_tutorial_html/tree/master%2Fimages%2Fshoes_manual-html2.png?raw=true)
+![shoes_manual-html2.png](http://www.rin-shun.com/rubylearning/shoes/shoes_tutorial_html/images/shoes_manual-html2.png) <!-- patch -->

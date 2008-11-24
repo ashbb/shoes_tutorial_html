@@ -20,7 +20,7 @@ It also takes an optional block that will be used to replace the contents of the
 
 **sample12.png**
 
-![sample12.png](http://github.com/ashbb/shoes_tutorial_html/tree/master%2Fimages%2Fsample12.png?raw=true)
+![sample12.png](http://www.rin-shun.com/rubylearning/shoes/shoes_tutorial_html/images/sample12.png) <!-- patch -->
 
 The append and remove methods are also useful.
 
@@ -42,4 +42,4 @@ The append and remove methods are also useful.
 
 **sample13.png**
 
-![sample13.png](http://github.com/ashbb/shoes_tutorial_html/tree/master%2Fimages%2Fsample13.png?raw=true)
+![sample13.png](http://www.rin-shun.com/rubylearning/shoes/shoes_tutorial_html/images/sample13.png) <!-- patch -->

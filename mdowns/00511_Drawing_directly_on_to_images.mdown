@@ -30,7 +30,7 @@ In the sample app below, Cy (green creature) has a star! <br>
 
 **sample25.png**
 
-![sample25.png](http://github.com/ashbb/shoes_tutorial_html/tree/master%2Fimages%2Fsample25.png?raw=true)
+![sample25.png](http://www.rin-shun.com/rubylearning/shoes/shoes_tutorial_html/images/sample25.png) <!-- patch -->
 
 If you are using Shoes-0.r970, you need move the mouse off of the image once. After that it works well. <br>
 With Shoes-0.r1057, there is no need to do that.

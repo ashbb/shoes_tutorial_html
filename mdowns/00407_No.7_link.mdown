@@ -12,4 +12,4 @@ Hyperlinks. We have three ways to write the links.
 
 **sample8.png**
 
-![sample8.png](http://github.com/ashbb/shoes_tutorial_html/tree/master%2Fimages%2Fsample8.png?raw=true)
+![sample8.png](http://www.rin-shun.com/rubylearning/shoes/shoes_tutorial_html/images/sample8.png) <!-- patch -->

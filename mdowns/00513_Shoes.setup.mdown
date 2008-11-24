@@ -18,7 +18,7 @@ Clearing Up The Whole Shoes And RubyGems Deal <br>
 
 **sample27.png**
 
-![sample27.png](http://github.com/ashbb/shoes_tutorial_html/tree/master%2Fimages%2Fsample27.png?raw=true)
+![sample27.png](http://www.rin-shun.com/rubylearning/shoes/shoes_tutorial_html/images/sample27.png) <!-- patch -->
 
 
 
@@ -38,6 +38,6 @@ One more example
 
 **sample50.png**
 
-![sample50.png](http://github.com/ashbb/shoes_tutorial_html/tree/master%2Fimages%2Fsample50.png?raw=true)
+![sample50.png](http://www.rin-shun.com/rubylearning/shoes/shoes_tutorial_html/images/sample50.png) <!-- patch -->
 
 *Original snippet was written by Massimiliano in the personal mail discussion.*
