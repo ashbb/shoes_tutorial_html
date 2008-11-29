@@ -1,6 +1,6 @@
 # sample39.rb
 
-require 'sample39_creature'
+require 'sample39-creature'
 
 Shoes.app :title => 'go next', :width => 300, :height => 300 do
   background moccasin, :margin=> 20, :curve => 20
