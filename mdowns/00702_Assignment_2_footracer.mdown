@@ -12,8 +12,8 @@ Example spec: <br>
 5. User interface image is:
 
 
-**sfootracer_screenshot.png**
+**footracer\_screenshot.png**
 
-![footracer_screenshot.jpg](http://www.rin-shun.com/rubylearning/shoes/shoes_tutorial_html/images/footracer_screenshot.jpg) <!-- patch -->
+![footracer\_screenshot.jpg](http://www.rin-shun.com/rubylearning/shoes/shoes_tutorial_html/images/footracer_screenshot.jpg) <!-- patch -->
 
 Have fun!
