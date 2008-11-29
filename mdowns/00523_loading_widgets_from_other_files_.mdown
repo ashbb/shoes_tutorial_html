@@ -1,7 +1,7 @@
 loading widgets from other files?
 ---------------------------------
 
-Sample39.rb has a require method to load the custom widget class stored in the other file <br>(sample39_creature.rb). <br>
+Sample39.rb has a require method to load the custom widget class stored in the other file <br>(sample39-creature.rb). <br>
 
 loading widgets from other files? <br>
 <http://www.mail-archive.com/shoes@code.whytheluckystiff.net/msg01971.html> <br>
@@ -11,7 +11,7 @@ The Main App and Its Requires <br>
 
 	# sample39.rb
 	
-	require 'sample39_creature'
+	require 'sample39-creature'
 	
 	Shoes.app :title => 'go next', :width => 300, :height => 300 do
 	  background moccasin, :margin=> 20, :curve => 20
@@ -35,7 +35,7 @@ The Main App and Its Requires <br>
 
 ![sample39.png](http://www.rin-shun.com/rubylearning/shoes/shoes_tutorial_html/images/sample39.png) <!-- patch -->
 
-	# sample39_creature.rb
+	# sample39-creature.rb
 	class Shoes::Creature < Shoes::Widget
 	  def initialize path, x, y
 	    @path = path

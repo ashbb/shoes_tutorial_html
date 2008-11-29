@@ -1,5 +1,5 @@
-Locking edit_box
-----------------
+Locking edit\_box
+-----------------
 
 If Shoes makes the edit_box read-only, we can select (copy) text data from it. <br>
 

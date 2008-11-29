@@ -2,7 +2,7 @@ Shoes Tutorial Note
 ===================
 **- For the Shoes App Rookie Creators -**
 
-Nov. 24th, 2008 by ashbb (Satoshi Asakawa)
+Nov. 29th, 2008 by ashbb (Satoshi Asakawa)
 
 Table of contents
 -----------------
@@ -15,7 +15,7 @@ Table of contents
 	- [00403 No.2&3 stack and flow (sample3.rb, sample4.rb)](http://github.com/ashbb/shoes_tutorial_html/tree/master/mdowns/00403_No.2_3_stack_and_flow.mdown)
 	- [00404 No.4 button (sample5.rb)](http://github.com/ashbb/shoes_tutorial_html/tree/master/mdowns/00404_No.4_button.mdown)
 	- [00405 No.5 image (sample6.rb)](http://github.com/ashbb/shoes_tutorial_html/tree/master/mdowns/00405_No.5_image.mdown)
-	- [00406 No.6 edit_line (sample7.rb, sample7-1.rb)](http://github.com/ashbb/shoes_tutorial_html/tree/master/mdowns/00406_No.6_edit_line.mdown)
+	- [00406 No.6 edit\_line (sample7.rb, sample7-1.rb)](http://github.com/ashbb/shoes_tutorial_html/tree/master/mdowns/00406_No.6_edit__line.mdown)
 	- [00407 No.7 link (sample8.rb)](http://github.com/ashbb/shoes_tutorial_html/tree/master/mdowns/00407_No.7_link.mdown)
 	- [00408 No.8 background (sample9.rb, sample10.rb)](http://github.com/ashbb/shoes_tutorial_html/tree/master/mdowns/00408_No.8_background.mdown)
 	- [00409 No.9 Shoes.url (sample11.rb)](http://github.com/ashbb/shoes_tutorial_html/tree/master/mdowns/00409_No.9_Shoes.url.mdown)
@@ -43,7 +43,7 @@ Table of contents
 	- [00520 widget with block (sample36.rb)](http://github.com/ashbb/shoes_tutorial_html/tree/master/mdowns/00520_widget_with_block.mdown)
 	- [00521 text message slide-in (sample37.rb)](http://github.com/ashbb/shoes_tutorial_html/tree/master/mdowns/00521_text_message_slide-in.mdown)
 	- [00522 #! shoes (sample38.rb, sample38-1.rb)](http://github.com/ashbb/shoes_tutorial_html/tree/master/mdowns/00522____shoes.mdown)
-	- [00523 loading widgets from other files? (sample39.rb, sample39_creature.rb)](http://github.com/ashbb/shoes_tutorial_html/tree/master/mdowns/00523_loading_widgets_from_other_files_.mdown)
+	- [00523 loading widgets from other files? (sample39.rb, sample39-creature.rb)](http://github.com/ashbb/shoes_tutorial_html/tree/master/mdowns/00523_loading_widgets_from_other_files_.mdown)
 	- [00524 optional arguments (sample40.rb, sample40-1.rb)](http://github.com/ashbb/shoes_tutorial_html/tree/master/mdowns/00524_optional_arguments.mdown)
 	- [00525 slot with scrollbar (sample41.rb)](http://github.com/ashbb/shoes_tutorial_html/tree/master/mdowns/00525_slot_with_scrollbar.mdown)
 	- [00526 The :state style (sample42.rb)](http://github.com/ashbb/shoes_tutorial_html/tree/master/mdowns/00526_The__state_style.mdown)
@@ -54,7 +54,7 @@ Table of contents
 	- [00531 Open the Shoes console window from your app (sample51.rb)](http://github.com/ashbb/shoes_tutorial_html/tree/master/mdowns/00531_Open_the_Shoes_console_window_from_your_app.mdown)
 6. Hot Topics in the Shoes ML and Shoooes.net
 	- [00601 External Fonts](http://github.com/ashbb/shoes_tutorial_html/tree/master/mdowns/00601_External_Fonts.mdown)
-	- [00602 Locking edit_box](http://github.com/ashbb/shoes_tutorial_html/tree/master/mdowns/00602_Locking_edit_box.mdown)
+	- [00602 Locking edit\_box](http://github.com/ashbb/shoes_tutorial_html/tree/master/mdowns/00602_Locking_edit__box.mdown)
 	- [00603 Styling Master List](http://github.com/ashbb/shoes_tutorial_html/tree/master/mdowns/00603_Styling_Master_List.mdown)
 	- [00604 Trying to ease the RubyGems pain](http://github.com/ashbb/shoes_tutorial_html/tree/master/mdowns/00604_Trying_to_ease_the_RubyGems_pain.mdown)
 7. Assignment
@@ -67,6 +67,7 @@ Table of contents
 
 Change log:
 -----------
+Nov 29th, 2008: Modified file name '_' to '-' for github spec change or bug.
 Nov 24th, 2008: Added a new tool, patch.rb, which replace image-file-path-on-github. This is a temporary patch. Because I'm not sure about a github spec change or a bug.<br>
 Nov 23th, 2008: Improved mkmdown.rb to add sample program names in the table of contents. Added a new tool, mkpdf.rb. <br>
 Nov 22th, 2008: Added a new chapter 00531. Added a link to the Shoes adventurer's list into chapter 00900.<br>

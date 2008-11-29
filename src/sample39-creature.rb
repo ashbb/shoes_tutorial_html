@@ -1,4 +1,4 @@
-# sample39_creature.rb
+# sample39-creature.rb
 class Shoes::Creature < Shoes::Widget
   def initialize path, x, y
     @path = path

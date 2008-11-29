@@ -1,5 +1,5 @@
-No. 6: edit_line
---------------
+No. 6: edit\_line
+-----------------
 
 
 Edit boxes are wide, rectangular boxes for entering text. 

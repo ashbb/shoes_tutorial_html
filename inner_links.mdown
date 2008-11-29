@@ -8,7 +8,7 @@
 	- [00403 No.2&3 stack and flow](http://github.com/ashbb/shoes_tutorial_html/tree/master/mdowns/00403_No.2_3_stack_and_flow.mdown)
 	- [00404 No.4 button](http://github.com/ashbb/shoes_tutorial_html/tree/master/mdowns/00404_No.4_button.mdown)
 	- [00405 No.5 image](http://github.com/ashbb/shoes_tutorial_html/tree/master/mdowns/00405_No.5_image.mdown)
-	- [00406 No.6 edit_line](http://github.com/ashbb/shoes_tutorial_html/tree/master/mdowns/00406_No.6_edit_line.mdown)
+	- [00406 No.6 edit\_line](http://github.com/ashbb/shoes_tutorial_html/tree/master/mdowns/00406_No.6_edit__line.mdown)
 	- [00407 No.7 link](http://github.com/ashbb/shoes_tutorial_html/tree/master/mdowns/00407_No.7_link.mdown)
 	- [00408 No.8 background](http://github.com/ashbb/shoes_tutorial_html/tree/master/mdowns/00408_No.8_background.mdown)
 	- [00409 No.9 Shoes.url](http://github.com/ashbb/shoes_tutorial_html/tree/master/mdowns/00409_No.9_Shoes.url.mdown)
@@ -47,7 +47,7 @@
 	- [00531 Open the Shoes console window from your app](http://github.com/ashbb/shoes_tutorial_html/tree/master/mdowns/00531_Open_the_Shoes_console_window_from_your_app.mdown)
 6. Hot Topics in the Shoes ML and Shoooes.net
 	- [00601 External Fonts](http://github.com/ashbb/shoes_tutorial_html/tree/master/mdowns/00601_External_Fonts.mdown)
-	- [00602 Locking edit_box](http://github.com/ashbb/shoes_tutorial_html/tree/master/mdowns/00602_Locking_edit_box.mdown)
+	- [00602 Locking edit\_box](http://github.com/ashbb/shoes_tutorial_html/tree/master/mdowns/00602_Locking_edit__box.mdown)
 	- [00603 Styling Master List](http://github.com/ashbb/shoes_tutorial_html/tree/master/mdowns/00603_Styling_Master_List.mdown)
 	- [00604 Trying to ease the RubyGems pain](http://github.com/ashbb/shoes_tutorial_html/tree/master/mdowns/00604_Trying_to_ease_the_RubyGems_pain.mdown)
 7. Assignment
