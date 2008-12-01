@@ -50,7 +50,7 @@ Because this feature is included in 'shoes --package'. <br>
 File select: sample1.rb <br>
 It works well. sample1.exe is created. And it can be executed well.<br>
 
-Directory select: code_wrapper\_on\_shoes\_v0.2s <br>
+Directory select: code\_wrapper\_on\_shoes\_v0.2s <br>
 code\_wrapper\_on\_shoes\_v0.2s.exe is created. But it is not executed well. :( <br>
 Now still under construction... 
 
