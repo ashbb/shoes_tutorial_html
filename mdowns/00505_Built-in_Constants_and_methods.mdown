@@ -2,13 +2,13 @@ Built-in Constants and methods
 ------------------------------
 
 Built-in Constants: <br>
-Shoes::RELEASE_NAME <br>
-Shoes::RELEASE_ID <br>
+Shoes::RELEASE\_NAME <br>
+Shoes::RELEASE\_ID <br>
 Shoes::REVISION <br>
 Shoes::FONTS <br>
 
 Built-in methods: <br>
 These methods can be used anywhere throughout Shoes programs: <br>
-  alert, ask, ask_color, ask\_open\_file, ask\_save\_file, ask\_open\_folder, ask\_save\_folder, confirm, debug, error, exit, font, gradient, gray, info, rgb, warn <br>
+  alert, ask, ask\_color, ask\_open\_file, ask\_save\_file, ask\_open\_folder, ask\_save\_folder, confirm, debug, error, exit, font, gradient, gray, info, rgb, warn <br>
 
 Read the Built-in manual -> Shoes -> Built-in section. <br>

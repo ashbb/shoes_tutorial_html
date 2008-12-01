@@ -17,12 +17,15 @@ Scope: A tip about using YAML files
 The top-level namespace in any Shoes app is Shoes <br>
 so in sample19.rb <br>
 
- Gang = Struct.new :name, :country <br>
+	Gang = Struct.new :name, :country <br>
 
 It really make a Shoes::Gang struct, not a Gang struct,  <br>
 so change that line to this and it (sample19-1.rb) works well.  <br>
 
- ::Gang = Struct.new :name, :country <br>
+	::Gang = Struct.new :name, :country <br>
+
+Modified code is
+
 
 	# sample19-1.rb
 	require 'yaml'

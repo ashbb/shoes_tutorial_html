@@ -1,7 +1,7 @@
 text message slide-in
 ---------------------
 
-_why gave us his one thousandth commit of Shoes on 24th Sep. Here is a new sample - simple-slide.rb: showing slide-in slide-out animation.
+\_why gave us his one thousandth commit of Shoes on 24th Sep. Here is a new sample - simple-slide.rb: showing slide-in slide-out animation.
 
 **simple-slide.png**
 

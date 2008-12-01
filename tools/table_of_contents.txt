@@ -2,7 +2,7 @@ Shoes Tutorial Note
 ===================
 **- For the Shoes App Rookie Creators -**
 
-Nov. 29th, 2008 by ashbb (Satoshi Asakawa)
+Dec. 1st, 2008 by ashbb (Satoshi Asakawa)
 
 Table of contents
 -----------------
@@ -68,6 +68,7 @@ Table of contents
 
 Change log:
 -----------
+Dec 01st, 2008: Added '\\' in front of '\_' for githb spec change or bug. <br>
 Nov 29th, 2008: Modified file name '\_' to '-' for github spec change or bug. Added assignment 3. <br>
 Nov 24th, 2008: Added a new tool, patch.rb, which replace image-file-path-on-github. This is a temporary patch. Because I'm not sure about a github spec change or a bug.<br>
 Nov 23th, 2008: Improved mkmdown.rb to add sample program names in the table of contents. Added a new tool, mkpdf.rb. <br>

@@ -30,9 +30,9 @@ You can use the widget object with a block to respond to keypress or mouse event
 
 ![sample36.png](http://www.rin-shun.com/rubylearning/shoes/shoes_tutorial_html/images/sample36.png) <!-- patch -->
 
-Click Yar and she will rotate (*1).
+Click Yar and she will rotate (\*1).
 
-*1: With Shoes-0.r925, Yar rotates well as expected. But with Shoes-0.r970, Yar rotates when the mouse moves out of the Shoes window. This behavior is a bug. It has been fixed in Shoes-0.r1057. <br>
+\*1: With Shoes-0.r925, Yar rotates well as expected. But with Shoes-0.r970, Yar rotates when the mouse moves out of the Shoes window. This behavior is a bug. It has been fixed in Shoes-0.r1057. <br>
 Oops, Shoes-0.r1091 behaves as same as Shoes-0.r970. Maybe it's a bug again...
 
 

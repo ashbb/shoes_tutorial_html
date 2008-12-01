@@ -1,7 +1,7 @@
 Trying to ease the RubyGems pain
 --------------------------------
 
-_why announced that he is trying to ease the RubyGems pain.
+\_why announced that he is trying to ease the RubyGems pain.
 
 Some issues are:
 

@@ -6,7 +6,7 @@ Picked up some topics here which were discussed in the Shoes ML nowadays.
 External Fonts
 --------------
 
-_why added support to Shoes for loading .ttf and .otf files (and others, depending on your platform.) <br>
+\_why added support to Shoes for loading .ttf and .otf files (and others, depending on your platform.) <br>
 Can't wait next build. <br>
 
 

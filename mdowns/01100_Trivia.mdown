@@ -1,7 +1,7 @@
 Trivia
 ------
 
-list_box needs to set :height explicitly
+list\_box needs to set :height explicitly
 ----------------------------------------
 
 	# sample91.rb
@@ -16,7 +16,7 @@ list_box needs to set :height explicitly
 ![sample91.png](http://www.rin-shun.com/rubylearning/shoes/shoes_tutorial_html/images/sample91.png) <!-- patch -->
 
 Try to comment out :height => 30 and run. <br>
-The list_box doesn't show the items. <br>
+The list\_box doesn't show the items. <br>
 This strange behavior occurs only on Windows. On Mac OS X, it doesn't. <br>
 
 This OS X information was provided by George Thompson. <br>

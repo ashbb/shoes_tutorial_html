@@ -20,7 +20,7 @@ Edit lines are a slender, little box for entering one line of text.
 
 ![sample7.png](http://www.rin-shun.com/rubylearning/shoes/shoes_tutorial_html/images/sample7.png) <!-- patch -->
 
-We can use :secret in the edit_line area.
+We can use :secret in the edit\_line area.
 
 	# sample7-1.rb
 	Shoes.app :width => 235, :height => 80 do

@@ -1,7 +1,7 @@
 Introduction
 ------------
 
-Shoes is a cross-platform tiny graphics and windowing toolkit for the Ruby programming language written by [_why](http://en.wikipedia.org/wiki/Why_the_lucky_stiff).
+Shoes is a cross-platform tiny graphics and windowing toolkit for the Ruby programming language written by [\_why](http://en.wikipedia.org/wiki/Why_the_lucky_stiff).
 
 All sample programs and data files in this tutorial can be downloaded from [here](http://github.com/ashbb/shoes_tutorial/tree/master).
 

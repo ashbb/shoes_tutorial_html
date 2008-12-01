@@ -18,7 +18,7 @@ Or select from the menu. See here. <br>
 To open the Shoes console window,  <br>
 type  Alt + /   on any Shoes app window. <br>
 
-**shoes_console.png**
+**shoes\_console.png**
 
-![shoes_console.png](http://www.rin-shun.com/rubylearning/shoes/shoes_tutorial_html/images/shoes_console.png) <!-- patch -->
+![shoes\_console.png](http://www.rin-shun.com/rubylearning/shoes/shoes_tutorial_html/images/shoes_console.png) <!-- patch -->
 

@@ -33,9 +33,9 @@ A Tip: Quick Launcher
 ---------------------
 The windows link in a "Tool Bar".
 
-**shoes_launcher.jpg**
+**shoes\_launcher.jpg**
 
-![shoes_launcher.jpg](http://www.rin-shun.com/rubylearning/shoes/shoes_tutorial_html/images/shoes_launcher.jpg) <!-- patch -->
+![shoes\_launcher.jpg](http://www.rin-shun.com/rubylearning/shoes/shoes_tutorial_html/images/shoes_launcher.jpg) <!-- patch -->
 
 *This tip is provided by Victor Goff -- Saturday, 15 November 2008, POIRPWSC101-1I*
 
