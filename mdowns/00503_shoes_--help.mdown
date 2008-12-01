@@ -7,14 +7,14 @@ shoes -h <br>
 or <br>
 shoes --help <br>
 
-**shoes_help.png**
+**shoes\_help.png**
 
-![shoes_help.png](http://www.rin-shun.com/rubylearning/shoes/shoes_tutorial_html/images/shoes_help.png) <!-- patch -->
+![shoes\_help.png](http://www.rin-shun.com/rubylearning/shoes/shoes_tutorial_html/images/shoes_help.png) <!-- patch -->
 
 
-**shoes_version.png**
+**shoes\_version.png**
 
-![shoes_version.png](http://www.rin-shun.com/rubylearning/shoes/shoes_tutorial_html/images/shoes_version.png) <!-- patch -->
+![shoes\_version.png](http://www.rin-shun.com/rubylearning/shoes/shoes_tutorial_html/images/shoes_version.png) <!-- patch -->
 
 
 **shoes\_download\_test.png**
@@ -22,42 +22,42 @@ shoes --help <br>
 ![shoes\_download\_test.png](http://www.rin-shun.com/rubylearning/shoes/shoes_tutorial_html/images/shoes_download_test.png) <!-- patch -->
 
 
-**shoes_gem.png**
+**shoes\_gem.png**
 
-![shoes_gem.png](http://www.rin-shun.com/rubylearning/shoes/shoes_tutorial_html/images/shoes_gem.png) <!-- patch -->
+![shoes\_gem.png](http://www.rin-shun.com/rubylearning/shoes/shoes_tutorial_html/images/shoes_gem.png) <!-- patch -->
 
 shoes -g install hpricot <br>
 shoes -g install mechanize <br>
 With Shoes-0.r1091, it works well! <br>
 
-**shoes_gem-1.png**
+**shoes\_gem-1.png**
 
-![shoes_gem-1.png](http://www.rin-shun.com/rubylearning/shoes/shoes_tutorial_html/images/shoes_gem-1.png) <!-- patch -->
+![shoes\_gem-1.png](http://www.rin-shun.com/rubylearning/shoes/shoes_tutorial_html/images/shoes_gem-1.png) <!-- patch -->
 
 
-**shoes_shy-1.png**
+**shoes\_shy-1.png**
 
-![shoes_shy-1.png](http://www.rin-shun.com/rubylearning/shoes/shoes_tutorial_html/images/shoes_shy-1.png) <!-- patch -->
+![shoes\_shy-1.png](http://www.rin-shun.com/rubylearning/shoes/shoes_tutorial_html/images/shoes_shy-1.png) <!-- patch -->
 
 After Shoes-0.r1057,the above message appears. <br>
 Because this feature is included in 'shoes --package'. <br>
 
 
-**shoes_package.png**
+**shoes\_package.png**
 
-![shoes_package.png](http://www.rin-shun.com/rubylearning/shoes/shoes_tutorial_html/images/shoes_package.png) <!-- patch -->
+![shoes\_package.png](http://www.rin-shun.com/rubylearning/shoes/shoes_tutorial_html/images/shoes_package.png) <!-- patch -->
 
 File select: sample1.rb <br>
 It works well. sample1.exe is created. And it can be executed well.<br>
 
-Directory select: code_wrapper_on_shoes_v0.2s <br>
-code_wrapper_on_shoes_v0.2s.exe is created. But it is not executed well. :( <br>
+Directory select: code_wrapper\_on\_shoes\_v0.2s <br>
+code\_wrapper\_on\_shoes\_v0.2s.exe is created. But it is not executed well. :( <br>
 Now still under construction... 
 
 
-**shoes_manual-html.png**
+**shoes\_manual-html.png**
 
-![shoes_manual-html.png](http://www.rin-shun.com/rubylearning/shoes/shoes_tutorial_html/images/shoes_manual-html.png) <!-- patch -->
+![shoes\_manual-html.png](http://www.rin-shun.com/rubylearning/shoes/shoes_tutorial_html/images/shoes_manual-html.png) <!-- patch -->
 
 C:\>cd C:\Program Files\Common Files\Shoes\0.r1091 <br>
 C:\Program Files\Common Files\Shoes\0.r1091>shoes --manual-html C:\rubyprograms\shoes\0.r1091_manual <br>
@@ -65,6 +65,6 @@ C:\Program Files\Common Files\Shoes\0.r1091>shoes --manual-html C:\rubyprograms\
 It works well! Html files were created in my pc. Cool! <br>
 
 
-**shoes_manual-html2.png**
+**shoes\_manual-html2.png**
 
-![shoes_manual-html2.png](http://www.rin-shun.com/rubylearning/shoes/shoes_tutorial_html/images/shoes_manual-html2.png) <!-- patch -->
+![shoes\_manual-html2.png](http://www.rin-shun.com/rubylearning/shoes/shoes_tutorial_html/images/shoes_manual-html2.png) <!-- patch -->
