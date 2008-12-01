@@ -60,7 +60,7 @@ Now still under construction...
 ![shoes\_manual-html.png](http://www.rin-shun.com/rubylearning/shoes/shoes_tutorial_html/images/shoes_manual-html.png) <!-- patch -->
 
 C:\>cd C:\Program Files\Common Files\Shoes\0.r1091 <br>
-C:\Program Files\Common Files\Shoes\0.r1091>shoes --manual-html C:\rubyprograms\shoes\0.r1091_manual <br>
+C:\Program Files\Common Files\Shoes\0.r1091>shoes --manual-html C:\rubyprograms\shoes\0.r1091\_manual <br>
 
 It works well! Html files were created in my pc. Cool! <br>
 
