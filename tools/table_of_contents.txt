@@ -2,7 +2,7 @@ Shoes Tutorial Note
 ===================
 **- For the Shoes App Rookie Creators -**
 
-Dec. 1st, 2008 by ashbb (Satoshi Asakawa)
+Dec. 3rd, 2008 by ashbb (Satoshi Asakawa)
 
 Table of contents
 -----------------
@@ -52,6 +52,7 @@ Table of contents
 00529. UTF-8
 00530. Open a new app window
 00531. Open the Shoes console window from your app
+00532. Customize Shoes Class
 00600.#Hot Topics in the Shoes ML and Shoooes.net
 00601. External Fonts
 00602. Locking edit\_box
@@ -68,6 +69,7 @@ Table of contents
 
 Change log:
 -----------
+Dec 03rd, 2008: Added sample 53 and chapter 00532. <br>
 Dec 01st, 2008: Added '\\' in front of '\_' for githb spec change or bug. <br>
 Nov 29th, 2008: Modified file name '\_' to '-' for github spec change or bug. Added assignment 3. <br>
 Nov 24th, 2008: Added a new tool, patch.rb, which replace image-file-path-on-github. This is a temporary patch. Because I'm not sure about a github spec change or a bug.<br>
