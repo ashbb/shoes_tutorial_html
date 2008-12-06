@@ -69,7 +69,7 @@ Table of contents
 
 Change log:
 -----------
-Dec 06th, 2008: Replace image files for Shoes-0.r1123. Edited sample 42. <br>
+Dec 06th, 2008: Replace image files for Shoes-0.r1123. Edited sample 42. Updated mkpdf.rb to the latest version.<br>
 Dec 03rd, 2008: Added sample 53 and chapter 00532. <br>
 Dec 01st, 2008: Added '\\' in front of '\_' for githb spec change or bug. <br>
 Nov 29th, 2008: Modified file name '\_' to '-' for github spec change or bug. Added assignment 3. <br>
