@@ -13,3 +13,6 @@ The Shoebox <br>
 Rubyinside.com the latest article <br>
 Shoes - Rubys Cross Platform GUI App Toolkit - Grows Up <br>
 <http://www.rubyinside.com/whys-shoes-grows-up-1014.html> <br>
+
+RecentBuilds <br>
+<http://github.com/why/shoes/wikis/recentbuilds> <br>
