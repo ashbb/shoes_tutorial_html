@@ -35,6 +35,6 @@ The :state style is for disabling or locking certain controls if you do not want
 
 
 I had used ARGV[0] to get the file name. But it's not correct usage.
-We have to use $0 or $PROGRAM_NAME instead of ARGV[0].
+We have to use $0 or $PROGRAM\_NAME instead of ARGV[0].
 
 See [this](http://www.mail-archive.com/shoes@code.whytheluckystiff.net/msg02666.html)
