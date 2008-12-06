@@ -27,6 +27,8 @@ def parse(buf)
   
   arr.each_index do |x|
     case arr[x]
+      when /^(\s+)(.+)$/
+        arr[x] = 'CODIFY' + $1 + $2
       when /^-+$/, /^=+$/
         arr[x - 1] = 'BOLDEN' + arr[x - 1]
         arr[x] = 'REMOVEME'
@@ -44,11 +46,15 @@ def mkpdf
   Prawn::Document::generate("../pdf/ShoesTutorialNote.pdf") do
     parse(gather).each do |x|
       case x
-        when /PAGINATE/
+        when /^PAGINATE/
           start_new_page
+        when /^CODIFY(.+)/
+          font "Courier"
+          text $1, :style => :bold
+          font "Helvetica"
         when /^BOLDEN(.+)/
           text $1, :style => :bold
-        when /IMAGEIT(.+)/
+        when /^IMAGEIT(.+)/
           image "../images/#{$1}"
         else
           text x
