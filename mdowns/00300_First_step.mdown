@@ -24,7 +24,8 @@ Now you can quickly launch a shoes app without going through the open file dialo
 
 A Tip: Quick Launcher
 ---------------------
-[The command to work with TextMate](http://samuraicoder.net/shoes.mov)
+The command to work with TextMate(http://samuraicoder.net/shoes.mov)
+ # This link is not available now.
 
 *This tip is provided by Takaaki Kato - Saturday, 15 November 2008, POIRPWSC101-1I*
 

@@ -1,6 +1,6 @@
 # sample42.rb
 Shoes.app :width => 400, :height => 410 do
-  src = IO.read(ARGV[0])
+  src = IO.read($PROGRAM_NAME)
   background deepskyblue
   
   stack do
