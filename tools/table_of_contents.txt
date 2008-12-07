@@ -2,7 +2,7 @@ Shoes Tutorial Note
 ===================
 **- For the Shoes App Rookie Creators -**
 
-Dec. 6rd, 2008 by ashbb (Satoshi Asakawa)
+Dec. 7th, 2008 by ashbb (Satoshi Asakawa)
 
 Table of contents
 -----------------
@@ -69,6 +69,7 @@ Table of contents
 
 Change log:
 -----------
+Dec 07th, 2008: Deleted patches and patch.rb <br>
 Dec 06th, 2008: Reviewed `shoes -p` with Shoes 2 (Raisins, 0.r1134) <br>
 Dec 06th, 2008: Replace image files for Shoes-0.r1123. Edited sample 42. Updated mkpdf.rb to the latest version. Added the link to RecentBuild page.<br>
 Dec 03rd, 2008: Added sample 53 and chapter 00532. <br>

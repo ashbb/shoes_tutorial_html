@@ -14,4 +14,4 @@ We can send messages to the Shoes console window.
 
 **sample15.png**
 
-![sample15.png](http://www.rin-shun.com/rubylearning/shoes/shoes_tutorial_html/images/sample15.png) <!-- patch -->
+![sample15.png](http://github.com/ashbb/shoes_tutorial_html/raw/master/images/sample15.png)

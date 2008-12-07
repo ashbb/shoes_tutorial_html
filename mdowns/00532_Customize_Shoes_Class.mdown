@@ -33,4 +33,4 @@ This is no wonder, but I just noticed. :-P
 
 **sample53.png**
 
-![sample53.png](http://www.rin-shun.com/rubylearning/shoes/shoes_tutorial_html/images/sample53.png) <!-- patch -->
+![sample53.png](http://github.com/ashbb/shoes_tutorial_html/raw/master/images/sample53.png)

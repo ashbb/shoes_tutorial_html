@@ -20,5 +20,5 @@ type  Alt + /   on any Shoes app window. <br>
 
 **shoes\_console.png**
 
-![shoes\_console.png](http://www.rin-shun.com/rubylearning/shoes/shoes_tutorial_html/images/shoes_console.png) <!-- patch -->
+![shoes\_console.png](http://github.com/ashbb/shoes_tutorial_html/raw/master/images/shoes_console.png)
 

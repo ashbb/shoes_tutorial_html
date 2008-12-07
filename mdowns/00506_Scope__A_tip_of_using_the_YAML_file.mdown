@@ -12,7 +12,7 @@ Scope: A tip about using YAML files
 
 **sample19.png**
 
-![sample19.png](http://www.rin-shun.com/rubylearning/shoes/shoes_tutorial_html/images/sample19.png) <!-- patch -->
+![sample19.png](http://github.com/ashbb/shoes_tutorial_html/raw/master/images/sample19.png)
 
 The top-level namespace in any Shoes app is Shoes <br>
 so in sample19.rb <br>
@@ -38,4 +38,4 @@ Modified code is
 
 **sample19-1.png**
 
-![sample19-1.png](http://www.rin-shun.com/rubylearning/shoes/shoes_tutorial_html/images/sample19-1.png) <!-- patch -->
+![sample19-1.png](http://github.com/ashbb/shoes_tutorial_html/raw/master/images/sample19-1.png)

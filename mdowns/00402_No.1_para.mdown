@@ -20,7 +20,7 @@ inscription		: 10 <br>
 
 **sample1.png**
 
-![sample1.png](http://www.rin-shun.com/rubylearning/shoes/shoes_tutorial_html/images/sample1.png) <!-- patch -->
+![sample1.png](http://github.com/ashbb/shoes_tutorial_html/raw/master/images/sample1.png)
 
 
 strong			: bold <br>
@@ -41,5 +41,5 @@ sub (subscript)		: lower the text by 10 pixels, x-small font <br>
 
 **sample2.png**
 
-![sample2.png](http://www.rin-shun.com/rubylearning/shoes/shoes_tutorial_html/images/sample2.png) <!-- patch -->
+![sample2.png](http://github.com/ashbb/shoes_tutorial_html/raw/master/images/sample2.png)
 

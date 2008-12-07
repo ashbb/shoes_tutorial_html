@@ -33,7 +33,7 @@ The Main App and Its Requires <br>
 
 **sample39.png**
 
-![sample39.png](http://www.rin-shun.com/rubylearning/shoes/shoes_tutorial_html/images/sample39.png) <!-- patch -->
+![sample39.png](http://github.com/ashbb/shoes_tutorial_html/raw/master/images/sample39.png)
 
 	# sample39-creature.rb
 	class Shoes::Creature < Shoes::Widget

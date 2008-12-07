@@ -24,7 +24,7 @@ Although percent and length methods don't work well now, transferred and fractio
 
 **sample28.png**
 
-![sample28.png](http://www.rin-shun.com/rubylearning/shoes/shoes_tutorial_html/images/sample28.png) <!-- patch -->
+![sample28.png](http://github.com/ashbb/shoes_tutorial_html/raw/master/images/sample28.png)
 
 For more information about downloader, see the built-in manual. <br>
 Shoes includes the Hpricot library for parsing HTML. <br>

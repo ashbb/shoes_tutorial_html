@@ -23,7 +23,7 @@ We can get a string from the system clipboard and also store a string into the c
 
 **sample20.png**
 
-![sample20.png](http://www.rin-shun.com/rubylearning/shoes/shoes_tutorial_html/images/sample20.png) <!-- patch -->
+![sample20.png](http://github.com/ashbb/shoes_tutorial_html/raw/master/images/sample20.png)
 
 An example of the output. <br>
 
@@ -61,4 +61,4 @@ We can get keypress events. <br>
 
 **sample21.png**
 
-![sample21.png](http://www.rin-shun.com/rubylearning/shoes/shoes_tutorial_html/images/sample21.png) <!-- patch -->
+![sample21.png](http://github.com/ashbb/shoes_tutorial_html/raw/master/images/sample21.png)

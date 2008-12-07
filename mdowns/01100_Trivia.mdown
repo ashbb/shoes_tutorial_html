@@ -13,7 +13,7 @@ list\_box needs to set :height explicitly
 
 **sample91.png**
 
-![sample91.png](http://www.rin-shun.com/rubylearning/shoes/shoes_tutorial_html/images/sample91.png) <!-- patch -->
+![sample91.png](http://github.com/ashbb/shoes_tutorial_html/raw/master/images/sample91.png)
 
 Try to comment out :height => 30 and run. <br>
 The list\_box doesn't show the items. <br>
@@ -43,7 +43,7 @@ strange mouse event behavior
 
 **sample92.png**
 
-![sample92.png](http://www.rin-shun.com/rubylearning/shoes/shoes_tutorial_html/images/sample92.png) <!-- patch -->
+![sample92.png](http://github.com/ashbb/shoes_tutorial_html/raw/master/images/sample92.png)
 
 The image (red) oval works the mouse hovering feature but the blue doesn't. <br>
 This behavior is a bug. But it is fixed in the latest Shoes-0.r970 and later. <br>
@@ -137,7 +137,7 @@ Each creature has his/her own name. <br>
 
 **sample93.png**
 
-![sample93.png](http://www.rin-shun.com/rubylearning/shoes/shoes_tutorial_html/images/sample93.png) <!-- patch -->
+![sample93.png](http://github.com/ashbb/shoes_tutorial_html/raw/master/images/sample93.png)
 
 Let's enjoy Ruby and Shoes with the Lovely Creatures!
 

@@ -5,7 +5,7 @@ text message slide-in
 
 **simple-slide.png**
 
-![simple-slide.png](http://www.rin-shun.com/rubylearning/shoes/shoes_tutorial_html/images/simple-slide.png) <!-- patch -->
+![simple-slide.png](http://github.com/ashbb/shoes_tutorial_html/raw/master/images/simple-slide.png)
 
 Next sample code, sample37.rb, which works almost similar behavior of the text message slide-in by using mask and animate methods.
 
@@ -42,4 +42,4 @@ This is the screenshot.
 
 **sample37.png**
 
-![sample37.png](http://www.rin-shun.com/rubylearning/shoes/shoes_tutorial_html/images/sample37.png) <!-- patch -->
+![sample37.png](http://github.com/ashbb/shoes_tutorial_html/raw/master/images/sample37.png)

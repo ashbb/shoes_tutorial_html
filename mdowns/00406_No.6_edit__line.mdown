@@ -18,7 +18,7 @@ Edit lines are a slender, little box for entering one line of text.
 
 **sample7.png**
 
-![sample7.png](http://www.rin-shun.com/rubylearning/shoes/shoes_tutorial_html/images/sample7.png) <!-- patch -->
+![sample7.png](http://github.com/ashbb/shoes_tutorial_html/raw/master/images/sample7.png)
 
 We can use :secret in the edit\_line area.
 
@@ -32,4 +32,4 @@ We can use :secret in the edit\_line area.
 
 **sample7-1.png**
 
-![sample7-1.png](http://www.rin-shun.com/rubylearning/shoes/shoes_tutorial_html/images/sample7-1.png) <!-- patch -->
+![sample7-1.png](http://github.com/ashbb/shoes_tutorial_html/raw/master/images/sample7-1.png)

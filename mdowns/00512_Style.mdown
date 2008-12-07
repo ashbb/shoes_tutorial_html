@@ -39,4 +39,4 @@ More information can be found in section 6.3, Styling Master List
 
 **sample26.png**
 
-![sample26.png](http://www.rin-shun.com/rubylearning/shoes/shoes_tutorial_html/images/sample26.png) <!-- patch -->
+![sample26.png](http://github.com/ashbb/shoes_tutorial_html/raw/master/images/sample26.png)

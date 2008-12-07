@@ -36,4 +36,4 @@ From the user viewpoint, it just behaves like a page on the web.
 
 **sample11.png**
 
-![sample11.png](http://www.rin-shun.com/rubylearning/shoes/shoes_tutorial_html/images/sample11.png) <!-- patch -->
+![sample11.png](http://github.com/ashbb/shoes_tutorial_html/raw/master/images/sample11.png)

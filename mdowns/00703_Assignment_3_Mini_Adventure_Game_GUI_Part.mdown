@@ -22,7 +22,7 @@ Create your own **Mini Adventure Game GUI Part** by doing the following 4 steps.
 
 **sample52.png**
 
-![sample52.png](http://www.rin-shun.com/rubylearning/shoes/shoes_tutorial_html/images/sample52.png) <!-- patch -->
+![sample52.png](http://github.com/ashbb/shoes_tutorial_html/raw/master/images/sample52.png)
 
 	# sample52.rb
 	require 'sample52-render'

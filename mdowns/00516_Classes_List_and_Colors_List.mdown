@@ -18,7 +18,7 @@ We can also see them with the following sample code. <br>
 
 **sample30.png**
 
-![sample30.png](http://www.rin-shun.com/rubylearning/shoes/shoes_tutorial_html/images/sample30.png) <!-- patch -->
+![sample30.png](http://github.com/ashbb/shoes_tutorial_html/raw/master/images/sample30.png)
 
 
 \_why is thinking about some more method related colors. <br>

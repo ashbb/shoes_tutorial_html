@@ -17,7 +17,7 @@ beginning at coordinates (left, top).
 
 **sample23.png**
 
-![sample23.png](http://www.rin-shun.com/rubylearning/shoes/shoes_tutorial_html/images/sample23.png) <!-- patch -->
+![sample23.png](http://github.com/ashbb/shoes_tutorial_html/raw/master/images/sample23.png)
 
 Oops, with Shoes-0.r925, it doesn't work well. <br>
 I'm not sure this behavior is the new spec or bug... <br>
@@ -25,7 +25,7 @@ The above screenshot is with Shoes-0.r905. <br>
 
 **sample23-1.png**
 
-![sample23-1.png](http://www.rin-shun.com/rubylearning/shoes/shoes_tutorial_html/images/sample23-1.png) <!-- patch -->
+![sample23-1.png](http://github.com/ashbb/shoes_tutorial_html/raw/master/images/sample23-1.png)
 
 With Shoes-0.r970, it works well. Although it is a little bit different than the above pic... <br>
 After Shoes-0.r1057, it works like Shoes-0.r970. <br>

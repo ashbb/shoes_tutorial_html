@@ -43,7 +43,7 @@ def make_link name
   lines = []
   lines << "**#{name}**"
   lines << "\n"
-  lines << "![#{name}](http://github.com/ashbb/shoes_tutorial_html/tree/master%2Fimages%2F#{name}?raw=true)"
+  lines << "![#{name}](http://github.com/ashbb/shoes_tutorial_html/raw/master/images/#{name})"
 end
 
 Dir.glob("../mdowns/*.mdown").each do |file|

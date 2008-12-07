@@ -11,7 +11,7 @@ A Shoes App object is a single window running code at a Shoes URL. When you swit
 
 **sample16.png**
 
-![sample16.png](http://www.rin-shun.com/rubylearning/shoes/shoes_tutorial_html/images/sample16.png) <!-- patch -->
+![sample16.png](http://github.com/ashbb/shoes_tutorial_html/raw/master/images/sample16.png)
 
 
 	# sample17.rb

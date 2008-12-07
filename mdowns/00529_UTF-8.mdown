@@ -14,10 +14,10 @@ UTF-8 Everywhere <br>
 
 **sample45.png**
 
-![sample45.png](http://www.rin-shun.com/rubylearning/shoes/shoes_tutorial_html/images/sample45.png) <!-- patch -->
+![sample45.png](http://github.com/ashbb/shoes_tutorial_html/raw/master/images/sample45.png)
 
 **sample45-1.png**
 
-![sample45-1.png](http://www.rin-shun.com/rubylearning/shoes/shoes_tutorial_html/images/sample45-1.png) <!-- patch -->
+![sample45-1.png](http://github.com/ashbb/shoes_tutorial_html/raw/master/images/sample45-1.png)
 
 This Japanese text editor uses UTF-8.

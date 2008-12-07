@@ -26,7 +26,7 @@ We can use **window** method to open a new app window.
 
 **sample46.png**
 
-![sample46.png](http://www.rin-shun.com/rubylearning/shoes/shoes_tutorial_html/images/sample46.png) <!-- patch -->
+![sample46.png](http://github.com/ashbb/shoes_tutorial_html/raw/master/images/sample46.png)
 
 This screenshot shows the following.
 + open parent window.
@@ -104,7 +104,7 @@ So, please use sample48.rb under src directory instead of above code. <br>
 
 **sample48.png**
 
-![sample48.png](http://www.rin-shun.com/rubylearning/shoes/shoes_tutorial_html/images/sample48.png) <!-- patch -->
+![sample48.png](http://github.com/ashbb/shoes_tutorial_html/raw/master/images/sample48.png)
 
 This screenshot shows the following.
 + open first window: title is World Trip
