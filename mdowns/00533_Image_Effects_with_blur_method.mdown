@@ -1,0 +1,38 @@
+Image Effects with blur method
+------------------------------
+Shoes 2 has some new features. I have attempted to use blur method to make images rise up gradually.
+
+INSIDE SHOES 2 <br>
+<http://shoooes.net/about/raisins/>
+
+
+	#sample54.rb
+	Shoes.app :width => 150, :height => 150 do
+	  def blur_creature img
+	    a = animate 6 do |i|
+	      name, top, left = img.style[:name], img.style[:top], img.style[:left]
+	      img.remove
+	      img = image name, :name => name, :top => top, :left => left
+	      img.blur 20 - i
+	      img.show
+	      a.stop if i > 20
+	    end
+	  end
+	  
+	  click do
+	    clear do
+	      2.times do |i|
+	        name = "../images/#{%w[loogink cy kamome shaha yar][rand(5)]}.png"
+	        blur_creature image(name, :name => name, :top => 20 + i * 60, :left => 20 + i * 60).hide
+	      end
+	    end
+	  end
+	end
+
+**sample54.png**
+
+![sample54.png](http://github.com/ashbb/shoes_tutorial_html/raw/master/images/sample54.png)
+
+Note
+----
+Shoes may crash without very enough interval between mouse clicks. Oh,... :(

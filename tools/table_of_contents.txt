@@ -2,7 +2,7 @@ Shoes Tutorial Note
 ===================
 **- For the Shoes App Rookie Creators -**
 
-Dec. 7th, 2008 by ashbb (Satoshi Asakawa)
+Dec. 8th, 2008 by ashbb (Satoshi Asakawa)
 
 Table of contents
 -----------------
@@ -53,6 +53,7 @@ Table of contents
 00530. Open a new app window
 00531. Open the Shoes console window from your app
 00532. Customize Shoes Class
+00533. Image Effects with blur method
 00600.#Hot Topics in the Shoes ML and Shoooes.net
 00601. External Fonts
 00602. Locking edit\_box
@@ -69,6 +70,7 @@ Table of contents
 
 Change log:
 -----------
+Dec 08th, 2008: Added sample 54 and chapter 00533. <br>
 Dec 07th, 2008: Deleted patches and patch.rb <br>
 Dec 06th, 2008: Reviewed `shoes -p` with Shoes 2 (Raisins, 0.r1134) <br>
 Dec 06th, 2008: Replace image files for Shoes-0.r1123. Edited sample 42. Updated mkpdf.rb to the latest version. Added the link to RecentBuild page.<br>
