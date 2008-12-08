@@ -72,7 +72,7 @@ end
 inner_links = IO.readlines('../README.mdown')
 
 open('../README.mdown', 'w') do |f|
-  inner_links.collect do |line|
+  inner_links.each do |line|
     line.sub(/mdowns\/(.*.mdown)\)$/) do
       key = $1
       line = line.sub(/\]\(/, " (#{code_list[key].join(', ')})](") if code_list[key]
@@ -80,7 +80,3 @@ open('../README.mdown', 'w') do |f|
     f.puts line
   end
 end
-
-
-
-
