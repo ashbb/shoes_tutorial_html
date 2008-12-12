@@ -2,7 +2,7 @@ Shoes Tutorial Note
 ===================
 **- For the Shoes App Rookie Creators -**
 
-Dec. 8th, 2008 by ashbb (Satoshi Asakawa)
+Dec. 12th, 2008 by ashbb (Satoshi Asakawa)
 
 Table of contents
 -----------------
@@ -17,7 +17,7 @@ Table of contents
 	- [00405 No.5 image (sample6.rb)](http://github.com/ashbb/shoes_tutorial_html/tree/master/mdowns/00405_No.5_image.mdown)
 	- [00406 No.6 edit\_line (sample7.rb, sample7-1.rb)](http://github.com/ashbb/shoes_tutorial_html/tree/master/mdowns/00406_No.6_edit__line.mdown)
 	- [00407 No.7 link (sample8.rb)](http://github.com/ashbb/shoes_tutorial_html/tree/master/mdowns/00407_No.7_link.mdown)
-	- [00408 No.8 background (sample9.rb, sample10.rb)](http://github.com/ashbb/shoes_tutorial_html/tree/master/mdowns/00408_No.8_background.mdown)
+	- [00408 No.8 background (sample9.rb, sample10.rb, sample57.rb)](http://github.com/ashbb/shoes_tutorial_html/tree/master/mdowns/00408_No.8_background.mdown)
 	- [00409 No.9 Shoes.url (sample11.rb)](http://github.com/ashbb/shoes_tutorial_html/tree/master/mdowns/00409_No.9_Shoes.url.mdown)
 	- [00410 No.10 clear (sample12.rb, sample13.rb)](http://github.com/ashbb/shoes_tutorial_html/tree/master/mdowns/00410_No.10_clear.mdown)
 5. Tips for creating our original Shoes apps
@@ -32,7 +32,7 @@ Table of contents
 	- [00509 shape (sample23.rb)](http://github.com/ashbb/shoes_tutorial_html/tree/master/mdowns/00509_shape.mdown)
 	- [00510 mask (sample24.rb)](http://github.com/ashbb/shoes_tutorial_html/tree/master/mdowns/00510_mask.mdown)
 	- [00511 Drawing directly on to images (sample25.rb)](http://github.com/ashbb/shoes_tutorial_html/tree/master/mdowns/00511_Drawing_directly_on_to_images.mdown)
-	- [00512 Style (sample26.rb)](http://github.com/ashbb/shoes_tutorial_html/tree/master/mdowns/00512_Style.mdown)
+	- [00512 Style (sample26.rb, sample56.rb)](http://github.com/ashbb/shoes_tutorial_html/tree/master/mdowns/00512_Style.mdown)
 	- [00513 Shoes.setup (sample27.rb, sample50.rb)](http://github.com/ashbb/shoes_tutorial_html/tree/master/mdowns/00513_Shoes.setup.mdown)
 	- [00514 Downloader (sample28.rb)](http://github.com/ashbb/shoes_tutorial_html/tree/master/mdowns/00514_Downloader.mdown)
 	- [00515 Assign Shoes URL dynamically (sample29.rb)](http://github.com/ashbb/shoes_tutorial_html/tree/master/mdowns/00515_Assign_Shoes_URL_dynamically.mdown)
@@ -51,7 +51,7 @@ Table of contents
 	- [00528 Shoes Tutorial Note Launcher (sample44.rb)](http://github.com/ashbb/shoes_tutorial_html/tree/master/mdowns/00528_Shoes_Tutorial_Note_Launcher.mdown)
 	- [00529 UTF-8 (sample45.rb)](http://github.com/ashbb/shoes_tutorial_html/tree/master/mdowns/00529_UTF-8.mdown)
 	- [00530 Open a new app window (sample46.rb, sample48.rb)](http://github.com/ashbb/shoes_tutorial_html/tree/master/mdowns/00530_Open_a_new_app_window.mdown)
-	- [00531 Open the Shoes console window from your app (sample51.rb)](http://github.com/ashbb/shoes_tutorial_html/tree/master/mdowns/00531_Open_the_Shoes_console_window_from_your_app.mdown)
+	- [00531 Open the Shoes console window from your app (sample51.rb, sample55.rb)](http://github.com/ashbb/shoes_tutorial_html/tree/master/mdowns/00531_Open_the_Shoes_console_window_from_your_app.mdown)
 	- [00532 Customize Shoes Class (sample53.rb)](http://github.com/ashbb/shoes_tutorial_html/tree/master/mdowns/00532_Customize_Shoes_Class.mdown)
 	- [00533 Image Effects with blur method (sample54.rb)](http://github.com/ashbb/shoes_tutorial_html/tree/master/mdowns/00533_Image_Effects_with_blur_method.mdown)
 6. Hot Topics in the Shoes ML and Shoooes.net
@@ -66,10 +66,12 @@ Table of contents
 8. [00800 Relevant web sites (Links)](http://github.com/ashbb/shoes_tutorial_html/tree/master/mdowns/00800_Relevant_web_sites__Links_.mdown)
 9. [00900 Appendix](http://github.com/ashbb/shoes_tutorial_html/tree/master/mdowns/00900_Appendix.mdown)
 10. [01000 Acknowledgment](http://github.com/ashbb/shoes_tutorial_html/tree/master/mdowns/01000_Acknowledgment.mdown)
-11. [01100 Trivia (sample91.rb, sample92.rb, sample93.rb)](http://github.com/ashbb/shoes_tutorial_html/tree/master/mdowns/01100_Trivia.mdown)
+11. [01100 Fancy Gallery (gallery1.rb)](http://github.com/ashbb/shoes_tutorial_html/tree/master/mdowns/01100_Fancy_Gallery.mdown)
+12. [01200 Trivia (sample91.rb, sample92.rb, sample93.rb)](http://github.com/ashbb/shoes_tutorial_html/tree/master/mdowns/01200_Trivia.mdown)
 
 Change log:
 -----------
+Dec 12th, 2008: Added sample 55, 56, 57 and chapter Fancy Gallery. <br>
 Dec 08th, 2008: Added sample 54 and chapter 00533. Refactored mkmdown.rb<br>
 Dec 07th, 2008: Deleted patches and patch.rb <br>
 Dec 06th, 2008: Reviewed `shoes -p` with Shoes 2 (Raisins, 0.r1134) <br>
@@ -101,7 +103,7 @@ Oct 23th, 2008: Added a new sample 43. <br>
 
 To do list:
 -----------
-+ Add some new exercises which were created in the Ruby and Shoes programming course.
++ Add search function.
 + Improve mkpdf.rb to form more beautifully.
 + Improve the browser feature to resizable.
 + Improve mkbightml.rb for creating PDF file.

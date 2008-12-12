@@ -32,3 +32,22 @@ But it is obsolete. Now we can use :curve instead of :radius. And can also use :
 
 ![sample10.png](http://github.com/ashbb/shoes_tutorial_html/raw/master/images/sample10.png)
 
+
+We can change the background colors.
+
+	#sample57.rb
+	Shoes.app :width => 200, :height => 200, :resizable => false do
+	  @s1 = flow :left => 10, :top => 10, :width => 100, :height => 100
+	  @s2 = flow :left => 90, :top => 90, :width => 100, :height => 100
+	  animate 24 do|i|
+	    @s1.background rgb(i, i, 0)
+	    @s2.background rgb(0, i, i)
+	    background rgb(i, 0, i)
+	  end
+	end
+
+**sample57.png**
+
+![sample57.png](http://github.com/ashbb/shoes_tutorial_html/raw/master/images/sample57.png)
+
+[changeing colour of background](http://www.mail-archive.com/shoes@code.whytheluckystiff.net/msg02727.html)

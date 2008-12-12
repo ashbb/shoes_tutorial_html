@@ -26,4 +26,28 @@ This screenshot shows the following.
 + click the button 'debug' twice on your app window
 
 
+Another way from the Shoes ML.
+
+<http://www.mail-archive.com/shoes@code.whytheluckystiff.net/msg02676.html>
+
+	# sample55.rb
+	Shoes.app :width => 200, :height => 200 do
+	  Shoes.show_log
+	  debug 'open the Shoes console window'
+	  
+	  # write your app code below
+	  background coral..crimson
+	  para strong 'This is a test program..', :stroke => white
+	
+	  info DIR
+	  button 'debug', :bottom => 0, :left => 0 do
+	    debug 'hello'
+	  end
+	end
+
+**sample55.png**
+
+![sample55.png](http://github.com/ashbb/shoes_tutorial_html/raw/master/images/sample55.png)
+
+
 

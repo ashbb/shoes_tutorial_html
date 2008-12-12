@@ -7,8 +7,10 @@ Under consideration... :)
 - Peter corrected the shoes\_course\_text file.
 - Michele corrected the ReadMeFirst file.
 - Jerry corrected the whole Shoes Tutorial Note markdown files and created a handy tool, mkpdf.rb.
-- Krzysztof, George and Sergio gave some good ideas.
+- Krzysztof, George, Sergio and Mareike gave some good ideas.
   They were very useful to create sample codes.
 - George made good style sheets for html files and edited the tool, mkhtml.rb.
+  He gave fancy gallery apps.
 - Takaaki, Jose, Vic showed good tips.
+
 

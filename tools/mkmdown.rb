@@ -52,7 +52,7 @@ Dir.glob("../mdowns/*.mdown").each do |file|
     lines.each do |line|
       new_line = line
       line.sub(/^# *(.*\.rb)/){new_line = read_src($1)}
-      line.sub(/^# *(.*\.(png|jpg))/){new_line = make_link($1)}
+      line.sub(/^# *(.*\.(png|jpg|gif))/){new_line = make_link($1)}
       #line.sub(/^# *page *(prev|next|.*)/){new_line = make_page_link($1)}
       f.puts new_line
     end

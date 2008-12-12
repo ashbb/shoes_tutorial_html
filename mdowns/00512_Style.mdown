@@ -40,3 +40,24 @@ More information can be found in section 6.3, Styling Master List
 **sample26.png**
 
 ![sample26.png](http://github.com/ashbb/shoes_tutorial_html/raw/master/images/sample26.png)
+
+
+We can style an entire class of elements at a time. :-D <br>
+But slot-by-slot would be impossible now. :(
+
+	# sample56.rb
+	Shoes.app :width => 200, :height => 160 do
+	  style Para, :align => 'center', :stroke => pink, :size => 30
+	  stack do
+	    para "hello"
+	    para "hello", :size => 10, :stroke => red
+	    para "hello"
+	  end
+	end
+
+**sample56.png**
+
+![sample56.png](http://github.com/ashbb/shoes_tutorial_html/raw/master/images/sample56.png)
+
+
+

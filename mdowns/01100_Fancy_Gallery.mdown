@@ -1,0 +1,31 @@
+Fancy Gallery
+-------------
+
+Gallery No.1
+------------
+Listen - Ruby's top teacher, Satish Talim.
+
+*Original code was created by George and his grandson team. Cool!*
+
+	# gallery1.rb
+	Shoes.setup do
+	  gem 'win32-sapi'
+	end
+	
+	require 'win32/sapi5'
+	
+	Shoes.app :width => 400, :height => 173 do
+	  background orange
+	  image '../images/rubytop10-teacher.gif', :top => 20
+	  inscription ins('Listen'), :align => 'right', :stroke => green
+	  words = "Ruby's top teacher, Satish Talim"
+	  click{Win32::SpVoice.new.speak words}
+	end
+
+**gallery1.png**
+
+![gallery1.png](http://github.com/ashbb/shoes_tutorial_html/raw/master/images/gallery1.png)
+
+
+[Ruby's Top Teacher in 2008 - Satish Talim](http://www.rubyinside.com/rubys-top-teacher-in-2008-satish-talim-1396.html)
+
