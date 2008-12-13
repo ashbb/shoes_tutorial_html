@@ -34,9 +34,9 @@ Gallery No.2
 ------------
 Simple custom edit box with background image.
 
-*Inspired the Eric Proctor's post in POIRPWSC1-2I*
+*Inspired the Eric Proctor's post in POIRPWSC101-2I*
 
-	# sample58.rb
+	# gallery2.rb
 	Shoes.app :width => 200, :height => 200 do
 	  background mintcream, :width => 1.0, :height => 1.0
 	  @s = stack :margin => 5, :width => 1.0, :height => 1.0 do
@@ -58,6 +58,6 @@ Simple custom edit box with background image.
 	end
 	
 
-**sample58.png**
+**gallery2.png**
 
-![sample58.png](http://github.com/ashbb/shoes_tutorial_html/raw/master/images/sample58.png)
+![gallery2.png](http://github.com/ashbb/shoes_tutorial_html/raw/master/images/gallery2.png)

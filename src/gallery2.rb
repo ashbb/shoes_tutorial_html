@@ -1,4 +1,4 @@
-# sample58.rb
+# gallery2.rb
 Shoes.app :width => 200, :height => 200 do
   background mintcream, :width => 1.0, :height => 1.0
   @s = stack :margin => 5, :width => 1.0, :height => 1.0 do
