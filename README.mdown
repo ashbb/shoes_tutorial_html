@@ -2,7 +2,7 @@ Shoes Tutorial Note
 ===================
 **- For the Shoes App Rookie Creators -**
 
-Dec. 12th, 2008 by ashbb (Satoshi Asakawa)
+Dec. 13th, 2008 by ashbb (Satoshi Asakawa)
 
 Table of contents
 -----------------
@@ -66,11 +66,12 @@ Table of contents
 8. [00800 Relevant web sites (Links)](http://github.com/ashbb/shoes_tutorial_html/tree/master/mdowns/00800_Relevant_web_sites__Links_.mdown)
 9. [00900 Appendix](http://github.com/ashbb/shoes_tutorial_html/tree/master/mdowns/00900_Appendix.mdown)
 10. [01000 Acknowledgment](http://github.com/ashbb/shoes_tutorial_html/tree/master/mdowns/01000_Acknowledgment.mdown)
-11. [01100 Fancy Gallery (gallery1.rb)](http://github.com/ashbb/shoes_tutorial_html/tree/master/mdowns/01100_Fancy_Gallery.mdown)
+11. [01100 Fancy Gallery (gallery1.rb, sample58.rb)](http://github.com/ashbb/shoes_tutorial_html/tree/master/mdowns/01100_Fancy_Gallery.mdown)
 12. [01200 Trivia (sample91.rb, sample92.rb, sample93.rb)](http://github.com/ashbb/shoes_tutorial_html/tree/master/mdowns/01200_Trivia.mdown)
 
 Change log:
 -----------
+Dec 13th, 2008: Added sample 58. <br>
 Dec 12th, 2008: Added sample 55, 56, 57 and chapter Fancy Gallery. <br>
 Dec 08th, 2008: Added sample 54 and chapter 00533. Refactored mkmdown.rb<br>
 Dec 07th, 2008: Deleted patches and patch.rb <br>
