@@ -2,7 +2,7 @@ Shoes Tutorial Note
 ===================
 **- For the Shoes App Rookie Creators -**
 
-Dec. 13th, 2008 by ashbb (Satoshi Asakawa)
+Dec. 17th, 2008 by ashbb (Satoshi Asakawa)
 
 Table of contents
 -----------------
@@ -59,6 +59,7 @@ Table of contents
 00602. Locking edit\_box
 00603. Styling Master List
 00604. Trying to ease the RubyGems pain
+00605. Shoes snapshot
 00700.#Assignment
 00701. Assignment 1 twitter client (reader)
 00702. Assignment 2 footracer
@@ -71,6 +72,7 @@ Table of contents
 
 Change log:
 -----------
+Dec 17th, 2008: Added gallery 3 and a hot topic. <br>
 Dec 13th, 2008: Added gallery 2. <br>
 Dec 12th, 2008: Added sample 55, 56, 57 and chapter Fancy Gallery. <br>
 Dec 08th, 2008: Added sample 54 and chapter 00533. Refactored mkmdown.rb<br>

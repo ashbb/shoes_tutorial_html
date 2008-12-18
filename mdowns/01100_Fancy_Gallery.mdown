@@ -61,3 +61,36 @@ Simple custom edit box with background image.
 **gallery2.png**
 
 ![gallery2.png](http://github.com/ashbb/shoes_tutorial_html/raw/master/images/gallery2.png)
+
+
+Gallery No.3
+------------
+Live code! Rewrite the code whatever you want! Change colors at once when you write correct code.
+
+*Inspired the George Thompson's post in POIRPWSC101-2I*
+
+	# Gallery3.rb
+	Shoes.app :title => "Live Code", :width => 500, :height => 240, :resizable => false do
+	  background purple..white
+	 
+	txt =<<-EOS
+	  def get_random_color
+	    send COLORS.keys.map{|sym|sym.to_s}[rand(COLORS.keys.size)]
+	  end
+	  get_random_color
+	EOS
+	 
+	  title 'Random Colors', :left => 10, :stroke => white
+	  para "Rewrite the code whatever you want!\nChange colors at once\nwhen you write correct code." ,
+	         :left => 10 , :top => 60, :width => 540
+	 
+	  code = edit_box txt , :left => 10 , :top => 140 , :width => 360 , :height => 70
+	 
+	  every(1){oval width - 130, 30, 100 , :stroke => eval(code.text), :strokewidth => 20, :fill => eval(code.text)}
+	end
+	 
+
+
+**gallery3.png**
+
+![gallery3.png](http://github.com/ashbb/shoes_tutorial_html/raw/master/images/gallery3.png)
