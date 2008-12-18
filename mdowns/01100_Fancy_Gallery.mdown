@@ -69,7 +69,7 @@ Live code! Rewrite the code whatever you want! Change colors at once when you wr
 
 *Inspired the George Thompson's post in POIRPWSC101-2I*
 
-	# Gallery3.rb
+	# gallery3.rb
 	Shoes.app :title => "Live Code", :width => 500, :height => 240, :resizable => false do
 	  background purple..white
 	 

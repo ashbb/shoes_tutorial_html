@@ -1,4 +1,4 @@
-# Gallery3.rb
+# gallery3.rb
 Shoes.app :title => "Live Code", :width => 500, :height => 240, :resizable => false do
   background purple..white
  

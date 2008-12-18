@@ -67,7 +67,7 @@ Table of contents
 8. [00800 Relevant web sites (Links)](http://github.com/ashbb/shoes_tutorial_html/tree/master/mdowns/00800_Relevant_web_sites__Links_.mdown)
 9. [00900 Appendix](http://github.com/ashbb/shoes_tutorial_html/tree/master/mdowns/00900_Appendix.mdown)
 10. [01000 Acknowledgment](http://github.com/ashbb/shoes_tutorial_html/tree/master/mdowns/01000_Acknowledgment.mdown)
-11. [01100 Fancy Gallery (gallery1.rb, gallery2.rb, Gallery3.rb)](http://github.com/ashbb/shoes_tutorial_html/tree/master/mdowns/01100_Fancy_Gallery.mdown)
+11. [01100 Fancy Gallery (gallery1.rb, gallery2.rb, gallery3.rb)](http://github.com/ashbb/shoes_tutorial_html/tree/master/mdowns/01100_Fancy_Gallery.mdown)
 12. [01200 Trivia (sample91.rb, sample92.rb, sample93.rb)](http://github.com/ashbb/shoes_tutorial_html/tree/master/mdowns/01200_Trivia.mdown)
 
 Change log:
