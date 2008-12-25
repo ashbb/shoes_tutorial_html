@@ -8,7 +8,7 @@ Create your own **Pong in Shoes** by doing the following 5 steps.
 	+ Can't resize.
 	+ Show your app name and revision number on the window's title bar.
 	+ Color the surface of the window with the horizontal gradation.
-	+ Play Pong in Shoes written by \_why.
+	+ Play [Pong in Shoes](http://gist.github.com/26431) written by \_why.
 	+ Hack (read) the code.
 
 2. Show two paddles and a ball
