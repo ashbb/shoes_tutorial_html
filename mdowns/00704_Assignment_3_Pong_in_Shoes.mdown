@@ -27,6 +27,7 @@ Create your own **Pong in Shoes** by doing the following 5 steps.
 	+ Change ball's speed and bounce angle when the ball is hit.
 
 5. Have a match
+
 	+ When the ball goes over the goal lines, game finishes with victory message.
 
 **sample58.png**

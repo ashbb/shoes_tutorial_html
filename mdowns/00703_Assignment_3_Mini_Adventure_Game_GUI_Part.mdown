@@ -15,6 +15,7 @@ Create your own **Mini Adventure Game GUI Part** by doing the following 4 steps.
 	+ By pressing l, some messages will be shown.
 
 3. hunter gets the treasure star
+
 	+ When the hunter enters the treasure room and t is pressed, the treasure star disappears.
 
 4. Finish the adventure
@@ -57,7 +58,7 @@ Create your own **Mini Adventure Game GUI Part** by doing the following 4 steps.
 
 See the below code, line 61: @hunter.star 20, 30, 5, 10.0, 5.0, :fill => gold, :stroke => gold
 
-*This is one line solution for the last demand created by James Silberbauer.*
+*This one line solution for the last demand is created by James Silberbauer.*
 
 
 	# sample52-render.rb
