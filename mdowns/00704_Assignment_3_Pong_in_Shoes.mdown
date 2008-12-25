@@ -74,5 +74,7 @@ Create your own **Pong in Shoes** by doing the following 5 steps.
 
 Have fun!
 
-
+Note
+----
+[a pong challenge](http://www.mail-archive.com/shoes@code.whytheluckystiff.net/msg02520.html)
 
