@@ -57,6 +57,7 @@
 	- [00701 Assignment 1 twitter client (reader)](http://github.com/ashbb/shoes_tutorial_html/tree/master/mdowns/00701_Assignment_1_twitter_client__reader_.mdown)
 	- [00702 Assignment 2 footracer](http://github.com/ashbb/shoes_tutorial_html/tree/master/mdowns/00702_Assignment_2_footracer.mdown)
 	- [00703 Assignment 3 Mini Adventure Game GUI Part](http://github.com/ashbb/shoes_tutorial_html/tree/master/mdowns/00703_Assignment_3_Mini_Adventure_Game_GUI_Part.mdown)
+	- [00704 Assignment 3 Pong in Shoes](http://github.com/ashbb/shoes_tutorial_html/tree/master/mdowns/00704_Assignment_3_Pong_in_Shoes.mdown)
 8. [00800 Relevant web sites (Links)](http://github.com/ashbb/shoes_tutorial_html/tree/master/mdowns/00800_Relevant_web_sites__Links_.mdown)
 9. [00900 Appendix](http://github.com/ashbb/shoes_tutorial_html/tree/master/mdowns/00900_Appendix.mdown)
 10. [01000 Acknowledgment](http://github.com/ashbb/shoes_tutorial_html/tree/master/mdowns/01000_Acknowledgment.mdown)

@@ -2,7 +2,7 @@ Shoes Tutorial Note
 ===================
 **- For the Shoes App Rookie Creators -**
 
-Dec. 17th, 2008 by ashbb (Satoshi Asakawa)
+Dec. 25th, 2008 by ashbb (Satoshi Asakawa)
 
 Table of contents
 -----------------
@@ -64,6 +64,7 @@ Table of contents
 00701. Assignment 1 twitter client (reader)
 00702. Assignment 2 footracer
 00703. Assignment 3 Mini Adventure Game GUI Part
+00704. Assignment 3 Pong in Shoes
 00800. Relevant web sites (Links)
 00900. Appendix
 01000. Acknowledgment
@@ -72,6 +73,7 @@ Table of contents
 
 Change log:
 -----------
+Dec 25th, 2008: Edited Assignment 3 and added Assignment 4. <br>
 Dec 17th, 2008: Added gallery 3 and a hot topic. <br>
 Dec 13th, 2008: Added gallery 2. <br>
 Dec 12th, 2008: Added sample 55, 56, 57 and chapter Fancy Gallery. <br>

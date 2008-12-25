@@ -56,7 +56,12 @@ EOS
   
   def got_star?
     return false  if @star.hidden
-    @hunter.left == @star.left - 15 and @hunter.top == @star.top - 15 ? @star.hide : false
+    if @hunter.left == @star.left - 15 and @hunter.top == @star.top - 15
+      @star.hide
+      @hunter.star 20, 30, 5, 10.0, 5.0, :fill => gold, :stroke => gold
+    else
+      false
+    end
   end
   
   def can_exit?

@@ -19,6 +19,8 @@ Create your own **Mini Adventure Game GUI Part** by doing the following 4 steps.
 
 4. Finish the adventure
 	+ When the hunter enters into the exit room with the star and l is pressed, the game ends.
+	+ After the hunter gets the star, they move jointly.
+
 
 **sample52.png**
 
@@ -52,6 +54,10 @@ Create your own **Mini Adventure Game GUI Part** by doing the following 4 steps.
 	  end
 	end
 
+
+See the below code, line 61: @hunter.star 20, 30, 5, 10.0, 5.0, :fill => gold, :stroke => gold
+
+*This is one line solution for the last demand created by James Silberbauer.*
 
 
 	# sample52-render.rb
@@ -112,7 +118,12 @@ Create your own **Mini Adventure Game GUI Part** by doing the following 4 steps.
 	  
 	  def got_star?
 	    return false  if @star.hidden
-	    @hunter.left == @star.left - 15 and @hunter.top == @star.top - 15 ? @star.hide : false
+	    if @hunter.left == @star.left - 15 and @hunter.top == @star.top - 15
+	      @star.hide
+	      @hunter.star 20, 30, 5, 10.0, 5.0, :fill => gold, :stroke => gold
+	    else
+	      false
+	    end
 	  end
 	  
 	  def can_exit?
