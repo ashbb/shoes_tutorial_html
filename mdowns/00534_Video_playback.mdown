@@ -43,3 +43,11 @@ I referred to the following web site.
 **sample59.png**
 
 ![sample59.png](http://github.com/ashbb/shoes_tutorial_html/raw/master/images/sample59.png)
+
+	# sample59-1.rb
+	Shoes.app(:width => 400, :height => 300){video \
+	"http://jp.youtube.com/get_video?video_id=8hBrRZuXjHA&t=\
+	OEgsToPDskKhuXfknhF5eWPOvhe-nw5P", :autoplay => true}
+	
+
+Just one-liner solution playing YouTube video on Shoes!
