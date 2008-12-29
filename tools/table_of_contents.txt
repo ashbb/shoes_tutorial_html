@@ -2,7 +2,7 @@ Shoes Tutorial Note
 ===================
 **- For the Shoes App Rookie Creators -**
 
-Dec. 25th, 2008 by ashbb (Satoshi Asakawa)
+Dec. 28th, 2008 by ashbb (Satoshi Asakawa)
 
 Table of contents
 -----------------
@@ -54,6 +54,7 @@ Table of contents
 00531. Open the Shoes console window from your app
 00532. Customize Shoes Class
 00533. Image Effects with blur method
+00534. Video playback
 00600.#Hot Topics in the Shoes ML and Shoooes.net
 00601. External Fonts
 00602. Locking edit\_box
@@ -73,6 +74,7 @@ Table of contents
 
 Change log:
 -----------
+Dec 28th, 2008: Added sample 59 and chapter 00534. <br>
 Dec 25th, 2008: Edited Assignment 3 and added Assignment 4. <br>
 Dec 17th, 2008: Added gallery 3 and a hot topic. <br>
 Dec 13th, 2008: Added gallery 2. <br>
