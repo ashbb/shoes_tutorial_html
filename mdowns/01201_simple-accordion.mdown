@@ -88,16 +88,16 @@ simple-accordion
 Study Note
 ----------
 \#1: <br>
-- The app.slot is the Shoes window itself. It's a flow. 
+- The `app.slot` is the Shoes window itself. It's a flow. 
 - The contents is the Shoes method lists all elements in a slot. 
   Refer to: <http://help.shoooes.net/Traversing.html>
-- x.contents[1] is the stack which is defined at #9. x.contents[0] is the stack which is defined at #6.
+- `x.contents[1]` is the stack which is defined at #9. `x.contents[0]` is the stack which is defined at #6.
 
 \#2: <br>
 See `ri Enumerable#detect`.
 
 \#3: <br>
-This stack is a local variable (an argument of open_page method)
+This stack is a local variable (an argument of open\_page method)
 
 \#4: <br>
 This active is a page clicked.
