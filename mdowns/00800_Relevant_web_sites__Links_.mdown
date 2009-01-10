@@ -16,3 +16,6 @@ Shoes - Rubys Cross Platform GUI App Toolkit - Grows Up <br>
 
 RecentBuilds <br>
 <http://github.com/why/shoes/wikis/recentbuilds> <br>
+
+Shoes\_(GUI\_toolkit) in Wikipedia<br>
+<http://en.wikipedia.org/wiki/Shoes_(GUI_toolkit)>

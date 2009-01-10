@@ -64,5 +64,7 @@
 9. [00900 Appendix](http://github.com/ashbb/shoes_tutorial_html/tree/master/mdowns/00900_Appendix.mdown)
 10. [01000 Acknowledgment](http://github.com/ashbb/shoes_tutorial_html/tree/master/mdowns/01000_Acknowledgment.mdown)
 11. [01100 Fancy Gallery](http://github.com/ashbb/shoes_tutorial_html/tree/master/mdowns/01100_Fancy_Gallery.mdown)
-12. [01200 Trivia](http://github.com/ashbb/shoes_tutorial_html/tree/master/mdowns/01200_Trivia.mdown)
+12. Built-in Samples
+	- [01201 simple-accordion](http://github.com/ashbb/shoes_tutorial_html/tree/master/mdowns/01201_simple-accordion.mdown)
+13. [01300 Trivia](http://github.com/ashbb/shoes_tutorial_html/tree/master/mdowns/01300_Trivia.mdown)
 

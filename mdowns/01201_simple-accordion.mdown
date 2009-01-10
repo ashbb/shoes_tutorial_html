@@ -1,0 +1,158 @@
+Built-in Samples
+----------------
+
+simple-accordion
+----------------
+**simple-accordion.png**
+
+![simple-accordion.png](http://github.com/ashbb/shoes_tutorial_html/raw/master/images/simple-accordion.png)
+
+	# simple-accordion.rb
+	module Accordion
+	  def open_page stack
+	    active = app.slot.contents.map { |x| x.contents[1] }.                  #1
+	      detect { |x| x.height > 0 }                                          #2
+	    return if active == stack                                              #3
+	    a = animate 60 do
+	      stack.height += 20
+	      active.height = 240 - stack.height if active                         #4
+	      a.stop if stack.height == 240
+	    end
+	  end
+	  def page title, text
+	    @pages ||= []
+	    @pages <<                                                              #5
+	      stack do
+	        page_text = nil
+	        stack :width => "100%" do                                          #6
+	          background "#fff".."#eed"
+	          hi = background "#ddd".."#ba9", :hidden => true                  #7
+	          para link(title) {}, :size => 26                                 #8
+	          hover { hi.show }
+	          leave { hi.hide }
+	          click { open_page page_text }
+	        end
+	        page_text =
+	          stack :width => "100%", :height => (@pages.empty? ? 240 : 0) do  #9
+	            stack :margin => 10 do                                         #10
+	              text.split(/\n{2,}/).each do |pg|                            #11
+	                para pg
+	              end
+	            end
+	          end
+	      end
+	  end
+	end
+	
+	Shoes.app do
+	  extend Accordion                                                         #12
+	  style(Link, :stroke => black, :underline => nil, :weight => "strong")    #13
+	  style(LinkHover, :stroke => black, :fill => nil, :underline => nil)      #14
+	
+	  page "0.0", <<-'END'                                                     #15
+	There is a thought
+	I have just had
+	Which I dont care to pass to
+	Anyone at all at this time.
+	
+	I have even forgotten it now,
+	But kept only the pleasures
+	Of my property
+	And of my controlled mental slippage.
+	END
+	  page "0.1", <<-'END'
+	My eyes have blinked again
+	And I have just realized
+	This upright world
+	I have been in.
+	
+	My eyelids wipe
+	My eyes hundreds of times
+	Reseting and renovating
+	The scenery.
+	END
+	  page "0.2", <<-'END'
+	Sister, without you,
+	The universe would
+	Have such a hole through it,
+	Where infinity has been shot.
+	
+	This cannot be, though.
+	There will always be room
+	For you-all of us are
+	Holding the way open.
+	END
+	end
+
+
+Study Note
+----------
+\#1: <br>
+- The app.slot is the Shoes window itself. It's a flow. 
+- The contents is the Shoes method lists all elements in a slot. 
+  Refer to: <http://help.shoooes.net/Traversing.html>
+- x.contents[1] is the stack which is defined at #9. x.contents[0] is the stack which is defined at #6.
+
+\#2: <br>
+See `ri Enumerable#detect`.
+
+\#3: <br>
+This stack is a local variable (an argument of open_page method)
+
+\#4: <br>
+This active is a page clicked.
+
+\#5: <br>
+Same as the following.
+
+	s = stack do
+	  # bla bla bla
+	end
+	@pages << s
+
+\#8: <br>
+In this case, there is no need to use a link. It's enough just like this:
+
+	para title, :size => 26
+
+Because the perception about mouse hover/leave is doing with background element (#7).
+
+\#9: <br>
+If you don't need to open the first page as a default, just write like this:
+
+	stack :width => "100%", :height => 0 do
+
+\#11: <br>
+Why split by two new lines? Do the following snippet.
+
+	Shoes.app :width => 150, :height => 450 do
+	  flow do
+	    5.times{para "test test test\n"}
+	  end
+	  stack do
+	    5.times{para "test test test\n"}
+	  end
+	end
+
+**simple-accordion-study-note-snippet-1.png**
+
+![simple-accordion-study-note-snippet-1.png](http://github.com/ashbb/shoes_tutorial_html/raw/master/images/simple-accordion-study-note-snippet-1.png)
+
+There is a difference between stack and flow. Because... <br>
+<http://www.mail-archive.com/shoes@code.whytheluckystiff.net/msg02869.html>
+
+In this case, we can write like this instead of #10 and #11.
+
+	flow :margin => 10 do
+	  text.each do |pg|
+
+\#12: <br>
+The extend method is used to add two methods, open\_page and page, as instance methods into Shoes.app object. See `ri Object#extend`.
+
+\#13 and #14: <br>
+Change the default style for the link method. But there is no need to use a link in this case. See the above explanation about #8.
+
+\#15: <br>
+Using [here document](http://web.njit.edu/all_topics/Prog_Lang_Docs/html/ruby/syntax.html#here_doc).
+Check the usage of '(single quote), "(double quote) and -(hyphen).
+
