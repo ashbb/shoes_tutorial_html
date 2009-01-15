@@ -122,7 +122,7 @@ Execute the previous calculation (one of +, -, *, /).
 To clear the `number_field` at #13 (to show nothing), assign nil to `@number` instead of 0.
 
 \#8: <br>
-Define a method press_equals. See the following small IRB snippet.
+Define a method press\_equals. See the following small IRB snippet.
 
 	C:\>irb --simple-prompt
 	>> 23.send '+', 5
@@ -149,7 +149,7 @@ This line is defined within the button definition block (#11), hence every time 
 
 Alternative Simple Calc
 -----------------------
-This is an alternative code. There is no interesting tips but it's simple, I guess.
+This is an alternative code. There is no interesting tips but it's simple, I guess. :)
 
 	#sample61.rb
 	Shoes.app :height => 250, :width => 200, :resizable => false do
