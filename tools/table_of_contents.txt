@@ -2,7 +2,7 @@ Shoes Tutorial Note
 ===================
 **- For the Shoes App Rookie Creators -**
 
-Jan. 10th, 2009 by ashbb (Satoshi Asakawa)
+Jan. 15th, 2009 by ashbb (Satoshi Asakawa)
 
 Table of contents
 -----------------
@@ -74,10 +74,12 @@ Table of contents
 01200.#Built-in Samples
 
 01201. simple-accordion
+01202. simple-calc
 01300. Trivia
 
 Change log:
 -----------
+Jan 15th, 2009: Added 01202 simple-calc and sample 61. <br>
 Jan 10th, 2009: Added new chapter Built-in Samples and the link to Shoes\_(GUI\_toolkit) in Wikipedia.<br>
 Jan 03rd, 2009: Added sample 60 and chapter 00535. <br>
 Dec 28th, 2008: Added sample 59 and chapter 00534. <br>

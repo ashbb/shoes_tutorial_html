@@ -67,5 +67,6 @@
 12. Built-in Samples
 
 	- [01201 simple-accordion](http://github.com/ashbb/shoes_tutorial_html/tree/master/mdowns/01201_simple-accordion.mdown)
+	- [01202 simple-calc](http://github.com/ashbb/shoes_tutorial_html/tree/master/mdowns/01202_simple-calc.mdown)
 13. [01300 Trivia](http://github.com/ashbb/shoes_tutorial_html/tree/master/mdowns/01300_Trivia.mdown)
 

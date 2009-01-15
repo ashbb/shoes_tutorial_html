@@ -2,7 +2,7 @@ Shoes Tutorial Note
 ===================
 **- For the Shoes App Rookie Creators -**
 
-Jan. 10th, 2009 by ashbb (Satoshi Asakawa)
+Jan. 15th, 2009 by ashbb (Satoshi Asakawa)
 
 Table of contents
 -----------------
@@ -74,10 +74,12 @@ Table of contents
 12. Built-in Samples
 
 	- [01201 simple-accordion (simple-accordion.rb)](http://github.com/ashbb/shoes_tutorial_html/tree/master/mdowns/01201_simple-accordion.mdown)
+	- [01202 simple-calc (simple-calc.rb, sample61.rb)](http://github.com/ashbb/shoes_tutorial_html/tree/master/mdowns/01202_simple-calc.mdown)
 13. [01300 Trivia (sample91.rb, sample92.rb, sample93.rb)](http://github.com/ashbb/shoes_tutorial_html/tree/master/mdowns/01300_Trivia.mdown)
 
 Change log:
 -----------
+Jan 15th, 2009: Added 01202 simple-calc and sample 61. <br>
 Jan 10th, 2009: Added new chapter Built-in Samples and the link to Shoes\_(GUI\_toolkit) in Wikipedia.<br>
 Jan 03rd, 2009: Added sample 60 and chapter 00535. <br>
 Dec 28th, 2008: Added sample 59 and chapter 00534. <br>
