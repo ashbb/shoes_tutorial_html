@@ -17,3 +17,70 @@ Example spec: <br>
 ![footracer\_screenshot.jpg](http://github.com/ashbb/shoes_tutorial_html/raw/master/images/footracer_screenshot.jpg)
 
 Have fun!
+
+mini-footracer
+--------------
+There is the following two codes. They have the same behavior. Just write it as you like. :)
+
+**mini-footracer.png**
+
+![mini-footracer.png](http://github.com/ashbb/shoes_tutorial_html/raw/master/images/mini-footracer.png)
+
+The 1st one:
+
+	# mini-footracer-1st.rb
+	class Racer
+	  def initialize name
+	    @name, @avatar = name, nil
+	    @dist, @speed = 0, 15
+	  end
+	  
+	  attr_reader :name, :dist
+	  attr_accessor :avatar
+	  
+	  def run
+	    @dist += rand(@speed)
+	  end
+	end
+	
+	class BabyRacer < Racer
+	  def initialize name
+	    super
+	    @dist, @speed = 100, 6
+	  end
+	end
+	
+	tom = Racer.new 'Tom'
+	ash = BabyRacer.new 'Ash'
+	
+	Shoes.app :width => 300, :height => 200 do
+	  line 160, 40, 160, 110
+	  tom.avatar = oval :fill => red, :left => 0, :top => 50, :radius => 5
+	  ash.avatar = oval :fill => blue, :left => 100, :top => 100, :radius => 5
+	  a = animate do
+	    tom.avatar.move tom.run, 50
+	    ash.avatar.move ash.run, 100
+	    winner = tom.dist > ash.dist ? tom : ash
+	    (a.stop; para winner.name) if winner.dist > 150
+	  end
+	end
+
+And the 2nd:
+
+	# mini-footracer-2nd.rb
+	Shoes.app :width => 300, :height => 200 do
+	  def run racer
+	    racer.left + rand(racer.style[:speed])
+	  end
+	  
+	  line 160, 40, 160, 110
+	  tom = oval :fill => red, :left => 0, :top => 50, :radius => 5, :speed => 15, :name => 'Tom'
+	  ash = oval :fill => blue, :left => 100, :top => 100, :radius => 5, :speed => 6, :name => 'Ash'
+	  
+	  a = animate do
+	    tom.move run(tom), 50
+	    ash.move run(ash), 100
+	    winner = tom.left > ash.left ? tom : ash
+	    (a.stop; para winner.style[:name]) if winner.left > 150
+	  end
+	end
