@@ -2,7 +2,7 @@ Shoes Tutorial Note
 ===================
 **- For the Shoes App Rookie Creators -**
 
-Jan. 17th, 2009 by ashbb (Satoshi Asakawa)
+Jan. 20th, 2009 by ashbb (Satoshi Asakawa)
 
 Table of contents
 -----------------
@@ -67,7 +67,7 @@ Table of contents
 	- [00702 Assignment 2 footracer (mini-footracer-1st.rb, mini-footracer-2nd.rb)](http://github.com/ashbb/shoes_tutorial_html/tree/master/mdowns/00702_Assignment_2_footracer.mdown)
 	- [00703 Assignment 3 Mini Adventure Game GUI Part (sample52.rb, sample52-render.rb)](http://github.com/ashbb/shoes_tutorial_html/tree/master/mdowns/00703_Assignment_3_Mini_Adventure_Game_GUI_Part.mdown)
 	- [00704 Assignment 3 Pong in Shoes (sample58.rb)](http://github.com/ashbb/shoes_tutorial_html/tree/master/mdowns/00704_Assignment_3_Pong_in_Shoes.mdown)
-8. [00800 Relevant web sites (Links)](http://github.com/ashbb/shoes_tutorial_html/tree/master/mdowns/00800_Relevant_web_sites__Links_.mdown)
+8. [00800 Relevant web sites (Links) (sample62.rb)](http://github.com/ashbb/shoes_tutorial_html/tree/master/mdowns/00800_Relevant_web_sites__Links_.mdown)
 9. [00900 Appendix](http://github.com/ashbb/shoes_tutorial_html/tree/master/mdowns/00900_Appendix.mdown)
 10. [01000 Acknowledgment](http://github.com/ashbb/shoes_tutorial_html/tree/master/mdowns/01000_Acknowledgment.mdown)
 11. [01100 Fancy Gallery (gallery1.rb, gallery2.rb, gallery3.rb)](http://github.com/ashbb/shoes_tutorial_html/tree/master/mdowns/01100_Fancy_Gallery.mdown)
@@ -79,43 +79,7 @@ Table of contents
 
 Change log:
 -----------
-Jan 17th, 2009: Added mini-footracer-1st and mini-footracer-2nd. <br>
-Jan 15th, 2009: Added 01202 simple-calc and sample 61. <br>
-Jan 10th, 2009: Added new chapter Built-in Samples and the link to Shoes\_(GUI\_toolkit) in Wikipedia.<br>
-Jan 03rd, 2009: Added sample 60 and chapter 00535. <br>
-Dec 28th, 2008: Added sample 59 and chapter 00534. <br>
-Dec 25th, 2008: Edited Assignment 3 and added Assignment 4. <br>
-Dec 17th, 2008: Added gallery 3 and a hot topic. <br>
-Dec 13th, 2008: Added gallery 2. <br>
-Dec 12th, 2008: Added sample 55, 56, 57 and chapter Fancy Gallery. <br>
-Dec 08th, 2008: Added sample 54 and chapter 00533. Refactored mkmdown.rb<br>
-Dec 07th, 2008: Deleted patches and patch.rb <br>
-Dec 06th, 2008: Reviewed `shoes -p` with Shoes 2 (Raisins, 0.r1134) <br>
-Dec 06th, 2008: Replace image files for Shoes-0.r1123. Edited sample 42. Updated mkpdf.rb to the latest version. Added the link to RecentBuild page.<br>
-Dec 03rd, 2008: Added sample 53 and chapter 00532. <br>
-Dec 01st, 2008: Added '\\' in front of '\_' for githb spec change or bug. <br>
-Nov 29th, 2008: Modified file name '\_' to '-' for github spec change or bug. Added assignment 3. <br>
-Nov 24th, 2008: Added a new tool, patch.rb, which replace image-file-path-on-github. This is a temporary patch. Because I'm not sure about a github spec change or a bug.<br>
-Nov 23th, 2008: Improved mkmdown.rb to add sample program names in the table of contents. Added a new tool, mkpdf.rb. <br>
-Nov 22th, 2008: Added a new chapter 00531. Added a link to the Shoes adventurer's list into chapter 00900.<br>
-Nov 20th, 2008: Added sample 49 into chapter 00508 and sample 50 into chapter 00513. <br>
-Nov 18th, 2008: Excuted all samples with Shoes-0.r1091 and updated some .png files and edited some .mdown files. <br>
-Nov 17th, 2008: Added a new tool, mkbightml.rb, which make one big html file included whole contents of Shoes Tutorial Note. Now, just a trial revision. <br>
-Nov 16th, 2008: Merge a 'browser' feature (side list of contents) provided by George. <br>
-Nov 15th, 2008: Added four tips into chapter 00300. Improved mkmdown.rb and mkhtml.rb to treat .jpg files and to treat page-links. Added more explanation into chapter 00504 <br>
-Nov 14th, 2008: Fixed a bug in mkhtml.rb. Added a note into chapter 00528 and 00530 about BlueCloth's and Code Highlighter's bug. <br>
-Nov 13th, 2008: Added a new sample 48 into chapter 00530. <br>
-Nov 08th, 2008: Added Code Highlighter for html files. <br>
-Nov 07th, 2008: Added a new sample 47. <br>
-Nov 02st, 2008: Totally corrected English. Added acknowledgments, sample 46. Modified built-in constants <br>
-Nov 01st, 2008: Corrected typo of sample 31 <br>
-Oct 30th, 2008: Added a hot topic. <br>
-Oct 29th, 2008: Added a new sample 45. <br>
-Oct 28th, 2008: Modified the page of 'Shoes.setup' <br>
-Oct 27th, 2008: Added a new sample 44. <br>
-Oct 26th, 2008: Modified sample 8, changed the path of image. <br>
-Oct 24th, 2008: Revised tools and modified .mdown files for the easy eBook maker. <br>
-Oct 23th, 2008: Added a new sample 43. <br>
+See changelog.mdown
 
 To do list:
 -----------
