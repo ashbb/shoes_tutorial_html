@@ -1,5 +1,6 @@
 Change log:
 -----------
+Jan 24th, 2009: Revised gallery 62 (added a cursor and a bit refactoring) <br>
 Jan 20th, 2009: Added sample 62 and a link to shoes\_demonstration\_apps. <br>
 Jan 17th, 2009: Added mini-footracer-1st and mini-footracer-2nd. <br>
 Jan 15th, 2009: Added 01202 simple-calc and sample 61. <br>

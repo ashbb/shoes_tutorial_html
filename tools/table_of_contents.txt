@@ -2,7 +2,7 @@ Shoes Tutorial Note
 ===================
 **- For the Shoes App Rookie Creators -**
 
-Jan. 20th, 2009 by ashbb (Satoshi Asakawa)
+Jan. 24th, 2009 by ashbb (Satoshi Asakawa)
 
 Table of contents
 -----------------
