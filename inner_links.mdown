@@ -68,5 +68,6 @@
 
 	- [01201 simple-accordion](http://github.com/ashbb/shoes_tutorial_html/tree/master/mdowns/01201_simple-accordion.mdown)
 	- [01202 simple-calc](http://github.com/ashbb/shoes_tutorial_html/tree/master/mdowns/01202_simple-calc.mdown)
+	- [01203 simple-menu](http://github.com/ashbb/shoes_tutorial_html/tree/master/mdowns/01203_simple-menu.mdown)
 13. [01300 Trivia](http://github.com/ashbb/shoes_tutorial_html/tree/master/mdowns/01300_Trivia.mdown)
 

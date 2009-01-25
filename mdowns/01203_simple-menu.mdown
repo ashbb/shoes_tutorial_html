@@ -1,0 +1,136 @@
+simple-menu
+-----------
+**simple-menu-r1.png**
+
+![simple-menu-r1.png](http://github.com/ashbb/shoes_tutorial_html/raw/master/images/simple-menu-r1.png)
+
+This snapshot shows the following. <br>
+hovered on blue box --> the width is expanded to 170 pixel. <br>
+clicked twice --> Box numbers are replaced from 1-4 to 9-12. <br>
+<br>
+
+	# simple-menu-r1.rb
+	class MenuPanel < Shoes::Widget                                          #1
+	  @@boxes = []
+	  def initialize(color, args)                                            #2
+	    eval "self.style " + args                                            #3
+	    @@boxes << self
+	    background color
+	    para link("Box #{@@boxes.length}", :stroke => white, :fill => nil).  #4
+	      click { visit "/" },                                               #5
+	        :margin => 18, :align => "center", :size => 20
+	    hover { expand }
+	  end
+	  def expand                                                             #6
+	    if self.width < 170
+	      a = animate 30 do
+	        @@boxes.each do |b|
+	          b.width -= 5 if b != self and b.width > 140
+	        end
+	        self.width += 5
+	        a.stop if self.width >= 170
+	      end
+	    end
+	  end
+	end
+	
+	Shoes.app :width => 600, :height => 130 do                               #7
+	  style(Link, :underline => nil)
+	  style(LinkHover, :fill => nil, :underline => nil)
+	  menu_panel green,  ":width => 170, :height => 120, :margin => 4"       #8
+	  menu_panel blue,   ":width => 140, :height => 120, :margin => 4"       #9
+	  menu_panel red,    ":width => 140, :height => 120, :margin => 4"       #10
+	  menu_panel purple, ":width => 140, :height => 120, :margin => 4"       #11
+	end
+
+
+
+Study Note
+----------
+Original built-in sample code is [here](http://github.com/why/shoes/blob/f107ec71ca58ddeaea09d85f1f11197a13f15561/samples/simple-menu.rb). <br>
+But it didn't work well as is, so added #3 and modified from #7 to #11.
+
+\#1: <br>
+There is no need adding `Shoes::` explicitly. The following is also okay.
+
+	class MenuPanel < Widget
+
+\#2: <br>
+When the initialize method of Widget subclass has **hash** as the argument, 
+it seems including more than the number of given arguments. See the following:
+
+	class MenuPanel < Widget
+	  def initialize args
+	    data = ''
+	    args.each{|k, v| data << "#{k} => #{v}\n"}
+	    para data
+	  end
+	end
+	
+	Shoes.app :width => 200, :height => 150 do
+	  menu_panel :width => 170, :height => 120, :margin => 4
+	end
+
+**simple-menu-study-note-snippet-1.png**
+
+![simple-menu-study-note-snippet-1.png](http://github.com/ashbb/shoes_tutorial_html/raw/master/images/simple-menu-study-note-snippet-1.png)
+ 
+
+\#3: <br>
+I don't know why the following two snippets show the different outputs.
+It seems a bug, though...
+
+	class Menu < Widget
+	  def initialize #args
+	    self.style :width => 100, :height => 100
+	    background yellow
+	    para 'hello'
+	    click{ expand }
+	  end
+	  
+	  def expand
+	    para 'clicked'
+	    animate{|i| para(i) if i < 20}
+	  end
+	end
+	
+	Shoes.app :width => 150, :height => 200 do
+	  #menu :width => 300, :height => 300
+	  menu
+	end
+
+**simple-menu-study-note-snippet-2.png**
+
+![simple-menu-study-note-snippet-2.png](http://github.com/ashbb/shoes_tutorial_html/raw/master/images/simple-menu-study-note-snippet-2.png)
+
+	class Menu < Widget
+	  def initialize args
+	    self.style :width => 100, :height => 100
+	    background yellow
+	    para 'hello'
+	    click{ expand }
+	  end
+	  
+	  def expand
+	    para 'clicked'
+	    animate{|i| para(i) if i < 20}
+	  end
+	end
+	
+	Shoes.app :width => 150, :height => 200 do
+	  menu :width => 300, :height => 300
+	  #menu
+	end
+
+**simple-menu-study-note-snippet-3.png**
+
+![simple-menu-study-note-snippet-3.png](http://github.com/ashbb/shoes_tutorial_html/raw/master/images/simple-menu-study-note-snippet-3.png)
+
+\#4 and #5: <br>
+If you replace `click { visit "/" }` to `click { }`, the Box number will not change. I guess `visit "/"` means the same as the refresh operation.
+
+\#6: <br>
+The method `expand` does the following.: <br>
+When mouse is fovering on a box which width is 140 pixcel, the box expands till 170 pixcel.
+At the same time, the box that has 170 pixcel width rolls back to 140 pixcel.
+

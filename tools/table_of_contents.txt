@@ -2,7 +2,7 @@ Shoes Tutorial Note
 ===================
 **- For the Shoes App Rookie Creators -**
 
-Jan. 24th, 2009 by ashbb (Satoshi Asakawa)
+Jan. 25th, 2009 by ashbb (Satoshi Asakawa)
 
 Table of contents
 -----------------
@@ -75,6 +75,7 @@ Table of contents
 
 01201. simple-accordion
 01202. simple-calc
+01203. simple-menu
 01300. Trivia
 
 Change log:

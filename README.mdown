@@ -2,7 +2,7 @@ Shoes Tutorial Note
 ===================
 **- For the Shoes App Rookie Creators -**
 
-Jan. 24th, 2009 by ashbb (Satoshi Asakawa)
+Jan. 25th, 2009 by ashbb (Satoshi Asakawa)
 
 Table of contents
 -----------------
@@ -75,6 +75,7 @@ Table of contents
 
 	- [01201 simple-accordion (simple-accordion.rb)](http://github.com/ashbb/shoes_tutorial_html/tree/master/mdowns/01201_simple-accordion.mdown)
 	- [01202 simple-calc (simple-calc.rb, sample61.rb)](http://github.com/ashbb/shoes_tutorial_html/tree/master/mdowns/01202_simple-calc.mdown)
+	- [01203 simple-menu (simple-menu-r1.rb)](http://github.com/ashbb/shoes_tutorial_html/tree/master/mdowns/01203_simple-menu.mdown)
 13. [01300 Trivia (sample91.rb, sample92.rb, sample93.rb)](http://github.com/ashbb/shoes_tutorial_html/tree/master/mdowns/01300_Trivia.mdown)
 
 Change log:
