@@ -1,5 +1,6 @@
 Change log:
 -----------
+Feb 04th, 2009: Added gallery 4. <br>
 Feb 01st, 2009: Added chapter 00536. <br>
 Jan 25th, 2009: Added 01203 simple-menu. <br>
 Jan 24th, 2009: Revised gallery 62 (added a cursor and a bit refactoring) <br>

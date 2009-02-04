@@ -93,3 +93,63 @@ Live code! Rewrite the code whatever you want! Change colors at once when you wr
 **gallery3.png**
 
 ![gallery3.png](http://github.com/ashbb/shoes_tutorial_html/raw/master/images/gallery3.png)
+
+
+
+Gallery No.4
+------------
+Webcomic on Shoes! A simple app but quite convenient. Cool!
+
+*Original code was created by Michael Kohl.* <br>
+His code uses `Shoes.setup` for requiring Mechanize and uses `image` with no arguments. The code works well on Mac. But unfortunately on Windows, Shoes 2 still has some problems. xx-P <br>
+So, I try to come up with a solution to get around the problems. Here we go. :)
+
+	# gallery4.rb
+	Shoes.app :title => "ManWithHat - An xkcd viewer" do
+	 
+	  def get_strip_details page
+	    system "ruby gallery4-1.rb #{page}"
+	    @strip.path, @funny.text, @title.text = IO.readlines('xkcd_tmp.viewer')
+	  end
+	 
+	  flow :margin => 10 do
+	    button 'Latest strip' do
+	      page = 'http://xkcd.org/'
+	      get_strip_details page
+	    end
+	    
+	    button 'Random strip' do
+	      page = 'http://dynamic.xkcd.com/comic/random/'
+	      get_strip_details page
+	    end
+	 
+	    stack do
+	      @title = caption
+	      @funny = para
+	      @strip = image '../images/space.png'
+	      @disclaimer = para em 'All cartoons and texts used in '\
+	                            'this application were made by xkcd.com.'
+	    end
+	  end
+	end
+
+The following code is not a Shoes app, just a Ruby script to use Mechanize. ;-)
+
+	# gallery4-1.rb
+	require 'mechanize'
+	 
+	agent = WWW::Mechanize.new
+	page = ARGV[0]
+	
+	page_content = agent.get(page)
+	image_regex = /<img src="(.*)" title="(.*)" alt="(.*)"/
+	
+	image_regex.match page_content.search("//img[contains(@src,'comics')]").to_s
+	open('xkcd_tmp.viewer', 'w'){|f| f.puts $1, $2, $3}
+
+**gallery4.png**
+
+![gallery4.png](http://github.com/ashbb/shoes_tutorial_html/raw/master/images/gallery4.png)
+
+
+
