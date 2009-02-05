@@ -100,7 +100,7 @@ Gallery No.4
 ------------
 Webcomic on Shoes! A simple app but quite convenient. Cool!
 
-*Original code was created by Michael Kohl.* <br>
+*Original code was created by [Michael Kohl](http://citizen428.net/).* <br>
 His code uses `Shoes.setup` for requiring Mechanize and uses `image` with no arguments. The code works well on Mac. But unfortunately on Windows, Shoes 2 still has some problems. xx-P <br>
 So, I try to come up with a solution to get around the problems. Here we go. :)
 
@@ -142,10 +142,11 @@ The following code is not a Shoes app, just a Ruby script to use Mechanize. ;-)
 	page = ARGV[0]
 	
 	page_content = agent.get(page)
-	image_regex = /<img src="(.*)" title="(.*)" alt="(.*)"/
+	image_regex = /<img src="(.*)" title="(.*)" alt="(.*)"/  # > : for BlueCloth
 	
 	image_regex.match page_content.search("//img[contains(@src,'comics')]").to_s
 	open('xkcd_tmp.viewer', 'w'){|f| f.puts $1, $2, $3}
+
 
 **gallery4.png**
 
