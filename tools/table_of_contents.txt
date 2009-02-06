@@ -2,7 +2,7 @@ Shoes Tutorial Note
 ===================
 **- For the Shoes App Rookie Creators -**
 
-Feb. 5th, 2009 by ashbb (Satoshi Asakawa)
+Feb. 6th, 2009 by ashbb (Satoshi Asakawa)
 
 Table of contents
 -----------------
@@ -57,6 +57,7 @@ Table of contents
 00534. Video playback
 00535. Scope: local variable and instance variable
 00536. edit_line with block
+00537. One way of layer manipulation
 00600.#Hot Topics in the Shoes ML and Shoooes.net
 00601. External Fonts
 00602. Locking edit\_box

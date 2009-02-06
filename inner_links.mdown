@@ -50,6 +50,7 @@
 	- [00534 Video playback](http://github.com/ashbb/shoes_tutorial_html/tree/master/mdowns/00534_Video_playback.mdown)
 	- [00535 Scope: local variable and instance variable](http://github.com/ashbb/shoes_tutorial_html/tree/master/mdowns/00535_Scope__local_variable_and_instance_variable.mdown)
 	- [00536 edit_line with block](http://github.com/ashbb/shoes_tutorial_html/tree/master/mdowns/00536_edit_line_with_block.mdown)
+	- [00537 One way of layer manipulation](http://github.com/ashbb/shoes_tutorial_html/tree/master/mdowns/00537_One_way_of_layer_manipulation.mdown)
 6. Hot Topics in the Shoes ML and Shoooes.net
 	- [00601 External Fonts](http://github.com/ashbb/shoes_tutorial_html/tree/master/mdowns/00601_External_Fonts.mdown)
 	- [00602 Locking edit\_box](http://github.com/ashbb/shoes_tutorial_html/tree/master/mdowns/00602_Locking_edit__box.mdown)
