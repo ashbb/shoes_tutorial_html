@@ -62,3 +62,30 @@ We can get keypress events. <br>
 **sample21.png**
 
 ![sample21.png](http://github.com/ashbb/shoes_tutorial_html/raw/master/images/sample21.png)
+
+
+ATTENTION
+---------
+I'm not sure why... But may be a bug of Shows, I guess...
+
+See the following snippet. <br>
+Case 1,3,4 will crash. Only case 2 is okay (not crash). Because it creates a new empty String object `''`, then assigns it to the `self.clipboard` instead of `p2.text` itself.
+
+*I noticed this problem when I read the code of [rotten.rb](http://github.com/citizen428/littlesteps/blob/c15ee6a7838b962cbc64bbf3c1570d116bd9c9c1/rotten/rotten.rb) created by [Michael Kohl](http://citizen428.net/).*
+
+	# sample65.rb
+	Shoes.app :width => 400, :height => 50 do
+	  p1 = para
+	  p2 = para
+	  p3 = para
+	  p4 = para
+	  button('case 1'){self.clipboard = p1.text}                                #=> crash
+	  button('case 2'){self.clipboard = p2.text.eql?('') ? '' : p2.text }       #=> not crash
+	  button('case 3'){self.clipboard = p3.text.eql?('') ? p3.text : p3.text }  #=> crash
+	  button('case 4'){self.clipboard = p4.text.equal?('') ? '' : p4.text }     #=> crash
+	end
+
+**sample65.png**
+
+![sample65.png](http://github.com/ashbb/shoes_tutorial_html/raw/master/images/sample65.png)
+
