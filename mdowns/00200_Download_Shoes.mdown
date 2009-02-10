@@ -1,6 +1,6 @@
 Download Shoes
 --------------
 
-Download Shoes from [this web site](http://shoooes.net/downloads/) and pick [the installer](http://help.shoooes.net/Introducing.html).
+Download Shoes from the [project's web site](http://shoooes.net/downloads/) and read the [installation instructions](http://help.shoooes.net/Installing.html) for your platform.
 
 We use **Shoes 2 (Raisins, 0.r1134)** in this tutorial.
