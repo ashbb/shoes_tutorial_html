@@ -2,7 +2,7 @@ No. 5: image
 ----------
 
 An image is a picture in PNG, JPEG or GIF format. 
-We can use the directory path or URL.
+We can load it from a local directory path or an URL.
 
 	# sample6.rb
 	Shoes.app :width => 680, :height => 460 do

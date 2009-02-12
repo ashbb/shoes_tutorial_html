@@ -1,7 +1,7 @@
 No. 10: clear
 -----------
 
-The clear method wipes the slot. 
+The method "clear" wipes the slot. 
 It also takes an optional block that will be used to replace the contents of the slot.
 
 	# sample12.rb
@@ -22,7 +22,7 @@ It also takes an optional block that will be used to replace the contents of the
 
 ![sample12.png](http://github.com/ashbb/shoes_tutorial_html/raw/master/images/sample12.png)
 
-The append and remove methods are also useful.
+The method "append" and "remove" are also very useful for manipulating the contents of a slot.
 
 	# sample13.rb
 	Shoes.app :width => 450, :height => 250 do
