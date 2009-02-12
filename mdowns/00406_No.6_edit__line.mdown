@@ -1,9 +1,8 @@
 No. 6: edit\_line
 -----------------
 
-
-Edit boxes are wide, rectangular boxes for entering text. 
-Edit lines are a slender, little box for entering one line of text.
+Edit boxes are wide, rectangular boxes for entering text (think of the HTML "textarea" tag). 
+Edit lines are slender, little boxes for entering one line of text (think of the HTML "input" tag).
 
 	# sample7.rb
 	Shoes.app :width => 250, :height => 300 do
@@ -20,7 +19,7 @@ Edit lines are a slender, little box for entering one line of text.
 
 ![sample7.png](http://github.com/ashbb/shoes_tutorial_html/raw/master/images/sample7.png)
 
-We can use :secret in the edit\_line area.
+We can use the attribute :secret for creating password fields with edit\_line (think of type="password" in HTML "input" tags): 
 
 	# sample7-1.rb
 	Shoes.app :width => 235, :height => 80 do

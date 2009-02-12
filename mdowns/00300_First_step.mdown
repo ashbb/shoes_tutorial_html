@@ -1,49 +1,47 @@
 First step
 ----------
 
-There is [a tutorial written by \_why](http://shoooes.net/tutorial/).
+A good starting point for working with Shoes is the [tutorial written by \_why](http://shoooes.net/tutorial/).
 
-Now, copy and paste the whole 16 sample programs and run one by one. No need to understand the code meaning. Just run and look at the app window. This tutorial has screenshots, but be sure to run all 16 samples. Not later. Do it now, before going to the next, please. This is the most important step, I believe.
+If you want to experiment, you can copy and paste the 16 sample programs and run them one by one. Don't worry if you don't understand the code yet, just run it and see what happens to the app windows. Although the tutorial does have screenshots, running the samples and maybe playing around with them is a good start to Shoes programming. So do it now, it will help you a lot in understanding this tutorial you are reading right now.
 
 
-A Tip: Quick Launcher
----------------------
-Create .bashrc file and add this alias:
+Tip: Quick launch Shoes from the shell
+--------------------------------------
+Add the following line to your .bashrc (create it if the file doesn't exist):
 
 	alias shoes='/Applications/Shoes.app/Contents/MacOS/shoes'
 	# your path might be different....
 
-Now you can type in a terminal window:
+Now you can launch a Shoes app from a terminal window like this, thus avoiding going through the open file dialog:
 
 	shoes sample1.rb
 
-Now you can quickly launch a shoes app without going through the open file dialog.
-
-*This tip is provided by George Thompson - Saturday, 15 November 2008, POIRPWSC101-1I*
+*This tip was provided by George Thompson - Saturday, 15 November 2008, POIRPWSC101-1I*
 
 
-A Tip: Quick Launcher
----------------------
-The command to work with TextMate(http://samuraicoder.net/shoes.mov)
- # This link is not available now.
+Tip: Quick launch Shoes from TextMate
+-------------------------------------
+A video that shows how to launch Shoes from within  TextMate(http://samuraicoder.net/shoes.mov)
+ # Note: Unfortunately this link does not seem to be working right now.
 
-*This tip is provided by Takaaki Kato - Saturday, 15 November 2008, POIRPWSC101-1I*
+*This tip was provided by Takaaki Kato - Saturday, 15 November 2008, POIRPWSC101-1I*
 
 
-A Tip: Quick Launcher
----------------------
-The windows link in a "Tool Bar".
+ip: Quick launch Shoes in Windows
+---------------------------------
+Create a shortcut in the "Tool Bar".
 
 **shoes\_launcher.jpg**
 
 ![shoes\_launcher.jpg](http://github.com/ashbb/shoes_tutorial_html/raw/master/images/shoes_launcher.jpg)
 
-*This tip is provided by Victor Goff -- Saturday, 15 November 2008, POIRPWSC101-1I*
+*This tip was provided by Victor Goff - Saturday, 15 November 2008, POIRPWSC101-1I*
 
 
-A Tip: to Ubuntu 8.10 users
----------------------------
+A Tip for users of Ubuntu 8.10
+------------------------------
 The documentation is no longer correct. It was for Ubuntu 8.04.
 For Ubuntu 8.10, the required libraries are libvlc-dev and libvlccore-dev instead of libvlc0-dev.
 
-*This tip is provided by Jose Carlos Monteiro - Saturday, 15 November 2008, POIRPWSC101-1I*
+*This tip was provided by Jose Carlos Monteiro - Saturday, 15 November 2008, POIRPWSC101-1I*

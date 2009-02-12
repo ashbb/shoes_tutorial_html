@@ -1,13 +1,13 @@
 No. 1: para
----------
+-----------
 
-banner			: Charactor size 48 pixels <br>
-title			: 34 <br>
-subtitle		: 26 <br>
-tagline			: 18 <br>
-caption			: 14 <br>
-para (paragraph)	: 12 <br>
-inscription		: 10 <br>
+banner			: Character size 48 pixels <br>
+title			: 34 pixels <br>
+subtitle		: 26 pixels <br>
+tagline			: 18 pixels <br>
+caption			: 14 pixels <br>
+para (paragraph)	: 12 pixels <br>
+inscription		: 10 pixels <br>
 
 	# sample1.rb
 	Shoes.app :width => 230, :height => 80 do
@@ -27,7 +27,7 @@ strong			: bold <br>
 em (emphasized)		: italics <br>
 code			: monospace font <br>
 ins (inserted)		: single underline <br>
-sub (subscript)		: lower the text by 10 pixels, x-small font <br>
+sub (subscript)		: lowers the text by 10 pixels, x-small font <br>
 
 	# sample2.rb
 	Shoes.app :width => 240, :height => 95 do

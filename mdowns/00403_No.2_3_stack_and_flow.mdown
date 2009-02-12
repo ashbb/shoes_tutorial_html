@@ -1,10 +1,10 @@
 Nos. 2 & 3: stack and flow
 ---------------------
 
-At first, read the following web page:
+At first, please read the following web page:
 [http://github.com/why/shoes/wikis/stacksandflows](http://github.com/why/shoes/wikis/stacksandflows)
 
-But use (run) the following sample code instead of the one on the above web page because the method Shoes#text is obsolete and you need to correct the path to image file.
+*Note* Instead of using the code from the abovove document which uses the deprecated Shoes#text method, please run the following sample code (and keep in mind to change the path to the image file):
 
 	# sample3.rb
 	Shoes.app do
@@ -23,7 +23,7 @@ But use (run) the following sample code instead of the one on the above web page
 
 ![sample3.png](http://github.com/ashbb/shoes_tutorial_html/raw/master/images/sample3.png)
 
-More complex sample code:
+A more complex example:
 
 	# sample4.rb
 	Shoes.app :width => 250, :height => 150 do

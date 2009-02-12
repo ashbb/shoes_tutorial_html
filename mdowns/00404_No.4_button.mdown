@@ -1,13 +1,20 @@
 No. 4: button
 -----------
 
-button("Press Me") <br>
-which creates a new button and <br>
-button("Press Me"){ alert("clicked")} <br>
-the button fires the block when clicked and <br>
-button("Press Me", :left => 50, :top => 20) <br>
-will place the button at coordinates (50, 20). <br>
-That's it.
+The method call 
+
+	button("Press Me")
+
+creates a new button whereas
+
+	button("Press Me"){ alert("clicked")}
+
+runs the associated block when the button is clicked. Finally
+
+	button("Press Me", :left => 50, :top => 20)
+
+will place the button at the  coordinates (50, 20). <br>
+That's all there is to know about buttons.
 
 	# sample5.rb
 	Shoes.app :width => 200, :height => 50 do
