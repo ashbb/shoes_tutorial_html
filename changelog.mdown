@@ -1,5 +1,6 @@
 Change log:
 -----------
+Feb 12th, 2009: Merged citizen428's pull requests edited 00300 to 00410. <br>
 Feb 10th, 2009: Clarified link to installation instructions in chapter 00200. <br>
 Feb 10th, 2009: Minor additions and corrections to chapter 00100. <br>
 Feb 08th, 2009: Added an attention, sample 65. <br>
