@@ -1,7 +1,7 @@
 shoes --help
 ------------
 
-Type the following on your pc console (terminal window). <br>
+Type the following in your console or terminal window to access Shoes' help system: <br>
 
 shoes -h <br>
 or <br>
@@ -28,7 +28,7 @@ shoes --help <br>
 
 shoes -g install hpricot <br>
 shoes -g install mechanize <br>
-With Shoes-0.r1091, it works well! <br>
+This will install gems for Shoes *only*, your regular Ruby installation is *not* affected by this! <br>
 
 **shoes\_gem-1.png**
 
@@ -39,33 +39,26 @@ With Shoes-0.r1091, it works well! <br>
 
 ![shoes\_shy-1.png](http://github.com/ashbb/shoes_tutorial_html/raw/master/images/shoes_shy-1.png)
 
-After Shoes-0.r1057,the above message appears. <br>
-Because this feature is included in 'shoes --package'. <br>
+Shoes version newer than 0.r1057 wil display the above warning since this functionality is now part
+of 'shoes --package'.
 
 
 **shoes\_package.png**
 
 ![shoes\_package.png](http://github.com/ashbb/shoes_tutorial_html/raw/master/images/shoes_package.png)
 
-File select: sample1.rb <br>
-It works well. sample1.exe is created. And it can be executed well.<br>
-
-Directory select: code\_wrapper\_on\_shoes\_v0.2s <br>
-code\_wrapper\_on\_shoes\_v0.2s.exe is created. But it is not executed well. :( <br>
-Now still under construction... <br>
-
-Select shy: code\_wrapper\_on\_shoes\_v0.2s <br>
-code\_wrapper\_on\_shoes\_v0.2s.shy is created. It works very well!! 
+Here you can select a file, which will then get packaged for Windows, Linux or Mac OS X. Alternatively
+you can also package it as a .shy file for Shoes.
 
 
 **shoes\_manual-html.png**
 
 ![shoes\_manual-html.png](http://github.com/ashbb/shoes_tutorial_html/raw/master/images/shoes_manual-html.png)
 
+To create an HTML version of the Shoes manual you can do the following:
+
 C:\>cd C:\Program Files\Common Files\Shoes\0.r1123 <br>
 C:\Program Files\Common Files\Shoes\0.r1123>shoes --manual-html C:\rubyprograms\shoes\0.r1123\_manual <br>
-
-It works well! Html files were created in my pc. Cool! <br>
 
 
 **shoes\_manual-html2.png**

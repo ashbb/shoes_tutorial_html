@@ -1,7 +1,7 @@
 App object and coding style
 ---------------------------
 
-A Shoes App object is a single window running code at a Shoes URL. When you switch Shoes URLs, a new App object is created. The App itself is a flow. There are four Shoes App object coding styles:
+A Shoes App object is a single window running code at a Shoes URL. When you switch Shoes URLs, a new App object is created. The application itself is a flow. There are four Shoes App object coding styles:
 
 	# sample16.rb
 	Shoes.app :width => 150, :height => 40 do
@@ -26,7 +26,7 @@ A Shoes App object is a single window running code at a Shoes URL. When you swit
 	Shoes.app :width => 150, :height => 40 
 
  # sample17.png
-is the same as the above sample16.png.
+This is essentially the same as sample16 above.
 
 
 	# sample18.rb
@@ -41,7 +41,7 @@ is the same as the above sample16.png.
 	end
 
  # sample18.png
-is the same as the above sample16.png.
+Another way of recreating sample16. 
 
 
 	# sample47.rb
@@ -50,41 +50,32 @@ is the same as the above sample16.png.
 	Shoes.app :width => 150, :height => 40, &blk
 
  # sample47.png
-is the same as the above sample16.png.
+This also will give you the same result as sample16.
 
 
 More information
 ----------------
-Open question: when to use one coding style over another? <br>
-*This question is provided by Jose Carlos Monteiro - Saturday, 15 November 2008, POIRPWSC101-1I*
+Open question: When to use one coding style over another? <br>
+*This question was asked by Jose Carlos Monteiro - Saturday, 15 November 2008, POIRPWSC101-1I*
 
-Year, good point! <br>
-I think there is no principles (no constraint), but I usually select like the following.
+As far as we know, there is no "official" guideline, so here's a subjective approach:
 
 a) Sample 16 style <br>
-is most easy and simple. I like best. <br>
-So, I recommend you this style for the exercise 1 - day 2.
+This is the easiest and most simple to read and therefore ideal for beginners.
 
 b) Sample 17 style <br>
-is a special style for using Shoes URLs. <br>
+This is a special style for using Shoes URLs. <br>
 Please refer to [No. 9: Shoes.url](http://github.com/ashbb/shoes_tutorial_html/tree/master/mdowns/00409_No.9_Shoes.url.mdown)
 
 c) Sample 18 style <br>
-is a special style for using Shoes Widget class. <br>
+This is a special style for using Shoes' Widget class. <br>
 Please refer to [the Widget class](http://github.com/ashbb/shoes_tutorial_html/tree/master/mdowns/00508_the_Widget_class.mdown) <br>
-And more information, but advanced article, is [here](http://github.com/ashbb/shoes_tutorial_html/tree/master/mdowns/00900_Appendix.mdown)
+A more thourough explanation can be found [here](http://github.com/ashbb/shoes_tutorial_html/tree/master/mdowns/00900_Appendix.mdown)
 
 d) Sample 47 style <br>
-is a special style for using block or proc object. <br>
+This style is used when you want to work with a block or proc object. <br>
 Please refer to [Open a new app window (Another example)](http://github.com/ashbb/shoes_tutorial_html/tree/master/mdowns/00530_Open_a_new_app_window.mdown)
 
 NOTE
 ----
-Phew,... went directly into advanced topic....
-
-The aboves are curious things. But I recommend you to learn Shoes step by step.
-Because Shoes is a developing project. Not so stable, hence there are many bugs and strang behaviors. If you stick on them, you will feel _'Shoes is not so fun'._ I think it's not good.
-__Shoes is fun!__
-
-
-
+Please don't worry if you don't understand all of the above right now, it's best to learn Shoes step by step. Also keep in mind that Shoes is still quite young and therefore actively developed, so certain behaviors are bound to change.
