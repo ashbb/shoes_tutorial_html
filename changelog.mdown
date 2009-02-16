@@ -1,6 +1,6 @@
 Change log:
 -----------
-Feb 16th, 2009: Merged citizen428's pull requests edited 00501 to 00505. <br>
+Feb 16th, 2009: Merged citizen428's pull requests edited 00501 to 00505 and added sample 30-1, a tip of COLORS, into 00516. <br>
 Feb 12th, 2009: Merged citizen428's pull requests edited 00300 to 00410. <br>
 Feb 10th, 2009: Clarified link to installation instructions in chapter 00200. <br>
 Feb 10th, 2009: Minor additions and corrections to chapter 00100. <br>

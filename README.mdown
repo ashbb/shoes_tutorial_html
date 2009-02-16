@@ -36,7 +36,7 @@ Table of contents
 	- [00513 Shoes.setup (sample27.rb, sample50.rb)](http://github.com/ashbb/shoes_tutorial_html/tree/master/mdowns/00513_Shoes.setup.mdown)
 	- [00514 Downloader (sample28.rb)](http://github.com/ashbb/shoes_tutorial_html/tree/master/mdowns/00514_Downloader.mdown)
 	- [00515 Assign Shoes URL dynamically (sample29.rb)](http://github.com/ashbb/shoes_tutorial_html/tree/master/mdowns/00515_Assign_Shoes_URL_dynamically.mdown)
-	- [00516 Classes List and Colors List (sample30.rb)](http://github.com/ashbb/shoes_tutorial_html/tree/master/mdowns/00516_Classes_List_and_Colors_List.mdown)
+	- [00516 Classes List and Colors List (sample30.rb, sample30-1.rb)](http://github.com/ashbb/shoes_tutorial_html/tree/master/mdowns/00516_Classes_List_and_Colors_List.mdown)
 	- [00517 start, stop and restart (sample31.rb)](http://github.com/ashbb/shoes_tutorial_html/tree/master/mdowns/00517_start,_stop_and_restart.mdown)
 	- [00518 Combination of image objects show/hide and mouse hover/leave (sample32.rb, sample33.rb, sample34.rb)](http://github.com/ashbb/shoes_tutorial_html/tree/master/mdowns/00518_Combination_of_image_objects_show_hide_and_mouse_hover_leave.mdown)
 	- [00519 arc and cap (sample35.rb)](http://github.com/ashbb/shoes_tutorial_html/tree/master/mdowns/00519_arc_and_cap.mdown)
