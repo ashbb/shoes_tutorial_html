@@ -1,22 +1,22 @@
-Tips for creating original Shoes apps
------------------------------------------
+Tips for creating your own Shoes apps
+-------------------------------------
 
-Open Shoes built-in manual and Shoes console window
----------------------------------------------------
+Open the built-in manual and the console window
+-------------------------------------------------
 
-To open the Shoes built-in manual, 
-Type the following on your pc console (terminal window). 
+To open the built-in manual, type the following in 
+your console or terminal window: 
 
 shoes -m <br>
 or <br>
 shoes --manual <br>
 
-Or type  Alt + ?   on any Shoes app window. <br>
-Or select from the menu. See here. <br>
+The keyboard shortcut Alt + ? ('⌘M' on a Mac) opens the manual from inside any Shoes app window. <br>
+Alternatively you can also access the manual from the menu like this: <br>
 <http://shoooes.net/manuals/> <br>
 
 To open the Shoes console window,  <br>
-type  Alt + /   on any Shoes app window. <br>
+type  Alt + / ('⌘/' on a Mac) in any Shoes application window. <br>
 
 **shoes\_console.png**
 

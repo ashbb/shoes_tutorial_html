@@ -8,7 +8,7 @@ Shoes::REVISION <br>
 Shoes::FONTS <br>
 
 Built-in methods: <br>
-These methods can be used anywhere throughout Shoes programs: <br>
+These methods can be used anywhere throughout a Shoes program: <br>
   alert, ask, ask\_color, ask\_open\_file, ask\_save\_file, ask\_open\_folder, ask\_save\_folder, confirm, debug, error, exit, font, gradient, gray, info, rgb, warn <br>
 
-Read the Built-in manual -> Shoes -> Built-in section. <br>
+Read the built-in manual: -> Shoes -> Built-in section. <br>
