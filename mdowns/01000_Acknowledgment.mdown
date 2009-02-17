@@ -4,6 +4,7 @@ Acknowledgment
 *Authors:*
 
 Satoshi Asakaw (aka ashbb): main author
+
 Michael Kohl (aka citizen428): corrections, additions, clarifications
 
 *Contributors:*

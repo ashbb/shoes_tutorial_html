@@ -21,7 +21,7 @@
 	- [00505 Built-in Constants and methods](http://github.com/ashbb/shoes_tutorial_html/tree/master/mdowns/00505_Built-in_Constants_and_methods.mdown)
 	- [00506 Scope: A tip of using the YAML file](http://github.com/ashbb/shoes_tutorial_html/tree/master/mdowns/00506_Scope__A_tip_of_using_the_YAML_file.mdown)
 	- [00507 keypress, mouse and clipboard](http://github.com/ashbb/shoes_tutorial_html/tree/master/mdowns/00507_keypress,_mouse_and_clipboard.mdown)
-	- [00508 the Widget class](http://github.com/ashbb/shoes_tutorial_html/tree/master/mdowns/00508_the_Widget_class.mdown)
+	- [00508 The Widget class](http://github.com/ashbb/shoes_tutorial_html/tree/master/mdowns/00508_The_Widget_class.mdown)
 	- [00509 shape](http://github.com/ashbb/shoes_tutorial_html/tree/master/mdowns/00509_shape.mdown)
 	- [00510 mask](http://github.com/ashbb/shoes_tutorial_html/tree/master/mdowns/00510_mask.mdown)
 	- [00511 Drawing directly on to images](http://github.com/ashbb/shoes_tutorial_html/tree/master/mdowns/00511_Drawing_directly_on_to_images.mdown)

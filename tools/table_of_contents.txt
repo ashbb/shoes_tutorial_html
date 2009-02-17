@@ -2,7 +2,7 @@ Shoes Tutorial Note
 ===================
 **- For the Shoes App Rookie Creators -**
 
-Feb. 16th, 2009 by ashbb (Satoshi Asakawa)
+Feb. 17th, 2009 by ashbb (Satoshi Asakawa) and citizen428 (Michael Kohl)
 
 Table of contents
 -----------------
@@ -28,7 +28,7 @@ Table of contents
 00505. Built-in Constants and methods
 00506. Scope: A tip of using the YAML file
 00507. keypress, mouse and clipboard
-00508. the Widget class
+00508. The Widget class
 00509. shape
 00510. mask
 00511. Drawing directly on to images
