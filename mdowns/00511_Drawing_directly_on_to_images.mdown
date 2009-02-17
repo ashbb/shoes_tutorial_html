@@ -1,8 +1,8 @@
 Drawing directly onto images
 -----------------------------
 
-We can add elements to images. <br>
-In the sample app below, Cy (green creature) has a star! <br>
+It's possible to add elements to an image. <br>
+In the following example Cy (the green creature) had a star added to it.
 
 
 	# sample25.rb
@@ -32,6 +32,6 @@ In the sample app below, Cy (green creature) has a star! <br>
 
 ![sample25.png](http://github.com/ashbb/shoes_tutorial_html/raw/master/images/sample25.png)
 
-If you are using Shoes-0.r970, you need move the mouse off of the image once. After that it works well. <br>
-With Shoes-0.r1057, there is no need to do that.
+Please note that if you are using Shoes-0.r970, you need to move the mouse off the image once. After that it will works as expected. <br>
+With Shoes-0.r1057, there is no need to do this.
 

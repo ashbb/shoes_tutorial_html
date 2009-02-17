@@ -1,8 +1,10 @@
 Downloader
 ----------
 
-The methods download and progress are so cool. <br>
-Although percent and length methods don't work well now, transferred and fraction work well. <br>
+This method starts a download thread running in the background and displays a handy progress bar. 
+Please keep in mind that the 'percent' and 'length' methods don't seem to work well at this time,
+whereas 'transferred' and 'fraction' do.
+
 
 	# sample28.rb
 	Shoes.app :width => 450, :height => 100 do
@@ -26,5 +28,5 @@ Although percent and length methods don't work well now, transferred and fractio
 
 ![sample28.png](http://github.com/ashbb/shoes_tutorial_html/raw/master/images/sample28.png)
 
-For more information about downloader, see the built-in manual. <br>
 Shoes includes the Hpricot library for parsing HTML. <br>
+For more information about downloader, please consult the Shoes manual. <br>

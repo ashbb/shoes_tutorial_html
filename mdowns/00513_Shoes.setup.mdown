@@ -1,10 +1,9 @@
 Shoes.setup
 -----------
 
-If your Shoes app requires some libraries, this might be useful. See the following information.
+If your Shoes app requires some libraries, this might be useful. See the following information:
 
-Clearing Up The Whole Shoes And RubyGems Deal <br>
-<http://hackety.org/2008/05/08/clearingUpTheWholeShoesAndRubyGemsDeal.html> <br>
+[Clearing Up The Whole Shoes And RubyGems Deal](http://hackety.org/2008/05/08/clearingUpTheWholeShoesAndRubyGemsDeal.html)
 
 
 	# sample27.rb
@@ -40,4 +39,4 @@ One more example
 
 ![sample50.png](http://github.com/ashbb/shoes_tutorial_html/raw/master/images/sample50.png)
 
-*Original snippet was written by Massimiliano in the personal mail discussion.*
+*Original snippet was written by Massimiliano in a personal mail discussion.*

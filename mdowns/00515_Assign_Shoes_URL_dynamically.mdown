@@ -3,7 +3,7 @@ Assign Shoes URLs dynamically
 
 We can use regular expressions to assign Shoes URLs dynamically. <br>
 Shoes passes the match data to the method as the argument.  <br>
-The following sample code revises the above sample11.rb. <br>
+The following sample code modifies sample11.rb from before. <br>
 
 	# sample29.rb
 	class PhotoFrame < Shoes
@@ -29,4 +29,3 @@ The following sample code revises the above sample11.rb. <br>
 	Shoes.app :width => 200, :height => 120, :title => 'Photo Frame'
 
  # sample29.png <br>
-is almost the same as the above sample11.png. <br>

@@ -1,8 +1,7 @@
 shape
 -----
 
-We can make arbitrary shapes, 
-beginning at coordinates (left, top).
+We can create arbitrary shapes, starting at the coordinates (left, top).
 
 	# sample23.rb
 	Shoes.app :width => 140, :height => 120 do
@@ -19,13 +18,12 @@ beginning at coordinates (left, top).
 
 ![sample23.png](http://github.com/ashbb/shoes_tutorial_html/raw/master/images/sample23.png)
 
-Oops, with Shoes-0.r925, it doesn't work well. <br>
-I'm not sure this behavior is the new spec or bug... <br>
-The above screenshot is with Shoes-0.r905. <br>
+There seems to be a bug with Shoes-0.r925. Please note the difference in the two screenshots, 
+where the above was taken using Shoes-0.r905 and the second one using Shoes-0.r925.
 
 **sample23-1.png**
 
 ![sample23-1.png](http://github.com/ashbb/shoes_tutorial_html/raw/master/images/sample23-1.png)
 
-With Shoes-0.r970, it works well. Although it is a little bit different than the above pic... <br>
-After Shoes-0.r1057, it works like Shoes-0.r970. <br>
+From Shoes version 0.r-970 it seems to be working again, although the result doesn't exactly 
+look like the first image. After Shoes-0.r970 we are back to the 0.r-925 behavior.

@@ -1,7 +1,7 @@
 Style
 -----
 
-We can change the style of the element with the style method. Calling the style method with no arguments returns a hash of the styles presently applied to the element.
+We can change the style of an element with the style method, whereas calling the method without arguments returns a hash of the styles presently applied to the element.
 
 More information can be found in section 6.3, Styling Master List
 
@@ -42,8 +42,7 @@ More information can be found in section 6.3, Styling Master List
 ![sample26.png](http://github.com/ashbb/shoes_tutorial_html/raw/master/images/sample26.png)
 
 
-We can style an entire class of elements at a time. :-D <br>
-But slot-by-slot would be impossible now. :(
+We can style an entire class of elements at a time like this: <br>
 
 	# sample56.rb
 	Shoes.app :width => 200, :height => 160 do
@@ -58,6 +57,5 @@ But slot-by-slot would be impossible now. :(
 **sample56.png**
 
 ![sample56.png](http://github.com/ashbb/shoes_tutorial_html/raw/master/images/sample56.png)
-
 
 

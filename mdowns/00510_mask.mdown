@@ -1,10 +1,9 @@
 mask
 ----
 
-We can use a masking layer. See the following information.
+The use of a masking layer is described by Shoes' author _why in the folling article:
 
-Cut Holes In Shoes And Get A Mask <br>
-<http://hackety.org/2007/08/28/cutHolesInShoesAndGetAMask.html> <br>
+[Cut Holes In Shoes And Get A Mask](http://hackety.org/2007/08/28/cutHolesInShoesAndGetAMask.html)
 
 	# sample24.rb
 	Shoes.app :width => 160, :height => 80 do

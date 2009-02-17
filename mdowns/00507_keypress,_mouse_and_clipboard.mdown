@@ -1,8 +1,7 @@
 keypress, mouse and clipboard
 -----------------------------
 
-We can get mouse events. 
-We can get a string from the system clipboard and also store a string into the clipboard.
+A Shoes proggram can react to mouse events and interact with the system's clipboard.
 
 	# sample20.rb
 	Shoes.app :title => 'Sorter', :width => 180, :height => 80 do
@@ -25,9 +24,9 @@ We can get a string from the system clipboard and also store a string into the c
 
 ![sample20.png](http://github.com/ashbb/shoes_tutorial_html/raw/master/images/sample20.png)
 
-An example of the output. <br>
+Let's hee see how this program manipulates the clipboard <br>
 
-before: <br>
+*Before:* <br>
 Creatures name list is: <br>
 looginkff <br>
 cy <br>
@@ -37,13 +36,12 @@ shaha <br>
 
 Copy the above list into the system clipboard. <br>
 Click Yar and she will rotate (\*1). <br>
-Then paste the clipboard text into the place you want. <br>
+Paste the clipboard text into the place you want. <br>
 
 
-\*1: With Shoes-0.r925, Yar rotates well as expected. But with Shoes-0.r970, Yar rotates when the mouse moves out of the Shoes window. This behavior is a bug. It has been fixed in Shoes-0.r1057. <br>
-Oops, Shoes-0.r1091 behaves as same as Shoes-0.r970. Maybe it's a bug again...
+\*1: With Shoes-0.r925, Yar rotates as expected, but with Shoes-0.r970, Yar rotates when the mouse moves out of the Shoes window. This behavior is a bug. It has been fixed in Shoes-0.r1057. <br>
 
-after: <br>
+*After:* <br>
 Creatures name list is: <br>
 cy <br>
 kamome <br>
@@ -51,7 +49,7 @@ loogink <br>
 shaha <br>
 yar <br>
 
-We can get keypress events. <br>
+How to work with keypress events: <br>
 
 	# sample21.rb
 	Shoes.app :width => 250, :height => 40 do
@@ -66,12 +64,11 @@ We can get keypress events. <br>
 
 ATTENTION
 ---------
-I'm not sure why... But may be a bug of Shows, I guess...
+Please be aware of the following behavior which may be cause by a bug in Shoes:
 
-See the following snippet. <br>
-Case 1,3,4 will crash. Only case 2 is okay (not crash). Because it creates a new empty String object `''`, then assigns it to the `self.clipboard` instead of `p2.text` itself.
+In the following code snippet, cases 1, 3 and 4 will crash. Case 2 works because it creates a new empty string object ('') which it assigns to `self.clipboard` instead of `p2.text` in case the latter is empty.
 
-*I noticed this problem when I read the code of [rotten.rb](http://github.com/citizen428/littlesteps/blob/c15ee6a7838b962cbc64bbf3c1570d116bd9c9c1/rotten/rotten.rb) created by [Michael Kohl](http://citizen428.net/).*
+*This problem was discovered in the code of [rotten.rb](http://github.com/citizen428/littlesteps/blob/c15ee6a7838b962cbc64bbf3c1570d116bd9c9c1/rotten/rotten.rb) created by [Michael Kohl](http://citizen428.net/). It does not seem to affect Shoes on Mac OS X where the program is developed.*
 
 	# sample65.rb
 	Shoes.app :width => 400, :height => 50 do

@@ -1,8 +1,12 @@
 Acknowledgment
 --------------
-Under consideration... :)
 
-*memo*
+*Authors:*
+
+Satoshi Asakaw (aka ashbb): main author
+Michael Kohl (aka citizen428): corrections, additions, clarifications
+
+*Contributors:*
 
 - Peter corrected the shoes\_course\_text file.
 - Michele corrected the ReadMeFirst file.

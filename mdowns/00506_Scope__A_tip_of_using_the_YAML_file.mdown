@@ -15,16 +15,16 @@ Scope: A tip about using YAML files
 ![sample19.png](http://github.com/ashbb/shoes_tutorial_html/raw/master/images/sample19.png)
 
 The top-level namespace in any Shoes app is Shoes <br>
-so in sample19.rb <br>
+so in the sample <br>
 
 	Gang = Struct.new :name, :country <br>
 
-It really make a Shoes::Gang struct, not a Gang struct,  <br>
-so change that line to this and it (sample19-1.rb) works well.  <br>
+we actually create a Shoes::Gang struct, not a Gang struct.  <br>
+To achieve the desired behavior, we will have to modify the statement like this (see sample19-1.rb).  <br>
 
 	::Gang = Struct.new :name, :country <br>
 
-Modified code is
+Here you can see the updated example:
 
 
 	# sample19-1.rb

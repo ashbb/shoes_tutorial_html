@@ -1,4 +1,4 @@
-the Widget class
+The Widget class
 ----------------
 
 A custom Shoes widget is set up by inheriting from the Widget class.
@@ -37,8 +37,8 @@ Shoes then creates a method using the lowercased name of the class which is used
 
 One more example
 ----------------
-We can use __:left__ and __:top__ without definition in the custom class attributes.
-Because inherited from Shoes::Widget.
+We can use __:left__ and __:top__ without definition in the custom class attributes,
+because they are inherited from Shoes::Widget.
 
 	# sample49.rb
 	class Shoes::Widgy < Shoes::Widget
@@ -62,4 +62,4 @@ Because inherited from Shoes::Widget.
 
 ![sample49.png](http://github.com/ashbb/shoes_tutorial_html/raw/master/images/sample49.png)
 
-*Original idea is provided by Emanue Carnevale, in the Shoes ML.*
+*Original idea was provided by Emanue Carnevale, in the Shoes ML.*
