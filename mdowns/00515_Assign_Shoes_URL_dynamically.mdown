@@ -29,3 +29,4 @@ The following sample code modifies sample11.rb from before. <br>
 	Shoes.app :width => 200, :height => 120, :title => 'Photo Frame'
 
  # sample29.png <br>
+The sample29.png is almost the same as the above sample11.png. <br>
