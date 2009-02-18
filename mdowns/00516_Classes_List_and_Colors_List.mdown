@@ -41,9 +41,41 @@ I used send() method in the above sample30. But I noticed an alternative way. Se
 	  end
 	end
 
-**NOTE**: There is no need to use `.to_s` in the map or sort\_by method's block by right. But with Shoes 2, the below error will occur if it's ommited. I guess this is a bug of Shoes...
-
 **sample30-1.png**
 
 ![sample30-1.png](http://github.com/ashbb/shoes_tutorial_html/raw/master/images/sample30-1.png)
 
+**NOTE**: <strike>There is no need to use `.to_s` in the map or sort\_by method's block by right. But with Shoes 2, the below error will occur if it's ommited. I guess this is a bug of Shoes...</strike>
+
+OMG! It's my fault. See the following.
+
+	C:\>ruby -v
+	ruby 1.8.6 (2007-09-24 patchlevel 111) [i386-mswin32]
+	
+	C:\>irb --simple-prompt
+	>> a = [:z, :y, :m, :s]
+	=> [:z, :y, :m, :s]
+	>> a.sort
+	NoMethodError: undefined method `<=>' for :z:Symbol
+	        from (irb):2:in `sort'
+	        from (irb):2
+	>>
+
+There was need to define `<=>` for Symbol class. Revised code is sample 30-2.
+
+	# sample30-2.rb
+	class ::Symbol
+	  def <=> other
+	    self.to_s <=> other.to_s
+	  end
+	end
+	
+	Shoes.app :width => 642, :height => 700, :resizable => false do
+	  COLORS.sort_by{|sym,| sym}.each do |color, v|
+	    flow :width => 160, :height => 20 do
+	      fill v
+	      rect 0, 0, 160, 20
+	      inscription color, :stroke => v.dark? ? white : black
+	    end
+	  end
+	end

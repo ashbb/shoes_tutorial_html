@@ -1,5 +1,6 @@
 Change log:
 -----------
+Feb 18th, 2009: Added sample 30-2 to correct a misunderstanding about the class Symbol at 00516. <br>
 Feb 17th, 2009: citizen428: edited chapters 00506 to 00515. <br>
 Feb 16th, 2009: Merged citizen428's pull requests edited 00501 to 00505 and added sample 30-1, a tip of COLORS, into 00516. <br>
 Feb 12th, 2009: Merged citizen428's pull requests edited 00300 to 00410. <br>
