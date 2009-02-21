@@ -153,4 +153,43 @@ The following code is not a Shoes app, just a Ruby script to use Mechanize. ;-)
 ![gallery4.png](http://github.com/ashbb/shoes_tutorial_html/raw/master/images/gallery4.png)
 
 
+Gallery No.5
+------------
+Do you know [Para-Para Manga](http://en.wikipedia.org/wiki/Flip_book)? That is called a **flip book** in English (from Wikipedia).
 
+This is a very simple code. Just for fun. ;-)
+
+The original gif animation is on this site: <br>
+[Ultrahigh speed potato chopping](http://www.paraman.net/play/preview/1258) - Japanese site.
+
+	# gallery5.rb
+	Shoes.app :width => 175, :height => 160 do
+	  background tan
+	  st = {:left => 10, :top => 10}
+	  
+	  @images = []
+	  1.upto 60 do |i|
+	    n = '00' + i.to_s
+	    n = n[-3..-1]
+	    @images << image("potato_chopping/1258_s#{n}.gif").hide
+	  end
+	  
+	  @images.each{|img| img.style st}
+	  
+	  def potacho
+	    @images[59].hide
+	    a = animate 12 do |i|
+	      @images[i].show
+	      @images[i-1].hide if i > 0
+	      a.stop if i > 58
+	    end
+	  end
+	  
+	  button 'start', :left => 10, :bottom => 0 do
+	    potacho
+	  end
+	end
+
+**gallery5.png**
+
+![gallery5.png](http://github.com/ashbb/shoes_tutorial_html/raw/master/images/gallery5.png)
