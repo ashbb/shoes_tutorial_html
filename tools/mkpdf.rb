@@ -2,7 +2,15 @@
 # Original code was wirtten by Jerry Anning.
 # Added README.mdown converting part by ashbb
 
-require 'prawn'
+begin
+  require 'prawn'
+rescue Exception => install_error
+  puts install_error
+  print "Prawn Gem doesn't seem to be installed... would you like to install now? :> Y/n"
+  STDOUT.flush
+  gets.chomp == 'Y' ? (`gem install prawn`;  puts "Installed prawn.  Please run again") : (puts 'Please install the prawn gem if you want to run this tool.' )
+  exit(1)
+end
 
 def gather
   # this method modified from mkbightml.rb
