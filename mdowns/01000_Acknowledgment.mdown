@@ -6,6 +6,7 @@ Acknowledgment
 Satoshi Asakaw (aka ashbb): main author
 
 Michael Kohl (aka citizen428): corrections, additions, clarifications
+
 Victor Goff (aka kotp): setup semi-automated prawn install.
 
 *Contributors:*
