@@ -1,5 +1,6 @@
 Change log:
 -----------
+Feb 25th, 2009: Updated mkbightml.rb to add a separate green line between chapters.<br>
 Feb 22th, 2009: Merged kotp's pull requests to improve mkpdf.rb. <br>
 Feb 21th, 2009: Added gallery 5. <br>
 Feb 18th, 2009: Added sample 30-2 to correct a misunderstanding about the class Symbol at 00516. <br>

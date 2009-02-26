@@ -1,4 +1,4 @@
-This subdirectory is used to store .html files created by the tool: mkhtml.rb
+This subdirectory is used to store .html files created by the tools: mkhtml.rb and mkbightml.rb
 
 Run the following command lines on the console (terminal) window.
 
@@ -17,7 +17,7 @@ And you can run whole sample apps with Shoes, too. :-D
 ashbb
 
 
-ps 1: mkhtml.rb uses BlueCloth
+ps 1: Using BlueCloth
     
     C:\> gem install BlueCloth
 
