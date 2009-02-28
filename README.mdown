@@ -2,7 +2,7 @@ Shoes Tutorial Note
 ===================
 **- For the Shoes App Rookie Creators -**
 
-Feb. 25th, 2009 by ashbb (Satoshi Asakawa), citizen428 (Michael Kohl), kotp (Victor H. Goff III)
+Feb. 28th, 2009 by ashbb (Satoshi Asakawa), citizen428 (Michael Kohl), kotp (Victor H. Goff III)
 
 Table of contents
 -----------------
@@ -69,7 +69,8 @@ Table of contents
 	- [00701 Assignment 1 twitter client (reader)](http://github.com/ashbb/shoes_tutorial_html/tree/master/mdowns/00701_Assignment_1_twitter_client__reader_.mdown)
 	- [00702 Assignment 2 footracer (mini-footracer-1st.rb, mini-footracer-2nd.rb)](http://github.com/ashbb/shoes_tutorial_html/tree/master/mdowns/00702_Assignment_2_footracer.mdown)
 	- [00703 Assignment 3 Mini Adventure Game GUI Part (sample52.rb, sample52-render.rb)](http://github.com/ashbb/shoes_tutorial_html/tree/master/mdowns/00703_Assignment_3_Mini_Adventure_Game_GUI_Part.mdown)
-	- [00704 Assignment 3 Pong in Shoes (sample58.rb)](http://github.com/ashbb/shoes_tutorial_html/tree/master/mdowns/00704_Assignment_3_Pong_in_Shoes.mdown)
+	- [00704 Assignment 4 Pong in Shoes (sample58.rb)](http://github.com/ashbb/shoes_tutorial_html/tree/master/mdowns/00704_Assignment_4_Pong_in_Shoes.mdown)
+	- [00705 Assignment 5 Riddles in Shoes (sample67.rb)](http://github.com/ashbb/shoes_tutorial_html/tree/master/mdowns/00705_Assignment_5_Riddles_in_Shoes.mdown)
 8. [00800 Relevant web sites (Links) (sample62.rb)](http://github.com/ashbb/shoes_tutorial_html/tree/master/mdowns/00800_Relevant_web_sites__Links_.mdown)
 9. [00900 Appendix](http://github.com/ashbb/shoes_tutorial_html/tree/master/mdowns/00900_Appendix.mdown)
 10. [01000 Acknowledgment](http://github.com/ashbb/shoes_tutorial_html/tree/master/mdowns/01000_Acknowledgment.mdown)

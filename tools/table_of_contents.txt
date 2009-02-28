@@ -2,7 +2,7 @@ Shoes Tutorial Note
 ===================
 **- For the Shoes App Rookie Creators -**
 
-Feb. 25th, 2009 by ashbb (Satoshi Asakawa), citizen428 (Michael Kohl), kotp (Victor H. Goff III)
+Feb. 28th, 2009 by ashbb (Satoshi Asakawa), citizen428 (Michael Kohl), kotp (Victor H. Goff III)
 
 Table of contents
 -----------------
@@ -69,7 +69,8 @@ Table of contents
 00701. Assignment 1 twitter client (reader)
 00702. Assignment 2 footracer
 00703. Assignment 3 Mini Adventure Game GUI Part
-00704. Assignment 3 Pong in Shoes
+00704. Assignment 4 Pong in Shoes
+00705. Assignment 5 Riddles in Shoes
 00800. Relevant web sites (Links)
 00900. Appendix
 01000. Acknowledgment
