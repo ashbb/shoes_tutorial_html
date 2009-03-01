@@ -1,5 +1,6 @@
 Change log:
 -----------
+Mar 01st, 2009: Added Assignment 6. <br>
 Feb 28th, 2009: Added Assignment 5. <br>
 Feb 25th, 2009: Added a new chapter 00538. <br>
 Feb 25th, 2009: Updated mkbightml.rb to add a separate green line between chapters.<br>
