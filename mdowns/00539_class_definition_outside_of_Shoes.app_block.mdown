@@ -1,0 +1,84 @@
+class definition outside of Shoes.app block
+-------------------------------------------
+
+If you want to define `class` outside of Shoes.app block, attention of `self`.
+Plseae run and read the following snippets. 
+
+*This tip was created in the discussion with Paul Harris on the Shoes course 3rd batch.*
+
+	# sample69.rb
+	class Sheep
+	  attr_writer :avatar
+	  
+	  def draw x, y
+	    @avatar.move x, y
+	  end
+	end
+	 
+	Shoes.app :width => 150, :height => 100 do
+	  s = Sheep.new
+	  s.avatar = oval 0, 0, 20, 20
+	  
+	  a = animate do |i|
+	    s.draw i, i
+	    a.stop if i > 50
+	  end
+	end
+
+**sample69.png**
+
+![sample69.png](http://github.com/ashbb/shoes_tutorial_html/raw/master/images/sample69.png)
+
+	# sample69-1.rb
+	class Sheep
+	  def initialize
+	    @avatar = $app.oval 0, 0, 20, 20
+	  end
+	  
+	  attr_writer :avatar
+	  
+	  def draw x, y
+	    @avatar.move x, y
+	  end
+	end
+	 
+	Shoes.app :width => 150, :height => 100 do
+	  $app = self
+	  s = Sheep.new
+	 
+	  a = animate do |i|
+	    s.draw i, i
+	    a.stop if i > 50
+	  end
+	end
+
+ # sample69-1.png
+Another way of recreating sample69.
+
+	# sample69-2.rb
+	class Sheep < Widget
+	  def initialize
+	    oval 0, 0, 20, 20
+	  end
+	  
+	  def run x, y
+	    move x, y
+	  end
+	end
+	 
+	Shoes.app :width => 150, :height => 100 do
+	  s = sheep
+	 
+	  a = animate do |i|
+	    s.run i, i
+	    a.stop if i > 50
+	  end
+	end
+
+ # sample69-2.png
+Another way of recreating sample69.
+
+Note
+----
+In above `sample69-2.rb`, I use the method name `run` instead of `draw`.
+Because Shoes has already defined `draw` method, hence if I use the same name, it is overloaded and Shoes can't open app window.
