@@ -28,8 +28,8 @@ A video that shows how to launch Shoes from within  TextMate(http://samuraicoder
 *This tip was provided by Takaaki Kato - Saturday, 15 November 2008, POIRPWSC101-1I*
 
 
-ip: Quick launch Shoes in Windows
----------------------------------
+Tip: Quick launch Shoes in Windows
+----------------------------------
 Create a shortcut in the "Tool Bar".
 
 **shoes\_launcher.jpg**
@@ -39,8 +39,8 @@ Create a shortcut in the "Tool Bar".
 *This tip was provided by Victor Goff - Saturday, 15 November 2008, POIRPWSC101-1I*
 
 
-A Tip for users of Ubuntu 8.10
-------------------------------
+Tip: For users of Ubuntu 8.10
+-----------------------------
 The documentation is no longer correct. It was for Ubuntu 8.04.
 For Ubuntu 8.10, the required libraries are libvlc-dev and libvlccore-dev instead of libvlc0-dev.
 
