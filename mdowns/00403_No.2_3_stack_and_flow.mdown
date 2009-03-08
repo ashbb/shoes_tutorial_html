@@ -4,7 +4,7 @@ Nos. 2 & 3: stack and flow
 At first, please read the following web page:
 [http://github.com/why/shoes/wikis/stacksandflows](http://github.com/why/shoes/wikis/stacksandflows)
 
-*Note* Instead of using the code from the abovove document which uses the deprecated Shoes#text method, please run the following sample code (and keep in mind to change the path to the image file):
+*Note* Instead of using the code from the above document which uses the deprecated Shoes#text method, please run the following sample code (and keep in mind to change the path to the image file):
 
 	# sample3.rb
 	Shoes.app do
