@@ -45,3 +45,18 @@ The documentation is no longer correct. It was for Ubuntu 8.04.
 For Ubuntu 8.10, the required libraries are libvlc-dev and libvlccore-dev instead of libvlc0-dev.
 
 *This tip was provided by Jose Carlos Monteiro - Saturday, 15 November 2008, POIRPWSC101-1I*
+
+
+Information about Kate
+----------------------
+
+I use **Kate (Kubuntu 8.04 text editor)** and it has support for a number of programming languages and a feature that opens a terminal at the bottom of the text area (this height can be adjusted too).
+
+Another thing I like about this is that the terminal *is* attached to the editor *and* if you've moved to another directory just close the terminal and open it to be at the new directory.
+
+You may use if you like.
+
+*This info was provided by Dave Lilley - Mar 11th, 2009*
+
+
+

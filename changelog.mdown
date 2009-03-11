@@ -1,5 +1,6 @@
 Change log:
 -----------
+Mar 11th, 2009: Added an information about Kate to 00300. <br>
 Mar 06th, 2009: Added a new chapter 00539. <br>
 Mar 01st, 2009: Added Assignment 6. <br>
 Feb 28th, 2009: Added Assignment 5. <br>
