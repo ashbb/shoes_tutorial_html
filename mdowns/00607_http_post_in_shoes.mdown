@@ -1,7 +1,7 @@
 http post in shoes
 ------------------
 Use the `download` method, which can do HTTP in the background
-and uses platform-specific code to work much, much faster. by **\\why**
+and uses platform-specific code to work much, much faster. by **\_why**
 
 
 [help with http post in shoes](http://www.mail-archive.com/shoes@code.whytheluckystiff.net/msg03165.html)
