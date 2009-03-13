@@ -1,0 +1,16 @@
+http post in shoes
+------------------
+Use the `download` method, which can do HTTP in the background
+and uses platform-specific code to work much, much faster. by **\\why**
+
+
+[help with http post in shoes](http://www.mail-archive.com/shoes@code.whytheluckystiff.net/msg03165.html)
+
+
+	#------------------
+	Shoes.app do
+	  download "http://localhost:8080", :method => "POST",
+	           :body => "userName=user&password=11111" do |dl|
+	    para dl.response.body
+	  end
+	end

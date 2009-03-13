@@ -59,6 +59,8 @@
 	- [00603 Styling Master List](http://github.com/ashbb/shoes_tutorial_html/tree/master/mdowns/00603_Styling_Master_List.mdown)
 	- [00604 Trying to ease the RubyGems pain](http://github.com/ashbb/shoes_tutorial_html/tree/master/mdowns/00604_Trying_to_ease_the_RubyGems_pain.mdown)
 	- [00605 Shoes snapshot](http://github.com/ashbb/shoes_tutorial_html/tree/master/mdowns/00605_Shoes_snapshot.mdown)
+	- [00606 shoes gem alternate repo's](http://github.com/ashbb/shoes_tutorial_html/tree/master/mdowns/00606_shoes_gem_alternate_repo's.mdown)
+	- [00607 http post in shoes](http://github.com/ashbb/shoes_tutorial_html/tree/master/mdowns/00607_http_post_in_shoes.mdown)
 7. Assignment
 	- [00701 Assignment 1 twitter client (reader)](http://github.com/ashbb/shoes_tutorial_html/tree/master/mdowns/00701_Assignment_1_twitter_client__reader_.mdown)
 	- [00702 Assignment 2 footracer](http://github.com/ashbb/shoes_tutorial_html/tree/master/mdowns/00702_Assignment_2_footracer.mdown)

@@ -2,7 +2,7 @@ Shoes Tutorial Note
 ===================
 **- For the Shoes App Rookie Creators -**
 
-Mar. 11th, 2009 by ashbb (Satoshi Asakawa), citizen428 (Michael Kohl), kotp (Victor H. Goff III)
+Mar. 13th, 2009 by ashbb (Satoshi Asakawa), citizen428 (Michael Kohl), kotp (Victor H. Goff III)
 
 Table of contents
 -----------------
@@ -66,6 +66,8 @@ Table of contents
 00603. Styling Master List
 00604. Trying to ease the RubyGems pain
 00605. Shoes snapshot
+00606. shoes gem alternate repo's
+00607. http post in shoes
 00700.#Assignment
 00701. Assignment 1 twitter client (reader)
 00702. Assignment 2 footracer

@@ -1,0 +1,36 @@
+shoes gem alternate repo's
+--------------------------
+
+Here is the way to install a gem from gems.github.com.
+
+
+[shoes gem alternate repo's](http://www.mail-archive.com/shoes@code.whytheluckystiff.net/msg03173.html)
+
+	#------------------
+	Shoes.setup do
+	  Gem.sources = %w[http://gems.github.com/ http://gems.rubyforge.org/]
+	  gem 'dxoigmn-pcaprub'
+	end
+	
+	Shoes.app do
+	  require 'pcaprub'
+	end
+
+
+	#------------------
+	Shoes.app do
+	  source "http://gems.github.com";
+	  gem "foo-bar"
+	end
+
+
+	#------------------
+	Shoes.setup do
+	  gem "something-from-rubyforge"
+	  gem "more-rubyforge"
+	  gem "anything-will-come-from-rubyforge-by-default"
+	  source "http://gems.github.com";
+	  gem "now-pulling-from-github"
+	  gem "etc-and-so-forth"
+	end
+
