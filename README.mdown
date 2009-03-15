@@ -2,7 +2,7 @@ Shoes Tutorial Note
 ===================
 **- For the Shoes App Rookie Creators -**
 
-Mar. 13th, 2009 by ashbb (Satoshi Asakawa), citizen428 (Michael Kohl), kotp (Victor H. Goff III)
+Mar. 15th, 2009 by ashbb (Satoshi Asakawa), citizen428 (Michael Kohl), kotp (Victor H. Goff III)
 
 Table of contents
 -----------------
@@ -103,3 +103,7 @@ Let's enjoy Ruby and Shoes programming!!
 
 ashbb
 
+
+NOTE
+----
+PDF file is [here](http://github.com/ashbb/shoes_tutorial/tree). Although it's not following the latest revision. :-P
