@@ -1,0 +1,37 @@
+Building Shoes with Windows DDK
+-------------------------------
+
+Finally, I could build the latest Shoes on my Windows XP laptop! Just following [\_why's guide](http://wiki.github.com/why/shoes/buildingshoeswithwindowsddk). Very easy! B-)
+
+**Windows_DDK.png**
+
+![Windows_DDK.png](http://github.com/ashbb/shoes_tutorial_html/raw/master/images/Windows_DDK.png)
+
+
+Note 1
+------
+At first, when I `rake`, the following error occured:
+
+	C:\Documents and Settings\asa\Git\shoes>rake
+	(in C:/Documents and Settings/asa/Git/shoes)
+	rake aborted!
+	No such file or directory - git rev-list HEAD
+	C:/Documents and Settings/asa/Git/shoes/rakefile:16:in ``'
+	(See full trace by running task with --trace)
+
+So, I replaced rakefile:16
+
+	#REVISION = (`#{GIT} rev-list HEAD`.split.length + 1).to_s
+	REVISION = '1229'
+
+Then `rake` was run completely.
+
+Note 2
+------
+I got '1229' from the following:
+
+	asa@IBM-5F6B2053D28 /c/Documents and Settings/asa/Git/shoes
+	$ irb
+	irb(main):001:0> (`git rev-list HEAD`.split.length + 1).to_s
+	=> "1229"
+

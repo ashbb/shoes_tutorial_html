@@ -1,5 +1,6 @@
 Change log:
 -----------
+Apr 10th, 2009: Added an information 00608. <br>
 Apr 02nd, 2009: Divided Fancy Gallery and added gallery 6. <br>
 Mar 15th, 2009: Added a link to Shoes Tutorial Note PDF file. <br>
 Mar 13th, 2009: Added new tips 00606 and 00607. <br>
