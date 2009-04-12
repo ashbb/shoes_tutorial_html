@@ -4,6 +4,9 @@ Relevant web sites (Links)
 Three manuals: Nobody Knows Shoes (NKS) and Built-in Manual and Online Reference Manual. <br>
 <http://shoooes.net/manuals/> <br>
 
+The Shoes Manual for printing (All in one HTML manual and PDF manual)<br>
+<http://github.com/ashbb/shoes_manual/><br>
+
 The Shoes Help Desk: The spot for beginners and advanced Shoesers alike. <br>
 <http://help.shoooes.net/> <br>
 

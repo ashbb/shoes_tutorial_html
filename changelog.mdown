@@ -1,5 +1,6 @@
 Change log:
 -----------
+Apr 12th, 2009: Added the link to Shoes Manual for printing <br>
 Apr 10th, 2009: Added an information 00608. <br>
 Apr 02nd, 2009: Divided Fancy Gallery and added gallery 6. <br>
 Mar 15th, 2009: Added a link to Shoes Tutorial Note PDF file. <br>
