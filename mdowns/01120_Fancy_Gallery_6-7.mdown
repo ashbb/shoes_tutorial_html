@@ -96,6 +96,8 @@ The Game Snake. It's a very nice tutorial.
 I was really inspired and wrote the following **55 lines Snake in Shoes**.   
 It's a power of Shoes! ;-)
 
+Look at [online demo](http://www.rin-shun.com/rubylearning/shoes/snake.swf.html)
+
 	# gallery7.rb
 	# 55 lines Snake in Shoes
 	class SnakeGame < Shoes
