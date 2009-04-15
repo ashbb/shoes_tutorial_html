@@ -29,7 +29,7 @@ class SnakeGame < Shoes
     @snake[0].stroke = red
     
     dir = :left
-    @run  = animate 3 do
+    @run  = animate 5 do
       keypress{|k| dir = k if @pos.keys.include? k}
       check_food
       go dir
