@@ -1,66 +1,67 @@
 Change log:
 -----------
-Apr 12th, 2009: Added the link to Shoes Manual for printing <br>
-Apr 10th, 2009: Added an information 00608. <br>
-Apr 02nd, 2009: Divided Fancy Gallery and added gallery 6. <br>
-Mar 15th, 2009: Added a link to Shoes Tutorial Note PDF file. <br>
-Mar 13th, 2009: Added new tips 00606 and 00607. <br>
-Mar 11th, 2009: Added an information about Kate to 00300. <br>
-Mar 06th, 2009: Added a new chapter 00539. <br>
-Mar 01st, 2009: Added Assignment 6. <br>
-Feb 28th, 2009: Added Assignment 5. <br>
-Feb 25th, 2009: Added a new chapter 00538. <br>
-Feb 25th, 2009: Updated mkbightml.rb to add a separate green line between chapters.<br>
-Feb 22th, 2009: Merged kotp's pull requests to improve mkpdf.rb. <br>
-Feb 21th, 2009: Added gallery 5. <br>
-Feb 18th, 2009: Added sample 30-2 to correct a misunderstanding about the class Symbol at 00516. <br>
-Feb 17th, 2009: citizen428: edited chapters 00506 to 00515. <br>
-Feb 16th, 2009: Merged citizen428's pull requests edited 00501 to 00505 and added sample 30-1, a tip of COLORS, into 00516. <br>
-Feb 12th, 2009: Merged citizen428's pull requests edited 00300 to 00410. <br>
-Feb 10th, 2009: Clarified link to installation instructions in chapter 00200. <br>
-Feb 10th, 2009: Minor additions and corrections to chapter 00100. <br>
-Feb 08th, 2009: Added an attention, sample 65. <br>
-Feb 06th, 2009: Added chapter 00537. <br>
-Feb 05th, 2009: Added a link to Michael's blog site and a comment into gallery4.rb for BlueCloth. <br>
-Feb 04th, 2009: Added gallery 4. <br>
-Feb 01st, 2009: Added chapter 00536. <br>
-Jan 25th, 2009: Added 01203 simple-menu. <br>
-Jan 24th, 2009: Revised sample 62 (added a cursor and a bit refactoring) <br>
-Jan 20th, 2009: Added sample 62 and a link to shoes\_demonstration\_apps. <br>
-Jan 17th, 2009: Added mini-footracer-1st and mini-footracer-2nd. <br>
-Jan 15th, 2009: Added 01202 simple-calc and sample 61. <br>
-Jan 10th, 2009: Added new chapter Built-in Samples and the link to Shoes\_(GUI\_toolkit) in Wikipedia.<br>
-Jan 03rd, 2009: Added sample 60 and chapter 00535. <br>
-Dec 28th, 2008: Added sample 59 and chapter 00534. <br>
-Dec 25th, 2008: Edited Assignment 3 and added Assignment 4. <br>
-Dec 17th, 2008: Added gallery 3 and a hot topic. <br>
-Dec 13th, 2008: Added gallery 2. <br>
-Dec 12th, 2008: Added sample 55, 56, 57 and chapter Fancy Gallery. <br>
-Dec 08th, 2008: Added sample 54 and chapter 00533. Refactored mkmdown.rb<br>
-Dec 07th, 2008: Deleted patches and patch.rb <br>
-Dec 06th, 2008: Reviewed `shoes -p` with Shoes 2 (Raisins, 0.r1134) <br>
-Dec 06th, 2008: Replace image files for Shoes-0.r1123. Edited sample 42. Updated mkpdf.rb to the latest version. Added the link to RecentBuild page.<br>
-Dec 03rd, 2008: Added sample 53 and chapter 00532. <br>
-Dec 01st, 2008: Added '\\' in front of '\_' for githb spec change or bug. <br>
-Nov 29th, 2008: Modified file name '\_' to '-' for github spec change or bug. Added assignment 3. <br>
-Nov 24th, 2008: Added a new tool, patch.rb, which replace image-file-path-on-github. This is a temporary patch. Because I'm not sure about a github spec change or a bug.<br>
-Nov 23th, 2008: Improved mkmdown.rb to add sample program names in the table of contents. Added a new tool, mkpdf.rb. <br>
-Nov 22th, 2008: Added a new chapter 00531. Added a link to the Shoes adventurer's list into chapter 00900.<br>
-Nov 20th, 2008: Added sample 49 into chapter 00508 and sample 50 into chapter 00513. <br>
-Nov 18th, 2008: Excuted all samples with Shoes-0.r1091 and updated some .png files and edited some .mdown files. <br>
-Nov 17th, 2008: Added a new tool, mkbightml.rb, which make one big html file included whole contents of Shoes Tutorial Note. Now, just a trial revision. <br>
-Nov 16th, 2008: Merge a 'browser' feature (side list of contents) provided by George. <br>
-Nov 15th, 2008: Added four tips into chapter 00300. Improved mkmdown.rb and mkhtml.rb to treat .jpg files and to treat page-links. Added more explanation into chapter 00504 <br>
-Nov 14th, 2008: Fixed a bug in mkhtml.rb. Added a note into chapter 00528 and 00530 about BlueCloth's and Code Highlighter's bug. <br>
-Nov 13th, 2008: Added a new sample 48 into chapter 00530. <br>
-Nov 08th, 2008: Added Code Highlighter for html files. <br>
-Nov 07th, 2008: Added a new sample 47. <br>
-Nov 02st, 2008: Totally corrected English. Added acknowledgments, sample 46. Modified built-in constants <br>
-Nov 01st, 2008: Corrected typo of sample 31 <br>
-Oct 30th, 2008: Added a hot topic. <br>
-Oct 29th, 2008: Added a new sample 45. <br>
-Oct 28th, 2008: Modified the page of 'Shoes.setup' <br>
-Oct 27th, 2008: Added a new sample 44. <br>
-Oct 26th, 2008: Modified sample 8, changed the path of image. <br>
-Oct 24th, 2008: Revised tools and modified .mdown files for the easy eBook maker. <br>
-Oct 23th, 2008: Added a new sample 43. <br>
+Apr 15th, 2009: Added gallery 7.   
+Apr 12th, 2009: Added the link to Shoes Manual for printing    
+Apr 10th, 2009: Added an information 00608.    
+Apr 02nd, 2009: Divided Fancy Gallery and added gallery 6.    
+Mar 15th, 2009: Added a link to Shoes Tutorial Note PDF file.    
+Mar 13th, 2009: Added new tips 00606 and 00607.    
+Mar 11th, 2009: Added an information about Kate to 00300.    
+Mar 06th, 2009: Added a new chapter 00539.    
+Mar 01st, 2009: Added Assignment 6.    
+Feb 28th, 2009: Added Assignment 5.    
+Feb 25th, 2009: Added a new chapter 00538.    
+Feb 25th, 2009: Updated mkbightml.rb to add a separate green line between chapters.   
+Feb 22th, 2009: Merged kotp's pull requests to improve mkpdf.rb.    
+Feb 21th, 2009: Added gallery 5.    
+Feb 18th, 2009: Added sample 30-2 to correct a misunderstanding about the class Symbol at 00516.    
+Feb 17th, 2009: citizen428: edited chapters 00506 to 00515.    
+Feb 16th, 2009: Merged citizen428's pull requests edited 00501 to 00505 and added sample 30-1, a tip of COLORS, into 00516.    
+Feb 12th, 2009: Merged citizen428's pull requests edited 00300 to 00410.    
+Feb 10th, 2009: Clarified link to installation instructions in chapter 00200.    
+Feb 10th, 2009: Minor additions and corrections to chapter 00100.    
+Feb 08th, 2009: Added an attention, sample 65.    
+Feb 06th, 2009: Added chapter 00537.    
+Feb 05th, 2009: Added a link to Michael's blog site and a comment into gallery4.rb for BlueCloth.    
+Feb 04th, 2009: Added gallery 4.    
+Feb 01st, 2009: Added chapter 00536.    
+Jan 25th, 2009: Added 01203 simple-menu.    
+Jan 24th, 2009: Revised sample 62 (added a cursor and a bit refactoring)    
+Jan 20th, 2009: Added sample 62 and a link to shoes\_demonstration\_apps.    
+Jan 17th, 2009: Added mini-footracer-1st and mini-footracer-2nd.    
+Jan 15th, 2009: Added 01202 simple-calc and sample 61.    
+Jan 10th, 2009: Added new chapter Built-in Samples and the link to Shoes\_(GUI\_toolkit) in Wikipedia.   
+Jan 03rd, 2009: Added sample 60 and chapter 00535.    
+Dec 28th, 2008: Added sample 59 and chapter 00534.    
+Dec 25th, 2008: Edited Assignment 3 and added Assignment 4.    
+Dec 17th, 2008: Added gallery 3 and a hot topic.    
+Dec 13th, 2008: Added gallery 2.    
+Dec 12th, 2008: Added sample 55, 56, 57 and chapter Fancy Gallery.    
+Dec 08th, 2008: Added sample 54 and chapter 00533. Refactored mkmdown.rb   
+Dec 07th, 2008: Deleted patches and patch.rb    
+Dec 06th, 2008: Reviewed `shoes -p` with Shoes 2 (Raisins, 0.r1134)    
+Dec 06th, 2008: Replace image files for Shoes-0.r1123. Edited sample 42. Updated mkpdf.rb to the latest version. Added the link to RecentBuild page.   
+Dec 03rd, 2008: Added sample 53 and chapter 00532.    
+Dec 01st, 2008: Added '\\' in front of '\_' for githb spec change or bug.    
+Nov 29th, 2008: Modified file name '\_' to '-' for github spec change or bug. Added assignment 3.    
+Nov 24th, 2008: Added a new tool, patch.rb, which replace image-file-path-on-github. This is a temporary patch. Because I'm not sure about a github spec change or a bug.   
+Nov 23th, 2008: Improved mkmdown.rb to add sample program names in the table of contents. Added a new tool, mkpdf.rb.    
+Nov 22th, 2008: Added a new chapter 00531. Added a link to the Shoes adventurer's list into chapter 00900.   
+Nov 20th, 2008: Added sample 49 into chapter 00508 and sample 50 into chapter 00513.    
+Nov 18th, 2008: Excuted all samples with Shoes-0.r1091 and updated some .png files and edited some .mdown files.    
+Nov 17th, 2008: Added a new tool, mkbightml.rb, which make one big html file included whole contents of Shoes Tutorial Note. Now, just a trial revision.    
+Nov 16th, 2008: Merge a 'browser' feature (side list of contents) provided by George.    
+Nov 15th, 2008: Added four tips into chapter 00300. Improved mkmdown.rb and mkhtml.rb to treat .jpg files and to treat page-links. Added more explanation into chapter 00504    
+Nov 14th, 2008: Fixed a bug in mkhtml.rb. Added a note into chapter 00528 and 00530 about BlueCloth's and Code Highlighter's bug.    
+Nov 13th, 2008: Added a new sample 48 into chapter 00530.    
+Nov 08th, 2008: Added Code Highlighter for html files.    
+Nov 07th, 2008: Added a new sample 47.    
+Nov 02st, 2008: Totally corrected English. Added acknowledgments, sample 46. Modified built-in constants    
+Nov 01st, 2008: Corrected typo of sample 31    
+Oct 30th, 2008: Added a hot topic.    
+Oct 29th, 2008: Added a new sample 45.    
+Oct 28th, 2008: Modified the page of 'Shoes.setup'    
+Oct 27th, 2008: Added a new sample 44.    
+Oct 26th, 2008: Modified sample 8, changed the path of image.    
+Oct 24th, 2008: Revised tools and modified .mdown files for the easy eBook maker.    
+Oct 23th, 2008: Added a new sample 43.    
