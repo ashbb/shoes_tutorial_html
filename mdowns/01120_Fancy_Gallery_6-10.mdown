@@ -1,5 +1,5 @@
-Fancy Gallery 6-7
------------------
+Fancy Gallery 6-10
+------------------
 
 Gallery No.6
 ------------
@@ -172,5 +172,48 @@ Look at [online demo](http://www.rin-shun.com/rubylearning/shoes/snake.swf.html)
 ![gallery7.png](http://github.com/ashbb/shoes_tutorial_html/raw/master/images/gallery7.png)
 
 
+Gallery No.8
+------------
+Paul Harris introduced the following fancy Shoes app in the Shoes course 4th batch.
 
+- [Parallax Scrolling](http://www.mail-archive.com/shoes@code.whytheluckystiff.net/msg03230.html) (Shoes ML Archive)
+- [Parallax Scrolling](http://en.wikipedia.org/wiki/Parallax_scrolling) (Wikipedia)
 
+I was very impressed and then improved to move a bit more smoothly.
+
+Look at [online demo](http://www.rin-shun.com/rubylearning/shoes/parallax_scroll.swf.html)
+
+	# gallery8.rb
+	Shoes.app :width=>320, :height=>200 do
+	  str = "../images/Parallax-scroll-example-layer-%s.gif"
+	  imgs = []
+	  4.times do |i|
+	    path = str % i
+	    imgs << [image(path), image(path), imagesize(path).first]
+	  end
+	 
+	  animate 24 do |i|
+	    imgs.each_with_index do |e, n|
+	      img1, img2, w = e
+	      x = -(n * i % w)
+	      img1.move x, 0
+	      img2.move x + w, 0
+	    end
+	  end
+	end
+
+**gallery8.png**
+
+![gallery8.png](http://github.com/ashbb/shoes_tutorial_html/raw/master/images/gallery8.png)
+
+**NOTE**   
+If you have the faster machine than mine. It might be occured this error:
+ 
+- undefined method `first` for nil:NilClass
+
+If it'll happen, try to modify the code, line 7, like this:
+
+	width = imagesize(path).first
+	fs << [image(path), image(path), width]
+
+*This tip was presented by Paul Harris*.

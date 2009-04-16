@@ -2,7 +2,7 @@ Shoes Tutorial Note
 ===================
 **- For the Shoes App Rookie Creators -**
 
-Apr. 15th, 2009 by ashbb (Satoshi Asakawa), citizen428 (Michael Kohl), kotp (Victor H. Goff III)
+Apr. 16th, 2009 by ashbb (Satoshi Asakawa), citizen428 (Michael Kohl), kotp (Victor H. Goff III)
 
 Table of contents
 -----------------
@@ -81,7 +81,7 @@ Table of contents
 01000. Acknowledgment
 01100.#Fancy Gallery
 01110. Fancy Gallery 1-5
-01120. Fancy Gallery 6-7
+01120. Fancy Gallery 6-10
 01200.#Built-in Samples
 
 01201. simple-accordion
