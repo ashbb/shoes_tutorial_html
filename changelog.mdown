@@ -1,5 +1,6 @@
 Change log:
 -----------
+Apr 18th, 2009: Added gallery 9.   
 Apr 16th, 2009: Added gallery 8.   
 Apr 15th, 2009: Added gallery 7.   
 Apr 12th, 2009: Added the link to Shoes Manual for printing    
