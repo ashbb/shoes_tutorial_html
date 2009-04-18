@@ -48,7 +48,7 @@ Shoes.app :width => 300, :height => 300, :title => 'Scatter Pack v0.1' do
     Math.sqrt((mouse[1] - x)**2 + (mouse[2] - y)**2) < (@area.width / 2 + r)
   end
   
-  keys = {'+' => 10, '-' => 10}
+  keys = {'+' => 10, '-' => -10}
   animate 12 do
     discs.each{|disc| disc_move disc}
     @area.left = mouse[1] - @area.width / 2
