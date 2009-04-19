@@ -1,5 +1,6 @@
 Change log:
 -----------
+Apr 19th, 2009: Added a note to chapter 00410   
 Apr 18th, 2009: Added gallery 9.   
 Apr 16th, 2009: Added gallery 8.   
 Apr 15th, 2009: Added gallery 7.   
