@@ -30,7 +30,7 @@ Listen - Ruby's top teacher, Satish Talim.
 [Ruby's Top Teacher in 2008 - Satish Talim](http://www.rubyinside.com/rubys-top-teacher-in-2008-satish-talim-1396.html)
 
 
-*Massimiliano Giroldi sent me the following patch for Leopard.* **Thx. Cool!**
+*Massimiliano Giroldi sent me the following patch for Leopard and helpful information about Windows's platform detection.* **Thx. Cool!**
 
 	# gallery1-1.rb
 	Shoes.setup do
@@ -51,6 +51,9 @@ Listen - Ruby's top teacher, Satish Talim.
 	    else
 	  end
 	end
+
+**Note:**   
+If you've installed MinGW32 or cygwin32, look at [this](http://snippets.dzone.com/posts/show/2112).
 
 
 Gallery No.2
