@@ -1,0 +1,30 @@
+Write a 17-line fake chat client using Shoes
+--------------------------------------------
+At first I have to say my apologies in advance. This is a FAKE chat client. It's useless so far. Just for fun. ;-)
+
+This is a great blog. I was inspired. Thanks to Paul Harris. He tweeted me.   
+[Write a 32-line chat client using Ruby, AMQP & EventMachine (and a GUI using Shoes)](http://www.randomhacks.net/articles/2009/05/08/chat-client-ruby-amqp-eventmachine-shoes)
+
+	# sample70.rb
+	%w[ashbb Paul Max].each do |name|
+	  blk = lambda do
+	    self.clipboard = ''
+	    ed = edit_line
+	    button('ok'){self.clipboard = "#{name}: #{ed.text}"}
+	    slot = stack
+	    msg = ''
+	    every 1 do
+	      slot.append do
+	        tmp = clipboard
+	        para tmp unless msg == tmp
+	        msg = tmp
+	      end
+	    end
+	  end
+	
+	  Shoes.app :title => name, :width => 300, :height => 500, &blk
+	end
+
+**sample70.png**
+
+![sample70.png](http://github.com/ashbb/shoes_tutorial_html/raw/master/images/sample70.png)

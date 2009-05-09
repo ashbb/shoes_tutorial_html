@@ -2,7 +2,7 @@ Shoes Tutorial Note
 ===================
 **- For the Shoes App Rookie Creators -**
 
-Apr. 30th, 2009 by ashbb (Satoshi Asakawa), citizen428 (Michael Kohl), kotp (Victor H. Goff III)
+May 9th, 2009 by ashbb (Satoshi Asakawa), citizen428 (Michael Kohl), kotp (Victor H. Goff III)
 
 Table of contents
 -----------------
@@ -69,6 +69,7 @@ Table of contents
 00606. shoes gem alternate repo's
 00607. http post in shoes
 00608. Building Shoes with Windows DDK
+00609. Write a 17-line fake chat client using Shoes
 00700.#Assignment
 00701. Assignment 1 twitter client (reader)
 00702. Assignment 2 footracer

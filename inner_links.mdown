@@ -62,6 +62,7 @@
 	- [00606 shoes gem alternate repo's](http://github.com/ashbb/shoes_tutorial_html/tree/master/mdowns/00606_shoes_gem_alternate_repo's.mdown)
 	- [00607 http post in shoes](http://github.com/ashbb/shoes_tutorial_html/tree/master/mdowns/00607_http_post_in_shoes.mdown)
 	- [00608 Building Shoes with Windows DDK](http://github.com/ashbb/shoes_tutorial_html/tree/master/mdowns/00608_Building_Shoes_with_Windows_DDK.mdown)
+	- [00609 Write a 17-line fake chat client using Shoes](http://github.com/ashbb/shoes_tutorial_html/tree/master/mdowns/00609_Write_a_17-line_fake_chat_client_using_Shoes.mdown)
 7. Assignment
 	- [00701 Assignment 1 twitter client (reader)](http://github.com/ashbb/shoes_tutorial_html/tree/master/mdowns/00701_Assignment_1_twitter_client__reader_.mdown)
 	- [00702 Assignment 2 footracer](http://github.com/ashbb/shoes_tutorial_html/tree/master/mdowns/00702_Assignment_2_footracer.mdown)
