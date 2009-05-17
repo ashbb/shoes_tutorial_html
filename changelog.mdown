@@ -1,5 +1,6 @@
 Change log:
 -----------
+May 17th, 2009: Added a new chapter 00610   
 May 09th, 2009: Added a new chapter 00609   
 Apr 30th, 2009: Added gallery1-1.rb   
 Apr 19th, 2009: Added a note to chapter 00410   

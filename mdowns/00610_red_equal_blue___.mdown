@@ -1,0 +1,85 @@
+red equal blue???
+-----------------
+I'd like to create a tiny Shoes app which picks up the color values around the  position mouse clicked. So, I wrote sample71.rb and found the following strange behavior. I'm using Shoes 2 (0.r1134) and Windows XP.
+
+	# sample71.rb
+	Shoes.app :width => 200, :height => 202 do
+	  def around x, y, n
+	    ret = []
+	    return [[x, y]] if n < 1
+	    [y - n, y + n].each{|j| ((x - n)..(x + n)).each{|i| ret << [i, j]}}
+	    [x - n, x + n].each{|i| ((y - n + 1)..(y + n - 1)).each{|j| ret << [i, j]}}
+	    ret
+	  end
+	
+	  img = image :width => 200, :height => 200 do
+	    oval 10, 10, 90, :fill => yellow
+	    line 0, 60, 80, 60, :stroke => blue, :strokewidth => 10
+	    oval 100, 70, 90, :fill => red
+	    line 90, 130, 170, 130, :stroke => blue, :strokewidth => 10
+	  end
+	
+	  color = edit_line 'black', :left => 5, :top => 170, :width => 100
+	
+	  click do
+	    b, l, t = self.mouse
+	    20.times do |n|
+	      around(l, t, n).each do |x, y|
+	        oval(x, y, 1, :stroke => green) if img[x, y] == eval(color.text)
+	      end
+	      oval l, t, 1, :stroke => black
+	    end
+	  end
+	end
+	  
+
+**sample71.png**
+
+![sample71.png](http://github.com/ashbb/shoes_tutorial_html/raw/master/images/sample71.png)
+Expected behavior. Changed only background (black area) to green.
+
+**sample71a.png**
+
+![sample71a.png](http://github.com/ashbb/shoes_tutorial_html/raw/master/images/sample71a.png)
+Expected behavior. Changed only yellow area to green.
+
+**sample71b.png**
+
+![sample71b.png](http://github.com/ashbb/shoes_tutorial_html/raw/master/images/sample71b.png)
+Strange behavior. Changed not only red area but also blue area to green.
+
+**sample71c.png**
+
+![sample71c.png](http://github.com/ashbb/shoes_tutorial_html/raw/master/images/sample71c.png)
+Expected behavior. Changed only pink area to green.
+
+**sample71d.png**
+
+![sample71d.png](http://github.com/ashbb/shoes_tutorial_html/raw/master/images/sample71d.png)
+Strange behavior. Changed blue area to green.
+
+**sample71e.png**
+
+![sample71e.png](http://github.com/ashbb/shoes_tutorial_html/raw/master/images/sample71e.png)
+Strange behavior. Changed not only red area but also blue area to green.
+
+For more specifically. Look at sample71-1.rb
+
+	# sample71-1.rb
+	Shoes.app do
+	  stack do
+	    para "blue is #{blue.inspect}" if rgb(0, 0, 255) == blue
+	    para "red is #{red.inspect}" if rgb(255, 0, 0) == red
+	    para "yellow is #{yellow.inspect}" if rgb(255, 255, 0) == yellow
+	    para "Umm... red equal blue???" if red == blue
+	    para "Umm... blue equal yellow???" if blue == yellow
+	    para "Umm... yellow equal red???" if yellow == red
+	  end
+	end
+	  
+
+**sample71-1.png**
+
+![sample71-1.png](http://github.com/ashbb/shoes_tutorial_html/raw/master/images/sample71-1.png)
+
+Why `Umm... red equal blue???` is shown?
