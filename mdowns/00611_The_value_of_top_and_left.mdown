@@ -1,0 +1,13 @@
+The value of top and left
+-------------------------
+
+Until the image is drawn, you can't really know `top` and `left`.
+
+Until we compute the window size, the coordinates can't be shown.   
+So, what you do is get the coordinates in the `start` block.
+
+Because the start block runs after the first paint.
+
+by _why
+
+[Shoes reports 0,0 location on newly created image](http://www.mail-archive.com/shoes@code.whytheluckystiff.net/msg03662.html)
