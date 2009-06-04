@@ -1,0 +1,46 @@
+flexible time interval
+----------------------
+
+I found that we can change the loop time interval of `animate()` and `every()` freely.
+
+	# sample72.rb
+	Shoes.app :width => 200, :height => 100 do
+	    time_interval = [0, 5, 1, 5, 2, 10, 1]
+	    a = animate 100 do
+	      ti = time_interval.shift
+	      para ti
+	      sleep ti
+	      a.remove if time_interval.empty?
+	    end
+	end
+
+
+**sample72.png**
+
+![sample72.png](http://github.com/ashbb/shoes_tutorial_html/raw/master/images/sample72.png)
+
+
+Show the executed time interval.
+
+
+	# sample72-1.rb
+	Shoes.app :width => 200, :height => 100 do
+	    time_interval = [5, 1, 5, 2, 10, 1]
+	    @ti = 0
+	    a = animate 100 do
+	      m = time_interval.shift
+	      para m
+	      sleep @ti
+	      @ti = m
+	      a.remove if time_interval.empty?
+	    end
+	end
+
+
+**sample72-1.png**
+
+![sample72-1.png](http://github.com/ashbb/shoes_tutorial_html/raw/master/images/sample72-1.png)
+
+
+Show the executing time interval.
+
