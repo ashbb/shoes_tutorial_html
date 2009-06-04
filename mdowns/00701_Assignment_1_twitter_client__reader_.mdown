@@ -1,7 +1,7 @@
-Exercises
+Assignment
 ----------
 
-Exercise 1 twitter client (reader)
+Assignment 1 twitter client (reader)
 ------------------------------------
 
 The following spec is an example. <br>
