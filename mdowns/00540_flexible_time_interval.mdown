@@ -44,3 +44,79 @@ Show the executed time interval.
 
 Show the executing time interval.
 
+<br>
+
+But the above two snippets stop everything during executing `sleep`.   
+So, it's better to use `Thread`. Look at the sample72-2.
+
+	# sample72-2.rb
+	Shoes.app :width => 200, :height => 100 do
+	  Thread.start do
+	    [0, 5, 1, 5, 2, 10, 1].each do |ti|
+	      para ti
+	      sleep ti
+	    end
+	  end
+	end
+	
+
+**sample72-2.png**   
+The same as sample72.png
+
+**Note 1**   
+sample72-3 doesn't work as I expected.... I'm not sure why....
+
+	# sample72-3.rb
+	Shoes.app :width => 200, :height => 100 do
+	    time_interval = [0, 5, 1, 5, 2, 10, 1]
+	    Thread.new do
+	      a = animate 100 do
+	        ti = time_interval.shift
+	        para ti
+	        sleep ti
+	        a.remove if time_interval.empty?
+	      end
+	    end
+	end
+
+**sample72-3.png**   
+The same as sample72.png
+
+
+**Note 2**   
+Another solution using mixin Observable module. It's interesting, although there is no reason to have to use this library. :-P
+
+	# sample72-4.rb
+	require 'observer'
+	
+	class TimeServer
+	  include Observable
+	  
+	  def initialize
+	    Thread.start do
+	      [0, 5, 1, 5, 2, 10, 1].each do |ti|
+	        sleep ti
+	        changed
+	        notify_observers ti
+	      end
+	    end
+	  end
+	end
+	
+	module TimeWatcher
+	  def update ti
+	    @msg.text += ti.to_s
+	  end
+	end
+	
+	Shoes.app :width => 200, :height => 100 do
+	  @msg = para
+	  extend TimeWatcher
+	  TimeServer.new.add_observer self
+	end
+
+
+**sample72-4.png**   
+The same as sample72.png
+
+
