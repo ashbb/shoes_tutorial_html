@@ -1,0 +1,32 @@
+Shoes comes with sqlite3/ruby
+-----------------------------
+
+[sqlite3 and shoes](http://www.mail-archive.com/shoes@code.whytheluckystiff.net/msg03757.html)
+
+\_why answered:   
+Shoes comes with sqlite3/ruby. It is used for the image cache and some small settings.
+
+It's really cool!
+
+	# sample73.rb
+	require 'sqlite3'
+	Shoes.app :width => 250, :height => 120 do
+	  db = SQLite3::Database.new "test.db"
+	  db.execute "create table t1 (t1key INTEGER PRIMARY KEY,data " \
+	    "TEXT,num double,timeEnter DATE)"
+	  db.execute "insert into t1 (data,num) values ('This is sample data',3)"
+	  db.execute "insert into t1 (data,num) values ('More sample data',6)"
+	  db.execute "insert into t1 (data,num) values ('And a little more',9)"
+	  rows = db.execute "select * from t1"
+	  rows.each{|k, d, n| para "#{k} : #{d} : #{n}\n"}
+	end
+
+**sample73.png**
+
+![sample73.png](http://github.com/ashbb/shoes_tutorial_html/raw/master/images/sample73.png)
+
+
+References
+----------
+- [SQLite/Ruby FAQ](http://sqlite-ruby.rubyforge.org/sqlite3/faq.html)
+- [SQLite Tutorial](http://souptonuts.sourceforge.net/readme_sqlite_tutorial.html)
