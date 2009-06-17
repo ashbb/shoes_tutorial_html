@@ -1,6 +1,7 @@
 Change log:
 -----------
-Jun 07th, 2009: Added a new chapter 00541
+Jun 17th, 2009: Added gallery 2-1.   
+Jun 07th, 2009: Added a new chapter 00541   
 Jun 06th, 2009: Added two more small snippets to 00540   
 Jun 04th, 2009: Added a new chapter 00540   
 May 25th, 2009: Added gallery 10.   
