@@ -8,15 +8,15 @@ I read the book: Simple Brain, Complex 'I'. ([Japanese book](http://www.asahipre
 
 My Shoes app uses the following very simplistic approach (rules):
 
-1. create 10 x 10 cells with random color
+1. create 20 x 20 cells with random color
 2. create the `base-color` at random
-3. find a cell with the closest color from 100 cells
+3. find a cell with the closest color from 400 cells
 4. taint the `base-color` a little to the cell and nearby 8 cells
 5. repeat 2 - 4 many times
 
 then the cells will be organized some color groups.
 
-Look at [online demo](http://www.rin-shun.com/rubylearning/shoes/self_organizing_map.swf.html). (10 x 10 cells version)
+Look at [online demo](http://www.rin-shun.com/rubylearning/shoes/self_organizing_map.swf.html). (20 x 20 cells version)
 
 	# gallery11.rb
 	# Kohonen's Self Organizing Feature Maps
@@ -78,7 +78,7 @@ Look at [online demo](http://www.rin-shun.com/rubylearning/shoes/self_organizing
 
 ![gallery11.png](http://github.com/ashbb/shoes_tutorial_html/raw/master/images/gallery11.png)
 
-Starting map. (20 x 20 cells version)
+Starting map. (40 x 40 cells version)
 
 **gallery11-1.png**
 
