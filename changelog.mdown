@@ -1,5 +1,6 @@
 Change log:
 -----------
+Jun 28th, 2009: Added a Paul's tip for gallery 11.   
 Jun 27th, 2009: Added a new chapter 001130 and gallery 11.   
 Jun 17th, 2009: Added gallery 2-1.   
 Jun 07th, 2009: Added a new chapter 00541   

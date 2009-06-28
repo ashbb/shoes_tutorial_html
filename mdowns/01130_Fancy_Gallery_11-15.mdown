@@ -88,6 +88,18 @@ The map repeated 3571 times.
 
 <br>
 
+Tips
+----
+Paul Harris confirmed running this tiny Shoes app on his kubuntu 9.04.
+
+At first it didn't appear to work. But tried to slow animate loop down to 10, it displayed. And finally, he found the good solution:
+
+- Changed to 30x30 and it runs fine on animate 5.
+
+Thank you, Paul! :)
+
+<br>
+
 References
 ----------
 
