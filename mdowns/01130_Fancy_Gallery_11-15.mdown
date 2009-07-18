@@ -246,4 +246,6 @@ References
 ----------
 - [Mandelbrot on COCOA](http://hp.vector.co.jp/authors/VA026611/index_mac_e.html)
 - [Mandelbrot on Windows](http://hp.vector.co.jp/authors/VA026611/index_win_e.html)
+- [Mandelbrot Set Plotter with Shoes](http://github.com/ashbb/shoes_mandelbrot/tree/master)
+
 
