@@ -2,7 +2,7 @@ Shoes Tutorial Note
 ===================
 **- For the Shoes App Rookie Creators -**
 
-July 12th, 2009 by ashbb (Satoshi Asakawa), citizen428 (Michael Kohl), kotp (Victor H. Goff III)
+July 18th, 2009 by ashbb (Satoshi Asakawa), citizen428 (Michael Kohl), kotp (Victor H. Goff III)
 
 Table of contents
 -----------------
@@ -74,6 +74,7 @@ Table of contents
 00609. Write a 17-line fake chat client using Shoes
 00610. red equal blue???
 00611. The value of top and left
+00612. Dynamically changing the size/title of the shoes main window
 00700.#Assignment
 00701. Assignment 1 twitter client (reader)
 00702. Assignment 2 footracer
@@ -115,4 +116,7 @@ ashbb
 
 NOTE
 ----
-PDF file is [here](http://github.com/ashbb/shoes_tutorial/tree). Although it's not following the latest revision. :-P
+
+- [Shoes Tutorial Note on Heroku](http://shoes-tutorial-note.heroku.com/), simple search (beta) is available. The contents are the same on the GitHub repo.
+- [Shoes Tutorial Note on GitHub](http://github.com/ashbb/shoes_tutorial_html/tree/master)
+- PDF file is [here](http://github.com/ashbb/shoes_tutorial/tree). Although it's not following the latest revision. :-P

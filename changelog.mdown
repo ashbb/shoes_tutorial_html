@@ -1,5 +1,6 @@
 Change log:
 -----------
+Jul 18th, 2009: Added a new chapter 00612 and some links on top page.   
 Jul 12th, 2009: Added gallery 13.   
 Jul 02nd, 2009: Added gallery 12.   
 Jun 28th, 2009: Added a Paul's tip for gallery 11.   

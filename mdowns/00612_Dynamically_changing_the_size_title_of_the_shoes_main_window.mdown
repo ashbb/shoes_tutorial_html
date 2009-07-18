@@ -1,0 +1,14 @@
+Dynamically changing the size/title of the shoes main window
+------------------------------------------------------------
+
+I know this is not his request. But it may be seen like the same behavior. ;-)
+
+	Shoes.app :width => 200, :height => 200, :title => 'Hi' do
+	  timer 5 do
+	    Shoes.app :width => 300, :height => 300, :title => 'Hello'
+	    app.close
+	  end
+	end
+
+
+[Dynamically changing the size/title of the shoes main window](http://www.mail-archive.com/shoes@code.whytheluckystiff.net/msg03926.html)

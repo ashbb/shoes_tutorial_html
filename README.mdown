@@ -2,7 +2,7 @@ Shoes Tutorial Note
 ===================
 **- For the Shoes App Rookie Creators -**
 
-July 12th, 2009 by ashbb (Satoshi Asakawa), citizen428 (Michael Kohl), kotp (Victor H. Goff III)
+July 18th, 2009 by ashbb (Satoshi Asakawa), citizen428 (Michael Kohl), kotp (Victor H. Goff III)
 
 Table of contents
 -----------------
@@ -74,6 +74,7 @@ Table of contents
 	- [00609 Write a 17-line fake chat client using Shoes (sample70.rb)](http://github.com/ashbb/shoes_tutorial_html/tree/master/mdowns/00609_Write_a_17-line_fake_chat_client_using_Shoes.mdown)
 	- [00610 red equal blue??? (sample71.rb, sample71-1.rb)](http://github.com/ashbb/shoes_tutorial_html/tree/master/mdowns/00610_red_equal_blue___.mdown)
 	- [00611 The value of top and left](http://github.com/ashbb/shoes_tutorial_html/tree/master/mdowns/00611_The_value_of_top_and_left.mdown)
+	- [00612 Dynamically changing the size/title of the shoes main window](http://github.com/ashbb/shoes_tutorial_html/tree/master/mdowns/00612_Dynamically_changing_the_size_title_of_the_shoes_main_window.mdown)
 7. Assignment
 	- [00701 Assignment 1 twitter client (reader)](http://github.com/ashbb/shoes_tutorial_html/tree/master/mdowns/00701_Assignment_1_twitter_client__reader_.mdown)
 	- [00702 Assignment 2 footracer (mini-footracer-1st.rb, mini-footracer-2nd.rb)](http://github.com/ashbb/shoes_tutorial_html/tree/master/mdowns/00702_Assignment_2_footracer.mdown)
@@ -115,4 +116,7 @@ ashbb
 
 NOTE
 ----
-PDF file is [here](http://github.com/ashbb/shoes_tutorial/tree). Although it's not following the latest revision. :-P
+
+- [Shoes Tutorial Note on Heroku](http://shoes-tutorial-note.heroku.com/), simple search (beta) is available. The contents are the same on the GitHub repo.
+- [Shoes Tutorial Note on GitHub](http://github.com/ashbb/shoes_tutorial_html/tree/master)
+- PDF file is [here](http://github.com/ashbb/shoes_tutorial/tree). Although it's not following the latest revision. :-P
