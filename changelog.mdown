@@ -1,5 +1,6 @@
 Change log:
 -----------
+Aug 07th, 2009: Added a new chapter 00542
 Jul 18th, 2009: Added a link to gallery 13 and a tool for Heroku.   
 Jul 18th, 2009: Added a new chapter 00612 and some links on top page.   
 Jul 12th, 2009: Added gallery 13.   
