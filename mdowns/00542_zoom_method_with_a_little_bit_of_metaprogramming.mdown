@@ -11,8 +11,9 @@ If you use `zoom module` like this, the oval shape can get a zooming function ea
 	end
 
 mouse click
-- left button: zoom start/stop
-- right button: reverse
+
+- left button: zoom start/stop   
+- right button: reverse   
 
 Look at [online demo](http://www.rin-shun.com/rubylearning/shoes/shoes_zoom_demo.swf.html).
 
