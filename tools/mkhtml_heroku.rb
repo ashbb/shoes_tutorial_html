@@ -7,7 +7,7 @@ head = IO.read('./head_heroku.erb')
  
 #build intro page
  
-b = BlueCloth.new IO.read('../README.mdown')
+b = BlueCloth.new IO.read('../README.md')
 b.gsub!('(http://github.com/ashbb/shoes_tutorial_html/tree/master/mdowns/', '(../html/')
 b.gsub!('.mdown)', '.html)')
  

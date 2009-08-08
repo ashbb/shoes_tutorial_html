@@ -1,6 +1,6 @@
 # mkmdown.rb
 
-# Create ../README.mdown and reference ../mdowns/***.mdown files, if they do not exist.
+# Create ../README.md and reference ../mdowns/***.mdown files, if they do not exist.
 PATH = 'http://github.com/ashbb/shoes_tutorial_html/tree/master/mdowns/'
 
 def mk_link i, num, name
@@ -10,7 +10,7 @@ def mk_link i, num, name
   line << "[#{num + ' ' + name}](#{PATH + fname})"
 end
 
-open('../README.mdown', 'w') do |f|
+open('../README.md', 'w') do |f|
   IO.read('./table_of_contents.txt').each do |line|
     if line[0].chr == '0'
       i, num, name = line[0,3].to_i, line[0,5], line[7..-2]
@@ -18,11 +18,11 @@ open('../README.mdown', 'w') do |f|
     end
     f.puts line
   end
-end unless File.exist? '../README.mdown'
+end unless File.exist? '../README.md'
 
 open('../inner_links.mdown', 'w') do |f|
   flag = false
-  IO.read('../README.mdown').each do |line|
+  IO.read('../README.md').each do |line|
     case line.chomp
       when /^1. \[00100 Introduction\]/
         flag = true
@@ -69,9 +69,9 @@ Dir.glob("../mdowns/*.mdown").each do |file|
 end
 
 #inner_links = IO.readlines('../inner_links.mdown')
-inner_links = IO.readlines('../README.mdown')
+inner_links = IO.readlines('../README.md')
 
-open('../README.mdown', 'w') do |f|
+open('../README.md', 'w') do |f|
   inner_links.each do |line|
     line.sub(/mdowns\/(.*.mdown)\)$/) do
       key = $1

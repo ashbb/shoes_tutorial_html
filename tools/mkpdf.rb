@@ -1,6 +1,6 @@
 # mkpdf.rb
 # Original code was wirtten by Jerry Anning.
-# Added README.mdown converting part by ashbb
+# Added README.md converting part by ashbb
 
 begin
   require 'prawn'
@@ -14,7 +14,7 @@ end
 
 def gather
   # this method modified from mkbightml.rb
-  buf = IO.readlines('../README.mdown') << "PAGINATE\n"
+  buf = IO.readlines('../README.md') << "PAGINATE\n"
   buf = buf.collect do |line|
     pos = line.index('](')
     pos ? line[0..pos] + "\n" : line

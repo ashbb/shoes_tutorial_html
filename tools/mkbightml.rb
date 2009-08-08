@@ -1,7 +1,7 @@
 # mkbightml.rb
 require 'BlueCloth'
 
-big_mdown = IO.read('../README.mdown') + "\n\n"
+big_mdown = IO.read('../README.md') + "\n\n"
 head = IO.read('./head.erb')
 
 Dir.glob("../mdowns/*.mdown").each{|file| big_mdown << "\n\n<br><br><hr color=green>\n\n" \
