@@ -63,3 +63,52 @@ You can use zoom.rb as like a common library.
 **sample74.png**
 
 ![sample74.png](http://github.com/ashbb/shoes_tutorial_html/raw/master/images/sample74.png)
+
+<br>
+
+I found `Image#scale()` method by browsing Shoes source code [ruby.c](http://github.com/why/shoes/tree/master/shoes/ruby.c) a little bit. So, I attempted to revise the above sample codes. It works like the same.
+
+	#zoom-1.rb
+	module Zoom
+	  def self.extended mod
+	    mod.instance_variable_set :@app, mod
+	    mod.instance_variable_set :@flag, 1
+	  end
+	
+	  def zoom img
+	    dir = img.style[:reverse] ? -1 : 1
+	    run = false
+	    a = nil
+	    img.click do
+	      run = !run
+	      a.remove if a
+	      a = @app.animate do
+	        img.scale @flag * dir > 0 ? 1.02 : 0.98
+	      end if run
+	    end
+	
+	    @app.click{|n, | @flag *= -1 if n == 2}
+	  end
+	end
+
+Although, needed to edit the sample74.rb. Because Shoes::Shape class has no scale() method so far.
+
+	# sample74-1.rb
+	require 'zoom-1'
+	
+	Shoes.app :title => 'Zoom Demo v0.1a' do
+	  extend Zoom
+	  nostroke
+	  imgs = []
+	  imgs << image(:left => 100, :top => 100, :width => 100, :height => 100){
+	    oval(0, 0, 100, :fill => crimson)}
+	  imgs << image(:left => 200, :top => 250, :width => 100, :height => 100, :reverse => true){
+	    rect(0, 0, 100, :fill => limegreen)}
+	  imgs << image(:left => 300, :top => 100, :width => 200, :height => 200){
+	    star 100, 100, 5, 100, 40, :fill => orange}.rotate(36)
+	  
+	  imgs.each{|e| zoom e}
+	end
+
+
+
