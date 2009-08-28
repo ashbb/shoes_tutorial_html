@@ -40,14 +40,16 @@ Note 3
 ------
 
 - download `NSIS 2.45` from [this](http://nsis.sourceforge.net/Download)
-- installed
+- install
 - replaced rakefile:357
 
-	#sh "\"#{env('NSIS')}\\makensis.exe\" #{NAME}.nsi"
-	sh "\"C:\\Program Files\\NSIS\\makensis.exe\" #{NAME}.nsi"
+<pre>
+    #sh "\"#{env('NSIS')}\\makensis.exe\" #{NAME}.nsi"
+    sh "\"C:\\Program Files\\NSIS\\makensis.exe\" #{NAME}.nsi"
+</pre>
 
 Then `rake package` worked well. I got `shoes-0.r1243.exe` under `pkg` directory.
 
-**NOTE: But now my the above `shoes-0.r1243.exe` is on Ruby 1.8.6. Need to move into Ruby 1.9.1 asap.** :-P
+*NOTE: But now my the above `shoes-0.r1243.exe` is on Ruby 1.8.6. Need to move into Ruby 1.9.1 asap.* :-P
 
 
