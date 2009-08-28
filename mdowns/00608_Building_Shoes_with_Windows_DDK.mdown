@@ -1,7 +1,7 @@
 Building Shoes with Windows DDK
 -------------------------------
 
-Finally, I could build the latest Shoes on my Windows XP laptop! Just following [\_why's guide](http://wiki.github.com/why/shoes/buildingshoeswithwindowsddk). Very easy! B-)
+Finally, I could build the latest Shoes on my Windows XP laptop! Just following [\_why's guide](http://wiki.github.com/shoes/shoes/buildingshoeswithwindowsddk). Very easy! B-)
 
 **Windows_DDK.png**
 
@@ -34,4 +34,20 @@ I got '1229' from the following:
 	$ irb
 	irb(main):001:0> (`git rev-list HEAD`.split.length + 1).to_s
 	=> "1229"
+
+
+Note 3
+------
+
+- download `NSIS 2.45` from [this](http://nsis.sourceforge.net/Download)
+- installed
+- replaced rakefile:357
+
+	#sh "\"#{env('NSIS')}\\makensis.exe\" #{NAME}.nsi"
+	sh "\"C:\\Program Files\\NSIS\\makensis.exe\" #{NAME}.nsi"
+
+Then `rake package` worked well. I got `shoes-0.r1243.exe` under `pkg` directory.
+
+**NOTE: But now my the above `shoes-0.r1243.exe` is on Ruby 1.8.6. Need to move into Ruby 1.9.1 asap.** :-P
+
 
