@@ -1,5 +1,6 @@
 Change log:
 -----------
+Sep 27th, 2009: Added a new chapter 00543   
 Aug 28th, 2009: Added Note 3 on chapter 00608   
 Aug 15th, 2009: Added a revised sample code on chapter 00542   
 Aug 07th, 2009: Added a new chapter 00542   

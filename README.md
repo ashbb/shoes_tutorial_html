@@ -2,7 +2,7 @@ Shoes Tutorial Note
 ===================
 **- For the Shoes App Rookie Creators -**
 
-August 28th, 2009 by ashbb (Satoshi Asakawa), citizen428 (Michael Kohl), kotp (Victor H. Goff III)
+September 27th, 2009 by ashbb (Satoshi Asakawa), citizen428 (Michael Kohl), kotp (Victor H. Goff III)
 
 Table of contents
 -----------------
@@ -63,6 +63,7 @@ Table of contents
 	- [00540 flexible time interval (sample72.rb, sample72-1.rb, sample72-2.rb, sample72-3.rb, sample72-4.rb)](http://github.com/ashbb/shoes_tutorial_html/tree/master/mdowns/00540_flexible_time_interval.mdown)
 	- [00541 Shoes comes with sqlite3/ruby (sample73.rb)](http://github.com/ashbb/shoes_tutorial_html/tree/master/mdowns/00541_Shoes_comes_with_sqlite3_ruby.mdown)
 	- [00542 zoom method with a little bit of metaprogramming (sample74.rb, zoom.rb, zoom-1.rb, sample74-1.rb)](http://github.com/ashbb/shoes_tutorial_html/tree/master/mdowns/00542_zoom_method_with_a_little_bit_of_metaprogramming.mdown)
+	- [00543 UTF-8 again (sample75-1.rb)](http://github.com/ashbb/shoes_tutorial_html/tree/master/mdowns/00543_UTF-8_again.mdown)
 6. Hot Topics in the Shoes ML and Shoooes.net
 	- [00601 External Fonts](http://github.com/ashbb/shoes_tutorial_html/tree/master/mdowns/00601_External_Fonts.mdown)
 	- [00602 Locking edit\_box](http://github.com/ashbb/shoes_tutorial_html/tree/master/mdowns/00602_Locking_edit__box.mdown)

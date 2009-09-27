@@ -1,0 +1,65 @@
+UTF-8 again
+-----------
+
+[Shoes expects all strings to be in UTF-8 format](./00529_UTF-8.html).
+
+But, Shoes 2 (Raisins) uses Ruby 1.8.7, so you have to use ANSI file as your Shoes app source code. 
+
+Shoes 3 (Policeman) will use Ruby 1.9.1, so you'll be able to use both ANSI and UTF-8 file as your Shoes app source code. Look at the following. ;-)
+
+The sample75.rb and sample75-1.rb are same code.
+
+	# sample75-1.rb
+	Shoes.app :width => 330, :height => 230, 
+	  :title => 'Building Shoes for Windows!' do
+	    
+	  background "#D0A".."#F90", :angle => 90
+	  style Para, :stroke => white, :size => 14, :weight => 'bold'
+	  
+	  stack do
+	    para "RELEASE_NAME: ",  RELEASE_NAME
+	    para "RELEASE_ID: ", RELEASE_ID
+	    para "REVISION: ", REVISION
+	    para "RUBY_PLATFORM: ", RUBY_PLATFORM
+	    para "RUBY_VERSION: ", RUBY_VERSION
+	  end
+	end
+
+
+**sample75.png**
+
+![sample75.png](http://github.com/ashbb/shoes_tutorial_html/raw/master/images/sample75.png)
+
+The sample75.rb is UTF-8. If you use Shoes-0.r1134, you will get this error.
+
+**sample75-4.png**
+
+![sample75-4.png](http://github.com/ashbb/shoes_tutorial_html/raw/master/images/sample75-4.png)
+
+But if you use Shoes-0.r1257, it will work well.
+
+**sample75-2.png**
+
+![sample75-2.png](http://github.com/ashbb/shoes_tutorial_html/raw/master/images/sample75-2.png)
+
+After you change the file from UTF-8 to ANSI and save it as sample75-1.rb like this. 
+
+**sample75-1.png**
+
+![sample75-1.png](http://github.com/ashbb/shoes_tutorial_html/raw/master/images/sample75-1.png)
+
+Your Shoes-0.r1134 works well.
+
+**sample75-3.png**
+
+![sample75-3.png](http://github.com/ashbb/shoes_tutorial_html/raw/master/images/sample75-3.png)
+
+Note
+----
+
+Shoes-0.r1257 is my local build. Policeman is now under construction.... :)
+
+This problem was shown by Chris Sederqvist and jabran noor in the Shoes course 6rd batch. Thanks!
+
+
+
