@@ -1,5 +1,5 @@
 # mkhtml.rb
-require 'BlueCloth'
+require "C:/ruby/lib/ruby/gems/1.8/gems/BlueCloth-1.0.0/lib/bluecloth"
  
 #load style
  

@@ -1,5 +1,5 @@
 # mkbightml.rb
-require 'BlueCloth'
+require "C:/ruby/lib/ruby/gems/1.8/gems/BlueCloth-1.0.0/lib/bluecloth"
 
 big_mdown = IO.read('../README.md') + "\n\n"
 head = IO.read('./head.erb')
