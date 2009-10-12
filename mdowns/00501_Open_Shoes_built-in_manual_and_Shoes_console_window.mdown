@@ -16,9 +16,3 @@ Alternatively you can also access the manual from the menu like this: <br>
 <http://shoooes.net/manuals/> <br>
 
 To open the Shoes console window,  <br>
-type  Alt + / ('⌘/' on a Mac) in any Shoes application window. <br>
-
-**shoes\_console.png**
-
-![shoes\_console.png](http://github.com/ashbb/shoes_tutorial_html/raw/master/images/shoes_console.png)
-
