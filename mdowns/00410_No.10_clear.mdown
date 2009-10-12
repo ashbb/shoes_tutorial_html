@@ -50,13 +50,14 @@ Note
 We need to understand about `clear` method.
 
 At first, look at this:   
-http://help.shoooes.net/Manipulation.html#clear
+<http://shoes.heroku.com/manual/Manipulation.html#clear>
 
 **clear method is calling each element's remove method.**
 
 Okay, we can understand the following two snippets, test1 and test2, are the same.
 
 \# test1
+	# test1
 	Shoes.app do
 	  @e = edit_line
 	  @b = button('ok')
@@ -68,6 +69,7 @@ Okay, we can understand the following two snippets, test1 and test2, are the sam
 
 
 \# test2
+	# test2
 	Shoes.app do
 	  @e = edit_line
 	  @b = button('ok')
@@ -92,3 +94,10 @@ If we copy the value before executing `clear` method, we can get desired result.
 	    para keep
 	  end
 	end
+
+
+Policeman
+---------
+
+The sample12.rb worked well with Shoes-0.r1263.   
+The sample13.rb worked with Shoes-0.r1263 as same as sample7.rb.

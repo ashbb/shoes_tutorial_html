@@ -37,3 +37,9 @@ From the user viewpoint, it behaves just like a web page.
 **sample11.png**
 
 ![sample11.png](http://github.com/ashbb/shoes_tutorial_html/raw/master/images/sample11.png)
+
+
+Policeman
+---------
+
+The sample11.rb worked well with Shoes-0.r1263

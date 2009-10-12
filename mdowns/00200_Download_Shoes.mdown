@@ -1,6 +1,10 @@
 Download Shoes
 --------------
 
-Download Shoes from the [project's web site](http://shoooes.net/downloads/) and read the [installation instructions](http://help.shoooes.net/Installing.html) for your platform.
+Download Shoes 2 from the [new project's web site](http://shoes.heroku.com/downloads) and read the [Installing Shoes](http://shoes.heroku.com/manual/Installing.html) for your platform.
 
-We use **Shoes 2 (Raisins, 0.r1134)** in this tutorial.
+
+Policeman Beta for Windows
+--------------------------
+
+Download Policeman Beta ([shoes-0.r1263.exe](http://www.rin-shun.com/shoes/index.html)). This is my local build. 

@@ -53,3 +53,9 @@ Changing the background color is really easy in Shoes:
 ![sample57.png](http://github.com/ashbb/shoes_tutorial_html/raw/master/images/sample57.png)
 
 [changing color of background](http://www.mail-archive.com/shoes@code.whytheluckystiff.net/msg02727.html)
+
+
+Policeman
+---------
+
+The sample9.rb, sample10.rb and sample57.rb worked well with Shoes-0.r1263

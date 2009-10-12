@@ -5,5 +5,10 @@ Shoes is a tiny cross-platform graphics and windowing toolkit for the Ruby progr
 
 All sample programs and data files in this tutorial can be downloaded from [here](http://github.com/ashbb/shoes_tutorial/tree/master).
 
-Some sample programs are taken from chapter 8 of [NKS](http://hackety.org/press/nks.html) (Nobody Knows Shoes, the first publicly available manual for Shoes).
+Some sample programs are taken from chapter 8 of [NKS](http://github.com/shoes/shoes/downloads) (Nobody Knows Shoes, the first publicly available manual for Shoes)[nks.pdf 43MB].
  
+
+Note
+----
+All sample codes have been confirmed with Raisins (Shoes 2: Shoes-0.r1134).   
+Now, under revising with Policeman (Shoes 3 beta: Shoes-0.r1263).

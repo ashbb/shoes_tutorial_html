@@ -2,7 +2,9 @@ Shoes Tutorial Note
 ===================
 **- For the Shoes App Rookie Creators -**
 
-September 27th, 2009 by ashbb (Satoshi Asakawa), citizen428 (Michael Kohl), kotp (Victor H. Goff III)
+October 12th, 2009 by ashbb (Satoshi Asakawa), citizen428 (Michael Kohl), kotp (Victor H. Goff III)
+
+**Note: Now under revising with Policeman!**
 
 Table of contents
 -----------------
@@ -104,7 +106,7 @@ Look at [changelog.mdown](http://github.com/ashbb/shoes_tutorial_html/blob/maste
 
 To do list:
 -----------
-+ Add search function.
++ Add search function.... done!
 + Improve mkpdf.rb to form more beautifully.
 + Improve the browser feature to resizable.
 + Improve mkbightml.rb for creating PDF file.

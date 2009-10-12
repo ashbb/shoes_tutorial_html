@@ -26,3 +26,9 @@ That's all there is to know about buttons.
 **sample5.png**
 
 ![sample5.png](http://github.com/ashbb/shoes_tutorial_html/raw/master/images/sample5.png)
+
+Policeman
+---------
+
+The sample5.rb worked well with Shoes-0.r1263
+

@@ -2,14 +2,14 @@ Nos. 2 & 3: stack and flow
 ---------------------
 
 At first, please read the following web page:
-[http://github.com/why/shoes/wikis/stacksandflows](http://github.com/why/shoes/wikis/stacksandflows)
+[http://github.com/shoes/shoes/wikis/stacksandflows](http://github.com/shoes/shoes/wikis/stacksandflows)
 
 *Note* Instead of using the code from the above document which uses the deprecated Shoes#text method, please run the following sample code (and keep in mind to change the path to the image file):
 
 	# sample3.rb
 	Shoes.app do
 	  stack do
-	    image "http://hackety.org/images/hackety-org-header.png"
+	    image "http://www.rin-shun.com/shoes/hackety-org-header.png"
 	  end
 	  stack :width => 200 do
 	    para "column 1"
@@ -58,4 +58,10 @@ A more complex example:
 **sample4.png**
 
 ![sample4.png](http://github.com/ashbb/shoes_tutorial_html/raw/master/images/sample4.png)
+
+
+Policeman
+---------
+
+The sample3.rb and sample4.rb worked well with Shoes-0.r1263
 

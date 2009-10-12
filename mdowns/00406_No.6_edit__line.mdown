@@ -32,3 +32,19 @@ We can use the attribute :secret for creating password fields with edit\_line (t
 **sample7-1.png**
 
 ![sample7-1.png](http://github.com/ashbb/shoes_tutorial_html/raw/master/images/sample7-1.png)
+
+Policeman
+---------
+
+The sample7.rb and sample7-1.rb worked with Shoes-0.r1263. Looked like slightly degraded. But not so bad.
+
+**sample7-2.png**
+
+![sample7-2.png](http://github.com/ashbb/shoes_tutorial_html/raw/master/images/sample7-2.png)
+
+**sample7-3.png**
+
+![sample7-3.png](http://github.com/ashbb/shoes_tutorial_html/raw/master/images/sample7-3.png)
+
+
+

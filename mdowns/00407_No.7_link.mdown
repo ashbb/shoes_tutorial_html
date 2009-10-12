@@ -7,9 +7,15 @@ We have three different ways to inlcude hyperlinks in our Shoes app:
 	Shoes.app :width => 250, :height => 60 do
 	  para link('RubyLearning.org'){visit "http://www.rubylearning.org/"}
 	  para link('Google', :click => "http://google.com")
-	  image '../images/loogink.png', :click => "http://shoooes.net/"
+	  image '../images/loogink.png', :click => "http://shoes.heroku.com/"
 	end
 
 **sample8.png**
 
 ![sample8.png](http://github.com/ashbb/shoes_tutorial_html/raw/master/images/sample8.png)
+
+
+Policeman
+---------
+
+The sample8.rb worked well with Shoes-0.r1263

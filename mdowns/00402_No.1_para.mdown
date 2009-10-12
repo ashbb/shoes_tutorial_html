@@ -43,3 +43,10 @@ sub (subscript)		: lowers the text by 10 pixels, x-small font <br>
 
 ![sample2.png](http://github.com/ashbb/shoes_tutorial_html/raw/master/images/sample2.png)
 
+
+Policeman
+---------
+
+The sample1.rb and sample2.rb worked well with Shoes-0.r1263
+
+
