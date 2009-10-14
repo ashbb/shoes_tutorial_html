@@ -101,7 +101,9 @@ But got the following fatal errors. :(
 
 Umm.... Sorry, this problem is a bit difficult for me so far.
 
-But I think we can write like this (sample15-1.rb). Not so serious problem. :)
+But, is this a really problem? Seems like \_why changed the spec...
+
+We can write like this (sample15-1.rb). Hence not so serious problem, I think. :-P
 
 	# sample15-1.rb
 	Shoes.app :width => 150, :height => 40 do
