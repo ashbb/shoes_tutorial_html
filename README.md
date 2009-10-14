@@ -2,7 +2,7 @@ Shoes Tutorial Note
 ===================
 **- For the Shoes App Rookie Creators -**
 
-October 12th, 2009 by ashbb (Satoshi Asakawa), citizen428 (Michael Kohl), kotp (Victor H. Goff III)
+October 14th, 2009 by ashbb (Satoshi Asakawa), citizen428 (Michael Kohl), kotp (Victor H. Goff III)
 
 **Note: Now under revising with Policeman!**
 
@@ -24,7 +24,7 @@ Table of contents
 	- [00410 No.10 clear (sample12.rb, sample13.rb)](http://github.com/ashbb/shoes_tutorial_html/tree/master/mdowns/00410_No.10_clear.mdown)
 5. Tips for creating our original Shoes apps
 	- [00501 Open Shoes built-in manual and Shoes console window](http://github.com/ashbb/shoes_tutorial_html/tree/master/mdowns/00501_Open_Shoes_built-in_manual_and_Shoes_console_window.mdown)
-	- [00502 Output messages on the Shoes console window (sample15.rb)](http://github.com/ashbb/shoes_tutorial_html/tree/master/mdowns/00502_Output_messages_on_the_Shoes_console_window.mdown)
+	- [00502 Output messages on the Shoes console window (sample15.rb, sample15-1.rb)](http://github.com/ashbb/shoes_tutorial_html/tree/master/mdowns/00502_Output_messages_on_the_Shoes_console_window.mdown)
 	- [00503 shoes --help](http://github.com/ashbb/shoes_tutorial_html/tree/master/mdowns/00503_shoes_--help.mdown)
 	- [00504 App object and coding style (sample16.rb, sample17.rb, sample18.rb, sample47.rb)](http://github.com/ashbb/shoes_tutorial_html/tree/master/mdowns/00504_App_object_and_coding_style.mdown)
 	- [00505 Built-in Constants and methods](http://github.com/ashbb/shoes_tutorial_html/tree/master/mdowns/00505_Built-in_Constants_and_methods.mdown)

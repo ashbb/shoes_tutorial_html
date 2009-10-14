@@ -15,3 +15,105 @@ To debug your application, you can send messages to the Shoes console window.
 **sample15.png**
 
 ![sample15.png](http://github.com/ashbb/shoes_tutorial_html/raw/master/images/sample15.png)
+
+
+Policeman
+---------
+
+As Policeman (0.r1263) runs the sample15.rb, it shows the following snapshot so far.
+
+**sample15-2.png**
+
+![sample15-2.png](http://github.com/ashbb/shoes_tutorial_html/raw/master/images/sample15-2.png)
+
+Source code is shoes/ruby.c shoes_msg() function:
+
+	void
+	shoes_msg(ID typ, VALUE str)
+	{
+	#ifdef RUBY_1_9
+	  ID func = rb_frame_this_func();
+	  rb_ary_push(shoes_world->msgs, rb_ary_new3(6, 
+	    ID2SYM(typ), str, rb_funcall(rb_cTime, s_now, 0),
+	    func ? ID2SYM(func) : Qnil, 
+	    rb_str_new2("<unknown>"), INT2NUM(0)));
+	#else
+	  ID func = rb_frame_last_func();
+	  rb_ary_push(shoes_world->msgs, rb_ary_new3(6, 
+	    ID2SYM(typ), str, rb_funcall(rb_cTime, s_now, 0),
+	    func ? ID2SYM(func) : Qnil, 
+	    rb_str_new2(ruby_sourcefile), INT2NUM(ruby_sourceline)));
+	#endif
+	}
+
+
+I tried to edit like this:
+
+	void
+	shoes_msg(ID typ, VALUE str)
+	{
+	#ifdef RUBY_1_9
+	  ID func = rb_frame_this_func();
+	  rb_ary_push(shoes_world->msgs, rb_ary_new3(6, 
+	    ID2SYM(typ), str, rb_funcall(rb_cTime, s_now, 0),
+	    func ? ID2SYM(func) : Qnil, 
+	    rb_str_new2(ruby_sourcefile), INT2NUM(ruby_sourceline)));
+	    //rb_str_new2("<unknown>"), INT2NUM(0)));
+	#else
+	  ID func = rb_frame_last_func();
+	  rb_ary_push(shoes_world->msgs, rb_ary_new3(6, 
+	    ID2SYM(typ), str, rb_funcall(rb_cTime, s_now, 0),
+	    func ? ID2SYM(func) : Qnil, 
+	    rb_str_new2(ruby_sourcefile), INT2NUM(ruby_sourceline)));
+	#endif
+	}
+
+
+But got the following fatal errors. :(
+
+	C:\build\shoes>rake
+	      :
+	      :
+	   Creating library dist/libshoes.lib and object dist/libshoes.exp
+	app.obj : warning LNK4217: locally defined symbol _shoes_world imported in funct
+	ion "unsigned long __cdecl shoes_app_new(unsigned long)" (?shoes_app_new@@YAKK@Z
+	)
+	image.obj : warning LNK4217: locally defined symbol _shoes_world imported in fun
+	ction "struct _cairo_surface * __cdecl shoes_surface_create_from_pixels(unsigned
+	 int *,int,int)" (?shoes_surface_create_from_pixels@@YAPAU_cairo_surface@@PAIHH@
+	Z)
+	ruby.obj : warning LNK4217: locally defined symbol _shoes_world imported in func
+	tion "void __cdecl shoes_ruby_init(void)" (?shoes_ruby_init@@YAXXZ)
+	windows.obj : warning LNK4049: locally defined symbol _shoes_world imported
+	ruby.obj : error LNK2019: unresolved external symbol __imp__ruby_sourcefile refe
+	renced in function "void __cdecl shoes_msg(unsigned long,unsigned long)" (?shoes
+	_msg@@YAXKK@Z)
+	ruby.obj : error LNK2019: unresolved external symbol __imp__ruby_sourceline refe
+	renced in function "void __cdecl shoes_msg(unsigned long,unsigned long)" (?shoes
+	_msg@@YAXKK@Z)
+	dist/libshoes.dll : fatal error LNK1120: 2 unresolved externals
+	rake aborted!
+	Command failed with status (96): [link /NOLOGO /LIBPATH:C:\WinDDK\7600.16385...]
+	
+	
+	(See full trace by running task with --trace)
+
+
+Umm.... Sorry, this problem is a bit difficult for me so far.
+
+But I think we can write like this (sample15-1.rb). Not so serious problem. :)
+
+	# sample15-1.rb
+	Shoes.app :width => 150, :height => 40 do
+	  para 'Hello world!'
+	  raise rescue Shoes.p($@.shift + "\nThis is a test message.")
+	  raise rescue debug($@.shift + "\nRunning Shoes on " + RUBY_PLATFORM)
+	  raise rescue error($@.shift + "\nThis is an error message.")
+	  raise rescue info($@.shift + "\nShoes release name is " + Shoes::RELEASE_NAME)
+	end
+
+
+
+**sample15-1.png**
+
+![sample15-1.png](http://github.com/ashbb/shoes_tutorial_html/raw/master/images/sample15-1.png)
