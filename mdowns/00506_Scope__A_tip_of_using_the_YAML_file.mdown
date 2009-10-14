@@ -39,3 +39,12 @@ Here you can see the updated example:
 **sample19-1.png**
 
 ![sample19-1.png](http://github.com/ashbb/shoes_tutorial_html/raw/master/images/sample19-1.png)
+
+
+Policeman
+---------
+
+Policeman includes Ruby 1.9. So, need to re-create the yaml file. 
+
+Use `make_sample19_yaml_for_ruby1.9.rb`. It can create `gangs-19.yml` file. Policeman can reald (load) the file.
+

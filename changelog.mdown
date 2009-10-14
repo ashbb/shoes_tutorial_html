@@ -1,6 +1,6 @@
 Change log:
 -----------
-Oct 14th, 2009: Revised 00501-00502 with Policeman (0.r1263)   
+Oct 14th, 2009: Revised 00501-00506 with Policeman (0.r1263)   
 Oct 12th, 2009: Revised 00100-00410 with Policeman (0.r1263)   
 Sep 27th, 2009: Added a new chapter 00543   
 Aug 28th, 2009: Added Note 3 on chapter 00608   

@@ -64,3 +64,12 @@ C:\Program Files\Common Files\Shoes\0.r1123>shoes --manual-html C:\rubyprograms\
 **shoes\_manual-html2.png**
 
 ![shoes\_manual-html2.png](http://github.com/ashbb/shoes_tutorial_html/raw/master/images/shoes_manual-html2.png)
+
+
+Policeman
+---------
+
+- options: -d, -s were obsolete.
+- options: -h, -m, -v worked as well as Raisins.
+- options: -g, -p, --manual-html doesn't work so far.
+
