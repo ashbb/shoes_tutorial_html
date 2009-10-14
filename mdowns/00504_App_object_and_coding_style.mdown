@@ -79,3 +79,9 @@ Please refer to [Open a new app window (Another example)](http://github.com/ashb
 NOTE
 ----
 Please don't worry if you don't understand all of the above right now, it's best to learn Shoes step by step. Also keep in mind that Shoes is still quite young and therefore actively developed, so certain behaviors are bound to change.
+
+
+Policeman
+---------
+
+The sample16.rb, sample17.rb, sample18.rb and sample47.rb worked well with Shoes-0.r1263
