@@ -28,7 +28,7 @@ Let's hee see how this program manipulates the clipboard <br>
 
 *Before:* <br>
 Creatures name list is: <br>
-looginkff <br>
+loogink <br>
 cy <br>
 kamome <br>
 yar <br>
@@ -85,4 +85,42 @@ In the following code snippet, cases 1, 3 and 4 will crash. Case 2 works because
 **sample65.png**
 
 ![sample65.png](http://github.com/ashbb/shoes_tutorial_html/raw/master/images/sample65.png)
+
+
+Policeman
+---------
+
+- The sample21.rb worked well.
+- The sample65.rb worked well. All buttons has no crash!!
+- The sample20.rb didn't work well and showed the following error.
+
+**sample20-1.png**
+
+![sample20-1.png](http://github.com/ashbb/shoes_tutorial_html/raw/master/images/sample20-1.png)
+
+So, I revised the code like this:
+
+	# sample20-1.rb
+	Shoes.app :title => 'Sorter', :width => 180, :height => 80 do
+	  background gradient powderblue, royalblue
+	  msg = para '', :size => 8
+	
+	  yar = image('../images/yar.png', :left => 60, :top => 18).click do
+	    self.clipboard = self.clipboard.split.sort.join("\n") unless self.clipboard.nil?
+	    yar.transform :center
+	    a = animate(24) do |i|
+	      yar.rotate -15
+	      a.stop if i > 22
+	    end
+	  end
+	  yar.hover{msg.text = strong('Click Yar. She sorts clipboard text!')}
+	  yar.leave{msg.text = ''}
+	end
+
+This works with both Raisins and Policeman. 
+
+
+
+
+
 

@@ -2,7 +2,7 @@ Shoes Tutorial Note
 ===================
 **- For the Shoes App Rookie Creators -**
 
-October 14th, 2009 by ashbb (Satoshi Asakawa), citizen428 (Michael Kohl), kotp (Victor H. Goff III)
+October 15th, 2009 by ashbb (Satoshi Asakawa), citizen428 (Michael Kohl), kotp (Victor H. Goff III)
 
 **Note: Now under revising with Policeman!**
 
@@ -29,7 +29,7 @@ Table of contents
 	- [00504 App object and coding style (sample16.rb, sample17.rb, sample18.rb, sample47.rb)](http://github.com/ashbb/shoes_tutorial_html/tree/master/mdowns/00504_App_object_and_coding_style.mdown)
 	- [00505 Built-in Constants and methods](http://github.com/ashbb/shoes_tutorial_html/tree/master/mdowns/00505_Built-in_Constants_and_methods.mdown)
 	- [00506 Scope: A tip of using the YAML file (sample19.rb, sample19-1.rb)](http://github.com/ashbb/shoes_tutorial_html/tree/master/mdowns/00506_Scope__A_tip_of_using_the_YAML_file.mdown)
-	- [00507 keypress, mouse and clipboard (sample20.rb, sample21.rb, sample65.rb)](http://github.com/ashbb/shoes_tutorial_html/tree/master/mdowns/00507_keypress,_mouse_and_clipboard.mdown)
+	- [00507 keypress, mouse and clipboard (sample20.rb, sample21.rb, sample65.rb, sample20-1.rb)](http://github.com/ashbb/shoes_tutorial_html/tree/master/mdowns/00507_keypress,_mouse_and_clipboard.mdown)
 	- [00508 The Widget class (sample22.rb, sample49.rb)](http://github.com/ashbb/shoes_tutorial_html/tree/master/mdowns/00508_The_Widget_class.mdown)
 	- [00509 shape (sample23.rb)](http://github.com/ashbb/shoes_tutorial_html/tree/master/mdowns/00509_shape.mdown)
 	- [00510 mask (sample24.rb)](http://github.com/ashbb/shoes_tutorial_html/tree/master/mdowns/00510_mask.mdown)

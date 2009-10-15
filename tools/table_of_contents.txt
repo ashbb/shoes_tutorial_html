@@ -2,7 +2,7 @@ Shoes Tutorial Note
 ===================
 **- For the Shoes App Rookie Creators -**
 
-October 14th, 2009 by ashbb (Satoshi Asakawa), citizen428 (Michael Kohl), kotp (Victor H. Goff III)
+October 15th, 2009 by ashbb (Satoshi Asakawa), citizen428 (Michael Kohl), kotp (Victor H. Goff III)
 
 **Note: Now under revising with Policeman!**
 
