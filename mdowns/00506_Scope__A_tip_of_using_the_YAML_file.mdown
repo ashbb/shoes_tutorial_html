@@ -46,5 +46,5 @@ Policeman
 
 Policeman includes Ruby 1.9. So, need to re-create the yaml file. 
 
-Use `make_sample19_yaml_for_ruby1.9.rb`. It can create `gangs-19.yml` file. Policeman can reald (load) the file.
+Use **make\_sample19\_yaml\_for\_ruby1.9.rb**. It can create **gangs-19.yml** file. Policeman can read (load) the file.
 
