@@ -2,7 +2,7 @@ Shoes Tutorial Note
 ===================
 **- For the Shoes App Rookie Creators -**
 
-October 15th, 2009 by ashbb (Satoshi Asakawa), citizen428 (Michael Kohl), kotp (Victor H. Goff III)
+October 17th, 2009 by ashbb (Satoshi Asakawa), citizen428 (Michael Kohl), kotp (Victor H. Goff III)
 
 **Note: Now under revising with Policeman!**
 
@@ -42,7 +42,7 @@ Table of contents
 	- [00517 start, stop and restart (sample31.rb)](http://github.com/ashbb/shoes_tutorial_html/tree/master/mdowns/00517_start,_stop_and_restart.mdown)
 	- [00518 Combination of image objects show/hide and mouse hover/leave (sample32.rb, sample33.rb, sample34.rb)](http://github.com/ashbb/shoes_tutorial_html/tree/master/mdowns/00518_Combination_of_image_objects_show_hide_and_mouse_hover_leave.mdown)
 	- [00519 arc and cap (sample35.rb)](http://github.com/ashbb/shoes_tutorial_html/tree/master/mdowns/00519_arc_and_cap.mdown)
-	- [00520 widget with block (sample36.rb)](http://github.com/ashbb/shoes_tutorial_html/tree/master/mdowns/00520_widget_with_block.mdown)
+	- [00520 widget with block (sample36.rb, sample36-1.rb)](http://github.com/ashbb/shoes_tutorial_html/tree/master/mdowns/00520_widget_with_block.mdown)
 	- [00521 text message slide-in (sample37.rb)](http://github.com/ashbb/shoes_tutorial_html/tree/master/mdowns/00521_text_message_slide-in.mdown)
 	- [00522 #! shoes (sample38.rb, sample38-1.rb)](http://github.com/ashbb/shoes_tutorial_html/tree/master/mdowns/00522____shoes.mdown)
 	- [00523 loading widgets from other files? (sample39.rb, sample39-creature.rb)](http://github.com/ashbb/shoes_tutorial_html/tree/master/mdowns/00523_loading_widgets_from_other_files_.mdown)

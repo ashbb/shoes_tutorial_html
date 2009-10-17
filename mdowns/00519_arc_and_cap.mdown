@@ -35,3 +35,8 @@ Started....
 
 Almost finished....
 
+
+Policeman
+---------
+
+The sample35.rb worked well with Shoes-0.r1263.

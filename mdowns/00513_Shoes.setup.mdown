@@ -40,3 +40,10 @@ One more example
 ![sample50.png](http://github.com/ashbb/shoes_tutorial_html/raw/master/images/sample50.png)
 
 *Original snippet was written by Massimiliano in a personal mail discussion.*
+
+
+
+Policeman
+---------
+
+The sample27.rb and sample50.rb doesn't worke with Shoes-0.r1263.... so far.

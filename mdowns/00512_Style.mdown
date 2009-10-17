@@ -59,3 +59,10 @@ We can style an entire class of elements at a time like this: <br>
 ![sample56.png](http://github.com/ashbb/shoes_tutorial_html/raw/master/images/sample56.png)
 
 
+
+Policeman
+---------
+
+The sample26.rb worked well with Shoes-0.r1263. It also shows one more style, <b>cap</b> with no value, though.
+
+The sample56.rb worked well.

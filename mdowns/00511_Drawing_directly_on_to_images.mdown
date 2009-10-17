@@ -35,3 +35,9 @@ In the following example Cy (the green creature) had a star added to it.
 Please note that if you are using Shoes-0.r970, you need to move the mouse off the image once. After that it will works as expected. <br>
 With Shoes-0.r1057, there is no need to do this.
 
+
+
+Policeman
+---------
+
+The sample25.rb worked well with Shoes-0.r1263. 

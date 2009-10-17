@@ -27,3 +27,9 @@ where the above was taken using Shoes-0.r905 and the second one using Shoes-0.r9
 
 From Shoes version 0.r-970 it seems to be working again, although the result doesn't exactly 
 look like the first image. After Shoes-0.r970 we are back to the 0.r-925 behavior.
+
+
+Policeman
+---------
+
+The sample23.rb worked well with Shoes-0.r1263. The snapshot is the same as sample23-1.png.

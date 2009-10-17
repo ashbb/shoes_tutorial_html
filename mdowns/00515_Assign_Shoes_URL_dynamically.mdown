@@ -30,3 +30,9 @@ The following sample code modifies sample11.rb from before. <br>
 
  # sample29.png <br>
 The sample29.png is almost the same as the above sample11.png. <br>
+
+
+Policeman
+---------
+
+The sample29.rb worked well with Shoes-0.r1263.

@@ -9,7 +9,7 @@ whereas 'transferred' and 'fraction' do.
 	# sample28.rb
 	Shoes.app :width => 450, :height => 100 do
 	  stack :margin => 10 do
-	    url = 'http://shoooes.net/dist/shoes-0.r1057.exe'
+	    url = 'http://www.rin-shun.com/shoes/shoes-0.r1263.exe'
 	    status = para "Downloading #{url}"
 	    p = progress :width => 1.0
 	  
@@ -30,3 +30,9 @@ whereas 'transferred' and 'fraction' do.
 
 Shoes includes the Hpricot library for parsing HTML. <br>
 For more information about downloader, please consult the Shoes manual. <br>
+
+
+Policeman
+---------
+
+The sample28.rb worked well with Shoes-0.r1263.

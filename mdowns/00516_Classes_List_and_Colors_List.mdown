@@ -79,3 +79,10 @@ There was need to define `<=>` for Symbol class. Revised code is sample 30-2.
 	    end
 	  end
 	end
+
+
+
+Policeman
+---------
+
+The sample30.rb, sample30-1.rb and sample30-2.rb all worked well with Shoes-0.r1263.

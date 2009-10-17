@@ -63,3 +63,9 @@ because they are inherited from Shoes::Widget.
 ![sample49.png](http://github.com/ashbb/shoes_tutorial_html/raw/master/images/sample49.png)
 
 *Original idea was provided by Emanue Carnevale, in the Shoes ML.*
+
+
+Policeman
+---------
+
+The sample22.rb and sample49.rb worked well with Shoes-0.r1263

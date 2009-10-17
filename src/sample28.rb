@@ -1,7 +1,7 @@
 # sample28.rb
 Shoes.app :width => 450, :height => 100 do
   stack :margin => 10 do
-    url = 'http://shoooes.net/dist/shoes-0.r1057.exe'
+    url = 'http://www.rin-shun.com/shoes/shoes-0.r1263.exe'
     status = para "Downloading #{url}"
     p = progress :width => 1.0
   

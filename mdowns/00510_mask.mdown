@@ -27,3 +27,10 @@ The use of a masking layer is described by Shoes' author _why in the folling art
 **sample24.png**
 
 ![sample24.png](http://github.com/ashbb/shoes_tutorial_html/raw/master/images/sample24.png)
+
+
+
+Policeman
+---------
+
+The sample24.rb worked well with Shoes-0.r1263. 
