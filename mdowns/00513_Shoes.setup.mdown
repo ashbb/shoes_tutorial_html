@@ -46,4 +46,4 @@ One more example
 Policeman
 ---------
 
-The sample27.rb and sample50.rb doesn't worke with Shoes-0.r1263.... so far.
+The sample27.rb and sample50.rb doesn't work with Shoes-0.r1263.... so far.
