@@ -50,4 +50,7 @@ Another way from the Shoes ML.
 ![sample55.png](http://github.com/ashbb/shoes_tutorial_html/raw/master/images/sample55.png)
 
 
+Policeman
+---------
 
+The sample41.rb and sample55.rb worked well with Shoes-0.r1263

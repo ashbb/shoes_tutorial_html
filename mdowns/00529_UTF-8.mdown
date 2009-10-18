@@ -21,3 +21,10 @@ UTF-8 Everywhere <br>
 ![sample45-1.png](http://github.com/ashbb/shoes_tutorial_html/raw/master/images/sample45-1.png)
 
 This Japanese text editor uses UTF-8.
+
+
+Policeman
+---------
+
+The sample45.rb worked well with Shoes-0.r1263
+

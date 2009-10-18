@@ -23,3 +23,9 @@ Sample38-1.rb is a Ruby program, not Shoes app, but it'll launch the Shoes app.
 	# sample38-1.rb
 	
 	%x(ruby sample38.rb)
+
+
+Policeman
+---------
+
+The sample38.rb and sample38-1.rb worked well with Shoes-0.r1263.

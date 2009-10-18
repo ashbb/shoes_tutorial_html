@@ -28,3 +28,13 @@ Shoes Manual: font <br>
 **sample43.png**
 
 ![sample43.png](http://github.com/ashbb/shoes_tutorial_html/raw/master/images/sample43.png)
+
+
+Policeman
+---------
+
+The sample42.rb works with Shoes-0.r1263. But seems to have a small bug so far.
+
+# sample43-1.png
+
+The button still remains until next refresh event happen.

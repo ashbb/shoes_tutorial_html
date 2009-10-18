@@ -38,3 +38,9 @@ I had used ARGV[0] to get the file name. But it's not correct usage.
 We have to use $0 or $PROGRAM\_NAME instead of ARGV[0].
 
 See [this](http://www.mail-archive.com/shoes@code.whytheluckystiff.net/msg02666.html)
+
+
+Policeman
+---------
+
+The sample42.rb worked well with Shoes-0.r1263

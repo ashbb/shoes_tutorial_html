@@ -7,7 +7,7 @@ loading widgets from other files? <br>
 <http://www.mail-archive.com/shoes@code.whytheluckystiff.net/msg01971.html> <br>
 
 The Main App and Its Requires <br>
-<http://help.shoooes.net/Rules.html> <br>
+<http://shoes.heroku.com/manual/Rules.html> <br>
 
 	# sample39.rb
 	
@@ -96,3 +96,9 @@ The Main App and Its Requires <br>
 	    @playing
 	  end
 	end
+
+
+Policeman
+---------
+
+The sample39.rb and sample38-1.rb worked well with Shoes-0.r1263.

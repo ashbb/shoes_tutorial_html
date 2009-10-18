@@ -47,3 +47,10 @@ So, please use sample44.rb under src directory instead of above code. <br>
 **sample44.png**
 
 ![sample44.png](http://github.com/ashbb/shoes_tutorial_html/raw/master/images/sample44.png)
+
+
+Policeman
+---------
+
+The sample44.rb doesn't work with Shoes-0.r1263. Because Shoes.setup doesn't work so far.
+

@@ -115,3 +115,17 @@ This screenshot shows the following.
 
 The original idea was discussed in the Shoes ML. <br>
 [links in ur windoze](http://www.mail-archive.com/shoes@code.whytheluckystiff.net/msg02404.html)
+
+
+Policeman
+---------
+
+The sample46.rb worked with Shoes-0.r1263. The behavior was the same as Raisins. But showed slightly different messages like this:
+
+# sample46-1.png
+
+
+
+The sample48.rb worked well with Shoes-0.r1263
+
+

@@ -18,3 +18,9 @@ The :scroll option establishes a slot as a scrolling slot.
 **sample41.png**
 
 ![sample41.png](http://github.com/ashbb/shoes_tutorial_html/raw/master/images/sample41.png)
+
+
+Policeman
+---------
+
+The sample41.rb worked well with Shoes-0.r1263

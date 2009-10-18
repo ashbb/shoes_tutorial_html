@@ -43,3 +43,9 @@ This is the screenshot.
 **sample37.png**
 
 ![sample37.png](http://github.com/ashbb/shoes_tutorial_html/raw/master/images/sample37.png)
+
+
+Policeman
+---------
+
+The sample37.rb worked well with Shoes-0.r1263.

@@ -68,3 +68,9 @@ I don't know if this behavior is a spec or a bug...
 ![sample40-1.png](http://github.com/ashbb/shoes_tutorial_html/raw/master/images/sample40-1.png)
 
 In the above sample40-1, the oval and rect methods accepted the :center option, but the star method ignored it as it ignored the undefined option :oops.
+
+
+Policeman
+---------
+
+The sample40.rb and sample40-1.rb worked with Shoes-0.r1263 as same as Raisins.

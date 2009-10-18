@@ -34,3 +34,32 @@ This is no wonder, but I just noticed. :-P
 **sample53.png**
 
 ![sample53.png](http://github.com/ashbb/shoes_tutorial_html/raw/master/images/sample53.png)
+
+
+Policeman
+---------
+
+The sample53.rb didn't work with Shoes-0.r1263 and got this error:
+
+# sample53-1.png
+
+I wrote sample53-1.rb and sample53-2.rb to confirm the behavior and ran them with Policeman and Raisins.
+
+# sample53-2.png
+
+Umm... I'm not sure Policeman changed the spec or .... bug.
+
+**Another way**
+
+Not customize Shoes class, though...
+
+# sample53-3.rb
+
+
+This code works well both with Policeman and Raisins.
+
+
+
+
+
+
