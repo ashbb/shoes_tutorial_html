@@ -142,3 +142,12 @@ Each creature has his/her own name. <br>
 Let's enjoy Ruby and Shoes with the Lovely Creatures!
 
 FIN.
+
+
+Policeman
+---------
+
+The sample91.rb and sample92.rb worked with Shoes-0.r1263 as same as Raisins.
+
+Replace `String#to_a` to `String#split` for Ruby 1.9. Then the sample93.rb also worked well.
+

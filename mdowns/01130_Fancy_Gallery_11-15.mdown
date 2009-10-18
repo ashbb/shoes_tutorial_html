@@ -249,3 +249,7 @@ References
 - [Mandelbrot Set Plotter with Shoes](http://github.com/ashbb/shoes_mandelbrot/tree/master)
 
 
+Policeman
+---------
+
+Gallery 11 and 13 worked well with Shoes-0.r1263. But Gallery 12 didn't... so far.

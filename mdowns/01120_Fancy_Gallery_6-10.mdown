@@ -402,4 +402,7 @@ Helper methods for writing the simple code:
 ![gallery10.png](http://github.com/ashbb/shoes_tutorial_html/raw/master/images/gallery10.png)
 
 
+Policeman
+---------
 
+Gallery 6, 7 and 8 worked well with Shoes-0.r1263. But Gallery 9 and 10 didn't... so far.

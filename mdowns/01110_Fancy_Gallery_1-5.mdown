@@ -274,3 +274,10 @@ The original gif animation is on this site: <br>
 **gallery5.png**
 
 ![gallery5.png](http://github.com/ashbb/shoes_tutorial_html/raw/master/images/gallery5.png)
+
+
+Policeman
+---------
+
+Gallery 2 and 3 worked well with Shoes-0.r1263. But Gallery 1 and 4 didn't... so far.
+

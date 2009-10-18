@@ -9,7 +9,7 @@ Thx for reading. :)
 See you!
 Enjoy Ruby and Shoes!
 EOS
-  messages = messages.to_a
+  messages = messages.split("\n")
 
   msg = subtitle '', :top => 30, :stroke => white
   animate(3) do

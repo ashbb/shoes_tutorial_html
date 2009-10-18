@@ -156,3 +156,9 @@ Change the default style for the link method. But there is no need to use a link
 Using [here document](http://web.njit.edu/all_topics/Prog_Lang_Docs/html/ruby/syntax.html#here_doc).
 Check the usage of '(single quote), "(double quote) and -(hyphen).
 
+
+
+Policeman
+---------
+
+The simple-accordion.rb worked well with Shoes-0.r1263

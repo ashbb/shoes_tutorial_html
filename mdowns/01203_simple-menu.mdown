@@ -134,3 +134,9 @@ The method `expand` does the following.: <br>
 When mouse is fovering on a box which width is 140 pixcel, the box expands till 170 pixcel.
 At the same time, the box that has 170 pixcel width rolls back to 140 pixcel.
 
+
+
+Policeman
+---------
+
+The simple-menu.rb worked well with Shoes-0.r1263.
