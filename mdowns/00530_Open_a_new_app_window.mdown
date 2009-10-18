@@ -122,7 +122,9 @@ Policeman
 
 The sample46.rb worked with Shoes-0.r1263. The behavior was the same as Raisins. But showed slightly different messages like this:
 
-# sample46-1.png
+**sample46-1.png**
+
+![sample46-1.png](http://github.com/ashbb/shoes_tutorial_html/raw/master/images/sample46-1.png)
 
 
 
