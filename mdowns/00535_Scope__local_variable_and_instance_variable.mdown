@@ -26,3 +26,9 @@ This snapshot is created by the following setps.
 - clicked 'new' button 30 times
 - picked up and drew 6 ovals to the lower side
 - picked up and drew 7 rects to the upper side
+
+
+Policeman
+---------
+
+The sample60.rb worked well with Shoes-0.r1263

@@ -2,13 +2,13 @@ Relevant web sites (Links)
 --------------------------
 
 Three manuals: Nobody Knows Shoes (NKS) and Built-in Manual and Online Reference Manual. <br>
-<http://shoooes.net/manuals/> <br>
+<http://shoes.heroku.com/> <br>
 
 The Shoes Manual for printing (All in one HTML manual and PDF manual)<br>
 <http://github.com/ashbb/shoes_manual/><br>
 
 The Shoes Help Desk: The spot for beginners and advanced Shoesers alike. <br>
-<http://help.shoooes.net/> <br>
+<http://shoes.home-lan.homelinux.com/> <br>
 
 The Shoebox <br>
 <http://the-shoebox.org/> <br>
@@ -18,7 +18,7 @@ Shoes - Rubys Cross Platform GUI App Toolkit - Grows Up <br>
 <http://www.rubyinside.com/whys-shoes-grows-up-1014.html> <br>
 
 RecentBuilds <br>
-<http://github.com/why/shoes/wikis/recentbuilds> <br>
+<http://wiki.github.com/shoes/shoes/recentbuilds> <br>
 
 Shoes\_(GUI\_toolkit) in Wikipedia <br>
 <http://en.wikipedia.org/wiki/Shoes_(GUI_toolkit)>
@@ -33,7 +33,7 @@ Attempted refactoring a bit to learn more. ;-)
 	  # 05_interactivity_with_objects.rb
 	  # http://github.com/karmi/shoes_demonstration_apps/tree/master
 	
-	class Letter < Widget
+	class Letter < Shoes::Widget
 	  def initialize img
 	    @flag = false
 	    img.click{@flag = true; @img = img}
@@ -43,11 +43,11 @@ Attempted refactoring a bit to learn more. ;-)
 	end
 	  
 	Shoes.app :width => 800, :height => 600 do
-	  sound = video 'assets/drumfill.aif', :width => 0, :height => 0
+	  #sound = video 'assets/drumfill.aif', :width => 0, :height => 0
 	  para 'Input Your Name: '
 	  spell = edit_line
 	  button 'GO' do
-	    sound.play
+	    #sound.play
 	    @canvas.clear do
 	      spell.text.downcase.split('').each_with_index do |l, i|
 	        letter  image("letters/#{l}.jpg", :left => 100*(i%8), :top => 150*(i/8))
@@ -64,7 +64,15 @@ Attempted refactoring a bit to learn more. ;-)
 	  end
 	end
 
+
 **sample62.png**
 
 ![sample62.png](http://github.com/ashbb/shoes_tutorial_html/raw/master/images/sample62.png)
+
+
+Policeman
+---------
+
+Replaced `Widget` to `Shoes::Widget` and commented out `video() and play()`. Then the sample62.rb worked well with Shoes-0.r1263. 
+
 

@@ -78,3 +78,8 @@ Note
 ----
 [a pong challenge](http://www.mail-archive.com/shoes@code.whytheluckystiff.net/msg02520.html)
 
+
+Policeman
+---------
+
+The sample58.rb worked well with Shoes-0.r1263

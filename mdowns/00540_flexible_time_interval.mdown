@@ -120,3 +120,7 @@ Another solution using mixin Observable module. It's interesting, although there
 The same as sample72.png
 
 
+Policeman
+---------
+
+All sample72.rb to sample72-4.rb worked with Shoes-0.r1263 as same as Raisins.

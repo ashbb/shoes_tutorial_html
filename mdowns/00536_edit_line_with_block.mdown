@@ -39,4 +39,10 @@ By using edit\_line with block, this app can just update the sum every time one 
 **sample63.png**
 
 ![sample63.png](http://github.com/ashbb/shoes_tutorial_html/raw/master/images/sample63.png)
+
+
+Policeman
+---------
+
+The sample63.rb worked well with Shoes-0.r1263
 							

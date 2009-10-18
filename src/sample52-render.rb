@@ -26,10 +26,11 @@ EOS
   
     @rooms = @pos.collect{|x, y| rect x, y, 30, 30, :curve => 15, :fill => green}
     [0, 8].each{|n| @rooms[n].style :fill => red, :curve => 5}
-
-    ROOMS.each_with_index do |r, i|
+    
+    i = -1
+    ROOMS.each_line do |r|
       name, paths = r.chomp.split(':')
-      @rooms[i].style :name => name, :paths => paths
+      @rooms[i+=1].style :name => name, :paths => paths
     end
   
     @star = star 365, 265, 5, 10.0, 5.0, :fill => gold, :stroke => gold

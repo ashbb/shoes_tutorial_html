@@ -51,3 +51,11 @@ I referred to the following web site.
 	
 
 Just one-liner solution playing YouTube video on Shoes!
+
+**Note**: This one-liner doesn't work now. I'm not sure why. YouTube changed the API??
+
+
+Policeman
+---------
+
+Video is not supported so far.

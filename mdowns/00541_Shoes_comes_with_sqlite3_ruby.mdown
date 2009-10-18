@@ -30,3 +30,9 @@ References
 ----------
 - [SQLite/Ruby FAQ](http://sqlite-ruby.rubyforge.org/sqlite3/faq.html)
 - [SQLite Tutorial](http://souptonuts.sourceforge.net/readme_sqlite_tutorial.html)
+
+
+Policeman
+---------
+
+The sample73.rb worked well with Shoes-0.r1263

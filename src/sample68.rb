@@ -1,7 +1,7 @@
 # sample68.rb
 W, H = 600, 450
 
-class Sheep < Widget
+class Sheep < Shoes::Widget
   def initialize x
     @s = oval x, H - 15, 15, :fill => white, :strokewidth => 3
     @a = animate(20) do

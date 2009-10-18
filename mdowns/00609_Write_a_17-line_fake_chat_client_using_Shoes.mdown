@@ -28,3 +28,10 @@ This is a great blog. I was inspired. Thanks to Paul Harris. He tweeted me.
 **sample70.png**
 
 ![sample70.png](http://github.com/ashbb/shoes_tutorial_html/raw/master/images/sample70.png)
+
+
+Policeman
+---------
+
+The sample70.rb worked well with Shoes-0.r1263
+

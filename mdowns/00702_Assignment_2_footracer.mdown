@@ -84,3 +84,9 @@ And the 2nd:
 	    (a.stop; para winner.style[:name]) if winner.left > 150
 	  end
 	end
+
+
+Policeman
+---------
+
+The above two mini-footracers worked well with Shoes-0.r1263

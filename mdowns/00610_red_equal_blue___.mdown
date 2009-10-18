@@ -83,3 +83,11 @@ For more specifically. Look at sample71-1.rb
 ![sample71-1.png](http://github.com/ashbb/shoes_tutorial_html/raw/master/images/sample71-1.png)
 
 Why `Umm... red equal blue???` is shown?
+
+
+Policeman
+---------
+
+The sample71.rb and sample71-1.rb worked with Shoes-0.r1263. Although the behavior is the same as Raisins.
+
+

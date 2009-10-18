@@ -89,10 +89,11 @@ See the below code, line 61: @hunter.star 20, 30, 5, 10.0, 5.0, :fill => gold, :
 	  
 	    @rooms = @pos.collect{|x, y| rect x, y, 30, 30, :curve => 15, :fill => green}
 	    [0, 8].each{|n| @rooms[n].style :fill => red, :curve => 5}
-	
-	    ROOMS.each_with_index do |r, i|
+	    
+	    i = -1
+	    ROOMS.each_line do |r|
 	      name, paths = r.chomp.split(':')
-	      @rooms[i].style :name => name, :paths => paths
+	      @rooms[i+=1].style :name => name, :paths => paths
 	    end
 	  
 	    @star = star 365, 265, 5, 10.0, 5.0, :fill => gold, :stroke => gold
@@ -132,4 +133,12 @@ See the below code, line 61: @hunter.star 20, 30, 5, 10.0, 5.0, :fill => gold, :
 	  end
 	end
 
+
 Have fun!
+
+
+Policeman
+---------
+
+Ruby 1.9 doesn't have `each_with_index()` method. So, I revised `sample52-render.rb` a little bit. Now, the sample52.rb works well with Shoes-0.r1263.
+

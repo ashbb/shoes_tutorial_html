@@ -36,3 +36,9 @@ INSIDE SHOES 2 <br>
 Note
 ----
 Shoes may crash without very enough interval between mouse clicks. Oh,... :(
+
+
+Policeman
+---------
+
+The sample54.rb worked well with Shoes-0.r1263. Still have *the above note*, though... :-P

@@ -111,4 +111,8 @@ Although, needed to edit the sample74.rb. Because Shoes::Shape class has no scal
 	end
 
 
+Policeman
+---------
 
+The sample74.rb and sample74-1.rb worked well with Shoes-0.r1263. Policeman looks like a bit faster than Raisins. :)
+ 

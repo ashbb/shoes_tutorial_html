@@ -1,5 +1,5 @@
 # sample69-2.rb
-class Sheep < Widget
+class Sheep < Shoes::Widget
   def initialize
     oval 0, 0, 20, 20
   end

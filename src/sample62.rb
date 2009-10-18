@@ -3,7 +3,7 @@
   # 05_interactivity_with_objects.rb
   # http://github.com/karmi/shoes_demonstration_apps/tree/master
 
-class Letter < Widget
+class Letter < Shoes::Widget
   def initialize img
     @flag = false
     img.click{@flag = true; @img = img}
@@ -13,11 +13,11 @@ class Letter < Widget
 end
   
 Shoes.app :width => 800, :height => 600 do
-  sound = video 'assets/drumfill.aif', :width => 0, :height => 0
+  #sound = video 'assets/drumfill.aif', :width => 0, :height => 0
   para 'Input Your Name: '
   spell = edit_line
   button 'GO' do
-    sound.play
+    #sound.play
     @canvas.clear do
       spell.text.downcase.split('').each_with_index do |l, i|
         letter  image("letters/#{l}.jpg", :left => 100*(i%8), :top => 150*(i/8))

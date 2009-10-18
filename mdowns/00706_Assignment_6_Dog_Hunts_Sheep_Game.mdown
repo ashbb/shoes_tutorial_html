@@ -36,7 +36,7 @@ Create your own **Dog Hunts Sheep Game** by doing the following five steps.
 	# sample68.rb
 	W, H = 600, 450
 	
-	class Sheep < Widget
+	class Sheep < Shoes::Widget
 	  def initialize x
 	    @s = oval x, H - 15, 15, :fill => white, :strokewidth => 3
 	    @a = animate(20) do
@@ -100,3 +100,9 @@ Have fun!
 NOTE
 ----
 Original article was created by [Karel Minarik](http://github.com/karmi). Thank you for giving us consent to use [the material](http://www.restafari.org/object-oriented-sheep-running-in-ruby-shoes.html).
+
+
+Policeman
+---------
+
+Replaced `Widget` to `Shoes::Widget`. Then the sample68.rb worked well with Shoes-0.r1263. 

@@ -110,3 +110,10 @@ What lives on its own substance and dies when it devours itself? --> candle <br>
 Yesterday is always before today. But there is a place where yesterday always follows today. Where? --> dictionary <br>
 How many cookies can you eat on an empty stomach? --> one <br>
 What clothing does a house wear? --> address <br>
+
+
+
+Policeman
+---------
+
+Ruby 1.9 doesn't have `String#to_a()` method. So, I revised `sample67.rb` a little bit. Now, the sample67.rb works well with Shoes-0.r1263.

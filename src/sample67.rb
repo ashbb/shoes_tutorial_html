@@ -17,7 +17,7 @@ Shoes.app :width => 400, :height => 410, :title => 'Riddles r0.5', :resizable =>
   def set_riddle
     @num = Nums.pop
     alert('*waves*') or exit unless @num
-    @q.text, @a = Riddles.to_a[@num].split(' --> ')
+    @q.text, @a = Riddles.split("\n")[@num].split(' --> ')
     @you.text = nil if @you
   end
   

@@ -30,3 +30,8 @@ At first, preparing all slots hided in piles. Then do show or hide them at the r
 **sample66.png**
 
 ![sample66.png](http://github.com/ashbb/shoes_tutorial_html/raw/master/images/sample66.png)
+
+Policeman
+---------
+
+The sample66.rb worked well with Shoes-0.r1263

@@ -25,3 +25,8 @@ Usually the later-made Shape instances are layouted on the early-made ones. So, 
 
 ![sample64.png](http://github.com/ashbb/shoes_tutorial_html/raw/master/images/sample64.png)
 
+
+Policeman
+---------
+
+The sample64.rb worked well with Shoes-0.r1263

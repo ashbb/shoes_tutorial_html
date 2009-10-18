@@ -56,7 +56,7 @@ Plseae run and read the following snippets.
 Another way of recreating sample69.
 
 	# sample69-2.rb
-	class Sheep < Widget
+	class Sheep < Shoes::Widget
 	  def initialize
 	    oval 0, 0, 20, 20
 	  end
@@ -82,3 +82,15 @@ Note
 ----
 In above `sample69-2.rb`, I use the method name `run` instead of `draw`.
 Because Shoes has already defined `draw` method, hence if I use the same name, it is overloaded and Shoes can't open app window.
+
+
+Policeman
+---------
+
+The sample69.rb, sample69-1.rb worked well with Shoes-0.r1263.
+
+The sample69-2.rb also worked well after a bit edited like this:
+
+	class Sheep < Widget   --->   class Sheep < Shoes::Widget
+
+
