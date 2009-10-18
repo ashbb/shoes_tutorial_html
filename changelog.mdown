@@ -1,6 +1,6 @@
 Change log:
 -----------
-Oct 18th, 2009: Confirmed 00521-01300 with Policeman (0.r1263)   
+Oct 18th, 2009: Finished confiming all 132 sample codes with Policeman (0.r1263)   
 Oct 17th, 2009: Confirmed 00508-00520 with Policeman (0.r1263)   
 Oct 15th, 2009: Confirmed 00507 with Policeman (0.r1263)   
 Oct 14th, 2009: Confirmed 00501-00506 with Policeman (0.r1263)   
