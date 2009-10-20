@@ -1,7 +1,7 @@
 # gallery9.rb
 # ScatterPack: Scatters like a school of fish
 
-class Shoes::Shape
+Shoes::Shape.class_eval do
   [:v, :flag].each do |m|
     define_method(m){style[m]}
     define_method(m.to_s + '='){|v| style m => v}

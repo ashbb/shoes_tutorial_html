@@ -233,7 +233,7 @@ Look at the [online demo](http://www.rin-shun.com/rubylearning/shoes/scatter_pac
 	# gallery9.rb
 	# ScatterPack: Scatters like a school of fish
 	
-	class Shoes::Shape
+	Shoes::Shape.class_eval do
 	  [:v, :flag].each do |m|
 	    define_method(m){style[m]}
 	    define_method(m.to_s + '='){|v| style m => v}
@@ -388,7 +388,7 @@ Helper methods for writing the simple code:
 
 
 	# gallery10-image.rb
-	class Shoes::Image
+	Shoes::Image.class_eval do
 	  [:vel, :pos].each do |m|
 	    define_method(m){style[m]}
 	    define_method("#{m}="){|arg| style m => arg}
@@ -396,6 +396,7 @@ Helper methods for writing the simple code:
 	  
 	  [:x, :y].each_with_index{|m, i| define_method(m){pos[i].to_i}}
 	end
+
 
 **gallery10.png**
 
@@ -405,4 +406,6 @@ Helper methods for writing the simple code:
 Policeman
 ---------
 
-Gallery 6, 7 and 8 worked well with Shoes-0.r1263. But Gallery 9 and 10 didn't... so far.
+Gallery 6, 7 and 8 worked well with Shoes-0.r1263. 
+
+Gallery 9 and 10 worked well after replaced `class` to `class_eval`.

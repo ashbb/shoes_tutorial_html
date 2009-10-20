@@ -79,7 +79,7 @@ Umm... I'm not sure Policeman changed the spec or .... bug.
 
 Not customize Shoes class, though...
 
-	# sample53-2.rb
+	# sample53-3.rb
 	module ExImage
 	  def small
 	    self.style :width => self.width / 2, :height => self.height / 2
@@ -109,7 +109,31 @@ Not customize Shoes class, though...
 This code works well both with Policeman and Raisins.
 
 
+**Solution**
 
+It seems good to use `class_eval` instead of `class` like this:
 
-
-
+	# sample53-4.rb
+	Shoes::Image.class_eval do
+	  def small
+	    self.style :width => self.width / 2, :height => self.height / 2
+	  end
+	  
+	  def big
+	    self.style :width => self.width * 2, :height => self.height * 2
+	  end
+	end
+	
+	PATH = '../images/yar.png'
+	
+	Shoes.app :width => 250, :height => 150 do
+	  w, h = imagesize(PATH)
+	  img = image PATH, :width => w, :height => h, :name => PATH.split('/').last
+	  msg = para 'ready', :left => w, :top => h
+	  every 3 do
+	    img.style[:width] > w ? img.small : img.big
+	    msg.text = "#{img.style[:name]} width is : #{img.style[:width]}" + "\n" +
+	               "#{img.style[:name]} height is : #{img.style[:height]}"
+	  end
+	end
+	  

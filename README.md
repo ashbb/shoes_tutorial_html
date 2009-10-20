@@ -2,7 +2,7 @@ Shoes Tutorial Note
 ===================
 **- For the Shoes App Rookie Creators -**
 
-October 18th, 2009 by ashbb (Satoshi Asakawa), citizen428 (Michael Kohl), kotp (Victor H. Goff III)
+October 20th, 2009 by ashbb (Satoshi Asakawa), citizen428 (Michael Kohl), kotp (Victor H. Goff III)
 
 **Note: Now under revising with Policeman!**
 
@@ -54,7 +54,7 @@ Table of contents
 	- [00529 UTF-8 (sample45.rb)](http://github.com/ashbb/shoes_tutorial_html/tree/master/mdowns/00529_UTF-8.mdown)
 	- [00530 Open a new app window (sample46.rb, sample48.rb)](http://github.com/ashbb/shoes_tutorial_html/tree/master/mdowns/00530_Open_a_new_app_window.mdown)
 	- [00531 Open the Shoes console window from your app (sample51.rb, sample55.rb)](http://github.com/ashbb/shoes_tutorial_html/tree/master/mdowns/00531_Open_the_Shoes_console_window_from_your_app.mdown)
-	- [00532 Customize Shoes Class (sample53.rb, sample53-1.rb, sample53-2.rb, sample53-2.rb)](http://github.com/ashbb/shoes_tutorial_html/tree/master/mdowns/00532_Customize_Shoes_Class.mdown)
+	- [00532 Customize Shoes Class (sample53.rb, sample53-1.rb, sample53-2.rb, sample53-3.rb, sample53-4.rb)](http://github.com/ashbb/shoes_tutorial_html/tree/master/mdowns/00532_Customize_Shoes_Class.mdown)
 	- [00533 Image Effects with blur method (sample54.rb)](http://github.com/ashbb/shoes_tutorial_html/tree/master/mdowns/00533_Image_Effects_with_blur_method.mdown)
 	- [00534 Video playback (sample59.rb, sample59-1.rb)](http://github.com/ashbb/shoes_tutorial_html/tree/master/mdowns/00534_Video_playback.mdown)
 	- [00535 Scope: local variable and instance variable (sample60.rb)](http://github.com/ashbb/shoes_tutorial_html/tree/master/mdowns/00535_Scope__local_variable_and_instance_variable.mdown)

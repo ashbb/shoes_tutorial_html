@@ -1,5 +1,5 @@
 # gallery10-image.rb
-class Shoes::Image
+Shoes::Image.class_eval do
   [:vel, :pos].each do |m|
     define_method(m){style[m]}
     define_method("#{m}="){|arg| style m => arg}
