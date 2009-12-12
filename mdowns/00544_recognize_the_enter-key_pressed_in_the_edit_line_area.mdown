@@ -1,0 +1,32 @@
+recognize the enter-key pressed in the edit_line area
+-----------------------------------------------------
+
+To recognize the :enter key pressed in the edit_line area, improved the 
+code of windows.c with the subclassing technique. Now when you press the 
+:enter key in the edit_line area, Shoes.hook method will be launched. You 
+can overwite the method as you like in your Shoes app.
+
+	# sample76.rb
+	def Shoes.hook
+	  $app.instance_eval{alert @msg.text}
+	end
+	
+	$app = Shoes.app :width => 400, :height => 150 do
+	  edit_line{|el| @msg.text = el.text}
+	  @msg = para
+	end
+
+**sample76.png**
+
+![sample76.png](http://github.com/ashbb/shoes_tutorial_html/raw/master/images/sample76.png)
+
+<br>
+
+Note
+----
+
+This is an unofficial feature, just a test bed for Policeman so far. ;-)
+
+Look at the google group `shoooes` discussion: 
+
+[Why edit_line doesn't recognise return keys on Windows](http://groups.google.co.jp/group/shoooes/browse_thread/thread/4e8dd52f316588cc)
