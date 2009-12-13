@@ -80,6 +80,7 @@ Table of contents
 00610. red equal blue???
 00611. The value of top and left
 00612. Dynamically changing the size/title of the shoes main window
+00613. new packaging UI added
 00700.#Assignment
 00701. Assignment 1 twitter client (reader)
 00702. Assignment 2 footracer

@@ -1,0 +1,50 @@
+new packaging UI added
+----------------------
+
+Added a primitive packaging UI to [shoes/shoes master](http://github.com/shoes/shoes/commit/68a5c237244e1815cce656ca9042e1076c381ab4).
+
+It picks a Ruby script, and will package that script and its surrounding directory as a .shy.
+
+This new packaging UI didn't work before on Windows. But now, after [rebuilding zlib1.dll with VC9](http://github.com/ashbb/shoes/commit/027b25cccc9ea455506728e7cfc6341009b0145c), it works well!
+
+<br>
+
+Example
+-------
+
+Directory structure:
+<pre>
+  C:\build\tmp\gallery5
+                 - potato_chopping.rb
+                 - potato_chopping
+                     - 1258_s001.gif
+                     - 1258_s002.gif
+                           :
+                     - 1258_s060.gif
+
+</pre>
+
+**shybuilder-snapshot-1.png**
+
+![shybuilder-snapshot-1.png](http://github.com/ashbb/shoes_tutorial_html/raw/master/images/shybuilder-snapshot-1.png)
+
+- Click the link `Package an App.` on the Shoes opening window.
+- Select your Shoes app.
+- Open the above Shoes window.
+- Fill some information.
+
+**shybuilder-snapshot-2.png**
+
+![shybuilder-snapshot-2.png](http://github.com/ashbb/shoes_tutorial_html/raw/master/images/shybuilder-snapshot-2.png)
+
+- Then you got .shy file.
+
+This is the [gallery5.shy](http://www.rin-shun.com/shoes/gallery5.shy) created by my local Policeman ([shoes-0.r1278.exe](http://www.rin-shun.com/shoes/index.html)).   
+If Shoes is installed in your Windows pc, do download the gallery5.shy and open the file with your  Shoes. You'll be able to watch the gallery 5, [potate chopping](http://shoes-tutorial-note.heroku.com/html/01110_Fancy_Gallery_1-5.html). ;-)
+
+<br>
+
+Reference
+---------
+
+[new packaging UI added](http://groups.google.co.jp/group/shoooes/browse_thread/thread/e581a285c62ad6ad#)

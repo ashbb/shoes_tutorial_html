@@ -71,6 +71,7 @@
 	- [00610 red equal blue???](http://github.com/ashbb/shoes_tutorial_html/tree/master/mdowns/00610_red_equal_blue___.mdown)
 	- [00611 The value of top and left](http://github.com/ashbb/shoes_tutorial_html/tree/master/mdowns/00611_The_value_of_top_and_left.mdown)
 	- [00612 Dynamically changing the size/title of the shoes main window](http://github.com/ashbb/shoes_tutorial_html/tree/master/mdowns/00612_Dynamically_changing_the_size_title_of_the_shoes_main_window.mdown)
+	- [00613 new packaging UI added](http://github.com/ashbb/shoes_tutorial_html/tree/master/mdowns/00613_new_packaging_UI_added.mdown)
 7. Assignment
 	- [00701 Assignment 1 twitter client (reader)](http://github.com/ashbb/shoes_tutorial_html/tree/master/mdowns/00701_Assignment_1_twitter_client__reader_.mdown)
 	- [00702 Assignment 2 footracer](http://github.com/ashbb/shoes_tutorial_html/tree/master/mdowns/00702_Assignment_2_footracer.mdown)
