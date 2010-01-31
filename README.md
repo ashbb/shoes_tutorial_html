@@ -2,7 +2,7 @@ Shoes Tutorial Note
 ===================
 **- For the Shoes App Rookie Creators -**
 
-December 13th, 2009 by ashbb (Satoshi Asakawa), citizen428 (Michael Kohl), kotp (Victor H. Goff III)
+January 31st, 2009 by ashbb (Satoshi Asakawa), citizen428 (Michael Kohl), kotp (Victor H. Goff III)
 
 **Note: Now under revising with Policeman!**
 
@@ -67,6 +67,7 @@ Table of contents
 	- [00542 zoom method with a little bit of metaprogramming (sample74.rb, zoom.rb, zoom-1.rb, sample74-1.rb)](http://github.com/ashbb/shoes_tutorial_html/tree/master/mdowns/00542_zoom_method_with_a_little_bit_of_metaprogramming.mdown)
 	- [00543 UTF-8 again (sample75-1.rb)](http://github.com/ashbb/shoes_tutorial_html/tree/master/mdowns/00543_UTF-8_again.mdown)
 	- [00544 recognize the enter-key pressed in the edit_line area (sample76.rb)](http://github.com/ashbb/shoes_tutorial_html/tree/master/mdowns/00544_recognize_the_enter-key_pressed_in_the_edit_line_area.mdown)
+	- [00545 dash (sample77.rb)](http://github.com/ashbb/shoes_tutorial_html/tree/master/mdowns/00545_dash.mdown)
 6. Hot Topics in the Shoes ML and Shoooes.net
 	- [00601 External Fonts](http://github.com/ashbb/shoes_tutorial_html/tree/master/mdowns/00601_External_Fonts.mdown)
 	- [00602 Locking edit\_box](http://github.com/ashbb/shoes_tutorial_html/tree/master/mdowns/00602_Locking_edit__box.mdown)
