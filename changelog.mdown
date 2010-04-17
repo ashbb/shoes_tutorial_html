@@ -1,5 +1,6 @@
 Change log:
 -----------
+Apr 17th, 2010: Added a new chapter 00546   
 Jan 31st, 2010: Added a new chapter 00545   
 Dec 13th, 2009: Added a new chapter 00544 and 00613   
 Oct 20th, 2009: Use class_eval to Customize Shoes Class (00532, gallery 9, 10)   

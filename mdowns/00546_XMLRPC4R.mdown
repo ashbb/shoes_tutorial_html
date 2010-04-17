@@ -1,0 +1,99 @@
+XMLRPC4R
+--------
+
+I was inspired by **Andrew O'Brien**'s post in Shoes-ML (shoes@librelist.com Thu, Apr 8, 2010 at 11:03 AM).
+
+So, I modified his Shoes app code, [acceptor.rb](http://github.com/AndrewO/assert_acceptable/blob/master/bin/shoes/acceptor.rb), a little bit to use XMLRPC4R.
+
+
+Run XML-RPC Server (stand-alone)
+--------------------------------
+
+	# sample78.rb
+	require "xmlrpc/server"
+	s = XMLRPC::Server.new(8080)
+	
+	s.add_handler("shoes_log") do |*logs|
+	 puts logs
+	 "success: #{logs}"
+	end
+	
+	s.set_default_handler do |name, *args|
+	  raise XMLRPC::FaultException.new(-99, 
+	    "Method #{name} missing or wrong number of parameters!")
+	end
+	  
+	s.serve
+
+**sample78-1.png**
+
+![sample78-1.png](http://github.com/ashbb/shoes_tutorial_html/raw/master/images/sample78-1.png)
+
+Run XML-RPC Servert by command line on a console window.
+
+
+Run Shoes app included XML-RPC Client
+-------------------------------------
+
+	# sample78-1.rb
+	require 'xmlrpc/client'
+	
+	Shoes.app do
+	  @client = XMLRPC::Client.new2("http://localhost:8080/")
+	  
+	  resource_path = ARGV[1]
+	  assertion = ARGV[2].to_s.empty? ? "look right" : ARGV[2].to_s
+	
+	  keypress do |key|
+	    case key
+	    when "\n"
+	      pass
+	    when "\e"
+	      fail
+	    end
+	  end
+	
+	  stack :margin => 10 do
+	    para "Does this image ", assertion, "?"
+	    flow do
+	      para link("Yes"){ pass }
+	      para link("No"){ fail }
+	    end
+	    image resource_path
+	    para code(resource_path)
+	  end
+	  
+	  def pass
+	    @client.call('shoes_log', 'Yes, I like it!', 1)
+	  end
+	  
+	  def fail
+	    @client.call('shoes_log', 'No,....', 0)
+	  end
+	end
+
+**sample78-2.png**
+
+![sample78-2.png](http://github.com/ashbb/shoes_tutorial_html/raw/master/images/sample78-2.png)
+
+Run Shoes app included XML-RPC Client by command line on another console window.
+
+**sample78-3.png**
+
+![sample78-3.png](http://github.com/ashbb/shoes_tutorial_html/raw/master/images/sample78-3.png)
+
+Then open Shoes app.
+
+**sample78-4.png**
+
+![sample78-4.png](http://github.com/ashbb/shoes_tutorial_html/raw/master/images/sample78-4.png)
+
+When you click a link 'Yes' on the Shoes app window, you can get 'Yes, I like it!' and '1' on the XML-RPC Server.
+
+When you click a link 'No' on the Shoes app window, you can get 'No,....' and '0' on the XML-RPC Server.
+
+
+NOTE
+----
+
+RUBIMA (Japanese Rubyist Magazine), Introduce Standard Library [#1 XMLRPC4R](http://jp.rubyist.net/magazine/?0007-BundledLibraries), Oct. 2005. 

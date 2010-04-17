@@ -11,7 +11,7 @@ def mk_link i, num, name
 end
 
 open('../README.md', 'w') do |f|
-  IO.read('./table_of_contents.txt').each do |line|
+  IO.read('./table_of_contents.txt').each_line do |line|
     if line[0].chr == '0'
       i, num, name = line[0,3].to_i, line[0,5], line[7..-2]
       line = line[6].chr == '#' ? (i.to_s << '. ' << name) : mk_link(i, num, name)
@@ -22,7 +22,7 @@ end unless File.exist? '../README.md'
 
 open('../inner_links.mdown', 'w') do |f|
   flag = false
-  IO.read('../README.md').each do |line|
+  IO.read('../README.md').each_line do |line|
     case line.chomp
       when /^1. \[00100 Introduction\]/
         flag = true
