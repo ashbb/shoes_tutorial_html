@@ -1,7 +1,7 @@
 dash
 ----
 
-A new option :dash => :onedot or :nodot. It's using [cairo_set_dash()](http://www.cairographics.org/manual/cairo-context.html#cairo-set-dash).
+A new option :dash => :onedot or :nodot. It's using [cairo\_set\_dash()](http://www.cairographics.org/manual/cairo-context.html#cairo-set-dash).
 
 This is a trivial function. But I've learned the way to add a new function into Policeman!
 
