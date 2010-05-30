@@ -1,5 +1,6 @@
 Change log:
 -----------
+May 30th, 2010: Added a new chapter 00547   
 Apr 17th, 2010: Added a new chapter 00546   
 Jan 31st, 2010: Added a new chapter 00545   
 Dec 13th, 2009: Added a new chapter 00544 and 00613   

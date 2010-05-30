@@ -1,0 +1,69 @@
+scroll location control
+-----------------------
+
+**Patrick Smith**'s post in Shoes-ML (shoes@librelist.com Sun, May 30, 2010 at 4:36 AM):
+
+> I was wondering if there was a scroll location control for a para.
+> For example, if you wanted to print out a phone book contact list
+> (many screens in length) and wanted to start focused on a particular entry.
+
+Interesting! So, let me try. :)
+
+First attempt
+-------------
+
+	# sample79.rb
+	Shoes.app width: 360, height: 360 do
+	  stack top: 30, left: 30, width: 300, height: 300, scroll: true do
+	    100.times do |i|
+	      flow do
+	        bg = background(pink).hide
+	        para "phone number #{i}"
+	        hover{bg.show}
+	        leave{bg.hide}
+	        click{alert "hi! no.#{i}"}
+	      end
+	    end
+	  end
+	end
+
+**sample79.png**
+
+![sample79.png](http://github.com/ashbb/shoes_tutorial_html/raw/master/images/sample79.png)
+
+Looks good. But there was a problem Devyn and Cecil suggested:
+
+> The problem is, if the list is huge, Shoes takes a long time to redraw 
+> (it draws everything, not just what's on screen.)
+
+That's right.
+
+Second shot
+-----------
+
+	# sample79-1.rb
+	Shoes.app width: 360, height: 360 do
+	  bgs = []
+	  9.times do |i|
+	    bgs << background(pink, top: 30+34*i, left: 30, width: 270, height: 30).hide
+	  end
+	  
+	  s = stack top: 30, left: 30, width: 300, height: 300, scroll: true do
+	    1000.times{|i| para "phone number #{i}"}
+	  end
+	  
+	  9.times do |i|
+	    flow top: 30+34*i, left: 30, width: 270, height: 30 do
+	      border black
+	      hover{bgs[i].show}
+	      leave{bgs[i].hide}
+	      click{alert "hi! no. #{s.scroll_top.zero? ? i : (s.scroll_top + 10) / 34 + i}"}
+	    end
+	  end
+	end
+
+**sample79-1.png**
+
+![sample79-1.png](http://github.com/ashbb/shoes_tutorial_html/raw/master/images/sample79-1.png)
+
+I know this is not an ultimate solution, but a little. ;-)

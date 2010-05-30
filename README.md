@@ -2,9 +2,7 @@ Shoes Tutorial Note
 ===================
 **- For the Shoes App Rookie Creators -**
 
-April 17th, 2010 by ashbb (Satoshi Asakawa), citizen428 (Michael Kohl), kotp (Victor H. Goff III)
-
-**Note: Now under revising with Policeman!**
+May 30th, 2010 by ashbb
 
 Table of contents
 -----------------
@@ -69,6 +67,7 @@ Table of contents
 	- [00544 recognize the enter-key pressed in the edit_line area (sample76.rb)](http://github.com/ashbb/shoes_tutorial_html/tree/master/mdowns/00544_recognize_the_enter-key_pressed_in_the_edit_line_area.mdown)
 	- [00545 dash (sample77.rb)](http://github.com/ashbb/shoes_tutorial_html/tree/master/mdowns/00545_dash.mdown)
 	- [00546 XMLRPC4R (sample78.rb, sample78-1.rb)](http://github.com/ashbb/shoes_tutorial_html/tree/master/mdowns/00546_XMLRPC4R.mdown)
+	- [00547 scroll location control (sample79.rb, sample79-1.rb)](http://github.com/ashbb/shoes_tutorial_html/tree/master/mdowns/00547_scroll_location_control.mdown)
 6. Hot Topics in the Shoes ML and Shoooes.net
 	- [00601 External Fonts](http://github.com/ashbb/shoes_tutorial_html/tree/master/mdowns/00601_External_Fonts.mdown)
 	- [00602 Locking edit\_box](http://github.com/ashbb/shoes_tutorial_html/tree/master/mdowns/00602_Locking_edit__box.mdown)
