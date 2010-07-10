@@ -247,7 +247,7 @@ Gallery No.14
 
 Click the star and sing "Twinkle, Twinkle, Little Star..." with bloops sound on Shoes.
 
-Note: Don't mind if the sound is lost halfwah, just click the star again. :-D
+Note: Don't mind if the sound is lost halfway, just click the star again. :-D
 
 
 	# gallery14.rb
