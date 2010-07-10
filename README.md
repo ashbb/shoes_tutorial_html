@@ -2,7 +2,7 @@ Shoes Tutorial Note
 ===================
 **- For the Shoes App Rookie Creators -**
 
-May 30th, 2010 by ashbb
+July 10th, 2010 by ashbb
 
 Table of contents
 -----------------
@@ -95,7 +95,7 @@ Table of contents
 11. Fancy Gallery
 	- [01110 Fancy Gallery 1-5 (gallery1.rb, gallery1-1.rb, gallery2.rb, gallery2-1.rb, gallery3.rb, gallery4.rb, gallery4-1.rb, gallery5.rb)](http://github.com/ashbb/shoes_tutorial_html/tree/master/mdowns/01110_Fancy_Gallery_1-5.mdown)
 	- [01120 Fancy Gallery 6-10 (gallery6.rb, gallery7.rb, gallery8.rb, gallery9.rb, gallery10.rb, gallery10-rules.rb, gallery10-image.rb)](http://github.com/ashbb/shoes_tutorial_html/tree/master/mdowns/01120_Fancy_Gallery_6-10.mdown)
-	- [01130 Fancy Gallery 11-15 (gallery11.rb, gallery12.rb, gallery12-flickr.rb, gallery13.rb)](http://github.com/ashbb/shoes_tutorial_html/tree/master/mdowns/01130_Fancy_Gallery_11-15.mdown)
+	- [01130 Fancy Gallery 11-15 (gallery11.rb, gallery12.rb, gallery12-flickr.rb, gallery13.rb, gallery14.rb)](http://github.com/ashbb/shoes_tutorial_html/tree/master/mdowns/01130_Fancy_Gallery_11-15.mdown)
 12. Built-in Samples
 
 	- [01201 simple-accordion (simple-accordion.rb)](http://github.com/ashbb/shoes_tutorial_html/tree/master/mdowns/01201_simple-accordion.mdown)
